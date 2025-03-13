@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<NewDataSet>
+  <Table>
+    <int_DocumentID>1</int_DocumentID>
+    <vch_DocDescription>One (1) self signed (on the front side) recent color passport size photograph to be affixed in the CAF (College Copy).</vch_DocDescription>
+  </Table>
+  <Table>
+    <int_DocumentID>2</int_DocumentID>
+    <vch_DocDescription>HSC Mark Sheets-cum-Provisional Certificate (or equivalent Board).</vch_DocDescription>
+  </Table>
+  <Table>
+    <int_DocumentID>3</int_DocumentID>
+    <vch_DocDescription>HSC Mark Sheets-cum-Provisional Certificate (or equivalent Board) of compartmental examination.</vch_DocDescription>
+  </Table>
+  <Table>
+    <int_DocumentID>4</int_DocumentID>
+    <vch_DocDescription>Schedule Tribe (ST) / Schedule Caste (SC) / Other Backward Class (OBC) certificates from revenue officer not below rank of Tahasildar / Additional Tahasildar.</vch_DocDescription>
+  </Table>
+  <Table>
+    <int_DocumentID>5</int_DocumentID>
+    <vch_DocDescription>PH/OH Certificate from CDMO of District / SDMO of Sub-Division / CMO of Capital Hospital.</vch_DocDescription>
+  </Table>
+  <Table>
+    <int_DocumentID>6</int_DocumentID>
+    <vch_DocDescription>Ex-Service Man (ESM) certificate from Zilla Sainik Board.</vch_DocDescription>
+  </Table>
+  <Table>
+    <int_DocumentID>7</int_DocumentID>
+    <vch_DocDescription>Serving Defence Personnel-SDP (Army / Navy / Air Force) Certificate from the Commanding Officer of the unit.</vch_DocDescription>
+  </Table>
+  <Table>
+    <int_DocumentID>8</int_DocumentID>
+    <vch_DocDescription>CoM Certificate from District Collector.</vch_DocDescription>
+  </Table>
+  <Table>
+    <int_DocumentID>9</int_DocumentID>
+    <vch_DocDescription>Permanent Resident / Nativity Certificate (for OSA &amp; OLNS candidates).</vch_DocDescription>
+  </Table>
+  <Table>
+    <int_DocumentID>10</int_DocumentID>
+    <vch_DocDescription>NCC Certificate from the competent authority.</vch_DocDescription>
+  </Table>
+  <Table>
+    <int_DocumentID>11</int_DocumentID>
+    <vch_DocDescription>Scout &amp; Guide certificate from the competent authority.</vch_DocDescription>
+  </Table>
+  <Table>
+    <int_DocumentID>12</int_DocumentID>
+    <vch_DocDescription>Sports Certificate from the Competent Authorities and counter signed by Director, Sports.</vch_DocDescription>
+  </Table>
+  <Table>
+    <int_DocumentID>13</int_DocumentID>
+    <vch_DocDescription>Migration Certificate for the applicant from Boards other than BSE, Odisha.</vch_DocDescription>
+  </Table>
+</NewDataSet>

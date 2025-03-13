@@ -1,0 +1,248 @@
+<?xml version="1.0"?>
+<NewDataSet>
+  <Table>
+    <SID>35</SID>
+    <TYPE>2</TYPE>
+    <SNAME>Attendant Operator (C.P)/ 10th/ 2 Yr</SNAME>
+  </Table>
+  <Table>
+    <SID>45</SID>
+    <TYPE>2</TYPE>
+    <SNAME>Automotive body repair SCVT</SNAME>
+  </Table>
+  <Table>
+    <SID>44</SID>
+    <TYPE>2</TYPE>
+    <SNAME>Automotive Paint Repair(Toyota) SCVT</SNAME>
+  </Table>
+  <Table>
+    <SID>47</SID>
+    <TYPE>2</TYPE>
+    <SNAME>Blaster /Short Firer SCVT</SNAME>
+  </Table>
+  <Table>
+    <SID>10</SID>
+    <TYPE>1</TYPE>
+    <SNAME>Carpentry/ NM/ 1 Yr</SNAME>
+  </Table>
+  <Table>
+    <SID>5</SID>
+    <TYPE>2</TYPE>
+    <SNAME>CoE BBBT (Auto)/ 10th/ 2 Yr</SNAME>
+  </Table>
+  <Table>
+    <SID>19</SID>
+    <TYPE>2</TYPE>
+    <SNAME>CoE BBBT (Electrical)</SNAME>
+  </Table>
+  <Table>
+    <SID>16</SID>
+    <TYPE>2</TYPE>
+    <SNAME>Coe BBBT (Fab)/ 10th/ 2 Yr</SNAME>
+  </Table>
+  <Table>
+    <SID>39</SID>
+    <TYPE>2</TYPE>
+    <SNAME>Comp HW &amp; NW/ 10th/ 1 Yr</SNAME>
+  </Table>
+  <Table>
+    <SID>18</SID>
+    <TYPE>2</TYPE>
+    <SNAME>COPA/ 10th/ 1 Yr</SNAME>
+  </Table>
+  <Table>
+    <SID>7</SID>
+    <TYPE>2</TYPE>
+    <SNAME>D/Man (Civil)/ 10th/ 2 Yr</SNAME>
+  </Table>
+  <Table>
+    <SID>23</SID>
+    <TYPE>2</TYPE>
+    <SNAME>D/Man (Mechanical)/ 10th/ 2 Yr</SNAME>
+  </Table>
+  <Table>
+    <SID>2</SID>
+    <TYPE>2</TYPE>
+    <SNAME>Diesel Mechanic / 10th/ 1 Yr</SNAME>
+  </Table>
+  <Table>
+    <SID>32</SID>
+    <TYPE>2</TYPE>
+    <SNAME>Dress Making/ 10th/ 1 Yr</SNAME>
+  </Table>
+  <Table>
+    <SID>20</SID>
+    <TYPE>2</TYPE>
+    <SNAME>Electrician/ 10th/ 2 Yr</SNAME>
+  </Table>
+  <Table>
+    <SID>12</SID>
+    <TYPE>2</TYPE>
+    <SNAME>Electronic Mech./ 10th/ 2 Yr</SNAME>
+  </Table>
+  <Table>
+    <SID>24</SID>
+    <TYPE>2</TYPE>
+    <SNAME>Fitter/ 10th/ 2 Yr</SNAME>
+  </Table>
+  <Table>
+    <SID>49</SID>
+    <TYPE>2</TYPE>
+    <SNAME>Food Processing Preservation / 1year /SCVT</SNAME>
+  </Table>
+  <Table>
+    <SID>29</SID>
+    <TYPE>2</TYPE>
+    <SNAME>Found. Man Tech. (Moulder)/ 10th/ 1 Yr</SNAME>
+  </Table>
+  <Table>
+    <SID>17</SID>
+    <TYPE>2</TYPE>
+    <SNAME>I&amp;C Tech Sys Maint (IT &amp; ESM)/ 10th/ 2 Yr</SNAME>
+  </Table>
+  <Table>
+    <SID>31</SID>
+    <TYPE>2</TYPE>
+    <SNAME>Indl. Painter / 10th/ 1 Yr</SNAME>
+  </Table>
+  <Table>
+    <SID>22</SID>
+    <TYPE>2</TYPE>
+    <SNAME>Instrument Mechanic/ 10th/ 2 Yr</SNAME>
+  </Table>
+  <Table>
+    <SID>37</SID>
+    <TYPE>2</TYPE>
+    <SNAME>Lab. Asst. (CP)/ 10th/ 2 Yr</SNAME>
+  </Table>
+  <Table>
+    <SID>26</SID>
+    <TYPE>2</TYPE>
+    <SNAME>Machinist/ 10th/ 2 Yr</SNAME>
+  </Table>
+  <Table>
+    <SID>43</SID>
+    <TYPE>2</TYPE>
+    <SNAME>Marine Engg. Fitter/ 10th/ 1 Yr</SNAME>
+  </Table>
+  <Table>
+    <SID>46</SID>
+    <TYPE>2</TYPE>
+    <SNAME>Mate (Mines) SCVT</SNAME>
+  </Table>
+  <Table>
+    <SID>40</SID>
+    <TYPE>2</TYPE>
+    <SNAME>Mech Cons Electronics/ 10th/ 2 Yr</SNAME>
+  </Table>
+  <Table>
+    <SID>36</SID>
+    <TYPE>2</TYPE>
+    <SNAME>Mech Earth Moving MC/ 10th/ 2 Yr SCVT </SNAME>
+  </Table>
+  <Table>
+    <SID>41</SID>
+    <TYPE>2</TYPE>
+    <SNAME>Mech Mining MC/ 10th/ 2 Yr  SCVT</SNAME>
+  </Table>
+  <Table>
+    <SID>6</SID>
+    <TYPE>2</TYPE>
+    <SNAME>Mech Rep &amp; Maint HV/ 10th/ 1 Yr (SCVT)</SNAME>
+  </Table>
+  <Table>
+    <SID>28</SID>
+    <TYPE>2</TYPE>
+    <SNAME>Mech. MTM/ 10th/ 2 Yr</SNAME>
+  </Table>
+  <Table>
+    <SID>1</SID>
+    <TYPE>2</TYPE>
+    <SNAME>Mech. MV/ 10th/ 2 Yr</SNAME>
+  </Table>
+  <Table>
+    <SID>9</SID>
+    <TYPE>2</TYPE>
+    <SNAME>Mech. Ref. &amp; A.C/ 10th/ 2 Yr</SNAME>
+  </Table>
+  <Table>
+    <SID>13</SID>
+    <TYPE>2</TYPE>
+    <SNAME>Mechanic Mechatronics/ 10th/ 2 Yr</SNAME>
+  </Table>
+  <Table>
+    <SID>30</SID>
+    <TYPE>1</TYPE>
+    <SNAME>Painter (G)/ NM/ 2 Yr</SNAME>
+  </Table>
+  <Table>
+    <SID>38</SID>
+    <TYPE>2</TYPE>
+    <SNAME>Plastic Proc. Operator/ 10th/ 2 Yr</SNAME>
+  </Table>
+  <Table>
+    <SID>11</SID>
+    <TYPE>2</TYPE>
+    <SNAME>Plumber/ 10th/ 1 Yr</SNAME>
+  </Table>
+  <Table>
+    <SID>4</SID>
+    <TYPE>2</TYPE>
+    <SNAME>Pump Operator MC/ 10th/ 1 Yr</SNAME>
+  </Table>
+  <Table>
+    <SID>34</SID>
+    <TYPE>2</TYPE>
+    <SNAME>Sewing Tech (C&amp;S)/ 10th/ 1 Yr</SNAME>
+  </Table>
+  <Table>
+    <SID>14</SID>
+    <TYPE>1</TYPE>
+    <SNAME>Sheet Metal Worker/ NM/ 1 Yr</SNAME>
+  </Table>
+  <Table>
+    <SID>48</SID>
+    <TYPE>2</TYPE>
+    <SNAME>Stenographer &amp; Secretarial Assistant (English)/ 10th/ 1 Yr</SNAME>
+  </Table>
+  <Table>
+    <SID>8</SID>
+    <TYPE>2</TYPE>
+    <SNAME>Surveyor/ 10th/ 2 Yr</SNAME>
+  </Table>
+  <Table>
+    <SID>33</SID>
+    <TYPE>2</TYPE>
+    <SNAME>Text Wet Proc Techn/ 10th/ 2 Yr</SNAME>
+  </Table>
+  <Table>
+    <SID>27</SID>
+    <TYPE>2</TYPE>
+    <SNAME>Tool &amp; Die Maker (PTJ&amp;F)/ 10th/ 2 Yr</SNAME>
+  </Table>
+  <Table>
+    <SID>3</SID>
+    <TYPE>1</TYPE>
+    <SNAME>Tractor Mechanic/ NM/ 1 Yr</SNAME>
+  </Table>
+  <Table>
+    <SID>25</SID>
+    <TYPE>2</TYPE>
+    <SNAME>Turner/ 10th/ 2 Yr</SNAME>
+  </Table>
+  <Table>
+    <SID>42</SID>
+    <TYPE>2</TYPE>
+    <SNAME>Vessel Navigator/ 10th/ 2 Yr</SNAME>
+  </Table>
+  <Table>
+    <SID>15</SID>
+    <TYPE>1</TYPE>
+    <SNAME>Welder/ NM/ 1 Yr</SNAME>
+  </Table>
+  <Table>
+    <SID>21</SID>
+    <TYPE>1</TYPE>
+    <SNAME>Wireman/ NM/ 2 Yr</SNAME>
+  </Table>
+</NewDataSet>

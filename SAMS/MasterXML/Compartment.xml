@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<NewDataSet>
+	<Table>
+		<Row>--SELECT--</Row>
+		<val></val>
+	</Table>
+	<Table>
+		<Row>MIL</Row>
+		<val>MIL</val>
+	</Table>
+	<Table>
+		<Row>ENGLISH</Row>
+		<val>ENGLISH</val>
+	</Table>
+	<Table>
+		<Row>SANSKRIT</Row>
+		<val>SANSKRIT</val>
+	</Table>
+	<Table>
+		<Row>HINDI</Row>
+		<val>HINDI</val>
+	</Table>
+	<Table>
+		<Row>MATHEMATICS</Row>
+		<val>MATHEMATICS</val>
+	</Table>
+	<Table>
+		<Row>SCIENCE</Row>
+		<val>SCIENCE</val>
+	</Table>
+	<Table>
+		<Row>SOCIAL SCIENCE</Row>
+		<val>SOCIAL SCIENCE</val>
+	</Table>
+	
+</NewDataSet>

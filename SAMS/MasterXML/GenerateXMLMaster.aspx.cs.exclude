@@ -1,0 +1,632 @@
+﻿/**'***********************************************************************************
+ File Name             :   GenerateXMLMaster.aspx
+ Description           :   For generating all master table xml
+ Created by            :   Jyotijeeban Jena
+ Created On            :   19-Dec-2017
+ Modification History  :
+                           <CR no.>                      <Date>                <Modified by>                        <Modification Summary>'                                                         
+
+ Table Name            :   M_ADM_LEVELDETAILS, M_College, M_DISTRICT, M_Block, M_Board, M_ITI_Stream
+ Procedure Name        :   USP_XML_MASTER
+'**************************************************************************************/
+using System;
+using System.Collections.Generic;
+using System.Configuration;
+using System.IO;
+using System.Linq;
+using System.ServiceModel;
+using System.Web.UI;
+using System.Xml.Linq;
+using System.Xml.Serialization;
+using SAMSService;
+
+public partial class MasterXML_GenerateXMLMaster : System.Web.UI.Page
+{
+    #region Member Variables
+    List<XMLEntity> listXml = null;
+    string xmlPath = ConfigurationManager.AppSettings["StrPath"].ToString() + "SAMS/MasterXML/";
+    #endregion
+
+    #region OnInit
+    protected override void OnInit(EventArgs e)
+    {
+        base.OnInit(e);
+        ViewStateUserKey = Session.SessionID;
+    }
+    #endregion
+
+    #region Page Load
+    protected void Page_Load(object sender, EventArgs e)
+    {
+
+    }
+    #endregion
+
+    #region Button Click Events
+
+    protected void btnJRCollge_Click(object sender, EventArgs e)
+    {
+        try
+        {
+            listXml = new List<XMLEntity>();
+            using (SAMSBusinessClient proxy = new SAMSBusinessClient())
+            {
+                listXml = proxy.GetMasterXML(new XMLEntity { Action = "JC" });
+                var xmlfromLINQ = new XElement("NewDataSet",
+                from c in listXml
+                select new XElement("Table",
+                    new XElement("Row", c.Row),
+                    new XElement("CID", c.ID),
+                    new XElement("CNAME", c.NAME),
+                    new XElement("BID", c.BlockID),
+                    new XElement("DID", c.DistID),
+                    new XElement("WomenStatus", c.WomenStatus),
+                    new XElement("ResStatus", c.ResStatus),
+                    new XElement("CTYPE", c.TYPE)
+                    ));
+
+                var path = Path.Combine(xmlPath + "M_COLLEGE.xml");
+                using (FileStream fs = new FileStream(path, FileMode.Create))
+                {
+                    XmlSerializer xSer = new XmlSerializer(typeof(XElement));
+                    xSer.Serialize(fs, xmlfromLINQ);
+                }
+                ScriptManager.RegisterStartupScript(btnJRCollge, this.GetType(), "Myalert", "jAlertSubmit('btnCollge', '<strong>Intermediate College xml generated successfully !</strong>', 'GenerateXMLMaster.aspx?ranNum=" + Request.QueryString["ranNum"] + "&linkm=" + Request.QueryString["linkm"] + "&linkn=" + Request.QueryString["linkn"] + "&btn=" + Request.QueryString["btn"] + "&tab=" + Request.QueryString["tab"] + "');", true);
+            }
+        }
+        catch (FaultException<CustomFault> ex)
+        {
+            ScriptManager.RegisterStartupScript(Page, this.GetType(), "alert", "alert('" + ex.Detail.ErrorMsg.Replace("'", "") + "');", true);
+            //throw ex;
+        }
+        catch (FaultException ex)
+        {
+            ScriptManager.RegisterStartupScript(Page, this.GetType(), "alert", "alert('" + ex.Message.ToString().Replace("'", "") + "');", true);
+            //throw ex;
+        }
+        catch (Exception ex)
+        {
+            ScriptManager.RegisterStartupScript(Page, this.GetType(), "alert", "alert('" + ex.Message.ToString().Replace("'", "") + "');", true);
+            //throw ex;
+        }
+        finally { listXml = null; }
+    }
+
+    protected void btnQuotaJRCollge_Click(object sender, EventArgs e)
+    {
+        try
+        {
+            listXml = new List<XMLEntity>();
+            using (SAMSBusinessClient proxy = new SAMSBusinessClient())
+            {
+                listXml = proxy.GetMasterXML(new XMLEntity { Action = "QJC" });
+                var xmlfromLINQ = new XElement("NewDataSet",
+                from c in listXml
+                select new XElement("Table",
+                    new XElement("Row", c.Row),
+                    new XElement("CID", c.ID),
+                    new XElement("CNAME", c.NAME),
+                    new XElement("BID", c.BlockID),
+                    new XElement("DID", c.DistID),
+                    new XElement("WomenStatus", c.WomenStatus),
+                    new XElement("ResStatus", c.ResStatus),
+                    new XElement("CTYPE", c.TYPE)
+                    ));
+
+                var path = Path.Combine(xmlPath + "M_COLLEGE_QUOTA.xml");
+                using (FileStream fs = new FileStream(path, FileMode.Create))
+                {
+                    XmlSerializer xSer = new XmlSerializer(typeof(XElement));
+                    xSer.Serialize(fs, xmlfromLINQ);
+                }
+                ScriptManager.RegisterStartupScript(btnJRCollge, this.GetType(), "Myalert", "jAlertSubmit('btnCollge', '<strong>Intermediate Quota College xml generated successfully !</strong>', 'GenerateXMLMaster.aspx?ranNum=" + Request.QueryString["ranNum"] + "&linkm=" + Request.QueryString["linkm"] + "&linkn=" + Request.QueryString["linkn"] + "&btn=" + Request.QueryString["btn"] + "&tab=" + Request.QueryString["tab"] + "');", true);
+            }
+        }
+        catch (FaultException<CustomFault> ex)
+        {
+            ScriptManager.RegisterStartupScript(Page, this.GetType(), "alert", "alert('" + ex.Detail.ErrorMsg.Replace("'", "") + "');", true);
+            //throw ex;
+        }
+        catch (FaultException ex)
+        {
+            ScriptManager.RegisterStartupScript(Page, this.GetType(), "alert", "alert('" + ex.Message.ToString().Replace("'", "") + "');", true);
+            //throw ex;
+        }
+        catch (Exception ex)
+        {
+            ScriptManager.RegisterStartupScript(Page, this.GetType(), "alert", "alert('" + ex.Message.ToString().Replace("'", "") + "');", true);
+            //throw ex;
+        }
+        finally { listXml = null; }
+    }
+
+    //protected void btnAllJRCollge_Click(object sender, EventArgs e)
+    //{
+    //    try
+    //    {
+    //        listXml = new List<XMLEntity>();
+    //        using (SAMSBusinessClient proxy = new SAMSBusinessClient())
+    //        {
+    //            listXml = proxy.GetMasterXML(new XMLEntity { Action = "AJC" });
+    //            var xmlfromLINQ = new XElement("NewDataSet",
+    //            from c in listXml
+    //            select new XElement("Table",
+    //                new XElement("Row", c.Row),
+    //                new XElement("CID", c.ID),
+    //                new XElement("CNAME", c.NAME),
+    //                new XElement("BID", c.BlockID),
+    //                new XElement("DID", c.DistID),
+    //                new XElement("CTYPE", c.TYPE)
+    //                ));
+
+    //            var path = Path.Combine(xmlPath + "M_COLLEGE_ALL.xml");
+    //            using (FileStream fs = new FileStream(path, FileMode.Create))
+    //            {
+    //                XmlSerializer xSer = new XmlSerializer(typeof(XElement));
+    //                xSer.Serialize(fs, xmlfromLINQ);
+    //            }
+    //            ScriptManager.RegisterStartupScript(btnJRCollge, this.GetType(), "Myalert", "jAlertSubmit('btnCollge', '<strong>All Intermediate College xml generated successfully !</strong>', 'GenerateXMLMaster.aspx?ranNum=" + Request.QueryString["ranNum"] + "&linkm=" + Request.QueryString["linkm"] + "&linkn=" + Request.QueryString["linkn"] + "&btn=" + Request.QueryString["btn"] + "&tab=" + Request.QueryString["tab"] + "');", true);
+    //        }
+    //    }
+    //    catch (FaultException<CustomFault> ex)
+    //    {
+    //        ScriptManager.RegisterStartupScript(Page, this.GetType(), "alert", "alert('" + ex.Detail.ErrorMsg.Replace("'", "") + "');", true);
+    //        //throw ex;
+    //    }
+    //    catch (FaultException ex)
+    //    {
+    //        ScriptManager.RegisterStartupScript(Page, this.GetType(), "alert", "alert('" + ex.Message.ToString().Replace("'", "") + "');", true);
+    //        //throw ex;
+    //    }
+    //    catch (Exception ex)
+    //    {
+    //        ScriptManager.RegisterStartupScript(Page, this.GetType(), "alert", "alert('" + ex.Message.ToString() + "');", true);
+    //        //throw ex;
+    //    }
+    //    finally { listXml = null; }
+    //}
+
+    //protected void btnSRCollge_Click(object sender, EventArgs e)
+    //{
+    //    try
+    //    {
+    //        listXml = new List<XMLEntity>();
+    //        using (SAMSBusinessClient proxy = new SAMSBusinessClient())
+    //        {
+    //            listXml = proxy.GetMasterXML(new XMLEntity { Action = "DC" });
+    //            var xmlfromLINQ = new XElement("NewDataSet",
+    //            from c in listXml
+    //            select new XElement("Table",
+    //                new XElement("Row", c.Row),
+    //                new XElement("CID", c.ID),
+    //                new XElement("CNAME", c.NAME),
+    //                new XElement("BID", c.BlockID),
+    //                new XElement("DID", c.DistID),
+    //                new XElement("CTYPE", c.TYPE),
+    //                new XElement("WomenStatus", c.WomenStatus)
+    //                ));
+
+    //            var path = Path.Combine(xmlPath + "M_COLLEGE_DEGREE.xml");
+    //            using (FileStream fs = new FileStream(path, FileMode.Create))
+    //            {
+    //                XmlSerializer xSer = new XmlSerializer(typeof(XElement));
+    //                xSer.Serialize(fs, xmlfromLINQ);
+    //            }
+    //            ScriptManager.RegisterStartupScript(btnJRCollge, this.GetType(), "Myalert", "jAlertSubmit('btnCollge', '<strong>Degree College xml generated successfully !</strong>', 'GenerateXMLMaster.aspx?ranNum=" + Request.QueryString["ranNum"] + "&linkm=" + Request.QueryString["linkm"] + "&linkn=" + Request.QueryString["linkn"] + "&btn=" + Request.QueryString["btn"] + "&tab=" + Request.QueryString["tab"] + "');", true);
+    //        }
+    //    }
+    //    catch (FaultException<CustomFault> ex)
+    //    {
+    //        ScriptManager.RegisterStartupScript(Page, this.GetType(), "alert", "alert('" + ex.Detail.ErrorMsg + "');", true);
+    //        throw ex;
+    //    }
+    //    catch (FaultException ex)
+    //    {
+    //        ScriptManager.RegisterStartupScript(Page, this.GetType(), "alert", "alert('" + ex.Message.ToString() + "');", true);
+    //        throw ex;
+    //    }
+    //    catch (Exception ex)
+    //    {
+    //        ScriptManager.RegisterStartupScript(Page, this.GetType(), "alert", "alert('" + ex.Message.ToString() + "');", true);
+    //        throw ex;
+    //    }
+    //    finally { listXml = null; }
+    //}
+
+    //protected void btnAllSRCollge_Click(object sender, EventArgs e)
+    //{
+    //    try
+    //    {
+    //        listXml = new List<XMLEntity>();
+    //        using (SAMSBusinessClient proxy = new SAMSBusinessClient())
+    //        {
+    //            listXml = proxy.GetMasterXML(new XMLEntity { Action = "ADC" });
+    //            var xmlfromLINQ = new XElement("NewDataSet",
+    //            from c in listXml
+    //            select new XElement("Table",
+    //                new XElement("Row", c.Row),
+    //                new XElement("CID", c.ID),
+    //                new XElement("CNAME", c.NAME),
+    //                new XElement("BID", c.BlockID),
+    //                new XElement("DID", c.DistID),
+    //                new XElement("CTYPE", c.TYPE)
+    //                ));
+
+    //            var path = Path.Combine(xmlPath + "M_COLLEGE_DEGREE_ALL.xml");
+    //            using (FileStream fs = new FileStream(path, FileMode.Create))
+    //            {
+    //                XmlSerializer xSer = new XmlSerializer(typeof(XElement));
+    //                xSer.Serialize(fs, xmlfromLINQ);
+    //            }
+    //            ScriptManager.RegisterStartupScript(btnJRCollge, this.GetType(), "Myalert", "jAlertSubmit('btnCollge', '<strong>All Degree College xml generated successfully !</strong>', 'GenerateXMLMaster.aspx?ranNum=" + Request.QueryString["ranNum"] + "&linkm=" + Request.QueryString["linkm"] + "&linkn=" + Request.QueryString["linkn"] + "&btn=" + Request.QueryString["btn"] + "&tab=" + Request.QueryString["tab"] + "');", true);
+    //        }
+    //    }
+    //    catch (FaultException<CustomFault> ex)
+    //    {
+    //        ScriptManager.RegisterStartupScript(Page, this.GetType(), "alert", "alert('" + ex.Detail.ErrorMsg + "');", true);
+    //        throw ex;
+    //    }
+    //    catch (FaultException ex)
+    //    {
+    //        ScriptManager.RegisterStartupScript(Page, this.GetType(), "alert", "alert('" + ex.Message.ToString() + "');", true);
+    //        throw ex;
+    //    }
+    //    catch (Exception ex)
+    //    {
+    //        ScriptManager.RegisterStartupScript(Page, this.GetType(), "alert", "alert('" + ex.Message.ToString() + "');", true);
+    //        throw ex;
+    //    }
+    //    finally { listXml = null; }
+    //}
+
+    protected void btnBoard_Click(object sender, EventArgs e)
+    {
+        try
+        {
+            listXml = new List<XMLEntity>();
+            using (SAMSBusinessClient proxy = new SAMSBusinessClient())
+            {
+                listXml = proxy.GetMasterXML(new XMLEntity { Action = "B" });
+                var xmlfromLINQ = new XElement("NewDataSet",
+                from c in listXml
+                select new XElement("Table",
+                    new XElement("Row", c.Row),
+                    new XElement("int_BoardID", c.BoardID),
+                    new XElement("vch_BoardName", c.BoardName)
+                    ));
+
+                var path = Path.Combine(xmlPath + "M_Board.xml");
+                using (FileStream fs = new FileStream(path, FileMode.Create))
+                {
+                    XmlSerializer xSer = new XmlSerializer(typeof(XElement));
+                    xSer.Serialize(fs, xmlfromLINQ);
+                }
+                ScriptManager.RegisterStartupScript(Page, this.GetType(), "Myalert", "jAlertSubmit('btnBoard', '<strong>Board xml generated successfully!</strong>', 'GenerateXMLMaster.aspx?ranNum=" + Request.QueryString["ranNum"] + "&linkm=" + Request.QueryString["linkm"] + "&linkn=" + Request.QueryString["linkn"] + "&btn=" + Request.QueryString["btn"] + "&tab=" + Request.QueryString["tab"] + "');", true);
+            }
+        }
+        catch (FaultException<CustomFault> ex)
+        {
+            ScriptManager.RegisterStartupScript(Page, this.GetType(), "alert", "alert('" + ex.Detail.ErrorMsg + "');", true);
+            throw ex;
+        }
+        catch (FaultException ex)
+        {
+            ScriptManager.RegisterStartupScript(Page, this.GetType(), "alert", "alert('" + ex.Message.ToString() + "');", true);
+            throw ex;
+        }
+        catch (Exception ex)
+        {
+            ScriptManager.RegisterStartupScript(Page, this.GetType(), "alert", "alert('" + ex.Message.ToString() + "');", true);
+            throw ex;
+        }
+        finally { listXml = null; }
+    }
+
+    //protected void btnJunCompSubject_Click(object sender, EventArgs e)
+    //{
+    //    try
+    //    {
+    //        listXml = new List<XMLEntity>();
+    //        using (SAMSBusinessClient proxy = new SAMSBusinessClient())
+    //        {
+    //            listXml = proxy.GetMasterXML(new XMLEntity { Action = "JCS" });
+    //            var xmlfromLINQ = new XElement("NewDataSet",
+    //            from c in listXml
+    //            select new XElement("Table",
+    //                    new XElement("int_StreamID", c.StreamID),
+    //                    new XElement("int_SubjectID", c.SubjectID),
+    //                    new XElement("vch_SubjectName", c.SubjectName)
+    //                ));
+
+    //            var path = Path.Combine(xmlPath + "M_SUBJECT_COMPULSORY.xml");
+    //            using (FileStream fs = new FileStream(path, FileMode.Create))
+    //            {
+    //                XmlSerializer xSer = new XmlSerializer(typeof(XElement));
+    //                xSer.Serialize(fs, xmlfromLINQ);
+    //            }
+    //            ScriptManager.RegisterStartupScript(Page, this.GetType(), "Myalert", "jAlertSubmit('btnSubject', '<strong>Intermediate Compulsory Subject xml generated successfully !</strong>', 'GenerateXMLMaster.aspx?ranNum=" + Request.QueryString["ranNum"] + "&linkm=" + Request.QueryString["linkm"] + "&linkn=" + Request.QueryString["linkn"] + "&btn=" + Request.QueryString["btn"] + "&tab=" + Request.QueryString["tab"] + "');", true);
+    //        }
+    //    }
+    //    catch (FaultException<CustomFault> ex)
+    //    {
+    //        ScriptManager.RegisterStartupScript(Page, this.GetType(), "alert", "alert('" + ex.Detail.ErrorMsg + "');", true);
+    //        throw ex;
+    //    }
+    //    catch (FaultException ex)
+    //    {
+    //        ScriptManager.RegisterStartupScript(Page, this.GetType(), "alert", "alert('" + ex.Message.ToString() + "');", true);
+    //        throw ex;
+    //    }
+    //    catch (Exception ex)
+    //    {
+    //        ScriptManager.RegisterStartupScript(Page, this.GetType(), "alert", "alert('" + ex.Message.ToString() + "');", true);
+    //        throw ex;
+    //    }
+    //    finally { listXml = null; }
+    //}
+
+    //protected void btnJunElecSubject_Click(object sender, EventArgs e)
+    //{
+    //    try
+    //    {
+    //        listXml = new List<XMLEntity>();
+    //        using (SAMSBusinessClient proxy = new SAMSBusinessClient())
+    //        {
+    //            listXml = proxy.GetMasterXML(new XMLEntity { Action = "JES" });
+    //            var xmlfromLINQ = new XElement("NewDataSet",
+    //            from c in listXml
+    //            select new XElement("Table",
+    //                    new XElement("int_CollegeID", c.CollegeID),
+    //                    new XElement("int_StreamID", c.StreamID),
+    //                    new XElement("int_SubjectID", c.SubjectID),
+    //                    new XElement("vch_SubjectName", c.SubjectName)
+    //                ));
+
+    //            var path = Path.Combine(xmlPath + "M_SUBJECT_ELECTIVE.xml");
+    //            using (FileStream fs = new FileStream(path, FileMode.Create))
+    //            {
+    //                XmlSerializer xSer = new XmlSerializer(typeof(XElement));
+    //                xSer.Serialize(fs, xmlfromLINQ);
+    //            }
+    //            ScriptManager.RegisterStartupScript(Page, this.GetType(), "Myalert", "jAlertSubmit('btnSubject', '<strong>Intermediate Elective Subject xml generated successfully !</strong>', 'GenerateXMLMaster.aspx?ranNum=" + Request.QueryString["ranNum"] + "&linkm=" + Request.QueryString["linkm"] + "&linkn=" + Request.QueryString["linkn"] + "&btn=" + Request.QueryString["btn"] + "&tab=" + Request.QueryString["tab"] + "');", true);
+    //        }
+    //    }
+    //    catch (FaultException<CustomFault> ex)
+    //    {
+    //        ScriptManager.RegisterStartupScript(Page, this.GetType(), "alert", "alert('" + ex.Detail.ErrorMsg + "');", true);
+    //        throw ex;
+    //    }
+    //    catch (FaultException ex)
+    //    {
+    //        ScriptManager.RegisterStartupScript(Page, this.GetType(), "alert", "alert('" + ex.Message.ToString() + "');", true);
+    //        throw ex;
+    //    }
+    //    catch (Exception ex)
+    //    {
+    //        ScriptManager.RegisterStartupScript(Page, this.GetType(), "alert", "alert('" + ex.Message.ToString() + "');", true);
+    //        throw ex;
+    //    }
+    //    finally { listXml = null; }
+    //}
+
+    //protected void btnJun4thElecSubject_Click(object sender, EventArgs e)
+    //{
+    //    try
+    //    {
+    //        listXml = new List<XMLEntity>();
+    //        using (SAMSBusinessClient proxy = new SAMSBusinessClient())
+    //        {
+    //            listXml = proxy.GetMasterXML(new XMLEntity { Action = "J4ES" });
+    //            var xmlfromLINQ = new XElement("NewDataSet",
+    //            from c in listXml
+    //            select new XElement("Table",
+    //                    new XElement("int_CollegeID", c.CollegeID),
+    //                    new XElement("int_StreamID", c.StreamID),
+    //                    new XElement("int_SubjectID", c.SubjectID),
+    //                    new XElement("vch_SubjectName", c.SubjectName)
+    //                ));
+
+    //            var path = Path.Combine(xmlPath + "M_SUBJECT_4TH_ELECTIVE.xml");
+    //            using (FileStream fs = new FileStream(path, FileMode.Create))
+    //            {
+    //                XmlSerializer xSer = new XmlSerializer(typeof(XElement));
+    //                xSer.Serialize(fs, xmlfromLINQ);
+    //            }
+    //            ScriptManager.RegisterStartupScript(Page, this.GetType(), "Myalert", "jAlertSubmit('btnJun4thElecSubject', '<strong>Intermediate 4th Elective Subject xml generated successfully !</strong>', 'GenerateXMLMaster.aspx?ranNum=" + Request.QueryString["ranNum"] + "&linkm=" + Request.QueryString["linkm"] + "&linkn=" + Request.QueryString["linkn"] + "&btn=" + Request.QueryString["btn"] + "&tab=" + Request.QueryString["tab"] + "');", true);
+    //        }
+    //    }
+    //    catch (FaultException<CustomFault> ex)
+    //    {
+    //        ScriptManager.RegisterStartupScript(Page, this.GetType(), "alert", "alert('" + ex.Detail.ErrorMsg + "');", true);
+    //        throw ex;
+    //    }
+    //    catch (FaultException ex)
+    //    {
+    //        ScriptManager.RegisterStartupScript(Page, this.GetType(), "alert", "alert('" + ex.Message.ToString() + "');", true);
+    //        throw ex;
+    //    }
+    //    catch (Exception ex)
+    //    {
+    //        ScriptManager.RegisterStartupScript(Page, this.GetType(), "alert", "alert('" + ex.Message.ToString() + "');", true);
+    //        throw ex;
+    //    }
+    //    finally { listXml = null; }
+    //}
+
+    protected void btnDistrict_Click(object sender, EventArgs e)
+    {
+        try
+        {
+            listXml = new List<XMLEntity>();
+            using (SAMSBusinessClient proxy = new SAMSBusinessClient())
+            {
+                listXml = proxy.GetMasterXML(new XMLEntity { Action = "D" });
+                var xmlfromLINQ = new XElement("NewDataSet",
+                from c in listXml
+                select new XElement("Table",
+                    new XElement("int_DistrictID", c.ID),
+                    new XElement("int_StateID", c.StateID),
+                    new XElement("vch_DistrictName", c.NAME),
+                    new XElement("vch_Districtcode", c.DistrictCode)
+                    ));
+
+                var path = Path.Combine(xmlPath + "M_DISTRICT.xml");
+                using (FileStream fs = new FileStream(path, FileMode.Create))
+                {
+                    XmlSerializer xSer = new XmlSerializer(typeof(XElement));
+                    xSer.Serialize(fs, xmlfromLINQ);
+                }
+                ScriptManager.RegisterStartupScript(Page, this.GetType(), "Myalert", "jAlertSubmit('btnDistrict', '<strong>District xml generated successfully!</strong>', 'GenerateXMLMaster.aspx?ranNum=" + Request.QueryString["ranNum"] + "&linkm=" + Request.QueryString["linkm"] + "&linkn=" + Request.QueryString["linkn"] + "&btn=" + Request.QueryString["btn"] + "&tab=" + Request.QueryString["tab"] + "');", true);
+            }
+        }
+        catch (FaultException<CustomFault> ex)
+        {
+            ScriptManager.RegisterStartupScript(Page, this.GetType(), "alert", "alert('" + ex.Detail.ErrorMsg + "');", true);
+            throw ex;
+        }
+        catch (FaultException ex)
+        {
+            ScriptManager.RegisterStartupScript(Page, this.GetType(), "alert", "alert('" + ex.Message.ToString() + "');", true);
+            throw ex;
+        }
+        catch (Exception ex)
+        {
+            ScriptManager.RegisterStartupScript(Page, this.GetType(), "alert", "alert('" + ex.Message.ToString() + "');", true);
+            throw ex;
+        }
+        finally { listXml = null; }
+    }
+
+    protected void btnBlock_Click(object sender, EventArgs e)
+    {
+        try
+        {
+            listXml = new List<XMLEntity>();
+            using (SAMSBusinessClient proxy = new SAMSBusinessClient())
+            {
+                listXml = proxy.GetMasterXML(new XMLEntity { Action = "BM" });
+                var xmlfromLINQ = new XElement("NewDataSet",
+                from c in listXml
+                select new XElement("Table",
+                    new XElement("int_BlockID", c.ID),
+                    new XElement("int_DistrictID", c.DistID),
+                    new XElement("vch_Blockcode", c.BlockCode),
+                    new XElement("vch_BlockName", c.NAME),
+                    new XElement("vch_NewBlockCode", c.NewBlockCode)
+                    ));
+
+                var path = Path.Combine(xmlPath + "M_BLOCK.xml");
+                using (FileStream fs = new FileStream(path, FileMode.Create))
+                {
+                    XmlSerializer xSer = new XmlSerializer(typeof(XElement));
+                    xSer.Serialize(fs, xmlfromLINQ);
+                }
+                ScriptManager.RegisterStartupScript(Page, this.GetType(), "Myalert", "jAlertSubmit('btnBlock', '<strong>Block xml generated successfully!</strong>', 'GenerateXMLMaster.aspx?ranNum=" + Request.QueryString["ranNum"] + "&linkm=" + Request.QueryString["linkm"] + "&linkn=" + Request.QueryString["linkn"] + "&btn=" + Request.QueryString["btn"] + "&tab=" + Request.QueryString["tab"] + "');", true);
+            }
+        }
+        catch (FaultException<CustomFault> ex)
+        {
+            ScriptManager.RegisterStartupScript(Page, this.GetType(), "alert", "alert('" + ex.Detail.ErrorMsg + "');", true);
+            throw ex;
+        }
+        catch (FaultException ex)
+        {
+            ScriptManager.RegisterStartupScript(Page, this.GetType(), "alert", "alert('" + ex.Message.ToString() + "');", true);
+            throw ex;
+        }
+        catch (Exception ex)
+        {
+            ScriptManager.RegisterStartupScript(Page, this.GetType(), "alert", "alert('" + ex.Message.ToString() + "');", true);
+            throw ex;
+        }
+        finally { listXml = null; }
+    }
+
+    protected void btnState_Click(object sender, EventArgs e)
+    {
+        try
+        {
+            listXml = new List<XMLEntity>();
+            using (SAMSBusinessClient proxy = new SAMSBusinessClient())
+            {
+                listXml = proxy.GetMasterXML(new XMLEntity { Action = "SM" });
+                var xmlfromLINQ = new XElement("NewDataSet",
+                from c in listXml
+                select new XElement("Table",
+                    new XElement("Row", c.Row),
+                    new XElement("int_StateID", c.ID),
+                    new XElement("vch_StateCode", c.StateCode),
+                    new XElement("vch_StateName", c.NAME)
+                    ));
+
+                var path = Path.Combine(xmlPath + "M_STATE.xml");
+                using (FileStream fs = new FileStream(path, FileMode.Create))
+                {
+                    XmlSerializer xSer = new XmlSerializer(typeof(XElement));
+                    xSer.Serialize(fs, xmlfromLINQ);
+                }
+                ScriptManager.RegisterStartupScript(Page, this.GetType(), "Myalert", "jAlertSubmit('btnState', '<strong>State xml generated successfully!</strong>', 'GenerateXMLMaster.aspx?ranNum=" + Request.QueryString["ranNum"] + "&linkm=" + Request.QueryString["linkm"] + "&linkn=" + Request.QueryString["linkn"] + "&btn=" + Request.QueryString["btn"] + "&tab=" + Request.QueryString["tab"] + "');", true);
+            }
+        }
+        catch (FaultException<CustomFault> ex)
+        {
+            ScriptManager.RegisterStartupScript(Page, this.GetType(), "alert", "alert('" + ex.Detail.ErrorMsg + "');", true);
+            throw ex;
+        }
+        catch (FaultException ex)
+        {
+            ScriptManager.RegisterStartupScript(Page, this.GetType(), "alert", "alert('" + ex.Message.ToString() + "');", true);
+            throw ex;
+        }
+        catch (Exception ex)
+        {
+            ScriptManager.RegisterStartupScript(Page, this.GetType(), "alert", "alert('" + ex.Message.ToString() + "');", true);
+            throw ex;
+        }
+        finally { listXml = null; }
+    }
+    protected void btnCouncil_Click(object sender, EventArgs e)
+    {
+        try
+        {
+            listXml = new List<XMLEntity>();
+            using (SAMSBusinessClient proxy = new SAMSBusinessClient())
+            {
+                listXml = proxy.GetMasterXML(new XMLEntity { Action = "C" });
+                var xmlfromLINQ = new XElement("NewDataSet",
+                from c in listXml
+                select new XElement("Table",
+                    new XElement("ROW", c.Row),
+                    new XElement("cid", c.ID),
+                    new XElement("Cname", c.NAME)
+                    ));
+
+                var path = Path.Combine(xmlPath + "M_COUNCIL.xml");
+                using (FileStream fs = new FileStream(path, FileMode.Create))
+                {
+                    XmlSerializer xSer = new XmlSerializer(typeof(XElement));
+                    xSer.Serialize(fs, xmlfromLINQ);
+                }
+                ScriptManager.RegisterStartupScript(btnJRCollge, this.GetType(), "Myalert", "jAlertSubmit('btnCouncil', '<strong>CAfAS Council xml generated successfully !</strong>', 'GenerateXMLMaster.aspx?ranNum=" + Request.QueryString["ranNum"] + "&linkm=" + Request.QueryString["linkm"] + "&linkn=" + Request.QueryString["linkn"] + "&btn=" + Request.QueryString["btn"] + "&tab=" + Request.QueryString["tab"] + "');", true);
+            }
+        }
+        catch (FaultException<CustomFault> ex)
+        {
+            ScriptManager.RegisterStartupScript(Page, this.GetType(), "alert", "alert('" + ex.Detail.ErrorMsg + "');", true);
+            throw ex;
+        }
+        catch (FaultException ex)
+        {
+            ScriptManager.RegisterStartupScript(Page, this.GetType(), "alert", "alert('" + ex.Message.ToString() + "');", true);
+            throw ex;
+        }
+        catch (Exception ex)
+        {
+            ScriptManager.RegisterStartupScript(Page, this.GetType(), "alert", "alert('" + ex.Message.ToString() + "');", true);
+            throw ex;
+        }
+        finally { listXml = null; }
+    }
+
+    #endregion
+}

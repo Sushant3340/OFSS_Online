@@ -1,0 +1,255 @@
+﻿<%--'***********************************************************************************
+' File Name             :   GenerateXMLMaster.aspx
+' Description           :   For generating all master table xml
+' Created by            :   Jyotijeeban Jena
+' Created On            :   19-Dec-2017
+' Modification History  :
+'                           <CR no.>                      <Date>                <Modified by>                        <Modification Summary>'                                                         
+'
+' Register File Name    :   header.ascx,left_panel.ascx,footer.ascx
+' Style sheet           :   bootstrap.min.css,ace.min.css,custom.css
+' JavaScript            :   
+'**************************************************************************************/--%>
+
+<%@ Page Language="C#" AutoEventWireup="true" CodeFile="GenerateXMLMaster.aspx.cs"
+    Inherits="MasterXML_GenerateXMLMaster" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
+<%@ Register Src="~/includes/doctype.ascx" TagName="doctype" TagPrefix="uc1" %>
+<%@ Register Src="~/includes/header.ascx" TagName="header" TagPrefix="uc3" %>
+<%@ Register Src="~/includes/footer.ascx" TagName="footer" TagPrefix="uc2" %>
+<%@ Register Src="~/includes/leftmenu.ascx" TagName="header" TagPrefix="uc4" %>
+<%@ Register Src="~/includes/buttontab.ascx" TagName="ButtonTab" TagPrefix="uctab" %>
+<%@ Register Src="~/includes/navigation.ascx" TagName="navigation" TagPrefix="ucnavigation" %>
+<%@ Register Src="~/includes/FillHierarchy.ascx" TagName="CollegeHierarchy" TagPrefix="ucCollege" %>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+    <title>Welcome :: Online Facilitation System for Students (OFSS)</title>
+    <meta http-equiv="Page-Enter" content="blendTrans(Duration=0.1)" />
+    <meta http-equiv="Page-Exit" content="blendTrans(Duration=0.1)" />
+    <uc1:doctype ID="doctype" runat="server" />
+    <style type="text/css">
+        .no-tab {
+            display: block;
+            height: 16px;
+        }
+    </style>
+</head>
+<body class="menu-static menu-expanded">
+    <form id="form1" runat="server">
+        <asp:HiddenField ID="hdnStaffid" runat="server" />
+        <!-- Pre-loader end -->
+        <uc3:header ID="header" runat="server" />
+        <uc4:header ID="leftmenu" runat="server" />
+        <!-- Main-body start-->
+        <div class="main-body">
+            <div class="page-wrapper">
+                <div class="page-header">
+                    <div id="myButton" class="page-header-title">
+                        <uctab:ButtonTab ID="Buttontab1" runat="server" />
+                    </div>
+                    <div class="page-header-breadcrumb">
+                        <div class="navigation" id="navigation">
+                            <!--NAVIGATION BEGINS-->
+                            <ucnavigation:navigation ID="navid" runat="server" />
+                            <!--NAVIGATION ENDS-->
+                        </div>
+                    </div>
+                </div>
+                <div class="page-body">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <!-- Basic Form Inputs card start -->
+                            <div class="card">
+                                <%--<div class="card-header">
+                                <div class="menutabs no-tab" id="myTab">
+                                </div>
+                                <div class="card-header-right" id="loadComponents">
+                                </div>
+                            </div>--%>
+                                <asp:UpdatePanel ID="udpCollege" runat="server">
+                                    <ContentTemplate>
+                                        <div class="card-block">
+                                            <div class="table-responsive">
+                                                <table class='table table-bordered' cellpadding='2' cellspacing='0' border='0' style="width:100%;">
+                                                    <tr>
+                                                        <th colspan='2'></th>
+                                                    </tr>
+                                                    <tr>
+                                                        <td style="width:45px;">
+                                                            <i class="fa fa-hand-o-right" aria-hidden="true"></i>
+                                                        </td>
+                                                        <td>
+                                                            <asp:Button ID="btnJRCollge" runat="server" ToolTip="Click to Generate" Text="Generate Junior College XML"
+                                                                CssClass="btn btn-xs btn-primary" OnClick="btnJRCollge_Click" />
+                                                        </td>
+                                                    </tr>
+                                                    <%-- <tr>
+                                                    <td width='45px'>
+                                                        <i class="fa fa-hand-o-right" aria-hidden="true"></i>
+                                                    </td>
+                                                    <td>
+                                                        <asp:Button ID="btnAllJRCollge" runat="server" ToolTip="Click to Generate" Text="Generate All Junior College XML"
+                                                            CssClass="btn btn-xs btn-primary" OnClick="btnAllJRCollge_Click" />
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td width='45px'>
+                                                        <i class="fa fa-hand-o-right" aria-hidden="true"></i>
+                                                    </td>
+                                                    <td>
+                                                        <asp:Button ID="btnSRCollge" runat="server" ToolTip="Click to Generate" Text="Generate Senior College XML"
+                                                            CssClass="btn btn-xs btn-primary" OnClick="btnSRCollge_Click" />
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td width='45px'>
+                                                        <i class="fa fa-hand-o-right" aria-hidden="true"></i>
+                                                    </td>
+                                                    <td>
+                                                        <asp:Button ID="btnAllSRCollge" runat="server" ToolTip="Click to Generate" Text="Generate All Senior College XML"
+                                                            CssClass="btn btn-xs btn-primary" OnClick="btnAllSRCollge_Click" />
+                                                    </td>
+                                                </tr>--%>
+                                                    <tr>
+                                                        <td style="width:45px;">
+                                                            <i class="fa fa-hand-o-right" aria-hidden="true"></i>
+                                                        </td>
+                                                        <td>
+                                                            <asp:Button ID="btnBoard" runat="server" ToolTip="Click to Generate" Text="Generate Board XML"
+                                                                CssClass="btn btn-xs btn-primary" OnClick="btnBoard_Click" />
+                                                        </td>
+                                                    </tr>
+                                                    <%--<tr>
+                                                    <td width='45px'>
+                                                        <i class="fa fa-hand-o-right" aria-hidden="true"></i>
+                                                    </td>
+                                                    <td>
+                                                        <asp:Button ID="btnSubject" runat="server" ToolTip="Click to Generate" Text="Generate Junior Compulsory Subject XML"
+                                                            CssClass="btn btn-xs btn-primary" OnClick="btnJunCompSubject_Click" />
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td width='45px'>
+                                                        <i class="fa fa-hand-o-right" aria-hidden="true"></i>
+                                                    </td>
+                                                    <td>
+                                                        <asp:Button ID="btnJunElecSubject" runat="server" ToolTip="Click to Generate" Text="Generate Junior Elective Subject XML"
+                                                            CssClass="btn btn-xs btn-primary" OnClick="btnJunElecSubject_Click" />
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td width='45px'>
+                                                        <i class="fa fa-hand-o-right" aria-hidden="true"></i>
+                                                    </td>
+                                                    <td>
+                                                        <asp:Button ID="btnJun4thElecSubject" runat="server" ToolTip="Click to Generate" Text="Generate Junior 4TH Elective Subject XML"
+                                                            CssClass="btn btn-xs btn-primary" OnClick="btnJun4thElecSubject_Click" />
+                                                    </td>
+                                                </tr>--%>
+                                                    <tr>
+                                                        <td style="width:45px;">
+                                                            <i class="fa fa-hand-o-right" aria-hidden="true"></i>
+                                                        </td>
+                                                        <td>
+                                                            <asp:Button ID="btnDistrict" runat="server" ToolTip="Click to Generate" Text="Generate District XML"
+                                                                CssClass="btn btn-xs btn-primary" OnClick="btnDistrict_Click" />
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td style="width:45px;">
+                                                            <i class="fa fa-hand-o-right" aria-hidden="true"></i>
+                                                        </td>
+                                                        <td>
+                                                            <asp:Button ID="btnBlock" runat="server" ToolTip="Click to Generate" Text="Generate Block XML"
+                                                                CssClass="btn btn-xs btn-primary" OnClick="btnBlock_Click" />
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td style="width:45px;">
+                                                            <i class="fa fa-hand-o-right" aria-hidden="true"></i>
+                                                        </td>
+                                                        <td>
+                                                            <asp:Button ID="btnState" runat="server" ToolTip="Click to Generate" Text="Generate State XML"
+                                                                CssClass="btn btn-xs btn-primary" OnClick="btnState_Click" />
+                                                        </td>
+                                                    </tr>
+                                                    <%-- <tr>
+                                                    <td width='45px'>
+                                                        <i class="fa fa-hand-o-right" aria-hidden="true"></i>
+                                                    </td>
+                                                    <td>
+                                                        <asp:Button ID="btnHostelPriority" runat="server" ToolTip="Click to Generate" Text="Generate Hostel Proirity XML"
+                                                            CssClass="btn btn-xs btn-primary" OnClick="btnHostelPriority_Click" />
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td width='45px'>
+                                                        <i class="fa fa-hand-o-right" aria-hidden="true"></i>
+                                                    </td>
+                                                    <td>
+                                                        <asp:Button ID="btnSFHostelFees" runat="server" ToolTip="Click to Generate" Text="Generate SFHostel Fees XML"
+                                                            CssClass="btn btn-xs btn-primary" OnClick="btnSFHostelFees_Click" />
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td width='45px'>
+                                                        <i class="fa fa-hand-o-right" aria-hidden="true"></i>
+                                                    </td>
+                                                    <td>
+                                                        <asp:Button ID="btnDocAttched" runat="server" ToolTip="Click to Generate" Text="Generate Document Attached XML"
+                                                            CssClass="btn btn-xs btn-primary" OnClick="btnDocAttached_Click" />
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td width='45px'>
+                                                        <i class="fa fa-hand-o-right" aria-hidden="true"></i>
+                                                    </td>
+                                                    <td>
+                                                        <asp:Button ID="btnCAFASCollege" runat="server" ToolTip="Click to Generate" Text="Generate CAFAS College XML"
+                                                            CssClass="btn btn-xs btn-primary" OnClick="btnCAFASCollege_Click" />
+                                                    </td>
+                                                </tr>--%>
+                                                    <tr>
+                                                        <td style="width:45px;">
+                                                            <i class="fa fa-hand-o-right" aria-hidden="true"></i>
+                                                        </td>
+                                                        <td>
+                                                            <asp:Button ID="btnCouncil" runat="server" ToolTip="Click to Generate" Text="Generate Council XML"
+                                                                CssClass="btn btn-xs btn-primary" OnClick="btnCouncil_Click" />
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td style="width:45px;">
+                                                            <i class="fa fa-hand-o-right" aria-hidden="true"></i>
+                                                        </td>
+                                                        <td>
+                                                            <asp:Button ID="btnQuotaJRCollge" runat="server" ToolTip="Click to Generate" Text="Generate Quota Junior College XML"
+                                                                CssClass="btn btn-xs btn-primary" OnClick="btnQuotaJRCollge_Click" />
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </ContentTemplate>
+                                </asp:UpdatePanel>
+                            </div>
+                            <!-- Basic Form Inputs card end -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <uc2:footer ID="footer" runat="server" />
+    </form>
+    <script type="text/javascript">
+        //indicate = "true";
+        backMe = "true";
+        $(document).ready(function () {
+            loadNavigation('Generate XML Master');
+        });
+
+    </script>
+</body>
+</html>

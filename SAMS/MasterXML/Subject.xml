@@ -1,0 +1,1978 @@
+<?xml version="1.0"?>
+<NewDataSet>
+  <Table>
+    <int_SubjectID>1</int_SubjectID>
+    <vch_SubjectName>Accountancy</vch_SubjectName>
+    <int_StreamID>3</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>452</int_SubjectID>
+    <vch_SubjectName>Accountancy and Auditing</vch_SubjectName>
+    <int_StreamID>13</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>207</int_SubjectID>
+    <vch_SubjectName>Advaita Vedanta</vch_SubjectName>
+    <int_StreamID>24</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>76</int_SubjectID>
+    <vch_SubjectName>Anthropology</vch_SubjectName>
+    <int_StreamID>1</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>454</int_SubjectID>
+    <vch_SubjectName>Audio Visual Technician</vch_SubjectName>
+    <int_StreamID>15</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>131</int_SubjectID>
+    <vch_SubjectName>Automobile Technology</vch_SubjectName>
+    <int_StreamID>2</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>128</int_SubjectID>
+    <vch_SubjectName>Banking</vch_SubjectName>
+    <int_StreamID>1</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>129</int_SubjectID>
+    <vch_SubjectName>Banking</vch_SubjectName>
+    <int_StreamID>2</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>130</int_SubjectID>
+    <vch_SubjectName>Banking</vch_SubjectName>
+    <int_StreamID>3</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>380</int_SubjectID>
+    <vch_SubjectName>Banking &amp; Insurance and Cost Accounting</vch_SubjectName>
+    <int_StreamID>3</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>389</int_SubjectID>
+    <vch_SubjectName>BIOlogy</vch_SubjectName>
+    <int_StreamID>13</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>168</int_SubjectID>
+    <vch_SubjectName>Biology</vch_SubjectName>
+    <int_StreamID>9</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>171</int_SubjectID>
+    <vch_SubjectName>Biology</vch_SubjectName>
+    <int_StreamID>5</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>16</int_SubjectID>
+    <vch_SubjectName>Biology</vch_SubjectName>
+    <int_StreamID>2</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>174</int_SubjectID>
+    <vch_SubjectName>Biology</vch_SubjectName>
+    <int_StreamID>4</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>177</int_SubjectID>
+    <vch_SubjectName>Biology</vch_SubjectName>
+    <int_StreamID>21</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>180</int_SubjectID>
+    <vch_SubjectName>Biology</vch_SubjectName>
+    <int_StreamID>7</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>183</int_SubjectID>
+    <vch_SubjectName>Biology</vch_SubjectName>
+    <int_StreamID>10</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>186</int_SubjectID>
+    <vch_SubjectName>Biology</vch_SubjectName>
+    <int_StreamID>6</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>69</int_SubjectID>
+    <vch_SubjectName>Biotechnology</vch_SubjectName>
+    <int_StreamID>2</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>94</int_SubjectID>
+    <vch_SubjectName>Botany</vch_SubjectName>
+    <int_StreamID>2</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>456</int_SubjectID>
+    <vch_SubjectName>Building Maintenance</vch_SubjectName>
+    <int_StreamID>17</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>45</int_SubjectID>
+    <vch_SubjectName>Business Economics</vch_SubjectName>
+    <int_StreamID>3</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>2</int_SubjectID>
+    <vch_SubjectName>Business Mathematics and Statistics</vch_SubjectName>
+    <int_StreamID>3</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>3</int_SubjectID>
+    <vch_SubjectName>Business Studies and Management</vch_SubjectName>
+    <int_StreamID>3</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>462</int_SubjectID>
+    <vch_SubjectName>Catering and Restaurant Management</vch_SubjectName>
+    <int_StreamID>23</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>388</int_SubjectID>
+    <vch_SubjectName>CHEMISTRY</vch_SubjectName>
+    <int_StreamID>13</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>14</int_SubjectID>
+    <vch_SubjectName>Chemistry</vch_SubjectName>
+    <int_StreamID>2</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>167</int_SubjectID>
+    <vch_SubjectName>Chemistry</vch_SubjectName>
+    <int_StreamID>9</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>182</int_SubjectID>
+    <vch_SubjectName>Chemistry</vch_SubjectName>
+    <int_StreamID>10</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>185</int_SubjectID>
+    <vch_SubjectName>Chemistry</vch_SubjectName>
+    <int_StreamID>6</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>176</int_SubjectID>
+    <vch_SubjectName>Chemistry</vch_SubjectName>
+    <int_StreamID>21</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>179</int_SubjectID>
+    <vch_SubjectName>Chemistry</vch_SubjectName>
+    <int_StreamID>7</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>170</int_SubjectID>
+    <vch_SubjectName>Chemistry</vch_SubjectName>
+    <int_StreamID>5</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>173</int_SubjectID>
+    <vch_SubjectName>Chemistry</vch_SubjectName>
+    <int_StreamID>4</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>200</int_SubjectID>
+    <vch_SubjectName>Chemistry</vch_SubjectName>
+    <int_StreamID>8</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>188</int_SubjectID>
+    <vch_SubjectName>Chemistry</vch_SubjectName>
+    <int_StreamID>15</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>191</int_SubjectID>
+    <vch_SubjectName>Chemistry</vch_SubjectName>
+    <int_StreamID>17</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>194</int_SubjectID>
+    <vch_SubjectName>Chemistry</vch_SubjectName>
+    <int_StreamID>18</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>197</int_SubjectID>
+    <vch_SubjectName>Chemistry</vch_SubjectName>
+    <int_StreamID>16</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>112</int_SubjectID>
+    <vch_SubjectName>Commerce</vch_SubjectName>
+    <int_StreamID>3</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>142</int_SubjectID>
+    <vch_SubjectName>Commerce-I</vch_SubjectName>
+    <int_StreamID>13</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>143</int_SubjectID>
+    <vch_SubjectName>Commerce-I</vch_SubjectName>
+    <int_StreamID>12</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>144</int_SubjectID>
+    <vch_SubjectName>Commerce-I</vch_SubjectName>
+    <int_StreamID>11</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>145</int_SubjectID>
+    <vch_SubjectName>Commerce-I</vch_SubjectName>
+    <int_StreamID>14</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>146</int_SubjectID>
+    <vch_SubjectName>Commerce-II</vch_SubjectName>
+    <int_StreamID>13</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>147</int_SubjectID>
+    <vch_SubjectName>Commerce-II</vch_SubjectName>
+    <int_StreamID>12</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>148</int_SubjectID>
+    <vch_SubjectName>Commerce-II</vch_SubjectName>
+    <int_StreamID>11</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>149</int_SubjectID>
+    <vch_SubjectName>Commerce-II</vch_SubjectName>
+    <int_StreamID>14</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>4</int_SubjectID>
+    <vch_SubjectName>Commercial Banking and Insurance</vch_SubjectName>
+    <int_StreamID>3</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>5</int_SubjectID>
+    <vch_SubjectName>Commercial Geography and Rural Development</vch_SubjectName>
+    <int_StreamID>3</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>6</int_SubjectID>
+    <vch_SubjectName>Computer Application</vch_SubjectName>
+    <int_StreamID>3</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>114</int_SubjectID>
+    <vch_SubjectName>Computer Science</vch_SubjectName>
+    <int_StreamID>1</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>115</int_SubjectID>
+    <vch_SubjectName>Computer Science</vch_SubjectName>
+    <int_StreamID>3</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>86</int_SubjectID>
+    <vch_SubjectName>Computer Science</vch_SubjectName>
+    <int_StreamID>2</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>457</int_SubjectID>
+    <vch_SubjectName>Computer Technique</vch_SubjectName>
+    <int_StreamID>18</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>7</int_SubjectID>
+    <vch_SubjectName>Cost Accounting</vch_SubjectName>
+    <int_StreamID>3</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>67</int_SubjectID>
+    <vch_SubjectName>Cost Accounting</vch_SubjectName>
+    <int_StreamID>2</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>461</int_SubjectID>
+    <vch_SubjectName>Crèche &amp; Pre-School Management</vch_SubjectName>
+    <int_StreamID>22</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>445</int_SubjectID>
+    <vch_SubjectName>Crop Production</vch_SubjectName>
+    <int_StreamID>6</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>448</int_SubjectID>
+    <vch_SubjectName>Dairying</vch_SubjectName>
+    <int_StreamID>9</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>205</int_SubjectID>
+    <vch_SubjectName>Dharmashastra</vch_SubjectName>
+    <int_StreamID>24</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>132</int_SubjectID>
+    <vch_SubjectName>Diarying</vch_SubjectName>
+    <int_StreamID>2</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>150</int_SubjectID>
+    <vch_SubjectName>Economics</vch_SubjectName>
+    <int_StreamID>13</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>151</int_SubjectID>
+    <vch_SubjectName>Economics</vch_SubjectName>
+    <int_StreamID>12</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>152</int_SubjectID>
+    <vch_SubjectName>Economics</vch_SubjectName>
+    <int_StreamID>11</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>153</int_SubjectID>
+    <vch_SubjectName>Economics</vch_SubjectName>
+    <int_StreamID>14</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>162</int_SubjectID>
+    <vch_SubjectName>Economics</vch_SubjectName>
+    <int_StreamID>22</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>163</int_SubjectID>
+    <vch_SubjectName>Economics</vch_SubjectName>
+    <int_StreamID>23</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>164</int_SubjectID>
+    <vch_SubjectName>Economics</vch_SubjectName>
+    <int_StreamID>19</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>165</int_SubjectID>
+    <vch_SubjectName>Economics</vch_SubjectName>
+    <int_StreamID>20</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>43</int_SubjectID>
+    <vch_SubjectName>Economics</vch_SubjectName>
+    <int_StreamID>1</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>72</int_SubjectID>
+    <vch_SubjectName>Economics</vch_SubjectName>
+    <int_StreamID>2</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>213</int_SubjectID>
+    <vch_SubjectName>Economics</vch_SubjectName>
+    <int_StreamID>24</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>971</int_SubjectID>
+    <vch_SubjectName>Economics</vch_SubjectName>
+    <int_StreamID>2</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>214</int_SubjectID>
+    <vch_SubjectName>Education</vch_SubjectName>
+    <int_StreamID>24</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>49</int_SubjectID>
+    <vch_SubjectName>Education</vch_SubjectName>
+    <int_StreamID>1</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>137</int_SubjectID>
+    <vch_SubjectName>Electrical Domestic Appliances</vch_SubjectName>
+    <int_StreamID>2</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>50</int_SubjectID>
+    <vch_SubjectName>Electronics</vch_SubjectName>
+    <int_StreamID>2</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>386</int_SubjectID>
+    <vch_SubjectName>Englis</vch_SubjectName>
+    <int_StreamID>13</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>379</int_SubjectID>
+    <vch_SubjectName>English</vch_SubjectName>
+    <int_StreamID>24</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>18</int_SubjectID>
+    <vch_SubjectName>English</vch_SubjectName>
+    <int_StreamID>2</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>19</int_SubjectID>
+    <vch_SubjectName>English</vch_SubjectName>
+    <int_StreamID>3</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>17</int_SubjectID>
+    <vch_SubjectName>Englishh</vch_SubjectName>
+    <int_StreamID>1</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>383</int_SubjectID>
+    <vch_SubjectName>Englishhh</vch_SubjectName>
+    <int_StreamID>13</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>378</int_SubjectID>
+    <vch_SubjectName>Environmental Education</vch_SubjectName>
+    <int_StreamID>24</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>38</int_SubjectID>
+    <vch_SubjectName>Environmental Education</vch_SubjectName>
+    <int_StreamID>1</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>39</int_SubjectID>
+    <vch_SubjectName>Environmental Education</vch_SubjectName>
+    <int_StreamID>2</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>40</int_SubjectID>
+    <vch_SubjectName>Environmental Education</vch_SubjectName>
+    <int_StreamID>3</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>119</int_SubjectID>
+    <vch_SubjectName>Fashion Technology</vch_SubjectName>
+    <int_StreamID>1</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>120</int_SubjectID>
+    <vch_SubjectName>Fashion Technology</vch_SubjectName>
+    <int_StreamID>2</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>121</int_SubjectID>
+    <vch_SubjectName>Fashion Technology</vch_SubjectName>
+    <int_StreamID>3</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>390</int_SubjectID>
+    <vch_SubjectName>feewf</vch_SubjectName>
+    <int_StreamID>3</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>42</int_SubjectID>
+    <vch_SubjectName>Fundamental of Company Accounts</vch_SubjectName>
+    <int_StreamID>2</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>41</int_SubjectID>
+    <vch_SubjectName>Fundamental of Company Accounts and Fundamental of Management Accounting</vch_SubjectName>
+    <int_StreamID>1</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>8</int_SubjectID>
+    <vch_SubjectName>Fundamental of Company Accounts and Fundamental of Management Accounting</vch_SubjectName>
+    <int_StreamID>3</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>9</int_SubjectID>
+    <vch_SubjectName>Fundamental of Entrepreneurship and Cost Accounting</vch_SubjectName>
+    <int_StreamID>3</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>382</int_SubjectID>
+    <vch_SubjectName>Fundamental of Entrepreneurship and Fundamental of Management Accounting</vch_SubjectName>
+    <int_StreamID>3</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>10</int_SubjectID>
+    <vch_SubjectName>Fundamental of Management Accounting</vch_SubjectName>
+    <int_StreamID>3</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>36</int_SubjectID>
+    <vch_SubjectName>Geography</vch_SubjectName>
+    <int_StreamID>1</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>37</int_SubjectID>
+    <vch_SubjectName>Geography</vch_SubjectName>
+    <int_StreamID>2</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>71</int_SubjectID>
+    <vch_SubjectName>Geology</vch_SubjectName>
+    <int_StreamID>1</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>83</int_SubjectID>
+    <vch_SubjectName>Geology</vch_SubjectName>
+    <int_StreamID>2</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>154</int_SubjectID>
+    <vch_SubjectName>History</vch_SubjectName>
+    <int_StreamID>22</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>155</int_SubjectID>
+    <vch_SubjectName>History</vch_SubjectName>
+    <int_StreamID>23</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>156</int_SubjectID>
+    <vch_SubjectName>History</vch_SubjectName>
+    <int_StreamID>19</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>157</int_SubjectID>
+    <vch_SubjectName>History</vch_SubjectName>
+    <int_StreamID>20</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>35</int_SubjectID>
+    <vch_SubjectName>History</vch_SubjectName>
+    <int_StreamID>1</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>211</int_SubjectID>
+    <vch_SubjectName>History</vch_SubjectName>
+    <int_StreamID>24</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>68</int_SubjectID>
+    <vch_SubjectName>Home Science</vch_SubjectName>
+    <int_StreamID>1</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>136</int_SubjectID>
+    <vch_SubjectName>Horticulture</vch_SubjectName>
+    <int_StreamID>2</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>444</int_SubjectID>
+    <vch_SubjectName>Horticulture</vch_SubjectName>
+    <int_StreamID>5</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>70</int_SubjectID>
+    <vch_SubjectName>Indian Music</vch_SubjectName>
+    <int_StreamID>1</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>84</int_SubjectID>
+    <vch_SubjectName>Industrial Relation and Personnel Management</vch_SubjectName>
+    <int_StreamID>1</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>51</int_SubjectID>
+    <vch_SubjectName>Information Technology</vch_SubjectName>
+    <int_StreamID>1</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>52</int_SubjectID>
+    <vch_SubjectName>Information Technology</vch_SubjectName>
+    <int_StreamID>2</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>53</int_SubjectID>
+    <vch_SubjectName>Information Technology</vch_SubjectName>
+    <int_StreamID>3</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>976</int_SubjectID>
+    <vch_SubjectName>Information Technology</vch_SubjectName>
+    <int_StreamID>2</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>139</int_SubjectID>
+    <vch_SubjectName>Information Technology (Voc)</vch_SubjectName>
+    <int_StreamID>1</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>140</int_SubjectID>
+    <vch_SubjectName>Information Technology (Voc)</vch_SubjectName>
+    <int_StreamID>2</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>141</int_SubjectID>
+    <vch_SubjectName>Information Technology (Voc)</vch_SubjectName>
+    <int_StreamID>3</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>381</int_SubjectID>
+    <vch_SubjectName>Information Technology-I and Information Technology-II</vch_SubjectName>
+    <int_StreamID>3</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>443</int_SubjectID>
+    <vch_SubjectName>Inland Fisheries</vch_SubjectName>
+    <int_StreamID>4</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>451</int_SubjectID>
+    <vch_SubjectName>Insurance</vch_SubjectName>
+    <int_StreamID>12</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>11</int_SubjectID>
+    <vch_SubjectName>Insurance</vch_SubjectName>
+    <int_StreamID>3</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>209</int_SubjectID>
+    <vch_SubjectName>Jyotisha</vch_SubjectName>
+    <int_StreamID>24</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>204</int_SubjectID>
+    <vch_SubjectName>Karmakanda</vch_SubjectName>
+    <int_StreamID>24</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>87</int_SubjectID>
+    <vch_SubjectName>Language Bengali</vch_SubjectName>
+    <int_StreamID>1</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>32</int_SubjectID>
+    <vch_SubjectName>Language Hindi</vch_SubjectName>
+    <int_StreamID>1</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>33</int_SubjectID>
+    <vch_SubjectName>Language Odia</vch_SubjectName>
+    <int_StreamID>1</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>88</int_SubjectID>
+    <vch_SubjectName>Language Persian</vch_SubjectName>
+    <int_StreamID>1</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>89</int_SubjectID>
+    <vch_SubjectName>Language Sanskrit</vch_SubjectName>
+    <int_StreamID>2</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>34</int_SubjectID>
+    <vch_SubjectName>Language Sanskrit</vch_SubjectName>
+    <int_StreamID>1</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>77</int_SubjectID>
+    <vch_SubjectName>Language Telugu</vch_SubjectName>
+    <int_StreamID>1</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>54</int_SubjectID>
+    <vch_SubjectName>Language Urdu</vch_SubjectName>
+    <int_StreamID>1</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>31</int_SubjectID>
+    <vch_SubjectName>Logic</vch_SubjectName>
+    <int_StreamID>1</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>15</int_SubjectID>
+    <vch_SubjectName>Mathematics</vch_SubjectName>
+    <int_StreamID>2</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>44</int_SubjectID>
+    <vch_SubjectName>Mathematics</vch_SubjectName>
+    <int_StreamID>1</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>81</int_SubjectID>
+    <vch_SubjectName>Mathematics</vch_SubjectName>
+    <int_StreamID>3</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>201</int_SubjectID>
+    <vch_SubjectName>Mathematics</vch_SubjectName>
+    <int_StreamID>8</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>198</int_SubjectID>
+    <vch_SubjectName>Mathematics</vch_SubjectName>
+    <int_StreamID>16</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>195</int_SubjectID>
+    <vch_SubjectName>Mathematics</vch_SubjectName>
+    <int_StreamID>18</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>192</int_SubjectID>
+    <vch_SubjectName>Mathematics</vch_SubjectName>
+    <int_StreamID>17</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>189</int_SubjectID>
+    <vch_SubjectName>Mathematics</vch_SubjectName>
+    <int_StreamID>15</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>460</int_SubjectID>
+    <vch_SubjectName>Medical Laboratory Technician</vch_SubjectName>
+    <int_StreamID>21</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>315</int_SubjectID>
+    <vch_SubjectName>MIL Alternative English</vch_SubjectName>
+    <int_StreamID>15</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>322</int_SubjectID>
+    <vch_SubjectName>MIL Alternative English</vch_SubjectName>
+    <int_StreamID>16</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>329</int_SubjectID>
+    <vch_SubjectName>MIL Alternative English</vch_SubjectName>
+    <int_StreamID>17</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>336</int_SubjectID>
+    <vch_SubjectName>MIL Alternative English</vch_SubjectName>
+    <int_StreamID>18</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>343</int_SubjectID>
+    <vch_SubjectName>MIL Alternative English</vch_SubjectName>
+    <int_StreamID>19</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>350</int_SubjectID>
+    <vch_SubjectName>MIL Alternative English</vch_SubjectName>
+    <int_StreamID>20</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>357</int_SubjectID>
+    <vch_SubjectName>MIL Alternative English</vch_SubjectName>
+    <int_StreamID>21</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>364</int_SubjectID>
+    <vch_SubjectName>MIL Alternative English</vch_SubjectName>
+    <int_StreamID>22</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>371</int_SubjectID>
+    <vch_SubjectName>MIL Alternative English</vch_SubjectName>
+    <int_StreamID>23</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>238</int_SubjectID>
+    <vch_SubjectName>MIL Alternative English</vch_SubjectName>
+    <int_StreamID>4</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>218</int_SubjectID>
+    <vch_SubjectName>MIL Alternative English</vch_SubjectName>
+    <int_StreamID>24</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>245</int_SubjectID>
+    <vch_SubjectName>MIL Alternative English</vch_SubjectName>
+    <int_StreamID>5</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>252</int_SubjectID>
+    <vch_SubjectName>MIL Alternative English</vch_SubjectName>
+    <int_StreamID>6</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>259</int_SubjectID>
+    <vch_SubjectName>MIL Alternative English</vch_SubjectName>
+    <int_StreamID>7</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>266</int_SubjectID>
+    <vch_SubjectName>MIL Alternative English</vch_SubjectName>
+    <int_StreamID>8</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>273</int_SubjectID>
+    <vch_SubjectName>MIL Alternative English</vch_SubjectName>
+    <int_StreamID>9</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>280</int_SubjectID>
+    <vch_SubjectName>MIL Alternative English</vch_SubjectName>
+    <int_StreamID>10</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>287</int_SubjectID>
+    <vch_SubjectName>MIL Alternative English</vch_SubjectName>
+    <int_StreamID>11</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>294</int_SubjectID>
+    <vch_SubjectName>MIL Alternative English</vch_SubjectName>
+    <int_StreamID>12</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>301</int_SubjectID>
+    <vch_SubjectName>MIL Alternative English</vch_SubjectName>
+    <int_StreamID>13</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>308</int_SubjectID>
+    <vch_SubjectName>MIL Alternative English</vch_SubjectName>
+    <int_StreamID>14</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>20</int_SubjectID>
+    <vch_SubjectName>MIL Alternative English</vch_SubjectName>
+    <int_StreamID>1</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>21</int_SubjectID>
+    <vch_SubjectName>MIL Alternative English</vch_SubjectName>
+    <int_StreamID>2</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>22</int_SubjectID>
+    <vch_SubjectName>MIL Alternative English</vch_SubjectName>
+    <int_StreamID>3</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>73</int_SubjectID>
+    <vch_SubjectName>MIL Bengali</vch_SubjectName>
+    <int_StreamID>1</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>74</int_SubjectID>
+    <vch_SubjectName>MIL Bengali</vch_SubjectName>
+    <int_StreamID>2</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>75</int_SubjectID>
+    <vch_SubjectName>MIL Bengali</vch_SubjectName>
+    <int_StreamID>3</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>298</int_SubjectID>
+    <vch_SubjectName>MIL Bengali</vch_SubjectName>
+    <int_StreamID>12</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>291</int_SubjectID>
+    <vch_SubjectName>MIL Bengali</vch_SubjectName>
+    <int_StreamID>11</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>277</int_SubjectID>
+    <vch_SubjectName>MIL Bengali</vch_SubjectName>
+    <int_StreamID>9</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>284</int_SubjectID>
+    <vch_SubjectName>MIL Bengali</vch_SubjectName>
+    <int_StreamID>10</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>270</int_SubjectID>
+    <vch_SubjectName>MIL Bengali</vch_SubjectName>
+    <int_StreamID>8</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>263</int_SubjectID>
+    <vch_SubjectName>MIL Bengali</vch_SubjectName>
+    <int_StreamID>7</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>249</int_SubjectID>
+    <vch_SubjectName>MIL Bengali</vch_SubjectName>
+    <int_StreamID>5</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>256</int_SubjectID>
+    <vch_SubjectName>MIL Bengali</vch_SubjectName>
+    <int_StreamID>6</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>242</int_SubjectID>
+    <vch_SubjectName>MIL Bengali</vch_SubjectName>
+    <int_StreamID>4</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>361</int_SubjectID>
+    <vch_SubjectName>MIL Bengali</vch_SubjectName>
+    <int_StreamID>21</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>368</int_SubjectID>
+    <vch_SubjectName>MIL Bengali</vch_SubjectName>
+    <int_StreamID>22</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>354</int_SubjectID>
+    <vch_SubjectName>MIL Bengali</vch_SubjectName>
+    <int_StreamID>20</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>347</int_SubjectID>
+    <vch_SubjectName>MIL Bengali</vch_SubjectName>
+    <int_StreamID>19</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>333</int_SubjectID>
+    <vch_SubjectName>MIL Bengali</vch_SubjectName>
+    <int_StreamID>17</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>340</int_SubjectID>
+    <vch_SubjectName>MIL Bengali</vch_SubjectName>
+    <int_StreamID>18</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>326</int_SubjectID>
+    <vch_SubjectName>MIL Bengali</vch_SubjectName>
+    <int_StreamID>16</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>319</int_SubjectID>
+    <vch_SubjectName>MIL Bengali</vch_SubjectName>
+    <int_StreamID>15</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>305</int_SubjectID>
+    <vch_SubjectName>MIL Bengali</vch_SubjectName>
+    <int_StreamID>13</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>312</int_SubjectID>
+    <vch_SubjectName>MIL Bengali</vch_SubjectName>
+    <int_StreamID>14</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>375</int_SubjectID>
+    <vch_SubjectName>MIL Bengali</vch_SubjectName>
+    <int_StreamID>23</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>316</int_SubjectID>
+    <vch_SubjectName>MIL Hindi</vch_SubjectName>
+    <int_StreamID>15</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>323</int_SubjectID>
+    <vch_SubjectName>MIL Hindi</vch_SubjectName>
+    <int_StreamID>16</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>330</int_SubjectID>
+    <vch_SubjectName>MIL Hindi</vch_SubjectName>
+    <int_StreamID>17</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>337</int_SubjectID>
+    <vch_SubjectName>MIL Hindi</vch_SubjectName>
+    <int_StreamID>18</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>344</int_SubjectID>
+    <vch_SubjectName>MIL Hindi</vch_SubjectName>
+    <int_StreamID>19</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>351</int_SubjectID>
+    <vch_SubjectName>MIL Hindi</vch_SubjectName>
+    <int_StreamID>20</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>372</int_SubjectID>
+    <vch_SubjectName>MIL Hindi</vch_SubjectName>
+    <int_StreamID>23</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>365</int_SubjectID>
+    <vch_SubjectName>MIL Hindi</vch_SubjectName>
+    <int_StreamID>22</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>358</int_SubjectID>
+    <vch_SubjectName>MIL Hindi</vch_SubjectName>
+    <int_StreamID>21</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>239</int_SubjectID>
+    <vch_SubjectName>MIL Hindi</vch_SubjectName>
+    <int_StreamID>4</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>216</int_SubjectID>
+    <vch_SubjectName>MIL Hindi</vch_SubjectName>
+    <int_StreamID>24</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>260</int_SubjectID>
+    <vch_SubjectName>MIL Hindi</vch_SubjectName>
+    <int_StreamID>7</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>253</int_SubjectID>
+    <vch_SubjectName>MIL Hindi</vch_SubjectName>
+    <int_StreamID>6</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>246</int_SubjectID>
+    <vch_SubjectName>MIL Hindi</vch_SubjectName>
+    <int_StreamID>5</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>267</int_SubjectID>
+    <vch_SubjectName>MIL Hindi</vch_SubjectName>
+    <int_StreamID>8</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>274</int_SubjectID>
+    <vch_SubjectName>MIL Hindi</vch_SubjectName>
+    <int_StreamID>9</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>281</int_SubjectID>
+    <vch_SubjectName>MIL Hindi</vch_SubjectName>
+    <int_StreamID>10</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>288</int_SubjectID>
+    <vch_SubjectName>MIL Hindi</vch_SubjectName>
+    <int_StreamID>11</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>295</int_SubjectID>
+    <vch_SubjectName>MIL Hindi</vch_SubjectName>
+    <int_StreamID>12</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>309</int_SubjectID>
+    <vch_SubjectName>MIL Hindi</vch_SubjectName>
+    <int_StreamID>14</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>302</int_SubjectID>
+    <vch_SubjectName>MIL Hindi</vch_SubjectName>
+    <int_StreamID>13</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>23</int_SubjectID>
+    <vch_SubjectName>MIL Hindi</vch_SubjectName>
+    <int_StreamID>1</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>24</int_SubjectID>
+    <vch_SubjectName>MIL Hindi</vch_SubjectName>
+    <int_StreamID>2</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>25</int_SubjectID>
+    <vch_SubjectName>MIL Hindi</vch_SubjectName>
+    <int_StreamID>3</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>46</int_SubjectID>
+    <vch_SubjectName>MIL Odia</vch_SubjectName>
+    <int_StreamID>1</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>47</int_SubjectID>
+    <vch_SubjectName>MIL Odia</vch_SubjectName>
+    <int_StreamID>2</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>48</int_SubjectID>
+    <vch_SubjectName>MIL Odia</vch_SubjectName>
+    <int_StreamID>3</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>215</int_SubjectID>
+    <vch_SubjectName>MIL Odia</vch_SubjectName>
+    <int_StreamID>24</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>219</int_SubjectID>
+    <vch_SubjectName>MIL Odia</vch_SubjectName>
+    <int_StreamID>4</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>220</int_SubjectID>
+    <vch_SubjectName>MIL Odia</vch_SubjectName>
+    <int_StreamID>5</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>221</int_SubjectID>
+    <vch_SubjectName>MIL Odia</vch_SubjectName>
+    <int_StreamID>6</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>222</int_SubjectID>
+    <vch_SubjectName>MIL Odia</vch_SubjectName>
+    <int_StreamID>7</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>223</int_SubjectID>
+    <vch_SubjectName>MIL Odia</vch_SubjectName>
+    <int_StreamID>8</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>224</int_SubjectID>
+    <vch_SubjectName>MIL Odia</vch_SubjectName>
+    <int_StreamID>9</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>225</int_SubjectID>
+    <vch_SubjectName>MIL Odia</vch_SubjectName>
+    <int_StreamID>10</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>226</int_SubjectID>
+    <vch_SubjectName>MIL Odia</vch_SubjectName>
+    <int_StreamID>11</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>227</int_SubjectID>
+    <vch_SubjectName>MIL Odia</vch_SubjectName>
+    <int_StreamID>12</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>228</int_SubjectID>
+    <vch_SubjectName>MIL Odia</vch_SubjectName>
+    <int_StreamID>13</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>229</int_SubjectID>
+    <vch_SubjectName>MIL Odia</vch_SubjectName>
+    <int_StreamID>14</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>230</int_SubjectID>
+    <vch_SubjectName>MIL Odia</vch_SubjectName>
+    <int_StreamID>15</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>231</int_SubjectID>
+    <vch_SubjectName>MIL Odia</vch_SubjectName>
+    <int_StreamID>17</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>232</int_SubjectID>
+    <vch_SubjectName>MIL Odia</vch_SubjectName>
+    <int_StreamID>18</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>233</int_SubjectID>
+    <vch_SubjectName>MIL Odia</vch_SubjectName>
+    <int_StreamID>19</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>234</int_SubjectID>
+    <vch_SubjectName>MIL Odia</vch_SubjectName>
+    <int_StreamID>20</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>235</int_SubjectID>
+    <vch_SubjectName>MIL Odia</vch_SubjectName>
+    <int_StreamID>21</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>236</int_SubjectID>
+    <vch_SubjectName>MIL Odia</vch_SubjectName>
+    <int_StreamID>22</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>237</int_SubjectID>
+    <vch_SubjectName>MIL Odia</vch_SubjectName>
+    <int_StreamID>23</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>202</int_SubjectID>
+    <vch_SubjectName>MIL Odia</vch_SubjectName>
+    <int_StreamID>16</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>244</int_SubjectID>
+    <vch_SubjectName>MIL Parsian</vch_SubjectName>
+    <int_StreamID>4</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>293</int_SubjectID>
+    <vch_SubjectName>MIL Parsian</vch_SubjectName>
+    <int_StreamID>11</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>300</int_SubjectID>
+    <vch_SubjectName>MIL Parsian</vch_SubjectName>
+    <int_StreamID>12</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>279</int_SubjectID>
+    <vch_SubjectName>MIL Parsian</vch_SubjectName>
+    <int_StreamID>9</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>286</int_SubjectID>
+    <vch_SubjectName>MIL Parsian</vch_SubjectName>
+    <int_StreamID>10</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>265</int_SubjectID>
+    <vch_SubjectName>MIL Parsian</vch_SubjectName>
+    <int_StreamID>7</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>272</int_SubjectID>
+    <vch_SubjectName>MIL Parsian</vch_SubjectName>
+    <int_StreamID>8</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>251</int_SubjectID>
+    <vch_SubjectName>MIL Parsian</vch_SubjectName>
+    <int_StreamID>5</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>258</int_SubjectID>
+    <vch_SubjectName>MIL Parsian</vch_SubjectName>
+    <int_StreamID>6</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>91</int_SubjectID>
+    <vch_SubjectName>MIL Parsian</vch_SubjectName>
+    <int_StreamID>1</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>92</int_SubjectID>
+    <vch_SubjectName>MIL Parsian</vch_SubjectName>
+    <int_StreamID>2</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>93</int_SubjectID>
+    <vch_SubjectName>MIL Parsian</vch_SubjectName>
+    <int_StreamID>3</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>349</int_SubjectID>
+    <vch_SubjectName>MIL Parsian</vch_SubjectName>
+    <int_StreamID>19</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>356</int_SubjectID>
+    <vch_SubjectName>MIL Parsian</vch_SubjectName>
+    <int_StreamID>20</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>335</int_SubjectID>
+    <vch_SubjectName>MIL Parsian</vch_SubjectName>
+    <int_StreamID>17</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>342</int_SubjectID>
+    <vch_SubjectName>MIL Parsian</vch_SubjectName>
+    <int_StreamID>18</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>321</int_SubjectID>
+    <vch_SubjectName>MIL Parsian</vch_SubjectName>
+    <int_StreamID>15</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>328</int_SubjectID>
+    <vch_SubjectName>MIL Parsian</vch_SubjectName>
+    <int_StreamID>16</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>307</int_SubjectID>
+    <vch_SubjectName>MIL Parsian</vch_SubjectName>
+    <int_StreamID>13</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>314</int_SubjectID>
+    <vch_SubjectName>MIL Parsian</vch_SubjectName>
+    <int_StreamID>14</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>363</int_SubjectID>
+    <vch_SubjectName>MIL Parsian</vch_SubjectName>
+    <int_StreamID>21</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>370</int_SubjectID>
+    <vch_SubjectName>MIL Parsian</vch_SubjectName>
+    <int_StreamID>22</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>377</int_SubjectID>
+    <vch_SubjectName>MIL Parsian</vch_SubjectName>
+    <int_StreamID>23</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>324</int_SubjectID>
+    <vch_SubjectName>MIL Sanskrit</vch_SubjectName>
+    <int_StreamID>16</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>317</int_SubjectID>
+    <vch_SubjectName>MIL Sanskrit</vch_SubjectName>
+    <int_StreamID>15</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>331</int_SubjectID>
+    <vch_SubjectName>MIL Sanskrit</vch_SubjectName>
+    <int_StreamID>17</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>338</int_SubjectID>
+    <vch_SubjectName>MIL Sanskrit</vch_SubjectName>
+    <int_StreamID>18</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>345</int_SubjectID>
+    <vch_SubjectName>MIL Sanskrit</vch_SubjectName>
+    <int_StreamID>19</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>352</int_SubjectID>
+    <vch_SubjectName>MIL Sanskrit</vch_SubjectName>
+    <int_StreamID>20</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>359</int_SubjectID>
+    <vch_SubjectName>MIL Sanskrit</vch_SubjectName>
+    <int_StreamID>21</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>366</int_SubjectID>
+    <vch_SubjectName>MIL Sanskrit</vch_SubjectName>
+    <int_StreamID>22</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>373</int_SubjectID>
+    <vch_SubjectName>MIL Sanskrit</vch_SubjectName>
+    <int_StreamID>23</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>55</int_SubjectID>
+    <vch_SubjectName>MIL Sanskrit</vch_SubjectName>
+    <int_StreamID>1</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>56</int_SubjectID>
+    <vch_SubjectName>MIL Sanskrit</vch_SubjectName>
+    <int_StreamID>2</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>57</int_SubjectID>
+    <vch_SubjectName>MIL Sanskrit</vch_SubjectName>
+    <int_StreamID>3</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>268</int_SubjectID>
+    <vch_SubjectName>MIL Sanskrit</vch_SubjectName>
+    <int_StreamID>8</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>275</int_SubjectID>
+    <vch_SubjectName>MIL Sanskrit</vch_SubjectName>
+    <int_StreamID>9</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>247</int_SubjectID>
+    <vch_SubjectName>MIL Sanskrit</vch_SubjectName>
+    <int_StreamID>5</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>254</int_SubjectID>
+    <vch_SubjectName>MIL Sanskrit</vch_SubjectName>
+    <int_StreamID>6</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>261</int_SubjectID>
+    <vch_SubjectName>MIL Sanskrit</vch_SubjectName>
+    <int_StreamID>7</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>289</int_SubjectID>
+    <vch_SubjectName>MIL Sanskrit</vch_SubjectName>
+    <int_StreamID>11</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>282</int_SubjectID>
+    <vch_SubjectName>MIL Sanskrit</vch_SubjectName>
+    <int_StreamID>10</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>296</int_SubjectID>
+    <vch_SubjectName>MIL Sanskrit</vch_SubjectName>
+    <int_StreamID>12</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>303</int_SubjectID>
+    <vch_SubjectName>MIL Sanskrit</vch_SubjectName>
+    <int_StreamID>13</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>310</int_SubjectID>
+    <vch_SubjectName>MIL Sanskrit</vch_SubjectName>
+    <int_StreamID>14</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>240</int_SubjectID>
+    <vch_SubjectName>MIL Sanskrit</vch_SubjectName>
+    <int_StreamID>4</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>217</int_SubjectID>
+    <vch_SubjectName>MIL Sanskrit</vch_SubjectName>
+    <int_StreamID>24</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>243</int_SubjectID>
+    <vch_SubjectName>MIL Telugu</vch_SubjectName>
+    <int_StreamID>4</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>299</int_SubjectID>
+    <vch_SubjectName>MIL Telugu</vch_SubjectName>
+    <int_StreamID>12</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>285</int_SubjectID>
+    <vch_SubjectName>MIL Telugu</vch_SubjectName>
+    <int_StreamID>10</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>278</int_SubjectID>
+    <vch_SubjectName>MIL Telugu</vch_SubjectName>
+    <int_StreamID>9</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>292</int_SubjectID>
+    <vch_SubjectName>MIL Telugu</vch_SubjectName>
+    <int_StreamID>11</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>257</int_SubjectID>
+    <vch_SubjectName>MIL Telugu</vch_SubjectName>
+    <int_StreamID>6</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>250</int_SubjectID>
+    <vch_SubjectName>MIL Telugu</vch_SubjectName>
+    <int_StreamID>5</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>271</int_SubjectID>
+    <vch_SubjectName>MIL Telugu</vch_SubjectName>
+    <int_StreamID>8</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>264</int_SubjectID>
+    <vch_SubjectName>MIL Telugu</vch_SubjectName>
+    <int_StreamID>7</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>78</int_SubjectID>
+    <vch_SubjectName>MIL Telugu</vch_SubjectName>
+    <int_StreamID>1</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>79</int_SubjectID>
+    <vch_SubjectName>MIL Telugu</vch_SubjectName>
+    <int_StreamID>2</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>80</int_SubjectID>
+    <vch_SubjectName>MIL Telugu</vch_SubjectName>
+    <int_StreamID>3</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>369</int_SubjectID>
+    <vch_SubjectName>MIL Telugu</vch_SubjectName>
+    <int_StreamID>22</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>362</int_SubjectID>
+    <vch_SubjectName>MIL Telugu</vch_SubjectName>
+    <int_StreamID>21</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>355</int_SubjectID>
+    <vch_SubjectName>MIL Telugu</vch_SubjectName>
+    <int_StreamID>20</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>348</int_SubjectID>
+    <vch_SubjectName>MIL Telugu</vch_SubjectName>
+    <int_StreamID>19</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>341</int_SubjectID>
+    <vch_SubjectName>MIL Telugu</vch_SubjectName>
+    <int_StreamID>18</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>334</int_SubjectID>
+    <vch_SubjectName>MIL Telugu</vch_SubjectName>
+    <int_StreamID>17</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>327</int_SubjectID>
+    <vch_SubjectName>MIL Telugu</vch_SubjectName>
+    <int_StreamID>16</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>313</int_SubjectID>
+    <vch_SubjectName>MIL Telugu</vch_SubjectName>
+    <int_StreamID>14</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>306</int_SubjectID>
+    <vch_SubjectName>MIL Telugu</vch_SubjectName>
+    <int_StreamID>13</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>320</int_SubjectID>
+    <vch_SubjectName>MIL Telugu</vch_SubjectName>
+    <int_StreamID>15</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>376</int_SubjectID>
+    <vch_SubjectName>MIL Telugu</vch_SubjectName>
+    <int_StreamID>23</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>325</int_SubjectID>
+    <vch_SubjectName>MIL Urdu</vch_SubjectName>
+    <int_StreamID>16</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>318</int_SubjectID>
+    <vch_SubjectName>MIL Urdu</vch_SubjectName>
+    <int_StreamID>15</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>332</int_SubjectID>
+    <vch_SubjectName>MIL Urdu</vch_SubjectName>
+    <int_StreamID>17</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>339</int_SubjectID>
+    <vch_SubjectName>MIL Urdu</vch_SubjectName>
+    <int_StreamID>18</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>346</int_SubjectID>
+    <vch_SubjectName>MIL Urdu</vch_SubjectName>
+    <int_StreamID>19</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>353</int_SubjectID>
+    <vch_SubjectName>MIL Urdu</vch_SubjectName>
+    <int_StreamID>20</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>374</int_SubjectID>
+    <vch_SubjectName>MIL Urdu</vch_SubjectName>
+    <int_StreamID>23</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>367</int_SubjectID>
+    <vch_SubjectName>MIL Urdu</vch_SubjectName>
+    <int_StreamID>22</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>360</int_SubjectID>
+    <vch_SubjectName>MIL Urdu</vch_SubjectName>
+    <int_StreamID>21</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>58</int_SubjectID>
+    <vch_SubjectName>MIL Urdu</vch_SubjectName>
+    <int_StreamID>1</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>59</int_SubjectID>
+    <vch_SubjectName>MIL Urdu</vch_SubjectName>
+    <int_StreamID>2</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>60</int_SubjectID>
+    <vch_SubjectName>MIL Urdu</vch_SubjectName>
+    <int_StreamID>3</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>269</int_SubjectID>
+    <vch_SubjectName>MIL Urdu</vch_SubjectName>
+    <int_StreamID>8</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>276</int_SubjectID>
+    <vch_SubjectName>MIL Urdu</vch_SubjectName>
+    <int_StreamID>9</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>262</int_SubjectID>
+    <vch_SubjectName>MIL Urdu</vch_SubjectName>
+    <int_StreamID>7</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>255</int_SubjectID>
+    <vch_SubjectName>MIL Urdu</vch_SubjectName>
+    <int_StreamID>6</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>248</int_SubjectID>
+    <vch_SubjectName>MIL Urdu</vch_SubjectName>
+    <int_StreamID>5</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>290</int_SubjectID>
+    <vch_SubjectName>MIL Urdu</vch_SubjectName>
+    <int_StreamID>11</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>283</int_SubjectID>
+    <vch_SubjectName>MIL Urdu</vch_SubjectName>
+    <int_StreamID>10</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>297</int_SubjectID>
+    <vch_SubjectName>MIL Urdu</vch_SubjectName>
+    <int_StreamID>12</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>311</int_SubjectID>
+    <vch_SubjectName>MIL Urdu</vch_SubjectName>
+    <int_StreamID>14</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>304</int_SubjectID>
+    <vch_SubjectName>MIL Urdu</vch_SubjectName>
+    <int_StreamID>13</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>241</int_SubjectID>
+    <vch_SubjectName>MIL Urdu</vch_SubjectName>
+    <int_StreamID>4</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>138</int_SubjectID>
+    <vch_SubjectName>Mobile Technology</vch_SubjectName>
+    <int_StreamID>2</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>206</int_SubjectID>
+    <vch_SubjectName>Nyaya</vch_SubjectName>
+    <int_StreamID>24</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>125</int_SubjectID>
+    <vch_SubjectName>Office Management</vch_SubjectName>
+    <int_StreamID>1</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>126</int_SubjectID>
+    <vch_SubjectName>Office Management</vch_SubjectName>
+    <int_StreamID>2</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>127</int_SubjectID>
+    <vch_SubjectName>Office Management</vch_SubjectName>
+    <int_StreamID>3</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>450</int_SubjectID>
+    <vch_SubjectName>Office Management</vch_SubjectName>
+    <int_StreamID>11</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>122</int_SubjectID>
+    <vch_SubjectName>Paramedical and Health Care</vch_SubjectName>
+    <int_StreamID>1</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>123</int_SubjectID>
+    <vch_SubjectName>Paramedical and Health Care</vch_SubjectName>
+    <int_StreamID>2</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>124</int_SubjectID>
+    <vch_SubjectName>Paramedical and Health Care</vch_SubjectName>
+    <int_StreamID>3</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>166</int_SubjectID>
+    <vch_SubjectName>Physics</vch_SubjectName>
+    <int_StreamID>9</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>172</int_SubjectID>
+    <vch_SubjectName>Physics</vch_SubjectName>
+    <int_StreamID>4</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>169</int_SubjectID>
+    <vch_SubjectName>Physics</vch_SubjectName>
+    <int_StreamID>5</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>13</int_SubjectID>
+    <vch_SubjectName>Physics</vch_SubjectName>
+    <int_StreamID>2</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>190</int_SubjectID>
+    <vch_SubjectName>Physics</vch_SubjectName>
+    <int_StreamID>17</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>193</int_SubjectID>
+    <vch_SubjectName>Physics</vch_SubjectName>
+    <int_StreamID>18</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>196</int_SubjectID>
+    <vch_SubjectName>Physics</vch_SubjectName>
+    <int_StreamID>16</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>199</int_SubjectID>
+    <vch_SubjectName>Physics</vch_SubjectName>
+    <int_StreamID>8</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>175</int_SubjectID>
+    <vch_SubjectName>Physics</vch_SubjectName>
+    <int_StreamID>21</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>178</int_SubjectID>
+    <vch_SubjectName>Physics</vch_SubjectName>
+    <int_StreamID>7</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>187</int_SubjectID>
+    <vch_SubjectName>Physics</vch_SubjectName>
+    <int_StreamID>15</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>184</int_SubjectID>
+    <vch_SubjectName>Physics</vch_SubjectName>
+    <int_StreamID>6</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>181</int_SubjectID>
+    <vch_SubjectName>Physics</vch_SubjectName>
+    <int_StreamID>10</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>387</int_SubjectID>
+    <vch_SubjectName>PHYSICS</vch_SubjectName>
+    <int_StreamID>13</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>212</int_SubjectID>
+    <vch_SubjectName>Political Science</vch_SubjectName>
+    <int_StreamID>24</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>30</int_SubjectID>
+    <vch_SubjectName>Political Science</vch_SubjectName>
+    <int_StreamID>1</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>158</int_SubjectID>
+    <vch_SubjectName>Political Science</vch_SubjectName>
+    <int_StreamID>22</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>159</int_SubjectID>
+    <vch_SubjectName>Political Science</vch_SubjectName>
+    <int_StreamID>23</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>160</int_SubjectID>
+    <vch_SubjectName>Political Science</vch_SubjectName>
+    <int_StreamID>19</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>161</int_SubjectID>
+    <vch_SubjectName>Political Science</vch_SubjectName>
+    <int_StreamID>20</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>446</int_SubjectID>
+    <vch_SubjectName>Poultry Farming</vch_SubjectName>
+    <int_StreamID>7</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>133</int_SubjectID>
+    <vch_SubjectName>Printing Technology</vch_SubjectName>
+    <int_StreamID>1</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>134</int_SubjectID>
+    <vch_SubjectName>Printing Technology</vch_SubjectName>
+    <int_StreamID>2</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>135</int_SubjectID>
+    <vch_SubjectName>Printing Technology</vch_SubjectName>
+    <int_StreamID>3</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>113</int_SubjectID>
+    <vch_SubjectName>Psychology</vch_SubjectName>
+    <int_StreamID>2</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>61</int_SubjectID>
+    <vch_SubjectName>Psychology</vch_SubjectName>
+    <int_StreamID>1</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>208</int_SubjectID>
+    <vch_SubjectName>Puranetihasa</vch_SubjectName>
+    <int_StreamID>24</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>455</int_SubjectID>
+    <vch_SubjectName>Repair &amp; Maintenance of Electrical Domestic Appliances</vch_SubjectName>
+    <int_StreamID>16</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>447</int_SubjectID>
+    <vch_SubjectName>Repair and Maintenance of Power Driven Farm Machinery</vch_SubjectName>
+    <int_StreamID>8</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>385</int_SubjectID>
+    <vch_SubjectName>rer</vch_SubjectName>
+    <int_StreamID>12</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>26</int_SubjectID>
+    <vch_SubjectName>Rural Development</vch_SubjectName>
+    <int_StreamID>1</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>27</int_SubjectID>
+    <vch_SubjectName>Rural Development</vch_SubjectName>
+    <int_StreamID>2</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>28</int_SubjectID>
+    <vch_SubjectName>Rural Development</vch_SubjectName>
+    <int_StreamID>3</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>29</int_SubjectID>
+    <vch_SubjectName>Salesmanship and Business Economics</vch_SubjectName>
+    <int_StreamID>3</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>90</int_SubjectID>
+    <vch_SubjectName>Sanskrit(Science)</vch_SubjectName>
+    <int_StreamID>2</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>449</int_SubjectID>
+    <vch_SubjectName>Sericulture</vch_SubjectName>
+    <int_StreamID>10</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>62</int_SubjectID>
+    <vch_SubjectName>Sociology</vch_SubjectName>
+    <int_StreamID>1</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>384</int_SubjectID>
+    <vch_SubjectName>ssc</vch_SubjectName>
+    <int_StreamID>24</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>63</int_SubjectID>
+    <vch_SubjectName>Statistics</vch_SubjectName>
+    <int_StreamID>1</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>64</int_SubjectID>
+    <vch_SubjectName>Statistics</vch_SubjectName>
+    <int_StreamID>2</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>82</int_SubjectID>
+    <vch_SubjectName>Statistics</vch_SubjectName>
+    <int_StreamID>3</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>453</int_SubjectID>
+    <vch_SubjectName>Tax Assistant</vch_SubjectName>
+    <int_StreamID>14</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>458</int_SubjectID>
+    <vch_SubjectName>Textile Designing</vch_SubjectName>
+    <int_StreamID>19</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>116</int_SubjectID>
+    <vch_SubjectName>Tourism and Travel Management</vch_SubjectName>
+    <int_StreamID>1</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>117</int_SubjectID>
+    <vch_SubjectName>Tourism and Travel Management</vch_SubjectName>
+    <int_StreamID>2</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>118</int_SubjectID>
+    <vch_SubjectName>Tourism and Travel Management</vch_SubjectName>
+    <int_StreamID>3</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>459</int_SubjectID>
+    <vch_SubjectName>Tourism and Travel Technique</vch_SubjectName>
+    <int_StreamID>20</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>203</int_SubjectID>
+    <vch_SubjectName>Veda</vch_SubjectName>
+    <int_StreamID>24</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>210</int_SubjectID>
+    <vch_SubjectName>Yoga</vch_SubjectName>
+    <int_StreamID>24</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>65</int_SubjectID>
+    <vch_SubjectName>Yoga</vch_SubjectName>
+    <int_StreamID>1</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>66</int_SubjectID>
+    <vch_SubjectName>Yoga</vch_SubjectName>
+    <int_StreamID>2</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>12</int_SubjectID>
+    <vch_SubjectName>Yoga</vch_SubjectName>
+    <int_StreamID>3</int_StreamID>
+  </Table>
+  <Table>
+    <int_SubjectID>95</int_SubjectID>
+    <vch_SubjectName>Zoology</vch_SubjectName>
+    <int_StreamID>2</int_StreamID>
+  </Table>
+</NewDataSet>

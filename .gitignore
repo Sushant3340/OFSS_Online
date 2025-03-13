@@ -53,3 +53,5 @@ CodeCoverage/
 TestResult.xml
 nunit-*.xml
 /Web.config
+# Ignore Visual Studio files
+.vs/
