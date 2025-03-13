@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<msg>
+<admUpdate>
+  <Hindi>
+    Ref ID - #uniqueRefNo#, आपका प्रवेश #CollegeName# कॉलेज, #block# (#stream#) में #date# पर अपडेट किया जाता है|
+  </Hindi>
+  <english>
+    Ref ID - #uniqueRefNo#, Your admission is updated into #CollegeName# college,#block# (#stream#) on #date#.- BSEB
+  </english>
+</admUpdate>
+<AdmReject>
+  <Hindi>
+    Ref ID - #uniqueRefNo#, आपका प्रवेश कॉलेज से #date# पर अस्वीकार कर दिया गया है - #CollegeName#, #block# देय |
+    कारण के लिए - #reason#
+  </Hindi>
+  <english>
+    Ref ID -#uniqueRefNo#,Your admission has been rejected on #date# from college - #CollegeName#,#block# due to reason - #reason# - BSEB
+  </english>
+</AdmReject>
+<AdmCancel>
+  <Hindi>
+    Ref ID - #uniqueRefNo#, आपका प्रवेश कॉलेज से #date# पर रद्द कर दिया गया है - #CollegeName#, #block# रद्द कारण - #reason# |
+  </Hindi>
+  <english>
+    Ref ID - #uniqueRefNo#,Your admission has cancelled on #date# from college - #CollegeName#, #block# due to reason -  #reason# - BSEB.
+  </english>
+</AdmCancel>
+<StudLoginOTPFPWD>
+  <Hindi>
+    Ref ID - #uniqueRefNo#, पासवर्ड रिसेट करने के लिए OTP है #OTP#, कृ पया इस OTP का इस्तेमाल २ मिनट के भीतर करे एवं पासवर्ड रिसेट करे|
+  </Hindi>
+  <english>
+    Ref ID - #uniqueRefNo#, OTP for resetting password is #OTP#, Please use this OTP within 2 minutes and change your password. - BSEB
+  </english>
+</StudLoginOTPFPWD>
+<StudLoginPersonalInfoJun>
+  <Hindi>
+     Ref ID - #uniqueRefNo#, OFSS CAF पर्सनल इनफार्मेशन का विवरण दिनांक  #date# को बदला गया है, अगर ये बदलाव आपने नही कीय है, तो जल्द  पासवर्ड बदल किए गए बदलाव को ठीक करे|
+  </Hindi>
+  <english>
+    Ref ID -#uniqueRefNo#,CAF Personal information have been modified on #date#, if you haven't done it then immediately change your Password and revert the modification.- BSEB
+  </english>
+</StudLoginPersonalInfoJun>
+<StudLoginOptionPreferenceJun>
+  <Hindi>
+    Ref ID - #uniqueRefNo#, OFSS CAF Option preference details का विवरण दिनांक  #date# को बदला गया है, अगर ये बदलाव आपने नही कीय है, तो जल्द  पासवर्ड बदल किए गए बदलाव को ठीक करे|
+  </Hindi>
+  <english>
+    Ref ID -#uniqueRefNo#,CAF Option preference details have been modified on #date#, if you haven't done it then immediately change your Password and revert the modification.- BSEB
+  </english>
+</StudLoginOptionPreferenceJun>
+<StudLoginSlideUpOTPActivate>
+  <Hindi>
+   Refrence ID - #uniqueRefNo#, OFSS Slide-up को एक्टिवटे करने के लिए OTP है #OTP#, कृ पया इस OTP का इस्तेमाल २ मिनट के भीतर करे|
+  </Hindi>
+  <english>
+    Ref ID - #uniqueRefNo#, OTP is #OTP#, Please use this OTP within 2 minutes for activating the OFSS slide-up. - BSEB
+  </english>
+</StudLoginSlideUpOTPActivate>
+<StudLoginSlideUpOTPDeactivate>
+  <Hindi>
+    Refrence ID - #uniqueRefNo#, OFSS Slide-up को डीएक्टिवेट करने के लिए OTP है #OTP#, कृ पया इस OTP का इस्तेमाल २ मिनट के भीतर करे|
+  </Hindi>
+  <english>
+    Ref ID - #uniqueRefNo#, OTP is #OTP#, Please use this OTP within 2 minutes for deactivating the OFSS slide-up. - BSEB
+  </english>
+</StudLoginSlideUpOTPDeactivate>
+<StudLoginSlideUpActivatedConfirm>
+  <Hindi>
+    Refrence ID - #uniqueRefNo#, आपके द्वारा  OFSS Slide-up दिनांक - #date# को एक्टिवटे किया जा चुका है|
+  </Hindi>
+  <english>
+    Reference ID - #uniqueRefNo#, You Have activated OFSS Slide-up option on dated-#date#.- BSEB
+  </english>
+</StudLoginSlideUpActivatedConfirm>
+<StudLoginSlideUpDeactivateConfirm>
+  <Hindi>
+    Refrence ID - #uniqueRefNo#, आपके द्वारा  OFSS Slide-up दिनांक - #date# को डीएक्टिवेट किया जा चुका है|
+  </Hindi>
+  <english>
+    Reference ID - #uniqueRefNo#, You Have deactivated OFSS Slide-up option on dated-#date#.- BSEB
+  </english>
+</StudLoginSlideUpDeactivateConfirm>
+</msg>

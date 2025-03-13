@@ -1,0 +1,2253 @@
+<?xml version="1.0"?>
+<NewDataSet>
+  <Table>
+    <Row>1 -  Kamla Rai College</Row>
+    <CID>3106</CID>
+    <CNAME> Kamla Rai College</CNAME>
+    <BID>253</BID>
+    <DID>18</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>2 -  Mahendra Mahila College</Row>
+    <CID>3105</CID>
+    <CNAME> Mahendra Mahila College</CNAME>
+    <BID>253</BID>
+    <DID>18</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>4</WomenStatus>
+  </Table>
+  <Table>
+    <Row>3 -  P. S College , Harda</Row>
+    <CID>6497</CID>
+    <CNAME> P. S College , Harda</CNAME>
+    <BID>166</BID>
+    <DID>12</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>4 -  S. R. C College , Katihar</Row>
+    <CID>6508</CID>
+    <CNAME> S. R. C College , Katihar</CNAME>
+    <BID>176</BID>
+    <DID>13</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>5 -  Yadunandan College</Row>
+    <CID>3093</CID>
+    <CNAME> Yadunandan College</CNAME>
+    <BID>295</BID>
+    <DID>20</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>6 - A .M Degree College, Araria</Row>
+    <CID>6511</CID>
+    <CNAME>A .M Degree College, Araria</CNAME>
+    <BID>146</BID>
+    <DID>10</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>7 - A.H.S.A. College, Madhubani</Row>
+    <CID>3017</CID>
+    <CNAME>A.H.S.A. College, Madhubani</CNAME>
+    <BID>123</BID>
+    <DID>8</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>8 - A.J Mahila College, Banmankhi</Row>
+    <CID>6492</CID>
+    <CNAME>A.J Mahila College, Banmankhi</CNAME>
+    <BID>161</BID>
+    <DID>12</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>9 - A.K. GOPALAN COLLEGE, SULTANGANJ</Row>
+    <CID>3048</CID>
+    <CNAME>A.K. GOPALAN COLLEGE, SULTANGANJ</CNAME>
+    <BID>372</BID>
+    <DID>25</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>10 - A.M. College</Row>
+    <CID>3182</CID>
+    <CNAME>A.M. College</CNAME>
+    <BID>534</BID>
+    <DID>37</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>11 - A.N. College</Row>
+    <CID>3122</CID>
+    <CNAME>A.N. College</CNAME>
+    <BID>439</BID>
+    <DID>31</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>12 - A.N.D.College, Shahpurpatori, Samastipur</Row>
+    <CID>2993</CID>
+    <CNAME>A.N.D.College, Shahpurpatori, Samastipur</CNAME>
+    <BID>321</BID>
+    <DID>22</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>13 - A.N.S. College</Row>
+    <CID>3123</CID>
+    <CNAME>A.N.S. College</CNAME>
+    <BID>447</BID>
+    <DID>31</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>14 - A.N.S. College</Row>
+    <CID>3124</CID>
+    <CNAME>A.N.S. College</CNAME>
+    <BID>523</BID>
+    <DID>36</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>15 - A.P.S.M.College, Barauni, Begusarai</Row>
+    <CID>3000</CID>
+    <CNAME>A.P.S.M.College, Barauni, Begusarai</CNAME>
+    <BID>337</BID>
+    <DID>23</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>16 - abccd</Row>
+    <CID>6541</CID>
+    <CNAME>abccd</CNAME>
+    <BID>143</BID>
+    <DID>10</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>17 - abcde</Row>
+    <CID>6547</CID>
+    <CNAME>abcde</CNAME>
+    <BID>146</BID>
+    <DID>10</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>18 - Anjabit Singh College, Bikramganj</Row>
+    <CID>3167</CID>
+    <CNAME>Anjabit Singh College, Bikramganj</CNAME>
+    <BID>455</BID>
+    <DID>32</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>19 - Araria College, Araria</Row>
+    <CID>6485</CID>
+    <CNAME>Araria College, Araria</CNAME>
+    <BID>146</BID>
+    <DID>10</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>20 - Awadh Bihari Singh Mahavidyalaya, Lalganj, Vaishali</Row>
+    <CID>6487</CID>
+    <CNAME>Awadh Bihari Singh Mahavidyalaya, Lalganj, Vaishali</CNAME>
+    <BID>299</BID>
+    <DID>21</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>21 - Ayachi Mithila Mahila College, Benipur, Darbhanga </Row>
+    <CID>3033</CID>
+    <CNAME>Ayachi Mithila Mahila College, Benipur, Darbhanga </CNAME>
+    <BID>221</BID>
+    <DID>16</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>4</WomenStatus>
+  </Table>
+  <Table>
+    <Row>22 - B. D College , Barsoi</Row>
+    <CID>6505</CID>
+    <CNAME>B. D College , Barsoi</CNAME>
+    <BID>183</BID>
+    <DID>13</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>23 - B. M College Barari</Row>
+    <CID>6506</CID>
+    <CNAME>B. M College Barari</CNAME>
+    <BID>178</BID>
+    <DID>13</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>24 - B. N. C.  College , Dhamdaha</Row>
+    <CID>6493</CID>
+    <CNAME>B. N. C.  College , Dhamdaha</CNAME>
+    <BID>159</BID>
+    <DID>12</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>25 - B.D. College</Row>
+    <CID>3125</CID>
+    <CNAME>B.D. College</CNAME>
+    <BID>439</BID>
+    <DID>31</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>26 - B.L. SARRAF COMMERCE COLLEGE, NAUGACHIA</Row>
+    <CID>3157</CID>
+    <CNAME>B.L. SARRAF COMMERCE COLLEGE, NAUGACHIA</CNAME>
+    <BID>361</BID>
+    <DID>25</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>27 - B.M.A.College, Baheri, Darbhanga</Row>
+    <CID>3024</CID>
+    <CNAME>B.M.A.College, Baheri, Darbhanga</CNAME>
+    <BID>219</BID>
+    <DID>16</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>28 - B.M.College, Rahika, Madhubani </Row>
+    <CID>3026</CID>
+    <CNAME>B.M.College, Rahika, Madhubani </CNAME>
+    <BID>123</BID>
+    <DID>8</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>29 - B.P.S. College, Desari, Vaishali</Row>
+    <CID>6494</CID>
+    <CNAME>B.P.S. College, Desari, Vaishali</CNAME>
+    <BID>306</BID>
+    <DID>21</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>30 - B.R.B.College, Samastipur</Row>
+    <CID>2994</CID>
+    <CNAME>B.R.B.College, Samastipur</CNAME>
+    <BID>318</BID>
+    <DID>22</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>31 - B.S. College</Row>
+    <CID>3044</CID>
+    <CNAME>B.S. College</CNAME>
+    <BID>428</BID>
+    <DID>31</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>32 - Bahera College, Baher, Darbhanga</Row>
+    <CID>3034</CID>
+    <CNAME>Bahera College, Baher, Darbhanga</CNAME>
+    <BID>221</BID>
+    <DID>16</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>33 - Balrampur College, Balrampur</Row>
+    <CID>6504</CID>
+    <CNAME>Balrampur College, Balrampur</CNAME>
+    <BID>182</BID>
+    <DID>13</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>34 - BPS College</Row>
+    <CID>3104</CID>
+    <CNAME>BPS College</CNAME>
+    <BID>246</BID>
+    <DID>18</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>35 - Braj Mohan Das  College, Dayalpur</Row>
+    <CID>3084</CID>
+    <CNAME>Braj Mohan Das  College, Dayalpur</CNAME>
+    <BID>297</BID>
+    <DID>21</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>36 - C.M. COLLEGE, BAUNSI</Row>
+    <CID>3049</CID>
+    <CNAME>C.M. COLLEGE, BAUNSI</CNAME>
+    <BID>379</BID>
+    <DID>26</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>37 - C.M.B.College, Deorh, Ghoghardiha, Madhubani </Row>
+    <CID>3027</CID>
+    <CNAME>C.M.B.College, Deorh, Ghoghardiha, Madhubani </CNAME>
+    <BID>115</BID>
+    <DID>8</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>38 - C.M.College, Darbhanga</Row>
+    <CID>2981</CID>
+    <CNAME>C.M.College, Darbhanga</CNAME>
+    <BID>213</BID>
+    <DID>16</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>39 - C.M.J.College, Donwarihat, Khutauna, Madhubani</Row>
+    <CID>3003</CID>
+    <CNAME>C.M.J.College, Donwarihat, Khutauna, Madhubani</CNAME>
+    <BID>112</BID>
+    <DID>8</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>40 - C.M.Science College, Darbhanga</Row>
+    <CID>2982</CID>
+    <CNAME>C.M.Science College, Darbhanga</CNAME>
+    <BID>213</BID>
+    <DID>16</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>41 - C.N.B COLLEGE, HATHIYAMA, SHEIKHPURA</Row>
+    <CID>3050</CID>
+    <CNAME>C.N.B COLLEGE, HATHIYAMA, SHEIKHPURA</CNAME>
+    <BID>401</BID>
+    <DID>29</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>42 - Chandradeo Narain College, Sahebganj</Row>
+    <CID>3075</CID>
+    <CNAME>Chandradeo Narain College, Sahebganj</CNAME>
+    <BID>237</BID>
+    <DID>17</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>43 - CITY COLLEGE, BHAGALPUR</Row>
+    <CID>3158</CID>
+    <CNAME>CITY COLLEGE, BHAGALPUR</CNAME>
+    <BID>370</BID>
+    <DID>25</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>44 - College of Commerce, Sc. &amp; Arts</Row>
+    <CID>3126</CID>
+    <CNAME>College of Commerce, Sc. &amp; Arts</CNAME>
+    <BID>439</BID>
+    <DID>31</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>45 - D.B.College, Jainagar, Madhubani </Row>
+    <CID>3028</CID>
+    <CNAME>D.B.College, Jainagar, Madhubani </CNAME>
+    <BID>110</BID>
+    <DID>8</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>46 - D.B.K.N.College, Narhan, Samastipur</Row>
+    <CID>3007</CID>
+    <CNAME>D.B.K.N.College, Narhan, Samastipur</CNAME>
+    <BID>325</BID>
+    <DID>22</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>47 - D.N. SINGH COLLEGE, BHUSIA, RAJAUN</Row>
+    <CID>3051</CID>
+    <CNAME>D.N. SINGH COLLEGE, BHUSIA, RAJAUN</CNAME>
+    <BID>379</BID>
+    <DID>26</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>48 - D.N.Y. College, Madhubani</Row>
+    <CID>3018</CID>
+    <CNAME>D.N.Y. College, Madhubani</CNAME>
+    <BID>123</BID>
+    <DID>8</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>49 - D.S college,  Katihar</Row>
+    <CID>6476</CID>
+    <CNAME>D.S college,  Katihar</CNAME>
+    <BID>176</BID>
+    <DID>13</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>50 - Daudnagar College</Row>
+    <CID>3127</CID>
+    <CNAME>Daudnagar College</CNAME>
+    <BID>525</BID>
+    <DID>36</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>51 - DAV College</Row>
+    <CID>3098</CID>
+    <CNAME>DAV College</CNAME>
+    <BID>270</BID>
+    <DID>19</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>52 - Deochand College, Hajipur, Vaishali</Row>
+    <CID>3079</CID>
+    <CNAME>Deochand College, Hajipur, Vaishali</CNAME>
+    <BID>297</BID>
+    <DID>21</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>53 - DHANRAJ SINGH COLLEGE, SIKANDARA, JAMUI</Row>
+    <CID>3052</CID>
+    <CNAME>DHANRAJ SINGH COLLEGE, SIKANDARA, JAMUI</CNAME>
+    <BID>570</BID>
+    <DID>39</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>54 - Dr. Jagannath Mishra College, Muz</Row>
+    <CID>6495</CID>
+    <CNAME>Dr. Jagannath Mishra College, Muz</CNAME>
+    <BID>235</BID>
+    <DID>17</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>55 - Dr. R.M.L.S. College, Muzaffarpur</Row>
+    <CID>3170</CID>
+    <CNAME>Dr. R.M.L.S. College, Muzaffarpur</CNAME>
+    <BID>235</BID>
+    <DID>17</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>56 - Dr.L.K.V.D.College, Tajpur, Samastipur</Row>
+    <CID>2995</CID>
+    <CNAME>Dr.L.K.V.D.College, Tajpur, Samastipur</CNAME>
+    <BID>315</BID>
+    <DID>22</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>57 - Forbesganj College, Forbesganj</Row>
+    <CID>6484</CID>
+    <CNAME>Forbesganj College, Forbesganj</CNAME>
+    <BID>142</BID>
+    <DID>10</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>58 - G.B.M. College</Row>
+    <CID>3183</CID>
+    <CNAME>G.B.M. College</CNAME>
+    <BID>534</BID>
+    <DID>37</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>59 - G.D. College, Begusarai</Row>
+    <CID>2979</CID>
+    <CNAME>G.D. College, Begusarai</CNAME>
+    <BID>339</BID>
+    <DID>23</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>60 - G.D.M. College</Row>
+    <CID>3128</CID>
+    <CNAME>G.D.M. College</CNAME>
+    <BID>443</BID>
+    <DID>31</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>61 - G.J. College, Rambagh</Row>
+    <CID>3045</CID>
+    <CNAME>G.J. College, Rambagh</CNAME>
+    <BID>429</BID>
+    <DID>31</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>62 - G.K.P.D.College, Karpoorigram, Samastipur</Row>
+    <CID>3020</CID>
+    <CNAME>G.K.P.D.College, Karpoorigram, Samastipur</CNAME>
+    <BID>314</BID>
+    <DID>22</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>63 - G.L.M college </Row>
+    <CID>6472</CID>
+    <CNAME>G.L.M college </CNAME>
+    <BID>161</BID>
+    <DID>12</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>64 - G.M.R.D.College, Mohanpur, Samastipur</Row>
+    <CID>3008</CID>
+    <CNAME>G.M.R.D.College, Mohanpur, Samastipur</CNAME>
+    <BID>323</BID>
+    <DID>22</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>65 - Ganga Singh College</Row>
+    <CID>3089</CID>
+    <CNAME>Ganga Singh College</CNAME>
+    <BID>283</BID>
+    <DID>20</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>66 - Gaya College</Row>
+    <CID>3184</CID>
+    <CNAME>Gaya College</CNAME>
+    <BID>534</BID>
+    <DID>37</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>67 - Gopeshwar College</Row>
+    <CID>3103</CID>
+    <CNAME>Gopeshwar College</CNAME>
+    <BID>249</BID>
+    <DID>18</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>68 - H.P.S.College, Madhepur, Madhubani </Row>
+    <CID>2989</CID>
+    <CNAME>H.P.S.College, Madhepur, Madhubani </CNAME>
+    <BID>129</BID>
+    <DID>8</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>69 - H.R. College        </Row>
+    <CID>3096</CID>
+    <CNAME>H.R. College        </CNAME>
+    <BID>293</BID>
+    <DID>20</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>70 - Hari Prasad Sah College, Nirmali</Row>
+    <CID>2909</CID>
+    <CNAME>Hari Prasad Sah College, Nirmali</CNAME>
+    <BID>130</BID>
+    <DID>9</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>71 - HR College</Row>
+    <CID>3101</CID>
+    <CNAME>HR College</CNAME>
+    <BID>270</BID>
+    <DID>19</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>72 - INTERNATIONAL, COLLEGE, GHOSAITH</Row>
+    <CID>3053</CID>
+    <CNAME>INTERNATIONAL, COLLEGE, GHOSAITH</CNAME>
+    <BID>401</BID>
+    <DID>29</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>73 - J.B.S.D. College, Bakuchi</Row>
+    <CID>6478</CID>
+    <CNAME>J.B.S.D. College, Bakuchi</CNAME>
+    <BID>231</BID>
+    <DID>17</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>74 - J.D. Women's College</Row>
+    <CID>3129</CID>
+    <CNAME>J.D. Women's College</CNAME>
+    <BID>439</BID>
+    <DID>31</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>4</WomenStatus>
+  </Table>
+  <Table>
+    <Row>75 - J.D.S.S Mahila College, Forbesganj</Row>
+    <CID>6512</CID>
+    <CNAME>J.D.S.S Mahila College, Forbesganj</CNAME>
+    <BID>142</BID>
+    <DID>10</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>76 - J.J. College</Row>
+    <CID>3185</CID>
+    <CNAME>J.J. College</CNAME>
+    <BID>534</BID>
+    <DID>37</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>77 - J.K.College, Biroul, Darbhanga</Row>
+    <CID>3001</CID>
+    <CNAME>J.K.College, Biroul, Darbhanga</CNAME>
+    <BID>222</BID>
+    <DID>16</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>78 - J.L.College, Hajipur, Vaishali</Row>
+    <CID>6482</CID>
+    <CNAME>J.L.College, Hajipur, Vaishali</CNAME>
+    <BID>297</BID>
+    <DID>21</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>79 - J.L.N.M. College, Ghorasahan</Row>
+    <CID>6467</CID>
+    <CNAME>J.L.N.M. College, Ghorasahan</CNAME>
+    <BID>75</BID>
+    <DID>5</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>80 - J.L.N.M. College, Nawahi Sursand</Row>
+    <CID>6491</CID>
+    <CNAME>J.L.N.M. College, Nawahi Sursand</CNAME>
+    <BID>103</BID>
+    <DID>7</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>81 - J.M.D.P.L. Mahila College, Madhubani</Row>
+    <CID>2990</CID>
+    <CNAME>J.M.D.P.L. Mahila College, Madhubani</CNAME>
+    <BID>123</BID>
+    <DID>8</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>4</WomenStatus>
+  </Table>
+  <Table>
+    <Row>82 - J.N.College, Madhubani </Row>
+    <CID>2991</CID>
+    <CNAME>J.N.College, Madhubani </CNAME>
+    <BID>123</BID>
+    <DID>8</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>83 - J.N.College, Nehra, Darbhanga</Row>
+    <CID>3025</CID>
+    <CNAME>J.N.College, Nehra, Darbhanga</CNAME>
+    <BID>214</BID>
+    <DID>16</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>84 - J.N.L. College</Row>
+    <CID>3130</CID>
+    <CNAME>J.N.L. College</CNAME>
+    <BID>428</BID>
+    <DID>31</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>85 - Jagdam College</Row>
+    <CID>3087</CID>
+    <CNAME>Jagdam College</CNAME>
+    <BID>283</BID>
+    <DID>20</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>86 - JAGJIWAN COLLEGE, ARRAH</Row>
+    <CID>3166</CID>
+    <CNAME>JAGJIWAN COLLEGE, ARRAH</CNAME>
+    <BID>455</BID>
+    <DID>32</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>87 - Jaglal Choudhary College</Row>
+    <CID>3091</CID>
+    <CNAME>Jaglal Choudhary College</CNAME>
+    <BID>283</BID>
+    <DID>20</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>88 - Jai Prakash Mahila College</Row>
+    <CID>3090</CID>
+    <CNAME>Jai Prakash Mahila College</CNAME>
+    <BID>283</BID>
+    <DID>20</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>4</WomenStatus>
+  </Table>
+  <Table>
+    <Row>89 - Jeewachh College, Motipur</Row>
+    <CID>6466</CID>
+    <CNAME>Jeewachh College, Motipur</CNAME>
+    <BID>238</BID>
+    <DID>17</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>90 - K. D College, Raniganj</Row>
+    <CID>6513</CID>
+    <CNAME>K. D College, Raniganj</CNAME>
+    <BID>144</BID>
+    <DID>10</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>91 - K.B Jha College, Katihar</Row>
+    <CID>6481</CID>
+    <CNAME>K.B Jha College, Katihar</CNAME>
+    <BID>176</BID>
+    <DID>13</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>92 - K.L.S. College</Row>
+    <CID>3131</CID>
+    <CNAME>K.L.S. College</CNAME>
+    <BID>555</BID>
+    <DID>38</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>93 - K.S.College, Laheriasarai, Darbhanga</Row>
+    <CID>2983</CID>
+    <CNAME>K.S.College, Laheriasarai, Darbhanga</CNAME>
+    <BID>216</BID>
+    <DID>16</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>94 - K.S.R. College, Sarairanjan, Samastipur</Row>
+    <CID>3021</CID>
+    <CNAME>K.S.R. College, Sarairanjan, Samastipur</CNAME>
+    <BID>320</BID>
+    <DID>22</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>95 - K.V.Sc.College, Uchhaith, Benipatti, Madhubani </Row>
+    <CID>3031</CID>
+    <CNAME>K.V.Sc.College, Uchhaith, Benipatti, Madhubani </CNAME>
+    <BID>118</BID>
+    <DID>8</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>96 - KCTC College, Raxaul</Row>
+    <CID>6474</CID>
+    <CNAME>KCTC College, Raxaul</CNAME>
+    <BID>60</BID>
+    <DID>5</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>97 - Kisan College</Row>
+    <CID>3178</CID>
+    <CNAME>Kisan College</CNAME>
+    <BID>421</BID>
+    <DID>30</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>98 - Kishori Sinha Mahila College, </Row>
+    <CID>3132</CID>
+    <CNAME>Kishori Sinha Mahila College, </CNAME>
+    <BID>518</BID>
+    <DID>36</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>4</WomenStatus>
+  </Table>
+  <Table>
+    <Row>99 - L.C.S.College, Darbhanga</Row>
+    <CID>3011</CID>
+    <CNAME>L.C.S.College, Darbhanga</CNAME>
+    <BID>213</BID>
+    <DID>16</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>100 - L.N. College, Bhagwanpur, Vaishali</Row>
+    <CID>3078</CID>
+    <CNAME>L.N. College, Bhagwanpur, Vaishali</CNAME>
+    <BID>301</BID>
+    <DID>21</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>101 - L.N.B.J. MAHILA COLLEGE, BHRAMARPUR, BHAGALPUR</Row>
+    <CID>3159</CID>
+    <CNAME>L.N.B.J. MAHILA COLLEGE, BHRAMARPUR, BHAGALPUR</CNAME>
+    <BID>358</BID>
+    <DID>25</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>4</WomenStatus>
+  </Table>
+  <Table>
+    <Row>102 - L.N.D. College, Motihari</Row>
+    <CID>3080</CID>
+    <CNAME>L.N.D. College, Motihari</CNAME>
+    <BID>70</BID>
+    <DID>5</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>103 - L.N.J.College, Jhanjharpur, Madhubani</Row>
+    <CID>3004</CID>
+    <CNAME>L.N.J.College, Jhanjharpur, Madhubani</CNAME>
+    <BID>127</BID>
+    <DID>8</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>104 - Lalit Narayan Tirhut College, Muzaffarpur</Row>
+    <CID>6471</CID>
+    <CNAME>Lalit Narayan Tirhut College, Muzaffarpur</CNAME>
+    <BID>235</BID>
+    <DID>17</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>105 - Langat Singh College, Muzaffarpur</Row>
+    <CID>3175</CID>
+    <CNAME>Langat Singh College, Muzaffarpur</CNAME>
+    <BID>235</BID>
+    <DID>17</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>106 - M. L . D. P K.Y College, Araria</Row>
+    <CID>6515</CID>
+    <CNAME>M. L . D. P K.Y College, Araria</CNAME>
+    <BID>146</BID>
+    <DID>10</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>107 - M. L. arya college</Row>
+    <CID>6469</CID>
+    <CNAME>M. L. arya college</CNAME>
+    <BID>168</BID>
+    <DID>12</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>108 - M.D. College</Row>
+    <CID>3046</CID>
+    <CNAME>M.D. College</CNAME>
+    <BID>430</BID>
+    <DID>31</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>109 - M.G.College, Darbhanga</Row>
+    <CID>3012</CID>
+    <CNAME>M.G.College, Darbhanga</CNAME>
+    <BID>213</BID>
+    <DID>16</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>110 - M.H.A.N.D College Thakurganj</Row>
+    <CID>6509</CID>
+    <CNAME>M.H.A.N.D College Thakurganj</CNAME>
+    <BID>156</BID>
+    <DID>11</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>111 - M.J.M.M college, Katihar</Row>
+    <CID>6477</CID>
+    <CNAME>M.J.M.M college, Katihar</CNAME>
+    <BID>176</BID>
+    <DID>13</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>112 - M.K.College, Laheriasarai, Darbhanga</Row>
+    <CID>2984</CID>
+    <CNAME>M.K.College, Laheriasarai, Darbhanga</CNAME>
+    <BID>216</BID>
+    <DID>16</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>113 - M.K.S.College, Trimuhan, Chandauna, Darbhanga</Row>
+    <CID>3002</CID>
+    <CNAME>M.K.S.College, Trimuhan, Chandauna, Darbhanga</CNAME>
+    <BID>222</BID>
+    <DID>16</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>114 - M.L.S.College, Sarisabpahi, Madhubani </Row>
+    <CID>3005</CID>
+    <CNAME>M.L.S.College, Sarisabpahi, Madhubani </CNAME>
+    <BID>124</BID>
+    <DID>8</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>115 - M.L.S.M. College, Darbhanga</Row>
+    <CID>2985</CID>
+    <CNAME>M.L.S.M. College, Darbhanga</CNAME>
+    <BID>213</BID>
+    <DID>16</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>116 - M.M College</Row>
+    <CID>3047</CID>
+    <CNAME>M.M College</CNAME>
+    <BID>431</BID>
+    <DID>31</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>117 - M.M.T.M.College, Darbhanga</Row>
+    <CID>3013</CID>
+    <CNAME>M.M.T.M.College, Darbhanga</CNAME>
+    <BID>213</BID>
+    <DID>16</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>118 - M.P. Sinha Science College, Muzaffarpur</Row>
+    <CID>3172</CID>
+    <CNAME>M.P. Sinha Science College, Muzaffarpur</CNAME>
+    <BID>235</BID>
+    <DID>17</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>119 - M.R.M. College, Darbhanga</Row>
+    <CID>2986</CID>
+    <CNAME>M.R.M. College, Darbhanga</CNAME>
+    <BID>213</BID>
+    <DID>16</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>120 - M.R.S.M.College, Anandpur, Darbhanga</Row>
+    <CID>3035</CID>
+    <CNAME>M.R.S.M.College, Anandpur, Darbhanga</CNAME>
+    <BID>216</BID>
+    <DID>16</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>121 - M.S. COLLEGE, ALAULI, SONIHAR, KHAGARIA</Row>
+    <CID>3054</CID>
+    <CNAME>M.S. COLLEGE, ALAULI, SONIHAR, KHAGARIA</CNAME>
+    <BID>352</BID>
+    <DID>24</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>122 - M.S.K.B. College, Muzaffarpur</Row>
+    <CID>3171</CID>
+    <CNAME>M.S.K.B. College, Muzaffarpur</CNAME>
+    <BID>235</BID>
+    <DID>17</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>123 - M.S.M. Samta College, Jandaha, Vaishali</Row>
+    <CID>3187</CID>
+    <CNAME>M.S.M. Samta College, Jandaha, Vaishali</CNAME>
+    <BID>309</BID>
+    <DID>21</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>124 - M.S.S.G. College, Areraj</Row>
+    <CID>6470</CID>
+    <CNAME>M.S.S.G. College, Areraj</CNAME>
+    <BID>66</BID>
+    <DID>5</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>125 - MAHADEO SINGH COLLEGE, BHAGALPUR</Row>
+    <CID>3160</CID>
+    <CNAME>MAHADEO SINGH COLLEGE, BHAGALPUR</CNAME>
+    <BID>370</BID>
+    <DID>25</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>126 - MAHANT AYODHYACHANDRASHEKHAR YADAV COLLEGE, DHAKAMORE</Row>
+    <CID>3055</CID>
+    <CNAME>MAHANT AYODHYACHANDRASHEKHAR YADAV COLLEGE, DHAKAMORE</CNAME>
+    <BID>379</BID>
+    <DID>26</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>127 - Mahant Darshan Das Mahila Mahavidyalaya, Muzaffarpur.</Row>
+    <CID>3081</CID>
+    <CNAME>Mahant Darshan Das Mahila Mahavidyalaya, Muzaffarpur.</CNAME>
+    <BID>235</BID>
+    <DID>17</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>4</WomenStatus>
+  </Table>
+  <Table>
+    <Row>128 - Mahila College</Row>
+    <CID>3133</CID>
+    <CNAME>Mahila College</CNAME>
+    <BID>428</BID>
+    <DID>31</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>4</WomenStatus>
+  </Table>
+  <Table>
+    <Row>129 - MAHILA COLLEGE, BARHIYA</Row>
+    <CID>3161</CID>
+    <CNAME>MAHILA COLLEGE, BARHIYA</CNAME>
+    <BID>397</BID>
+    <DID>28</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>4</WomenStatus>
+  </Table>
+  <Table>
+    <Row>130 - Marwari College, Darbhanga</Row>
+    <CID>2987</CID>
+    <CNAME>Marwari College, Darbhanga</CNAME>
+    <BID>213</BID>
+    <DID>16</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>131 - Marwari College, Kishanganj</Row>
+    <CID>6488</CID>
+    <CNAME>Marwari College, Kishanganj</CNAME>
+    <BID>156</BID>
+    <DID>11</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>132 - Millat College Darbhanga </Row>
+    <CID>2988</CID>
+    <CNAME>Millat College Darbhanga </CNAME>
+    <BID>213</BID>
+    <DID>16</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>133 - Mithila Mahila College, Aazam Nagar, Darbhanga </Row>
+    <CID>3014</CID>
+    <CNAME>Mithila Mahila College, Aazam Nagar, Darbhanga </CNAME>
+    <BID>213</BID>
+    <DID>16</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>4</WomenStatus>
+  </Table>
+  <Table>
+    <Row>134 - Munshi Singh College, Motihari</Row>
+    <CID>3071</CID>
+    <CNAME>Munshi Singh College, Motihari</CNAME>
+    <BID>70</BID>
+    <DID>5</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>135 - MUSLIM MINORITY COLLEGE, BHAGALPUR</Row>
+    <CID>3162</CID>
+    <CNAME>MUSLIM MINORITY COLLEGE, BHAGALPUR</CNAME>
+    <BID>370</BID>
+    <DID>25</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>136 - N.D College , Rambagh</Row>
+    <CID>6496</CID>
+    <CNAME>N.D College , Rambagh</CNAME>
+    <BID>170</BID>
+    <DID>12</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>137 - N.Jha Mahila College, L.Sarai, Darbhanga</Row>
+    <CID>3015</CID>
+    <CNAME>N.Jha Mahila College, L.Sarai, Darbhanga</CNAME>
+    <BID>216</BID>
+    <DID>16</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>4</WomenStatus>
+  </Table>
+  <Table>
+    <Row>138 - Nalanda College</Row>
+    <CID>3134</CID>
+    <CNAME>Nalanda College</CNAME>
+    <BID>421</BID>
+    <DID>30</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>139 - Nalanda Mahila College, </Row>
+    <CID>3135</CID>
+    <CNAME>Nalanda Mahila College, </CNAME>
+    <BID>421</BID>
+    <DID>30</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>4</WomenStatus>
+  </Table>
+  <Table>
+    <Row>140 - Narayan College</Row>
+    <CID>3097</CID>
+    <CNAME>Narayan College</CNAME>
+    <BID>271</BID>
+    <DID>19</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>141 - Nehru College, Bahadurganj</Row>
+    <CID>6489</CID>
+    <CNAME>Nehru College, Bahadurganj</CNAME>
+    <BID>152</BID>
+    <DID>11</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>142 - Nirsu Naraian College, Singhara (Vaishali)</Row>
+    <CID>6499</CID>
+    <CNAME>Nirsu Naraian College, Singhara (Vaishali)</CNAME>
+    <BID>307</BID>
+    <DID>21</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>143 - Nitishwar Mahavidyalaya, Muzaffarpur</Row>
+    <CID>3173</CID>
+    <CNAME>Nitishwar Mahavidyalaya, Muzaffarpur</CNAME>
+    <BID>235</BID>
+    <DID>17</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>144 - NLS College </Row>
+    <CID>3095</CID>
+    <CNAME>NLS College </CNAME>
+    <BID>283</BID>
+    <DID>20</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>145 - P.D.K.J.College, Andharatharhi, Madhubani</Row>
+    <CID>3038</CID>
+    <CNAME>P.D.K.J.College, Andharatharhi, Madhubani</CNAME>
+    <BID>126</BID>
+    <DID>8</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>146 - P.L.Mahila College, Jhanjharpur, Madhubani </Row>
+    <CID>3039</CID>
+    <CNAME>P.L.Mahila College, Jhanjharpur, Madhubani </CNAME>
+    <BID>127</BID>
+    <DID>8</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>4</WomenStatus>
+  </Table>
+  <Table>
+    <Row>147 - P.N.A. SCIENCE COLLEGE, SARAI, BHAGALPUR</Row>
+    <CID>3163</CID>
+    <CNAME>P.N.A. SCIENCE COLLEGE, SARAI, BHAGALPUR</CNAME>
+    <BID>370</BID>
+    <DID>25</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>148 - Pandit Ugam Pandey College, Motihari</Row>
+    <CID>6486</CID>
+    <CNAME>Pandit Ugam Pandey College, Motihari</CNAME>
+    <BID>70</BID>
+    <DID>5</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>149 - Peoples College, Araria</Row>
+    <CID>6514</CID>
+    <CNAME>Peoples College, Araria</CNAME>
+    <BID>146</BID>
+    <DID>10</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>150 - Prabhu Nath College </Row>
+    <CID>3094</CID>
+    <CNAME>Prabhu Nath College </CNAME>
+    <BID>286</BID>
+    <DID>20</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>151 - Prithvi Chand Vigyan College </Row>
+    <CID>3092</CID>
+    <CNAME>Prithvi Chand Vigyan College </CNAME>
+    <BID>283</BID>
+    <DID>20</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>152 - Pt.Y.K.J. COLLEGE Bgagahi</Row>
+    <CID>6498</CID>
+    <CNAME>Pt.Y.K.J. COLLEGE Bgagahi</CNAME>
+    <BID>243</BID>
+    <DID>17</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>153 - Purnea College, Purnea</Row>
+    <CID>6465</CID>
+    <CNAME>Purnea College, Purnea</CNAME>
+    <BID>170</BID>
+    <DID>12</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>154 - Purnea mahila mahavidyalay</Row>
+    <CID>6468</CID>
+    <CNAME>Purnea mahila mahavidyalay</CNAME>
+    <BID>170</BID>
+    <DID>12</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>155 - Q.A.Degree College, Jale, Darbhanga</Row>
+    <CID>3036</CID>
+    <CNAME>Q.A.Degree College, Jale, Darbhanga</CNAME>
+    <BID>222</BID>
+    <DID>16</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>156 - R. LAL COLLEGE, LAKHISARAI</Row>
+    <CID>3056</CID>
+    <CNAME>R. LAL COLLEGE, LAKHISARAI</CNAME>
+    <BID>397</BID>
+    <DID>28</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>157 - R.B.B.M. College, Muzaffarpur</Row>
+    <CID>3174</CID>
+    <CNAME>R.B.B.M. College, Muzaffarpur</CNAME>
+    <BID>235</BID>
+    <DID>17</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>158 - R.B.College, Dalshinghsarai, Samastipur </Row>
+    <CID>2996</CID>
+    <CNAME>R.B.College, Dalshinghsarai, Samastipur </CNAME>
+    <BID>325</BID>
+    <DID>22</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>159 - R.B.J. College, Bela, Darbhanga</Row>
+    <CID>3016</CID>
+    <CNAME>R.B.J. College, Bela, Darbhanga</CNAME>
+    <BID>213</BID>
+    <DID>16</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>160 - R.B.S.College, Andaur, Samastipur</Row>
+    <CID>3029</CID>
+    <CNAME>R.B.S.College, Andaur, Samastipur</CNAME>
+    <BID>322</BID>
+    <DID>22</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>161 - R.B.S.College, Teyai, Begusarai</Row>
+    <CID>3010</CID>
+    <CNAME>R.B.S.College, Teyai, Begusarai</CNAME>
+    <BID>336</BID>
+    <DID>23</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>162 - R.C. College, Sakra, Muzaffarpur</Row>
+    <CID>3082</CID>
+    <CNAME>R.C. College, Sakra, Muzaffarpur</CNAME>
+    <BID>236</BID>
+    <DID>17</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>163 - R.C.S. College, Manjhaul, Begusari</Row>
+    <CID>3120</CID>
+    <CNAME>R.C.S. College, Manjhaul, Begusari</CNAME>
+    <BID>339</BID>
+    <DID>23</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>164 - R.C.S.S. College, Bihat, Begusari </Row>
+    <CID>3121</CID>
+    <CNAME>R.C.S.S. College, Bihat, Begusari </CNAME>
+    <BID>339</BID>
+    <DID>23</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>165 - R.D.S College , Salmari</Row>
+    <CID>6480</CID>
+    <CNAME>R.D.S College , Salmari</CNAME>
+    <BID>184</BID>
+    <DID>13</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>166 - R.D.S. College, Muzaffarpur</Row>
+    <CID>3074</CID>
+    <CNAME>R.D.S. College, Muzaffarpur</CNAME>
+    <BID>235</BID>
+    <DID>17</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>167 - R.K Saha women's College, Kishanganj</Row>
+    <CID>6510</CID>
+    <CNAME>R.K Saha women's College, Kishanganj</CNAME>
+    <BID>156</BID>
+    <DID>11</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>168 - R.K. K. College, Purnea </Row>
+    <CID>6500</CID>
+    <CNAME>R.K. K. College, Purnea </CNAME>
+    <BID>166</BID>
+    <DID>12</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>169 - R.K.College, Madhubani </Row>
+    <CID>2992</CID>
+    <CNAME>R.K.College, Madhubani </CNAME>
+    <BID>123</BID>
+    <DID>8</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>170 - R.K.D. College</Row>
+    <CID>3141</CID>
+    <CNAME>R.K.D. College</CNAME>
+    <BID>443</BID>
+    <DID>31</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>171 - R.L college, Madhawnagar</Row>
+    <CID>6473</CID>
+    <CNAME>R.L college, Madhawnagar</CNAME>
+    <BID>159</BID>
+    <DID>12</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>172 - R.L.S.R.Degree College, Shivajinagar, Samastipur</Row>
+    <CID>3042</CID>
+    <CNAME>R.L.S.R.Degree College, Shivajinagar, Samastipur</CNAME>
+    <BID>328</BID>
+    <DID>22</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>173 - R.L.S.Y. College</Row>
+    <CID>3136</CID>
+    <CNAME>R.L.S.Y. College</CNAME>
+    <BID>444</BID>
+    <DID>31</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>174 - R.L.S.Y. College, </Row>
+    <CID>3140</CID>
+    <CNAME>R.L.S.Y. College, </CNAME>
+    <BID>518</BID>
+    <DID>36</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>175 - R.L.S.Y.College Bettiah (West Champaran)</Row>
+    <CID>3083</CID>
+    <CNAME>R.L.S.Y.College Bettiah (West Champaran)</CNAME>
+    <BID>56</BID>
+    <DID>4</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>176 - R.M.W. College, </Row>
+    <CID>3137</CID>
+    <CNAME>R.M.W. College, </CNAME>
+    <BID>555</BID>
+    <DID>38</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>177 - R.N.A.R. College, Samastipur</Row>
+    <CID>2997</CID>
+    <CNAME>R.N.A.R. College, Samastipur</CNAME>
+    <BID>318</BID>
+    <DID>22</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>178 - R.N.College, Pandaul, Madhubani </Row>
+    <CID>3006</CID>
+    <CNAME>R.N.College, Pandaul, Madhubani </CNAME>
+    <BID>124</BID>
+    <DID>8</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>179 - R.P.M. College</Row>
+    <CID>3138</CID>
+    <CNAME>R.P.M. College</CNAME>
+    <BID>443</BID>
+    <DID>31</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>180 - R.R.S. College, </Row>
+    <CID>3139</CID>
+    <CNAME>R.R.S. College, </CNAME>
+    <BID>450</BID>
+    <DID>31</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>181 - R.S.S. College, Chochahan, Muzaffarpur</Row>
+    <CID>6502</CID>
+    <CNAME>R.S.S. College, Chochahan, Muzaffarpur</CNAME>
+    <BID>240</BID>
+    <DID>17</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>182 - R.Y College , Manihari</Row>
+    <CID>6507</CID>
+    <CNAME>R.Y College , Manihari</CNAME>
+    <BID>185</BID>
+    <DID>13</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>183 - Raj Narayan College, Hajipur</Row>
+    <CID>3073</CID>
+    <CNAME>Raj Narayan College, Hajipur</CNAME>
+    <BID>297</BID>
+    <DID>21</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>184 - Raja Singh College</Row>
+    <CID>3099</CID>
+    <CNAME>Raja Singh College</CNAME>
+    <BID>270</BID>
+    <DID>19</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>185 - Rajendra College</Row>
+    <CID>3086</CID>
+    <CNAME>Rajendra College</CNAME>
+    <BID>283</BID>
+    <DID>20</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>186 - Ram Jaipal College</Row>
+    <CID>3088</CID>
+    <CNAME>Ram Jaipal College</CNAME>
+    <BID>283</BID>
+    <DID>20</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>187 - Ram Sakal Singh Science College, Sitamarhi</Row>
+    <CID>3077</CID>
+    <CNAME>Ram Sakal Singh Science College, Sitamarhi</CNAME>
+    <BID>100</BID>
+    <DID>7</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>188 - Rameshwar Mahavidyalaya, Muzaffarpur</Row>
+    <CID>3176</CID>
+    <CNAME>Rameshwar Mahavidyalaya, Muzaffarpur</CNAME>
+    <BID>235</BID>
+    <DID>17</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>189 - RBGR College</Row>
+    <CID>3102</CID>
+    <CNAME>RBGR College</CNAME>
+    <BID>270</BID>
+    <DID>19</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>190 - RPS College, Chakeyaz</Row>
+    <CID>6479</CID>
+    <CNAME>RPS College, Chakeyaz</CNAME>
+    <BID>304</BID>
+    <DID>21</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>191 - RSSMAHILA COLLEGE,SITAMARHI</Row>
+    <CID>3069</CID>
+    <CNAME>RSSMAHILA COLLEGE,SITAMARHI</CNAME>
+    <BID>100</BID>
+    <DID>7</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>4</WomenStatus>
+  </Table>
+  <Table>
+    <Row>192 - Rural Institute of Higher Education, Birauli, Samastipur</Row>
+    <CID>3043</CID>
+    <CNAME>Rural Institute of Higher Education, Birauli, Samastipur</CNAME>
+    <BID>314</BID>
+    <DID>22</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>193 - S. B. A. N. College </Row>
+    <CID>3154</CID>
+    <CNAME>S. B. A. N. College </CNAME>
+    <BID>510</BID>
+    <DID>41</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>194 - S. N. S. Y College Rambagh</Row>
+    <CID>6501</CID>
+    <CNAME>S. N. S. Y College Rambagh</CNAME>
+    <BID>170</BID>
+    <DID>12</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>195 - S. Sinha College</Row>
+    <CID>3149</CID>
+    <CNAME>S. Sinha College</CNAME>
+    <BID>518</BID>
+    <DID>36</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>196 - S.B.N. COLLEGE, GARHI RAMPUR, MUNGER</Row>
+    <CID>3057</CID>
+    <CNAME>S.B.N. COLLEGE, GARHI RAMPUR, MUNGER</CNAME>
+    <BID>385</BID>
+    <DID>27</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>197 - S.B.S.S. College, Begusarai</Row>
+    <CID>2978</CID>
+    <CNAME>S.B.S.S. College, Begusarai</CNAME>
+    <BID>339</BID>
+    <DID>23</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>198 - S.D.College</Row>
+    <CID>3148</CID>
+    <CNAME>S.D.College</CNAME>
+    <BID>507</BID>
+    <DID>41</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>199 - S.D.M.Y. COLLEGE, BHORAIYA, BANKA</Row>
+    <CID>3058</CID>
+    <CNAME>S.D.M.Y. COLLEGE, BHORAIYA, BANKA</CNAME>
+    <BID>379</BID>
+    <DID>26</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>200 - S.G.G.S. College</Row>
+    <CID>3153</CID>
+    <CNAME>S.G.G.S. College</CNAME>
+    <BID>443</BID>
+    <DID>31</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>201 - S.K. COLLEGE, LOHANDA, SIKANDARA, JAMUI</Row>
+    <CID>3059</CID>
+    <CNAME>S.K. COLLEGE, LOHANDA, SIKANDARA, JAMUI</CNAME>
+    <BID>570</BID>
+    <DID>39</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>202 - S.K.College, Thathiya, Samastipur</Row>
+    <CID>3041</CID>
+    <CNAME>S.K.College, Thathiya, Samastipur</CNAME>
+    <BID>327</BID>
+    <DID>22</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>203 - S.K.Mahila College, Begusarai</Row>
+    <CID>2980</CID>
+    <CNAME>S.K.Mahila College, Begusarai</CNAME>
+    <BID>339</BID>
+    <DID>23</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>4</WomenStatus>
+  </Table>
+  <Table>
+    <Row>204 - S.L.K. College, Sitamarhi</Row>
+    <CID>3070</CID>
+    <CNAME>S.L.K. College, Sitamarhi</CNAME>
+    <BID>100</BID>
+    <DID>7</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>205 - S.M.D. College, </Row>
+    <CID>3142</CID>
+    <CNAME>S.M.D. College, </CNAME>
+    <BID>436</BID>
+    <DID>31</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>206 - S.M.J.College, Khajedih, Madhubani </Row>
+    <CID>3019</CID>
+    <CNAME>S.M.J.College, Khajedih, Madhubani </CNAME>
+    <BID>121</BID>
+    <DID>8</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>207 - S.M.R.C.K.College, Samastipur</Row>
+    <CID>3022</CID>
+    <CNAME>S.M.R.C.K.College, Samastipur</CNAME>
+    <BID>316</BID>
+    <DID>22</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>208 - S.M.S.G. College</Row>
+    <CID>3151</CID>
+    <CNAME>S.M.S.G. College</CNAME>
+    <BID>550</BID>
+    <DID>37</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>209 - S.N College Shahmal Khaira Deo, rohtas</Row>
+    <CID>3068</CID>
+    <CNAME>S.N College Shahmal Khaira Deo, rohtas</CNAME>
+    <BID>505</BID>
+    <DID>35</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>210 - S.N. Sinha College</Row>
+    <CID>3143</CID>
+    <CNAME>S.N. Sinha College</CNAME>
+    <BID>530</BID>
+    <DID>37</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>211 - S.N. Sinha College</Row>
+    <CID>3144</CID>
+    <CNAME>S.N. Sinha College</CNAME>
+    <BID>512</BID>
+    <DID>40</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>212 - S.N. Sinha college</Row>
+    <CID>3145</CID>
+    <CNAME>S.N. Sinha college</CNAME>
+    <BID>556</BID>
+    <DID>38</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>213 - S.N.K.M.College, Bhairabsthan, Madhubani</Row>
+    <CID>3040</CID>
+    <CNAME>S.N.K.M.College, Bhairabsthan, Madhubani</CNAME>
+    <BID>126</BID>
+    <DID>8</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>214 - S.N.S.M. Muz.</Row>
+    <CID>6490</CID>
+    <CNAME>S.N.S.M. Muz.</CNAME>
+    <BID>235</BID>
+    <DID>17</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>215 - S.P. YADAV COLLEGE, KATORIA</Row>
+    <CID>3060</CID>
+    <CNAME>S.P. YADAV COLLEGE, KATORIA</CNAME>
+    <BID>379</BID>
+    <DID>26</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>216 - S.P.M College</Row>
+    <CID>3146</CID>
+    <CNAME>S.P.M College</CNAME>
+    <BID>454</BID>
+    <DID>32</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>217 - S.R.K. Goenka College, Sitamarhi</Row>
+    <CID>3076</CID>
+    <CNAME>S.R.K. Goenka College, Sitamarhi</CNAME>
+    <BID>100</BID>
+    <DID>7</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>218 - S.S. College,</Row>
+    <CID>3147</CID>
+    <CNAME>S.S. College,</CNAME>
+    <BID>512</BID>
+    <DID>40</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>219 - S.S. COLLEGE, MEHUS, SHEIKHPURA</Row>
+    <CID>3061</CID>
+    <CNAME>S.S. COLLEGE, MEHUS, SHEIKHPURA</CNAME>
+    <BID>401</BID>
+    <DID>29</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>220 - S.S.P.S. COLLEGE, SHAMBHUGANJ, BANKA</Row>
+    <CID>3062</CID>
+    <CNAME>S.S.P.S. COLLEGE, SHAMBHUGANJ, BANKA</CNAME>
+    <BID>379</BID>
+    <DID>26</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>221 - S.U. College</Row>
+    <CID>3150</CID>
+    <CNAME>S.U. College</CNAME>
+    <BID>411</BID>
+    <DID>30</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>222 - Samastipur College, Samastipur</Row>
+    <CID>2998</CID>
+    <CNAME>Samastipur College, Samastipur</CNAME>
+    <BID>318</BID>
+    <DID>22</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>223 - SANJAY GANDHI MAHILA COLLEGE, SHEIKHPURA</Row>
+    <CID>3063</CID>
+    <CNAME>SANJAY GANDHI MAHILA COLLEGE, SHEIKHPURA</CNAME>
+    <BID>401</BID>
+    <DID>29</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>4</WomenStatus>
+  </Table>
+  <Table>
+    <Row>224 - Sant Kabir College, Samastipur</Row>
+    <CID>3023</CID>
+    <CNAME>Sant Kabir College, Samastipur</CNAME>
+    <BID>318</BID>
+    <DID>22</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>225 - SARBJANIK MAHAVIDYALAYA, SARVODAYNAGAR, BANKA</Row>
+    <CID>3064</CID>
+    <CNAME>SARBJANIK MAHAVIDYALAYA, SARVODAYNAGAR, BANKA</CNAME>
+    <BID>379</BID>
+    <DID>26</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>226 - SARSWATI ARJUN AKLAVYA MAHAVIDYALAYA, JAMUI</Row>
+    <CID>3065</CID>
+    <CNAME>SARSWATI ARJUN AKLAVYA MAHAVIDYALAYA, JAMUI</CNAME>
+    <BID>570</BID>
+    <DID>39</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>227 - Sati Bharat College, Parari, Darbhanga</Row>
+    <CID>3037</CID>
+    <CNAME>Sati Bharat College, Parari, Darbhanga</CNAME>
+    <BID>221</BID>
+    <DID>16</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>228 - SHARDA JHUNJHUNWALA MAHILA COLLEGE, BHAGALPUR</Row>
+    <CID>3164</CID>
+    <CNAME>SHARDA JHUNJHUNWALA MAHILA COLLEGE, BHAGALPUR</CNAME>
+    <BID>370</BID>
+    <DID>25</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>4</WomenStatus>
+  </Table>
+  <Table>
+    <Row>229 - Sheodeni Ram Ayodhya Prasad College, Barachakia, East Champaran</Row>
+    <CID>6475</CID>
+    <CNAME>Sheodeni Ram Ayodhya Prasad College, Barachakia, East Champaran</CNAME>
+    <BID>85</BID>
+    <DID>5</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>230 - Shree Raghava Prasad Singh College, Jaintpur</Row>
+    <CID>3177</CID>
+    <CNAME>Shree Raghava Prasad Singh College, Jaintpur</CNAME>
+    <BID>238</BID>
+    <DID>17</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>231 - SHYAMA PRASAD MAHILA COLLEGE, JAMUI</Row>
+    <CID>3066</CID>
+    <CNAME>SHYAMA PRASAD MAHILA COLLEGE, JAMUI</CNAME>
+    <BID>570</BID>
+    <DID>39</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>4</WomenStatus>
+  </Table>
+  <Table>
+    <Row>232 - Smruti Memorial College</Row>
+    <CID>6538</CID>
+    <CNAME>Smruti Memorial College</CNAME>
+    <BID>146</BID>
+    <DID>10</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>233 - SNS College, Motihari</Row>
+    <CID>6483</CID>
+    <CNAME>SNS College, Motihari</CNAME>
+    <BID>70</BID>
+    <DID>5</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>234 - Sri Arvind Mahila College, </Row>
+    <CID>3152</CID>
+    <CNAME>Sri Arvind Mahila College, </CNAME>
+    <BID>443</BID>
+    <DID>31</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>4</WomenStatus>
+  </Table>
+  <Table>
+    <Row>235 - Sri Shankar College Sasaram</Row>
+    <CID>3168</CID>
+    <CNAME>Sri Shankar College Sasaram</CNAME>
+    <BID>455</BID>
+    <DID>32</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>236 - T.P.S College</Row>
+    <CID>3155</CID>
+    <CNAME>T.P.S College</CNAME>
+    <BID>443</BID>
+    <DID>31</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>237 - T.S. College</Row>
+    <CID>3156</CID>
+    <CNAME>T.S. College</CNAME>
+    <BID>554</BID>
+    <DID>38</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>238 - TARAR COLLEGE, TARAR, GHOGHA, BHAGALPUR</Row>
+    <CID>3165</CID>
+    <CNAME>TARAR COLLEGE, TARAR, GHOGHA, BHAGALPUR</CNAME>
+    <BID>365</BID>
+    <DID>25</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>239 - test college2</Row>
+    <CID>6539</CID>
+    <CNAME>test college2</CNAME>
+    <BID>146</BID>
+    <DID>10</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>4</WomenStatus>
+  </Table>
+  <Table>
+    <Row>240 - Test Staiging1</Row>
+    <CID>6543</CID>
+    <CNAME>Test Staiging1</CNAME>
+    <BID>506</BID>
+    <DID>41</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>241 - Test Uni</Row>
+    <CID>6540</CID>
+    <CNAME>Test Uni</CNAME>
+    <BID>143</BID>
+    <DID>10</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>242 - Test University</Row>
+    <CID>6536</CID>
+    <CNAME>Test University</CNAME>
+    <BID>146</BID>
+    <DID>10</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>243 - U.R.College, Rosera, Samastipur </Row>
+    <CID>3009</CID>
+    <CNAME>U.R.College, Rosera, Samastipur </CNAME>
+    <BID>327</BID>
+    <DID>22</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>244 - Uma Panday College, Pusha, Samastipur</Row>
+    <CID>3030</CID>
+    <CNAME>Uma Panday College, Pusha, Samastipur</CNAME>
+    <BID>314</BID>
+    <DID>22</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>245 - V.N.S. LAW INSTITUTE, MUNGER</Row>
+    <CID>3067</CID>
+    <CNAME>V.N.S. LAW INSTITUTE, MUNGER</CNAME>
+    <BID>385</BID>
+    <DID>27</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>246 - V.S.J. College, Rajnagar, Madhubani </Row>
+    <CID>3032</CID>
+    <CNAME>V.S.J. College, Rajnagar, Madhubani </CNAME>
+    <BID>125</BID>
+    <DID>8</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+  <Table>
+    <Row>247 - Vaishali Mahila College, Vaishali</Row>
+    <CID>3072</CID>
+    <CNAME>Vaishali Mahila College, Vaishali</CNAME>
+    <BID>297</BID>
+    <DID>21</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>4</WomenStatus>
+  </Table>
+  <Table>
+    <Row>248 - Vidya Bhawan Mahila College</Row>
+    <CID>3100</CID>
+    <CNAME>Vidya Bhawan Mahila College</CNAME>
+    <BID>270</BID>
+    <DID>19</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>4</WomenStatus>
+  </Table>
+  <Table>
+    <Row>249 - Women's College, Samastipur</Row>
+    <CID>2999</CID>
+    <CNAME>Women's College, Samastipur</CNAME>
+    <BID>318</BID>
+    <DID>22</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>4</WomenStatus>
+  </Table>
+  <Table>
+    <Row>250 - Y. N.P College, Raniganj</Row>
+    <CID>6516</CID>
+    <CNAME>Y. N.P College, Raniganj</CNAME>
+    <BID>144</BID>
+    <DID>10</DID>
+    <CTYPE>0</CTYPE>
+    <WomenStatus>3</WomenStatus>
+  </Table>
+</NewDataSet>

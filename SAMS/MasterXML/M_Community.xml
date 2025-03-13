@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<NewDataSet>
+  <Table>
+    <CID>1</CID>
+    <CNAME>Bonda</CNAME>
+  </Table>
+  <Table>
+    <CID>2</CID>
+    <CNAME>Didayi</CNAME>
+  </Table>
+</NewDataSet>

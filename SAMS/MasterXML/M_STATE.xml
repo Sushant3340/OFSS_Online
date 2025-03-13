@@ -1,0 +1,220 @@
+<?xml version="1.0"?>
+<NewDataSet>
+  <Table>
+    <Row>1 -  Bihar</Row>
+    <int_StateID>1</int_StateID>
+    <vch_StateCode>1</vch_StateCode>
+    <vch_StateName> Bihar </vch_StateName>
+  </Table>
+  <Table>
+    <Row>2 - Assam</Row>
+    <int_StateID>2</int_StateID>
+    <vch_StateCode>3</vch_StateCode>
+    <vch_StateName>Assam</vch_StateName>
+  </Table>
+  <Table>
+    <Row>3 - Odisha</Row>
+    <int_StateID>3</int_StateID>
+    <vch_StateCode>2</vch_StateCode>
+    <vch_StateName>Odisha</vch_StateName>
+  </Table>
+  <Table>
+    <Row>4 - Uttar Pradesh</Row>
+    <int_StateID>4</int_StateID>
+    <vch_StateCode>3</vch_StateCode>
+    <vch_StateName>Uttar Pradesh</vch_StateName>
+  </Table>
+  <Table>
+    <Row>5 - Maharashtra</Row>
+    <int_StateID>5</int_StateID>
+    <vch_StateCode>3</vch_StateCode>
+    <vch_StateName>Maharashtra</vch_StateName>
+  </Table>
+  <Table>
+    <Row>6 - West Bengal</Row>
+    <int_StateID>6</int_StateID>
+    <vch_StateCode>2</vch_StateCode>
+    <vch_StateName>West Bengal</vch_StateName>
+  </Table>
+  <Table>
+    <Row>7 - Andhra Pradesh</Row>
+    <int_StateID>7</int_StateID>
+    <vch_StateCode>2</vch_StateCode>
+    <vch_StateName>Andhra Pradesh</vch_StateName>
+  </Table>
+  <Table>
+    <Row>8 - Tamil Nadu</Row>
+    <int_StateID>8</int_StateID>
+    <vch_StateCode>3</vch_StateCode>
+    <vch_StateName>Tamil Nadu</vch_StateName>
+  </Table>
+  <Table>
+    <Row>9 - Madhya Pradesh</Row>
+    <int_StateID>9</int_StateID>
+    <vch_StateCode>3</vch_StateCode>
+    <vch_StateName>Madhya Pradesh</vch_StateName>
+  </Table>
+  <Table>
+    <Row>10 - Rajasthan</Row>
+    <int_StateID>10</int_StateID>
+    <vch_StateCode>3</vch_StateCode>
+    <vch_StateName>Rajasthan</vch_StateName>
+  </Table>
+  <Table>
+    <Row>11 - Karnataka</Row>
+    <int_StateID>11</int_StateID>
+    <vch_StateCode>3</vch_StateCode>
+    <vch_StateName>Karnataka</vch_StateName>
+  </Table>
+  <Table>
+    <Row>12 - Gujarat</Row>
+    <int_StateID>12</int_StateID>
+    <vch_StateCode>3</vch_StateCode>
+    <vch_StateName>Gujarat</vch_StateName>
+  </Table>
+  <Table>
+    <Row>13 - Kerala</Row>
+    <int_StateID>13</int_StateID>
+    <vch_StateCode>3</vch_StateCode>
+    <vch_StateName>Kerala</vch_StateName>
+  </Table>
+  <Table>
+    <Row>14 - Jharkhand</Row>
+    <int_StateID>14</int_StateID>
+    <vch_StateCode>2</vch_StateCode>
+    <vch_StateName>Jharkhand</vch_StateName>
+  </Table>
+  <Table>
+    <Row>15 - Punjab</Row>
+    <int_StateID>15</int_StateID>
+    <vch_StateCode>3</vch_StateCode>
+    <vch_StateName>Punjab</vch_StateName>
+  </Table>
+  <Table>
+    <Row>16 - Haryana</Row>
+    <int_StateID>16</int_StateID>
+    <vch_StateCode>3</vch_StateCode>
+    <vch_StateName>Haryana</vch_StateName>
+  </Table>
+  <Table>
+    <Row>17 - Chhattisgarh</Row>
+    <int_StateID>17</int_StateID>
+    <vch_StateCode>2</vch_StateCode>
+    <vch_StateName>Chhattisgarh</vch_StateName>
+  </Table>
+  <Table>
+    <Row>18 - National Capital Territory of Delhi</Row>
+    <int_StateID>18</int_StateID>
+    <vch_StateCode>3</vch_StateCode>
+    <vch_StateName>National Capital Territory of Delhi</vch_StateName>
+  </Table>
+  <Table>
+    <Row>19 - Jammu and Kashmir</Row>
+    <int_StateID>19</int_StateID>
+    <vch_StateCode>3</vch_StateCode>
+    <vch_StateName>Jammu and Kashmir</vch_StateName>
+  </Table>
+  <Table>
+    <Row>20 - Uttarakhand</Row>
+    <int_StateID>20</int_StateID>
+    <vch_StateCode>3</vch_StateCode>
+    <vch_StateName>Uttarakhand</vch_StateName>
+  </Table>
+  <Table>
+    <Row>21 - Himachal Pradesh</Row>
+    <int_StateID>21</int_StateID>
+    <vch_StateCode>3</vch_StateCode>
+    <vch_StateName>Himachal Pradesh</vch_StateName>
+  </Table>
+  <Table>
+    <Row>22 - Tripura</Row>
+    <int_StateID>22</int_StateID>
+    <vch_StateCode>3</vch_StateCode>
+    <vch_StateName>Tripura</vch_StateName>
+  </Table>
+  <Table>
+    <Row>23 - Meghalaya</Row>
+    <int_StateID>23</int_StateID>
+    <vch_StateCode>3</vch_StateCode>
+    <vch_StateName>Meghalaya</vch_StateName>
+  </Table>
+  <Table>
+    <Row>24 - Manipur</Row>
+    <int_StateID>24</int_StateID>
+    <vch_StateCode>3</vch_StateCode>
+    <vch_StateName>Manipur</vch_StateName>
+  </Table>
+  <Table>
+    <Row>25 - Nagaland</Row>
+    <int_StateID>25</int_StateID>
+    <vch_StateCode>3</vch_StateCode>
+    <vch_StateName>Nagaland</vch_StateName>
+  </Table>
+  <Table>
+    <Row>26 - Goa</Row>
+    <int_StateID>26</int_StateID>
+    <vch_StateCode>3</vch_StateCode>
+    <vch_StateName>Goa</vch_StateName>
+  </Table>
+  <Table>
+    <Row>27 - Arunachal Pradesh</Row>
+    <int_StateID>27</int_StateID>
+    <vch_StateCode>3</vch_StateCode>
+    <vch_StateName>Arunachal Pradesh</vch_StateName>
+  </Table>
+  <Table>
+    <Row>28 - Pondicherry</Row>
+    <int_StateID>28</int_StateID>
+    <vch_StateCode>3</vch_StateCode>
+    <vch_StateName>Pondicherry</vch_StateName>
+  </Table>
+  <Table>
+    <Row>29 - Chandigarh</Row>
+    <int_StateID>29</int_StateID>
+    <vch_StateCode>3</vch_StateCode>
+    <vch_StateName>Chandigarh</vch_StateName>
+  </Table>
+  <Table>
+    <Row>30 - Mizoram</Row>
+    <int_StateID>30</int_StateID>
+    <vch_StateCode>3</vch_StateCode>
+    <vch_StateName>Mizoram</vch_StateName>
+  </Table>
+  <Table>
+    <Row>31 - Sikkim</Row>
+    <int_StateID>31</int_StateID>
+    <vch_StateCode>3</vch_StateCode>
+    <vch_StateName>Sikkim</vch_StateName>
+  </Table>
+  <Table>
+    <Row>32 - Andaman and Nicobar</Row>
+    <int_StateID>32</int_StateID>
+    <vch_StateCode>3</vch_StateCode>
+    <vch_StateName>Andaman and Nicobar</vch_StateName>
+  </Table>
+  <Table>
+    <Row>33 - Dadra and Nagar Haveli</Row>
+    <int_StateID>33</int_StateID>
+    <vch_StateCode>3</vch_StateCode>
+    <vch_StateName>Dadra and Nagar Haveli</vch_StateName>
+  </Table>
+  <Table>
+    <Row>34 - Daman and Diu</Row>
+    <int_StateID>34</int_StateID>
+    <vch_StateCode>3</vch_StateCode>
+    <vch_StateName>Daman and Diu</vch_StateName>
+  </Table>
+ 
+  <Table>
+    <Row>35 - Telangana</Row>
+    <int_StateID>36</int_StateID>
+    <vch_StateCode>2</vch_StateCode>
+    <vch_StateName>Telangana</vch_StateName>
+  </Table>
+ <Table>
+    <Row>36 - Others</Row>
+    <int_StateID>35</int_StateID>
+    <vch_StateCode>99</vch_StateCode>
+    <vch_StateName>Others</vch_StateName>
+  </Table>
+</NewDataSet>
