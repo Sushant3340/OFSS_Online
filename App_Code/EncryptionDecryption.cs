@@ -29,6 +29,7 @@ namespace SabPaisaDotNetIntregreation
         private string m_pass;
         private string m_clientTxnId;
         private string m_amt;
+        private string m_amtType;
         private string m_authKey;
         private string m_authIV;
         private string m_successUrl;
@@ -41,6 +42,8 @@ namespace SabPaisaDotNetIntregreation
         private string m_programId;
         private string m_spHitUrl;
         private string m_udf20;
+        private string m_mcc;
+        private string m_channelId;
 
 
         public string prodCode
@@ -108,6 +111,17 @@ namespace SabPaisaDotNetIntregreation
             get
             {
                 return m_amt;
+            }
+        }
+        public string amtType
+        {
+            set
+            {
+                m_amtType = value;
+            }
+            get
+            {
+                return m_amtType;
             }
         }
         public string authKey
@@ -243,6 +257,28 @@ namespace SabPaisaDotNetIntregreation
             }
         }
 
+        public string channelId
+        {
+            set
+            {
+                m_channelId = value;
+            }
+            get
+            {
+                return m_channelId;
+            }
+        }
+        public string mcc
+        {
+            set
+            {
+                m_mcc = value;
+            }
+            get
+            {
+                return m_mcc;
+            }
+        }
 
         public Hashtable QueryValue()
         {
@@ -257,53 +293,80 @@ namespace SabPaisaDotNetIntregreation
     public class SabPaisaIntegration
     {
 
-        // 
+         // dontdelete  bb
+        //public string forwardToSabPaisa(SabPaisaRequest sabPaisaMember)
+        //{
+        //    string query = "";
+        //    Page page = new Page();
+        //    string spurl = "https://payonline.sabpaisa.in/SabPaisa2/sabPaisaInit";
+        //    //if (sabPaisaMember.spUrl.Trim()!= "")
+        //    //{
+        //    //    spurl = sabPaisaMember.spUrl.Trim();
+        //    //}
+
+        //    if (sabPaisaMember.spHitUrl.Trim() != "")
+        //    {
+        //        spurl = sabPaisaMember.spHitUrl.Trim();
+        //    }
+
+
+        //    query = query + spurl + "?";
+
+        //    query = query + "clientName=" + sabPaisaMember.clientCode.Trim() + "";
+        //    query = query + "&usern=" + sabPaisaMember.userName.Trim() + "";
+        //    query = query + "&pass=" + sabPaisaMember.pass.Trim() + "";
+        //    query = query + "&txnId=" + sabPaisaMember.clientTxnId.Trim() + "";
+        //    query = query + "&amt=" + sabPaisaMember.amt.Trim() + "";
+        //    query = query + "&authKey=" + sabPaisaMember.authKey.Trim() + "";
+        //    query = query + "&authIV=" + sabPaisaMember.authIV.Trim() + "";
+        //    query = query + "&ru=" + sabPaisaMember.successUrl.Trim() + "";
+        //    query = query + "&failureURL=" + sabPaisaMember.failureUrl.Trim() + "";
+        //    query = query + "&firstName=" + sabPaisaMember.firstName.Trim() + "";
+        //    query = query + "&lstName=" + sabPaisaMember.lastName.Trim() + "";
+        //    query = query + "&Email=" + sabPaisaMember.email.Trim() + "";
+        //    query = query + "&Add=" + sabPaisaMember.add.Trim() + "";
+        //    query = query + "&contactNo=" + sabPaisaMember.contactNo.Trim() + "";
+        //    query = query + "&programId=" + sabPaisaMember.programId.Trim() + "";
+        //    query = query + "&udf20=" + sabPaisaMember.udf20.Trim() + "";
+        //    query = EncryptString(query, sabPaisaMember.authIV, sabPaisaMember.authKey);
+
+        //    query = query.Replace("+", "%2B");
+        //    //modified by Ritika lath on 1st april 2019
+        //    // query = query.Replace(" ", "%2B");
+
+        //    query = spurl + "?query=" + query + "&clientName=" + sabPaisaMember.clientCode.Trim() + "";
+
+        //    //string SMSScript = "<script>window.open('" + query + "'</script>)";
+        //    //ScriptManager.RegisterStartupScript(page, this.GetType(), "MyScript", SMSScript, true);
+
+        //    //http://192.168.43.115:8081/SabPaisaOld/sabPaisaInit?query=LUtoyFGxO3SsXx3dyqyaxB9CRvsWlWKh8FuCV6Q9zYGsf0hQJYqX1EuPMOA9n1YNQs08mmyQvOS9F15jOtMCysxR69cjQHUS6smf9aFQuUug9k+X+TfZQsLNEeXwRmApCxrAz2vmZLmSCBVY+dAHlTX6nNgVx7yXbCOQuWu518VLJNPCRZK4Hm+B7bOJLDACXt0xS0ZrPxKTAm25SUPwHyECpNdhPzzX4y77datWLwpDI/uq5LZWgvt4l/9z74G+pAFge94sJWYsCCxSIaDd/JcnEHoRomKVAJhfB1Tt7uU3D37Y6ZtzgCYb5jKmeV6/E7AuatqN7l8zK8h7j32iNMTulCS8fw1kaR7dFrm2OkTYH5oQ/hOeBu+z3LI0z5tXLiBBD9m96HK6UBLNoVVgHhcwuNIhBFQPURzvy+yBhI2IBd+6VQKyDN4AuDxx1hhp8ous7SpBjOndHY2wUaZC85Sts5Xd4JtQd+JFkstQ8xyHhymmM8YtproFx6iIfHA6InAm549jPDKAKMtVyTs16W6bZKjtPPwOnLJV7dYXwjqCyW19+TXYh+YbwLI9t71X&clientName=SSNC2&prodCode=LINKP
+
+        //    return query;
+        //}// sabPaisaIntregration end
         public string forwardToSabPaisa(SabPaisaRequest sabPaisaMember)
         {
             string query = "";
             Page page = new Page();
-            string spurl = "https://payonline.sabpaisa.in/SabPaisa2/sabPaisaInit";
-            //if (sabPaisaMember.spUrl.Trim()!= "")
-            //{
-            //    spurl = sabPaisaMember.spUrl.Trim();
-            //}
-
-            if (sabPaisaMember.spHitUrl.Trim() != "")
-            {
-                spurl = sabPaisaMember.spHitUrl.Trim();
-            }
-
-
-            query = query + spurl + "?";
-
-            query = query + "clientName=" + sabPaisaMember.clientCode.Trim() + "";
-            query = query + "&usern=" + sabPaisaMember.userName.Trim() + "";
-            query = query + "&pass=" + sabPaisaMember.pass.Trim() + "";
-            query = query + "&txnId=" + sabPaisaMember.clientTxnId.Trim() + "";
-            query = query + "&amt=" + sabPaisaMember.amt.Trim() + "";
+            query = query + "?clientCode=" + sabPaisaMember.clientCode.Trim() + "";
+            query = query + "&transUserName=" + sabPaisaMember.userName.Trim() + "";
+            query = query + "&transUserPassword=" + sabPaisaMember.pass.Trim() + "";
             query = query + "&authKey=" + sabPaisaMember.authKey.Trim() + "";
             query = query + "&authIV=" + sabPaisaMember.authIV.Trim() + "";
-            query = query + "&ru=" + sabPaisaMember.successUrl.Trim() + "";
-            query = query + "&failureURL=" + sabPaisaMember.failureUrl.Trim() + "";
-            query = query + "&firstName=" + sabPaisaMember.firstName.Trim() + "";
-            query = query + "&lstName=" + sabPaisaMember.lastName.Trim() + "";
-            query = query + "&Email=" + sabPaisaMember.email.Trim() + "";
-            query = query + "&Add=" + sabPaisaMember.add.Trim() + "";
-            query = query + "&contactNo=" + sabPaisaMember.contactNo.Trim() + "";
-            query = query + "&programId=" + sabPaisaMember.programId.Trim() + "";
-            query = query + "&udf20=" + sabPaisaMember.udf20.Trim() + "";
+            query = query + "&payerName=" + sabPaisaMember.firstName.Trim() + "";
+            query = query + "&payerEmail=" + sabPaisaMember.email.Trim() + "";
+            query = query + "&payerMobile=" + sabPaisaMember.contactNo.Trim() + "";
+            query = query + "&payerAddress=" + sabPaisaMember.add.Trim() + "";
+            query = query + "&clientTxnId=" + sabPaisaMember.clientTxnId.Trim() + "";
+            query = query + "&amount=" + sabPaisaMember.amt.Trim() + "";
+            query = query + "&amountType=" + sabPaisaMember.amtType.Trim() + "";
+            query = query + "&channelId=" + sabPaisaMember.channelId.Trim() + "";
+            query = query + "&mcc=" + sabPaisaMember.mcc.Trim() + "";
+            query = query + "&callbackUrl=" + sabPaisaMember.successUrl.Trim() + "";
+            // Extra Parameter use udf1 to udf20
+            //    query = query + "&udf1=" + sabPaisaMember.Class.Trim() + "";
+            //    query = query + "&udf2=" + sabPaisaMember.Roll.Trim() + "";
+
             query = EncryptString(query, sabPaisaMember.authIV, sabPaisaMember.authKey);
-
-            query = query.Replace("+", "%2B");
-            //modified by Ritika lath on 1st april 2019
-            // query = query.Replace(" ", "%2B");
-
-            query = spurl + "?query=" + query + "&clientName=" + sabPaisaMember.clientCode.Trim() + "";
-
-            //string SMSScript = "<script>window.open('" + query + "'</script>)";
-            //ScriptManager.RegisterStartupScript(page, this.GetType(), "MyScript", SMSScript, true);
-
-            //http://192.168.43.115:8081/SabPaisaOld/sabPaisaInit?query=LUtoyFGxO3SsXx3dyqyaxB9CRvsWlWKh8FuCV6Q9zYGsf0hQJYqX1EuPMOA9n1YNQs08mmyQvOS9F15jOtMCysxR69cjQHUS6smf9aFQuUug9k+X+TfZQsLNEeXwRmApCxrAz2vmZLmSCBVY+dAHlTX6nNgVx7yXbCOQuWu518VLJNPCRZK4Hm+B7bOJLDACXt0xS0ZrPxKTAm25SUPwHyECpNdhPzzX4y77datWLwpDI/uq5LZWgvt4l/9z74G+pAFge94sJWYsCCxSIaDd/JcnEHoRomKVAJhfB1Tt7uU3D37Y6ZtzgCYb5jKmeV6/E7AuatqN7l8zK8h7j32iNMTulCS8fw1kaR7dFrm2OkTYH5oQ/hOeBu+z3LI0z5tXLiBBD9m96HK6UBLNoVVgHhcwuNIhBFQPURzvy+yBhI2IBd+6VQKyDN4AuDxx1hhp8ous7SpBjOndHY2wUaZC85Sts5Xd4JtQd+JFkstQ8xyHhymmM8YtproFx6iIfHA6InAm549jPDKAKMtVyTs16W6bZKjtPPwOnLJV7dYXwjqCyW19+TXYh+YbwLI9t71X&clientName=SSNC2&prodCode=LINKP
 
             return query;
         }// sabPaisaIntregration end

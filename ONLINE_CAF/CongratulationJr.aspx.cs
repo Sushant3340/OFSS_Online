@@ -755,10 +755,9 @@ public partial class CongratulationJr : System.Web.UI.Page
         List<CAFEntity> lstCafEntity = new List<CAFEntity>();
         CafPayment cafobj = new CafPayment();
         string sFinalurl = "";
+        string respString = "";
         try
-        {
-
-           
+        {           
                 CAFEntity objCAFEntitySearch = new CAFEntity();
                 objCAFEntitySearch.UID = strRefID;
                 objCAFEntitySearch.Action = "p";
@@ -821,7 +820,9 @@ public partial class CongratulationJr : System.Web.UI.Page
 
             // Amnt field don't have any comma and special character, only numeric value.
             sabPaisaMember1.amt = System.Configuration.ConfigurationManager.AppSettings["FeeAmt_Jr"].ToString();
-
+            sabPaisaMember1.amtType = System.Configuration.ConfigurationManager.AppSettings["FeeAmtType_Jr"].ToString();
+            sabPaisaMember1.channelId = System.Configuration.ConfigurationManager.AppSettings["channelId_Jr"].ToString();
+            sabPaisaMember1.mcc = System.Configuration.ConfigurationManager.AppSettings["mcc"].ToString();
             sabPaisaMember1.programId = "NA";		  // pass NA
 
             //"http: //192.168.43.115:8081/LinkPaisa/ClientResponse.jsp"; //Use you success Url where you can capture response
@@ -846,12 +847,23 @@ public partial class CongratulationJr : System.Web.UI.Page
             cafobj.clientTxnId = sabPaisaMember1.clientTxnId;
             cafobj.vch_UniqueRefNo = strRefID;
             cafobj.int_ApplicantID = intApplID;
+           
 
-            //added by Ritika lath to add amount in database on 07-04-2020
-            cafobj.amount = Convert.ToInt32(System.Configuration.ConfigurationManager.AppSettings["FeeAmt_Jr"]);
-          
+            ////added by Ritika lath to add amount in database on 07-04-2020
+           cafobj.amount = Convert.ToInt32(System.Configuration.ConfigurationManager.AppSettings["FeeAmt_Jr"]);
+
                 string strResult = ccobj.ManagePayment_JR(cafobj);
-            
+             respString = "<html>" +
+                 "<head><script type=\"text/javascript\" src=\"https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js\"></script><script type=\"text/javascript\">\r\n           $(document).ready(function () {\r\n               $(\"#submitButton\").click();\r\n           });\r\n       </script><style> body { display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; text-align: center; } </style></head>" +
+                "<body>" +
+                    "<form id=\"form1\" action=\"https://stage-securepay.sabpaisa.in/SabPaisa/sabPaisaInit?v=1\" method=\"post\" >" +
+                    "<input type=\"hidden\" name=\"encData\" value=\"" + sFinalurl + "\" id=\"frm1\">" +
+                    "<input type=\"hidden\" name=\"clientCode\" value=\"" + sabPaisaMember1.clientCode.Trim() + "\" id =\"frm2\">" +
+                    "<input type=\"submit\" name=\"submit\" value=\"Process_Payment\" id=\"submitButton\">" +
+                    "</ form >" +
+                "</body>" +
+           "</html>";
+           
         }
         catch (Exception ex)
         {
@@ -863,11 +875,14 @@ public partial class CongratulationJr : System.Web.UI.Page
         }
         try
         {
-            if (!string.IsNullOrEmpty(sFinalurl))
+            if (!string.IsNullOrEmpty(respString))
             {
                 // SendPaymentSMS(lblMobileNo.Text, cafobj.clientTxnId);
                 // SendPaymentEmail(cafobj.clientTxnId.ToString());
-                Response.Redirect(sFinalurl, false);
+                //Response.Write(respString);
+                Session["HtmlResponse"] = respString;
+                Response.Redirect("PostPgRequest.aspx", false);
+               
             }
         }
         catch

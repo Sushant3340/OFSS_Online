@@ -980,27 +980,30 @@ public partial class StudentLogin_PersonalInfo : System.Web.UI.Page
     protected void btnSave_Click(object sender, EventArgs e)
     {
         string ImageName = Session["AdmittedStreamId"].ToString();
-
-        CAFDAL ccobjcaf = new CAFDAL();
-        OFSS_OL_Entity.CAFEntity CafObj = new OFSS_OL_Entity.CAFEntity();
-        CafObj.photo = new HttpPostedFileWrapper(imgUpload.PostedFile);
-        using (var client = new AmazonS3Client(ConfigurationManager.AppSettings["AWSKey"], ConfigurationManager.AppSettings["AWSValue"], RegionEndpoint.APSouth1))
+        if (imgUpload.HasFile)
         {
-
-            using (var newMemoryStream = new MemoryStream())
+            CAFDAL ccobjcaf = new CAFDAL();
+            OFSS_OL_Entity.CAFEntity CafObj = new OFSS_OL_Entity.CAFEntity();
+            CafObj.photo = new HttpPostedFileWrapper(imgUpload.PostedFile);
+            using (var client = new AmazonS3Client(ConfigurationManager.AppSettings["AWSKey"], ConfigurationManager.AppSettings["AWSValue"], RegionEndpoint.APSouth1))
             {
-                var uploadRequest = new TransferUtilityUploadRequest
-                {
-                    InputStream = CafObj.photo.InputStream,
-                    Key = string.Format("OFSS2025/SAMS/ONLINE_CAF/APPL_IMAGES/2024/{0}", ImageName),
-                    BucketName = "bseb",
-                    CannedACL = S3CannedACL.PublicRead
-                };
 
-                var fileTransferUtility = new TransferUtility(client);
-                fileTransferUtility.Upload(uploadRequest);
+                using (var newMemoryStream = new MemoryStream())
+                {
+                    var uploadRequest = new TransferUtilityUploadRequest
+                    {
+                        InputStream = CafObj.photo.InputStream,
+                        Key = string.Format("OFSS2025/SAMS/ONLINE_CAF/APPL_IMAGES/2024/{0}", ImageName),
+                        BucketName = "bseb",
+                        CannedACL = S3CannedACL.PublicRead
+                    };
+
+                    var fileTransferUtility = new TransferUtility(client);
+                    fileTransferUtility.Upload(uploadRequest);
+                }
             }
         }
+        
 
 
 

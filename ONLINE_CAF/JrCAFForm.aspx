@@ -28,9 +28,19 @@
             font-family: "Roboto", sans-serif !important;
             font-size:13px;
         }
-        .CAFheading, .style2{
+        .CAFheading, .style2, .normalfont{
             font-family: "Roboto", sans-serif !important;
             font-weight:600
+        }
+
+        .normalfont{
+            font-size:14px;
+        }
+
+        #imgSpan {
+            color: #666;
+            font-weight: normal;
+            font-size: 14px;
         }
         .Uppercase {
             text-transform: uppercase;
@@ -50,13 +60,12 @@
             text-decoration: none;
         }
 
-        .inputitem {
-            font-size: 11px;
-            font-weight: normal;
-            color: #000000;
-            font-weight: bold;
-            background-color: #f8f5d6;
-        }
+
+        .optionbtnNew {
+    background-color: #105a8b;
+    border-color: #105a8b;
+    margin-bottom: 10px;
+}
 
         .bordernew {
             font-size: 11px;
@@ -79,10 +88,9 @@
         }
 
         .optionbtnNew {
-            background-color: #75bf52;
-            *background-color: #75bf52;
-            background-repeat: repeat-x;
-            text-shadow: 01px1pxrgba(0, 0, 0, 0.25);
+            background-color: #105a8b;
+            border-color: #105a8b;
+            margin-bottom: 10px;
             color: #fff;
             font-size: 13px;
             font-weight: bold;
@@ -91,15 +99,7 @@
             cursor: pointer;
             margin-top: 5px;
             height: 29px;
-            background-image: -moz-linear-gradient(top, #82d05f, #75bf52);
         }
-
-            .optionbtnNew:hover {
-                background-color: #6ab148;
-                background-color: #6ab148;
-                background-repeat: repeat-x;
-                background-image: -moz-linear-gradient(top, #6ab148, #6ab148);
-            }
 
         input[type="radio" i] {
             margin: 3px 1px 0px 2px;
@@ -225,20 +225,45 @@
             border: solid 1px #000;
             height: auto !important;
             padding: 8px;
-            width: -webkit-fill-available !important;
+            width:100% !important;
             outline: none;
+            box-sizing:border-box;
+            font-size: 13px;
+            font-weight: normal;
+            color: #000000;
+            font-weight: 500;
         }
 
         .std-numbers input {
-    width: 50px !important;
-}
+            width: 50px !important;
+        }
         .redio-new-btns tr td span{
             color:#000 !important;
         }
 
-.std-numbers input#txtCTeleNo {
-    width: 90px !important;
-}
+        .std-numbers input#txtCTeleNo {
+            width: 90px !important;
+        }
+
+        table#tableOption tr th, table#tableOption tr td {
+            padding: 5px;
+            border: solid 1px #2a2a2a;
+            font-size: 13px;
+        }
+
+        table#tableOption {
+            border-collapse: collapse;
+        }
+
+        table#tableOption tr td font {
+            color: #000;
+            font-size: 14px;
+        }
+
+        .optionbtnNew:hover {
+            background: #c3361d;
+            border-color: #c3361d;
+        }
     </style>
     <script type="text/javascript" language="javascript">
 
@@ -560,7 +585,7 @@
                                                 <table width="100%" border="0" cellspacing="0" cellpadding="0">
                                                     <tr>
                                                         <td align="center" class="redbold">
-                                                            <label id="lblp2" style="font-weight: bold">
+                                                            <label id="lblp2">
                                                                 Intermediate</label>
                                                         </td>
                                                     </tr>
@@ -814,14 +839,8 @@
                                                                                                 </div>
                                                                                                 <table width="100%" border="0" cellspacing="0" cellpadding="0">
                                                                                                     <tr>
-                                                                                                        <td width="2%">
-                                                                                                            <strong>
-                                                                                                                <%--<label id="lblN2">
-                                                                                                                    2.</label>--%>
-                                                                                                            </strong>
-                                                                                                        </td>
-                                                                                                        <td width="30%" id="tdlblUniqId" runat="server" style="display: none;border: solid 1px #000; padding: 5px; border-left: 0; border-top: 0;">
-                                                                                                            <label id="lblUniqueId" style="color: #8B0000" runat="server">
+                                                                                                        <td colspan="2" width="30%" id="tdlblUniqId" runat="server" style="display: none;border: solid 1px #000; padding: 5px; border-bottom: 0;">
+                                                                                                            <label id="lblUniqueId" style="color: #000" runat="server">
                                                                                                                 Applicant's Unique Id 
                                                                                                                 <br />
                                                                                                                 आवेदक का यूनिक आई.डी (यदि उपलब्ध हो )
@@ -829,7 +848,7 @@
                                                                                                             
                                                                                                             <%--<strong>??????? ???? ?? ???</strong> <font color="#8B0000" size="3">*</font>--%>
                                                                                                         </td>
-                                                                                                        <td width="50%" colspan="2" id="tdtxtuniqueId" runat="server" style="display: none;border: solid 1px #000; padding: 5px; border-left: 0; border-top: 0;">
+                                                                                                        <td width="50%" colspan="2" id="tdtxtuniqueId" runat="server" style="display: none;border: solid 1px #000; padding: 5px; border-left: 0; border-bottom: 0;">
                                                                                                             <asp:TextBox ID="txtUniqueId" runat="server" Width="100%" CssClass="inputitem Uppercase"
                                                                                                                 AutoCompleteType="disabled" MaxLength="15" onkeypress="return CheckLengthOnly('txtUniqueId', 13);"
                                                                                                                 onKeyUp="return NumericValidation('txtUniqueId','Please write only numeric values for Applicant Unique Id',13);" />
@@ -1205,7 +1224,7 @@ Apart from Bihar board, CBSE, ICSE and other passed students of the board will a
                                                             <table width="100%" border="0" cellpadding="0" cellspacing="0"
                                                                 id="tblKERALA" style="display: none;">
                                                                 <tr>
-                                                                    <td style="border: solid 1px #000; padding: 5px; border-top: 0;">
+                                                                    <td style="border: solid 1px #000; padding: 5px; border-top: 0; border-left:0;">
                                                                         <strong>Grade</strong>
                                                                     </td>
                                                                     <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
@@ -1222,7 +1241,7 @@ Apart from Bihar board, CBSE, ICSE and other passed students of the board will a
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td style="border: solid 1px #000; padding: 5px; border-top: 0;">
+                                                                    <td style="border: solid 1px #000; padding: 5px; border-top: 0; border-left:0;">
                                                                         <asp:DropDownList ID="ddlTGrade" runat="server" CssClass="inputitem">
                                                                             <asp:ListItem Value="0">--SELECT--</asp:ListItem>
                                                                             <asp:ListItem Value="10">A+</asp:ListItem>
@@ -1833,7 +1852,7 @@ Apart from Bihar board, CBSE, ICSE and other passed students of the board will a
                                 <td>
                                     <table width="100%" border="0" cellspacing="0" cellpadding="0">
                                         <tr>
-                                            <td style="border: solid 1px #000; padding: 5px;"">8<strong><label id="lblN6">.</label>
+                                            <td style="border: solid 1px #000; padding: 5px;">8<strong><label id="lblN6">.</label>
                                             </strong>
                                             </td>
                                             <td style="border: solid 1px #000; padding: 5px;border-left:0;">
@@ -2087,7 +2106,7 @@ Apart from Bihar board, CBSE, ICSE and other passed students of the board will a
                 </tr>
                 <tr>
                     <td>
-                        <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                        <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" style="margin-top:10px;">
                             <tr>
                                 <td>
                                     <table width="100%" border="0" cellspacing="0" cellpadding="0">
@@ -2360,9 +2379,9 @@ Apart from Bihar board, CBSE, ICSE and other passed students of the board will a
                     <td>
                         <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
                             <tr>
-                                <td bgcolor="#f8f5d4">
+                                <td>
                                     <div id="tblChoice" style="display: none;">
-                                        <table width="100%" border="0" cellspacing="0" cellpadding="2">
+                                        <table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin-top:10px;">
                                             <tr>
                                                 <td>
                                                     <strong>
@@ -2376,13 +2395,13 @@ Apart from Bihar board, CBSE, ICSE and other passed students of the board will a
                                                 <td>
                                                     <table width="100%" cellpadding="2" cellspacing="1" bgcolor="#CCCCCC" id="tableOption">
                                                         <tr>
-                                                            <th bgcolor="#FE6A08" class="whitetxt">
+                                                            <th bgcolor="#c3361d" class="whitetxt">
                                                                 <strong>Option Sl.No </strong>
                                                             </th>
-                                                            <th bgcolor="#FE6A08" class="whitetxt">
+                                                            <th bgcolor="#c3361d" class="whitetxt">
                                                                 <strong>College </strong>
                                                             </th>
-                                                            <th bgcolor="#FE6A08" class="whitetxt">
+                                                            <th bgcolor="#c3361d" class="whitetxt">
                                                                 <strong>Stream </strong>
                                                             </th>
                                                             <%--  <th bgcolor="#FE6A08" class="whitetxt" style="display:none;">
@@ -2581,7 +2600,7 @@ Apart from Bihar board, CBSE, ICSE and other passed students of the board will a
                                                                     <asp:ListItem Value="0">--SELECT--</asp:ListItem>
                                                                 </asp:DropDownList>
                                                             </span>
-                                                            <table border="0" cellspacing="0" cellpadding="2" class="noBorderTab" style="display: none;">
+                                                            <table border="0" cellspacing="0" cellpadding="0" class="noBorderTab" style="display: none;">
                                                                 <tr>
                                                                     <td>
                                                                         <label id="lblCompulsorySubject" style="color: #000">
@@ -2791,27 +2810,27 @@ Apart from Bihar board, CBSE, ICSE and other passed students of the board will a
                                                         <td>
                                                             <input name="button" type="button" class="optionbtnNew" id="2" title="Click to add options"
                                                                 onclick="ELEsubjectvalidation(); updateRow(2); " value="2nd Option / &#2342;&#2370;&#2360;&#2352;&#2366; &#2357;&#2367;&#2325;&#2354;&#2381;&#2346;"
-                                                                style="background-image: url(../images/add.png); background-repeat: no-repeat; background-position: 8px center; background-size: 12px; min-height: 30px; width: 170px; line-height: 30px; margin-top: 0px;" />
+                                                                style="min-height: 30px; width: 170px; line-height: 30px; margin-top: 0px;" />
                                                         </td>
                                                         <td>
                                                             <input name="button2" type="button" class="optionbtnNew" id="3" title="Click to add options;"
                                                                 onclick="ELEsubjectvalidation(); updateRow(3); " value="3rd Option / &#2340;&#2368;&#2360;&#2352;&#2366; &#2357;&#2367;&#2325;&#2354;&#2381;&#2346;"
-                                                                style="background-image: url(../images/add.png); background-repeat: no-repeat; display: none; background-position: 8px center; background-size: 12px; min-height: 30px; width: 170px; line-height: 30px; margin-top: 0px;" />
+                                                                style="display: none; min-height: 30px; width: 170px; line-height: 30px; margin-top: 0px;" />
                                                         </td>
                                                         <td>
                                                             <input name="button3" type="button" class="optionbtnNew" id="4" title="Click to add options"
                                                                 onclick="ELEsubjectvalidation(); updateRow(4); " value="4th Option / &#2330;&#2380;&#2341;&#2366; &#2357;&#2367;&#2325;&#2354;&#2381;&#2346;"
-                                                                style="background-image: url(../images/add.png); background-repeat: no-repeat; display: none; background-position: 8px center; background-size: 12px; min-height: 30px; width: 170px; line-height: 30px; margin-top: 0px;" />
+                                                                style="display: none;min-height: 30px; width: 170px; line-height: 30px; margin-top: 0px;" />
                                                         </td>
                                                         <td>
                                                             <input name="button4" type="button" class="optionbtnNew" id="5" title="Click to add options"
                                                                 onclick="ELEsubjectvalidation(); updateRow(5); " value="5th Option / 5 &#2357;&#2366;&#2306; &#2357;&#2367;&#2325;&#2354;&#2381;&#2346;"
-                                                                style="background-image: url(../images/add.png); background-repeat: no-repeat; display: none; background-position: 8px center; background-size: 12px; min-height: 30px; width: 170px; line-height: 30px; margin-top: 0px;" />
+                                                                style="display: none;min-height: 30px; width: 170px; line-height: 30px; margin-top: 0px;" />
                                                         </td>
                                                         <td>
                                                             <input name="button5" type="button" class="optionbtnNew" id="6" title="Click to add options"
                                                                 onclick="ELEsubjectvalidation(); updateRow(6); " value="6th Option/ 6 &#2357;&#2366;&#2306; &#2357;&#2367;&#2325;&#2354;&#2381;&#2346;"
-                                                                style="background-image: url(../images/add.png); background-repeat: no-repeat; display: none; background-position: 8px center; background-size: 12px; min-height: 30px; width: 170px; line-height: 30px; margin-top: 0px;" />
+                                                                style="display: none; min-height: 30px; width: 170px; line-height: 30px; margin-top: 0px;" />
                                                         </td>
                                                         <td>
                                                             <input name="button6" type="button" class="optionbtnNew" id="7" title="Click to add options"
@@ -2821,67 +2840,67 @@ Apart from Bihar board, CBSE, ICSE and other passed students of the board will a
                                                         <td>
                                                             <input name="button7" type="button" class="optionbtnNew" id="8" title="Click to add options"
                                                                 onclick="ELEsubjectvalidation(); updateRow(8); " value="8th Option/ 8 &#2357;&#2366;&#2306; &#2357;&#2367;&#2325;&#2354;&#2381;&#2346;"
-                                                                style="background-image: url(../images/add.png); background-repeat: no-repeat; display: none; background-position: 8px center; background-size: 12px; min-height: 30px; width: 170px; line-height: 30px; margin-top: 0px;" />
+                                                                style="display: none; min-height: 30px; width: 170px; line-height: 30px; margin-top: 0px;" />
                                                         </td>
                                                         <td>
                                                             <input name="button8" type="button" class="optionbtnNew" id="9" title="Click to add options"
                                                                 onclick="ELEsubjectvalidation(); updateRow(9); " value="9th Option/ 9 &#2357;&#2366;&#2306; &#2357;&#2367;&#2325;&#2354;&#2381;&#2346;"
-                                                                style="background-image: url(../images/add.png); background-repeat: no-repeat; display: none; background-position: 8px center; background-size: 12px; min-height: 30px; width: 170px; line-height: 30px; margin-top: 0px;" />
+                                                                style="display: none; min-height: 30px; width: 170px; line-height: 30px; margin-top: 0px;" />
                                                         </td>
                                                         <td>
                                                             <input name="button9" type="button" class="optionbtnNew" id="10" title="Click to add options"
                                                                 onclick="ELEsubjectvalidation(); updateRow(10); " value="10th Option/ 10 &#2357;&#2366;&#2306; &#2357;&#2367;&#2325;&#2354;&#2381;&#2346;"
-                                                                style="background-image: url(../images/add.png); background-repeat: no-repeat; display: none; background-position: 8px center; background-size: 12px; min-height: 30px; width: 170px; line-height: 30px; margin-top: 0px;" />
+                                                                style="display: none; min-height: 30px; width: 170px; line-height: 30px; margin-top: 0px;" />
                                                         </td>
                                                         <td>
                                                             <input name="button10" type="button" class="optionbtnNew" id="11" title="Click to add options"
                                                                 onclick="ELEsubjectvalidation(); updateRow(11); " value="11th Option/ 11 &#2357;&#2366;&#2306; &#2357;&#2367;&#2325;&#2354;&#2381;&#2346;"
-                                                                style="background-image: url(../images/add.png); background-repeat: no-repeat; display: none; background-position: 8px center; background-size: 12px; min-height: 30px; width: 170px; line-height: 30px; margin-top: 0px;" />
+                                                                style="display: none; min-height: 30px; width: 170px; line-height: 30px; margin-top: 0px;" />
                                                         </td>
                                                         <td>
                                                             <input name="button11" type="button" class="optionbtnNew" id="12" title="Click to add options"
                                                                 onclick="ELEsubjectvalidation(); updateRow(12); " value="12th Option/ 12 &#2357;&#2366;&#2306; &#2357;&#2367;&#2325;&#2354;&#2381;&#2346;"
-                                                                style="background-image: url(../images/add.png); background-repeat: no-repeat; display: none; background-position: 8px center; background-size: 12px; min-height: 30px; width: 170px; line-height: 30px; margin-top: 0px;" />
+                                                                style="display: none;min-height: 30px; width: 170px; line-height: 30px; margin-top: 0px;" />
                                                         </td>
                                                         <td>
                                                             <input name="button12" type="button" class="optionbtnNew" id="13" title="Click to add options"
                                                                 onclick="ELEsubjectvalidation(); updateRow(13); " value="13th Option/ 13 &#2357;&#2366;&#2306; &#2357;&#2367;&#2325;&#2354;&#2381;&#2346;"
-                                                                style="background-image: url(../images/add.png); background-repeat: no-repeat; display: none; background-position: 8px center; background-size: 12px; min-height: 30px; width: 170px; line-height: 30px; margin-top: 0px;" />
+                                                                style="display: none;min-height: 30px; width: 170px; line-height: 30px; margin-top: 0px;" />
                                                         </td>
                                                         <td>
                                                             <input name="button13" type="button" class="optionbtnNew" id="14" title="Click to add options"
                                                                 onclick="ELEsubjectvalidation(); updateRow(14); " value="14th Option/ 14 &#2357;&#2366;&#2306; &#2357;&#2367;&#2325;&#2354;&#2381;&#2346;"
-                                                                style="background-image: url(../images/add.png); background-repeat: no-repeat; display: none; background-position: 8px center; background-size: 12px; min-height: 30px; width: 170px; line-height: 30px; margin-top: 0px;" />
+                                                                style="display: none; min-height: 30px; width: 170px; line-height: 30px; margin-top: 0px;" />
                                                         </td>
                                                         <td>
                                                             <input name="button14" type="button" class="optionbtnNew" id="15" title="Click to add options"
                                                                 onclick="ELEsubjectvalidation(); updateRow(15); " value="15th Option/ 15 &#2357;&#2366;&#2306; &#2357;&#2367;&#2325;&#2354;&#2381;&#2346;"
-                                                                style="background-image: url(../images/add.png); background-repeat: no-repeat; display: none; background-position: 8px center; background-size: 12px; min-height: 30px; width: 170px; line-height: 30px; margin-top: 0px;" />
+                                                                style="display: none; min-height: 30px; width: 170px; line-height: 30px; margin-top: 0px;" />
                                                         </td>
                                                         <td>
                                                             <input name="button15" type="button" class="optionbtnNew" id="16" title="Click to add options"
                                                                 onclick="ELEsubjectvalidation(); updateRow(16); " value="16th Option/ 16 &#2357;&#2366;&#2306; &#2357;&#2367;&#2325;&#2354;&#2381;&#2346;"
-                                                                style="background-image: url(../images/add.png); background-repeat: no-repeat; display: none; background-position: 8px center; background-size: 12px; min-height: 30px; width: 170px; line-height: 30px; margin-top: 0px;" />
+                                                                style="display: none;min-height: 30px; width: 170px; line-height: 30px; margin-top: 0px;" />
                                                         </td>
                                                         <td>
                                                             <input name="button16" type="button" class="optionbtnNew" id="17" title="Click to add options"
                                                                 onclick="ELEsubjectvalidation(); updateRow(17); " value="17th Option/ 17 &#2357;&#2366;&#2306; &#2357;&#2367;&#2325;&#2354;&#2381;&#2346;"
-                                                                style="background-image: url(../images/add.png); background-repeat: no-repeat; display: none; background-position: 8px center; background-size: 12px; min-height: 30px; width: 170px; line-height: 30px; margin-top: 0px;" />
+                                                                style="display: none;min-height: 30px; width: 170px; line-height: 30px; margin-top: 0px;" />
                                                         </td>
                                                         <td>
                                                             <input name="button17" type="button" class="optionbtnNew" id="18" title="Click to add options"
                                                                 onclick="ELEsubjectvalidation(); updateRow(18); " value="18th Option/ 18 &#2357;&#2366;&#2306; &#2357;&#2367;&#2325;&#2354;&#2381;&#2346;"
-                                                                style="background-image: url(../images/add.png); background-repeat: no-repeat; display: none; background-position: 8px center; background-size: 12px; min-height: 30px; width: 170px; line-height: 30px; margin-top: 0px;" />
+                                                                style="display: none;min-height: 30px; width: 170px; line-height: 30px; margin-top: 0px;" />
                                                         </td>
                                                         <td>
                                                             <input name="button18" type="button" class="optionbtnNew" id="19" title="Click to add options"
                                                                 onclick="ELEsubjectvalidation(); updateRow(19); " value="19th Option/ 19 &#2357;&#2366;&#2306; &#2357;&#2367;&#2325;&#2354;&#2381;&#2346;"
-                                                                style="background-image: url(../images/add.png); background-repeat: no-repeat; display: none; background-position: 8px center; background-size: 12px; min-height: 30px; width: 170px; line-height: 30px; margin-top: 0px;" />
+                                                                style="display: none; min-height: 30px; width: 170px; line-height: 30px; margin-top: 0px;" />
                                                         </td>
                                                         <td>
                                                             <input name="button19" type="button" class="optionbtnNew" id="20" title="Click to add options"
                                                                 onclick="ELEsubjectvalidation(); updateRow(20); " value="20th Option/ 20 &#2357;&#2366;&#2306; &#2357;&#2367;&#2325;&#2354;&#2381;&#2346;"
-                                                                style="background-image: url(../images/add.png); background-repeat: no-repeat; display: none; background-position: 8px center; background-size: 12px; min-height: 30px; width: 170px; line-height: 30px; margin-top: 0px;" />
+                                                                style="display: none; min-height: 30px; width: 170px; line-height: 30px; margin-top: 0px;" />
                                                         </td>
                                                     </tr>
                                                 </table>

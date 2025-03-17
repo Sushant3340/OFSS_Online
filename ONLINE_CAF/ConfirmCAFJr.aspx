@@ -11,6 +11,7 @@
     <meta http-equiv="Cache-Control" content="no-cache" />
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
     <link href="../style/chromestyle.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"/>
     <script language="javascript" type="text/javascript">
         textcolours = new Array('#000000', '#FF0000', '#000000', '#FF0000', '#000000', '#FF0000');
         //textcolours =new Array( '#000000', '#FFFFFF', '#000000', '#FFFFFF', '#000000', '#FFFFFF' );
@@ -20,101 +21,163 @@
         }
         setInterval('flashtext()', 1000);
     </script>
-    <style type="text/css">
-        .redbold {
-            font-size: 25px;
-        }
+     <style type="text/css">
+      body {
+          margin: 0px;
+          padding: 0px;
+          border: none;
+          font-family: "Roboto", sans-serif !important;
+          font-size:13px;
+      }
+      .CAFheading, .style2, .normalfont{
+          font-family: "Roboto", sans-serif !important;
+          font-weight:600
+      }
 
-        .Uppercase {
-            text-transform: uppercase;
-        }
+      .normalfont{
+          font-size:14px;
+      }
+      .Uppercase {
+          text-transform: uppercase;
+      }
 
-        .style2 {
-            font-size: 18px;
-        }
+      .redbold {
+          font-size: 31px;
+          font-weight: 600;
+          color: #C60000;
+          text-decoration: none;
+      }
 
-        .redbold {
-            font-family: Verdana, Arial, Helvetica, sans-serif;
-            font-size: 30px;
-            font-weight: bold;
-            color: #C60000;
-            text-decoration: none;
-        }
+     .smlfont {
+         font-size: 11px;
+         font-weight: bold;
+         color: #333333;
+         text-decoration: none;
+     }
 
-        .smlfont {
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 11px;
-            font-weight: bold;
-            color: #333333;
-            text-decoration: none;
-        }
+     .inputitem {
+         background: transparent;
+         border: solid 1px #000;
+         height: auto !important;
+         padding: 8px;
+         width:100% !important;
+         outline: none;
+         box-sizing:border-box;
+         font-size: 13px;
+         font-weight: normal;
+         color: #000000;
+         font-weight: 500;
+     }
 
-        .inputitem {
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 11px;
-            font-weight: normal;
-            color: #000000;
-        }
+     .std-numbers input {
+         width: 50px !important;
+     }
+     .redio-new-btns tr td span{
+         color:#000 !important;
+     }
 
-        .countdwnrtxt2 {
-            padding-top: 5px;
-            font-family: Arial, Helvetica, sans-serif;
-            text-decoration: none;
-            color: #000000;
-            font-size: 14px;
-            font-weight: bold;
-        }
+     .std-numbers input#txtCTeleNo {
+         width: 90px !important;
+     }
 
-        .borderceelcaf {
-            padding: 0px;
-            border-color: #666666;
-            border-width: 1px;
-            border-style: solid;
-        }
+     table#tableOption tr th, table#tableOption tr td {
+         padding: 5px;
+         border: solid 1px #2a2a2a;
+         font-size: 13px;
+     }
 
-        .tablebdercaf {
-            margin: 0px;
-            padding: 0px;
-        }
+     table#tableOption {
+         border-collapse: collapse;
+     }
 
-            .tablebdercaf table {
-                border-top-width: 1px;
-                border-top-style: solid;
-                border-top-color: #666666;
-                border-left-width: 1px;
-                border-left-style: solid;
-                border-left-color: #666666;
-            }
+     table#tableOption tr td font {
+         color: #000;
+         font-size: 14px;
+     }
 
-                .tablebdercaf table td {
-                    border-right-width: 1px;
-                    border-bottom-width: 1px;
-                    border-right-style: solid;
-                    border-bottom-style: solid;
-                    border-right-color: #666666;
-                    border-bottom-color: #666666;
-                }
+     .optionbtnNew:hover {
+         background: #c3361d;
+         border-color: #c3361d;
+     }
 
-                .tablebdercaf table th {
-                    border-right-width: 1px;
-                    border-bottom-width: 1px;
-                    border-right-style: solid;
-                    border-bottom-style: solid;
-                    border-right-color: #666666;
-                    border-bottom-color: #666666;
-                    background-color: #999999;
-                }
+     .countdwnrtxt2 {
+         padding-top: 5px;
+         text-decoration: none;
+         color: #000000;
+         font-size: 12px;
+     }
 
-        .bgprint {
-            background-color: #666666;
-            padding: 2px;
-            display: block;
-        }
+     .borderceelcaf {
+         padding: 0px;
+         border-color: #666666;
+         border-width: 1px;
+         border-style: solid;
+     }
 
-        .style3 {
-            height: 169px;
-        }
-    </style>
+     .tablebdercaf {
+         margin: 0px;
+         padding: 0px;
+     }
+
+         .tablebdercaf table {
+             border-top-width: 1px;
+             border-top-style: solid;
+             border-top-color: #666666;
+             border-left-width: 1px;
+             border-left-style: solid;
+             border-left-color: #666666;
+         }
+
+             .tablebdercaf table td {
+                 border-right-width: 1px;
+                 border-bottom-width: 1px;
+                 border-right-style: solid;
+                 border-bottom-style: solid;
+                 border-right-color: #666666;
+                 border-bottom-color: #666666;
+             }
+
+             .tablebdercaf table th {
+                 border-right-width: 1px;
+                 border-bottom-width: 1px;
+                 border-right-style: solid;
+                 border-bottom-style: solid;
+                 border-right-color: #666666;
+                 border-bottom-color: #666666;
+                 background-color: #999999;
+             }
+
+     .bgprint {
+         background-color: #666666;
+         padding: 2px;
+         display: block;
+     }
+
+     .style3 {
+         height: 169px;
+     }
+
+     .roll-code-cls {
+         border: solid 1px #000 !important;
+         padding: 5px;
+         border-top: 0 !important;
+         border-left:0 !important;
+     }
+
+     .unique-cls {
+         border: solid 1px #000;
+         padding: 5px;
+         border-bottom:0;
+     }
+
+     .unique-cls.num {
+         border-left: 0;
+     }
+     .submitBtn{
+         cursor:pointer;
+         margin-bottom:10px;
+     }
+ </style>
     <script type="text/javascript" language="javascript">
         function show(subId) {
             document.getElementById(subId).style.display = ""
@@ -238,12 +301,12 @@
 
         <asp:HiddenField ID="hdnAadharNo" runat="server" />
 
-        <table style="width:850px;" border="0" align="center" cellpadding="0" cellspacing="0">
+        <table style="width:70%;" border="0" align="center" cellpadding="0" cellspacing="0">
             <tr>
                 <td>
-                    <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                    <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" style="padding:0; border:none;border-collapse: collapse; margin:10px 0px;">
                         <tr>
-                            <td width="85" align="left" class="CAFheading">
+                            <td width="93px" align="left" class="CAFheading">
                                 <img src="../images/BiharLogo.png" width="77" height="83" />
                             </td>
                             <td height="22" align="center" class="style2">
@@ -276,7 +339,7 @@
             </tr>
             <tr>
                 <td>
-                    <table width="100%" border="0" cellpadding="10" cellspacing="0" class="tbborderCAF">
+                    <table width="100%" border="0" cellpadding="0" cellspacing="0">
                         <tr>
                             <td bgcolor="#FFFFFF" class="style3">
                                 <table width="100%" border="0" cellspacing="0" cellpadding="0">
@@ -288,16 +351,16 @@
                                                         <table width="100%" border="0" cellspacing="0" cellpadding="0">
                                                             <tr>
                                                                 <td colspan="0" bgcolor="#FFFFFF">
-                                                                    <table width="100%" border="0" cellspacing="0" cellpadding="2">
+                                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
                                                                         <tr>
-                                                                            <td width="3%">
+                                                                            <td width="3%" style="border: solid 1px #000; padding: 5px; text-align:center">
                                                                                 <strong>
                                                                                     <label id="lblN1">
                                                                                         1.
                                                                                     </label>
                                                                                 </strong>
                                                                             </td>
-                                                                            <td>
+                                                                            <td style="border: solid 1px #000; padding: 5px; border-left: 0;">
                                                                                 <strong>Name of the Board from which you have passed the 10th exam ? Please fill the
                                                                                 Year of Exam and Roll Number as in Admit Card. /
                                                                                 <br />
@@ -306,11 +369,10 @@
                                                                             </td>
                                                                         </tr>
                                                                         <tr>
-                                                                            <td width="3%"></td>
-                                                                            <td width="100%">
-                                                                                <table width="100%" border="0" cellspacing="0" cellpadding="0" class="dotBorder">
+                                                                            <td colspan="2">
+                                                                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
                                                                                     <tr>
-                                                                                        <td bgcolor="#FFFFFF">
+                                                                                        <td style="border: solid 1px #000; padding: 5px; border-top: 0;">
                                                                                             <label id="lblBoardName">
                                                                                                 Name of the Examination Board /
                                                                                             <br />
@@ -318,7 +380,7 @@
                                                                                             &#2348;&#2379;&#2352;&#2381;&#2337; &#2325;&#2366; &#2344;&#2366;&#2350;
                                                                                             </label>
                                                                                         </td>
-                                                                                        <td>
+                                                                                        <td style="border: solid 1px #000; padding: 5px; border-left: 0; border-top: 0;">
                                                                                             <label id="lblYOP">
                                                                                                 Year of Passing /
                                                                                             <br />
@@ -326,7 +388,7 @@
                                                                                             &#2313;&#2340;&#2381;&#2340;&#2368;&#2352;&#2381;&#2339; &#2325;&#2368; &#2361;&#2376;
                                                                                             </label>
                                                                                         </td>
-                                                                                        <td>
+                                                                                        <td style="border: solid 1px #000; padding: 5px; border-left: 0; border-top: 0;">
                                                                                             <label id="lblExType">
                                                                                                 Exam Type /
                                                                                             <br />
@@ -336,7 +398,7 @@
                                                                                         </td>
                                                                                     </tr>
                                                                                     <tr>
-                                                                                        <td bgcolor="#FFFFFF">
+                                                                                        <td style="border: solid 1px #000; padding: 5px; border-top: 0;">
                                                                                             <div class="sqborder1">
                                                                                                 <asp:Label ID="lblBoard" runat="server" />
 
@@ -346,17 +408,52 @@
 
                                                                                             </div>
                                                                                         </td>
-                                                                                        <td>
+                                                                                        <td style="border: solid 1px #000; padding: 5px; border-left: 0; border-top: 0;">
                                                                                             <div class="sqborder1">
                                                                                                 <asp:Label ID="lblYOE" runat="server" />
                                                                                             </div>
                                                                                         </td>
-                                                                                        <td>
+                                                                                        <td style="border: solid 1px #000; padding: 5px; border-left: 0; border-top: 0;">
                                                                                             <div class="sqborder1">
                                                                                                 <asp:Label ID="lblExamType" runat="server" />
                                                                                             </div>
                                                                                         </td>
                                                                                     </tr>
+                                                                                     <tr>
+                                                                                         <td style="border: solid 1px #000; padding: 5px; border-top: 0;">
+                                                                                             <label id="Label2">
+                                                                                                 Date of Birth / &#2332;&#2344;&#2381;&#2350; &#2340;&#2367;&#2341;&#2367;
+                                                                                             </label>
+                                                                                         </td>
+                                                                                         <td id="tdRollCdH"  class="roll-code-cls" runat="server" style="border: solid 1px #000; padding: 5px; border-left: 0; border-top: 0;">
+                                                                                             <label id="Label8">
+                                                                                                 Roll Code / &#2352;&#2379;&#2354; &#2325;&#2379;&#2337;
+                                                                                             </label>
+                                                                                         </td>
+                                                                                         <td colspan="2" style="border: solid 1px #000; padding: 5px; border-left: 0; border-top: 0;">
+                                                                                             <label id="lblRollNo">
+                                                                                                 Roll Number / &#2352;&#2379;&#2354; &#2344;&#2306;&#2348;&#2352;
+                                                                                             </label>
+                                                                                         </td>
+    
+                                                                                     </tr>
+                                                                                     <tr>
+                                                                                         <td style="border: solid 1px #000; padding: 5px; border-top: 0;">
+                                                                                             <div class="sqborder1">
+                                                                                                 <asp:Label ID="lblDob" runat="server" />
+                                                                                             </div>
+                                                                                         </td>
+                                                                                         <td id="tdRollCdF" class="roll-code-cls" runat="server" style="border: solid 1px #000; padding: 5px; border-left: 0; border-top: 0;">
+                                                                                             <div class="sqborder1">
+                                                                                                 <asp:Label ID="lblRollCode" runat="server" />
+                                                                                             </div>
+                                                                                         </td>
+                                                                                         <td colspan="2" style="border: solid 1px #000; padding: 5px; border-left: 0; border-top: 0;">
+                                                                                             <div class="sqborder1">
+                                                                                                 <asp:Label ID="lblRoll" runat="server" />
+                                                                                             </div>
+                                                                                         </td>
+                                                                                     </tr>
                                                                                 </table>
                                                                             </td>
                                                                         </tr>
@@ -369,92 +466,46 @@
                                             </table>
                                             <table>
                                                 <tr>
-                                                    <td>
-                                                        <table width="100%">
-                                                            <tr>
-                                                                <td></td>
-                                                                <td width="60px">
-                                                                    <label id="Label2">
-                                                                        Date of Birth / &#2332;&#2344;&#2381;&#2350; &#2340;&#2367;&#2341;&#2367;
-                                                                    </label>
-                                                                </td>
-                                                                <td id="tdRollCdH" runat="server" width="160px">
-                                                                    <label id="Label8">
-                                                                        Roll Code / &#2352;&#2379;&#2354; &#2325;&#2379;&#2337;
-                                                                    </label>
-                                                                </td>
-                                                                <td>
-                                                                    <label id="lblRollNo">
-                                                                        Roll Number / &#2352;&#2379;&#2354; &#2344;&#2306;&#2348;&#2352;
-                                                                    </label>
-                                                                </td>
-                                                               
-                                                            </tr>
-                                                            <tr>
-                                                                <td></td>
-                                                                <td>
-                                                                    <div class="sqborder1">
-                                                                        <asp:Label ID="lblDob" runat="server" />
-                                                                    </div>
-                                                                </td>
-                                                                <td id="tdRollCdF" runat="server">
-                                                                    <div class="sqborder1">
-                                                                        <asp:Label ID="lblRollCode" runat="server" />
-                                                                    </div>
-                                                                </td>
-                                                                <td>
-                                                                    <div class="sqborder1">
-                                                                        <asp:Label ID="lblRoll" runat="server" />
-                                                                    </div>
-                                                                </td>
-                                                            </tr>
+                                                    <td style="border: solid 1px #000; padding: 5px; border-top: 0;">
+                                                        <table width="100%" cellpadding="0" cellspacing="0">
                                                              <tr>
-                                                                <td>
-                                                                    <strong>
-                                                                       
-                                                                    </strong>
-                                                                </td>
-                                                                <td width="260px" height="22" style="display:none;" id="tdUniq" runat="server">
+                                                                <td colspan="2" class="unique-cls" style="border: solid 1px #000; padding: 5px; border-top: 0; border-left:0; display:none;" id="tdUniq" runat="server">
                                                                     <strong>
                                                                         <label id="lblUniqueid">
                                                                           Applicant's  Unique Id</label>
                                                                     </strong>
                                                                 </td>
-                                                                <td width="500px" colspan="2" style="display:none;" id="tdunique" runat="server">
+                                                                <td colspan="2" class="unique-cls num" style="display:none;border: solid 1px #000; padding: 5px; border-left: 0; border-top: 0;" id="tdunique" runat="server">
                                                                     <div class="sqborder1">
                                                                         <asp:Label ID="LabelUId" runat="server" />
                                                                     </div>
                                                                 </td>
                                                             </tr>
-
-
-
-
                                                             <tr>
-                                                                <td>
+                                                                <td style="border: solid 1px #000; padding: 5px;">
                                                                     <strong>
                                                                         <label id="lblN2">
                                                                             2.
                                                                         </label>
                                                                     </strong>
                                                                 </td>
-                                                                <td width="260px" height="22">
+                                                                <td style="border: solid 1px #000; padding: 5px; border-left: 0;">
                                                                     <strong>
                                                                         <label id="lblApplicantName">
                                                                             Applicant's Name / &#2310;&#2357;&#2375;&#2342;&#2325; &#2325;&#2366; &#2344;&#2366;&#2350;</label>
                                                                     </strong>
                                                                 </td>
-                                                                <td width="500px" colspan="2">
+                                                                <td style="border: solid 1px #000; padding: 5px; border-left: 0;" colspan="2">
                                                                     <div class="sqborder1">
                                                                         <asp:Label ID="lblApplName" runat="server" />
                                                                     </div>
                                                                 </td>
                                                             </tr>
                                                             <tr>
-                                                                <td>
+                                                                <td style="border: solid 1px #000; padding: 5px; border-top: 0;">
                                                                     <strong>3. </strong>
                                                                 </td>
-                                                                <td height="22">
+                                                                <td style="border: solid 1px #000; padding: 5px; border-left: 0; border-top: 0;">
                                                                     <strong>
                                                                         <label id="lblFname">
                                                                             Father's Name / &#2310;&#2357;&#2375;&#2342;&#2325; &#2325;&#2375; &#2346;&#2367;&#2340;&#2366;
@@ -462,21 +513,21 @@
                                                                         </label>
                                                                     </strong>
                                                                 </td>
-                                                                <td colspan="2">
+                                                                <td style="border: solid 1px #000; padding: 5px; border-left: 0; border-top: 0;" colspan="2">
                                                                     <div class="sqborder1">
                                                                         <asp:Label ID="lblFatherName" runat="server" />
                                                                     </div>
                                                                 </td>
                                                             </tr>
                                                             <tr>
-                                                                <td>
+                                                                <td style="border: solid 1px #000; padding: 5px; border-top: 0;">
                                                                     <strong>
                                                                         <label id="lblN4">
                                                                             4.
                                                                         </label>
                                                                     </strong>
                                                                 </td>
-                                                                <td height="22">
+                                                                <td style="border: solid 1px #000; padding: 5px; border-left: 0; border-top: 0;">
                                                                     <strong>
                                                                         <label id="lblMname">
                                                                             Mother's Name / &#2310;&#2357;&#2375;&#2342;&#2325; &#2325;&#2368; &#2350;&#2366;&#2340;&#2366;
@@ -484,7 +535,7 @@
                                                                         </label>
                                                                     </strong>
                                                                 </td>
-                                                                <td colspan="2">
+                                                                <td style="border: solid 1px #000; padding: 5px; border-left: 0; border-top: 0;" colspan="2">
                                                                     <div class="sqborder1">
                                                                         <asp:Label ID="lblMotherName" runat="server" />
                                                                     </div>
@@ -492,7 +543,7 @@
                                                             </tr>
                                                         </table>
                                                     </td>
-                                                    <td width="150" align="center" class="sqborder" style="padding: 5px;">
+                                                    <td width="150" align="center" class="sqborder" style="border: solid 1px #000; padding: 5px; border-top: 0;border-left:0">
                                                         <%--<asp:Image ID="imgPhoto" runat="server" Height="140px" Width="140" AlternateText="Affix your self attested (on the front) recent colour passport size photographs here" />--%>
                                                          <asp:Image ID="imgPhoto" CssClass="imgbdr" runat="server"  Height="140px" Width="140" AlternateText="Affix your self attested (on the front) recent colour passport size photographs here"/>
                                                     </td>
@@ -511,12 +562,12 @@
             </tr>
             <tr>
                 <td>
-                    <table width="100%" border="0" cellpadding="2" cellspacing="0" class="tbborderCAF">
+                    <table width="100%" border="0" cellpadding="0" cellspacing="0">
                         <tr>
                             <td bgcolor="#FFFFFF">
                                 <table width="100%" border="0" cellspacing="0" cellpadding="0">
                                     <tr>
-                                        <td colspan="2">
+                                        <td style="border: solid 1px #000; padding: 5px;">
                                             <strong>
                                                 <asp:Label ID="Label9" runat="server">
                                             5. 
@@ -530,107 +581,106 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td width="2%"></td>
                                         <td>
-                                            <table width="100%" border="0" cellspacing="0" cellpadding="2" class="dotBorder">
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
                                                 <tr>
-                                                    <td width="1%" valign="top" bgcolor="#1567A1" class="whitetxt">
+                                                    <td width="1%" valign="top" style="border: solid 1px #000; padding: 5px;text-align:center; border-top: 0;">
                                                         <strong>
                                                             <label id="Label3">
                                                                 a.</label>
                                                         </strong>
                                                     </td>
                                                     <td width="70%" valign="top">
-                                                        <table width="100%" border="0" cellpadding="2" cellspacing="1" bgcolor="#CCCCCC"
+                                                        <table width="100%" border="0" cellpadding="0" cellspacing="0"
                                                             id="tblBSE">
                                                             <tr>
-                                                                <td bgcolor="#666666" class="whitetxt">
+                                                                <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                                     <strong>Total Full Marks<br />
                                                                         कुल अधिकतम अंक - कुल पूर्ण अंक </strong>
                                                                 </td>
-                                                                <td bgcolor="#666666" class="whitetxt">
+                                                                <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                                     <strong>Total Mark Secured<br />
                                                                         &#2325;&#2369;&#2354; &#2346;&#2381;&#2352;&#2366;&#2346;&#2381;&#2340;&#2366;&#2306;&#2325;</strong>
                                                                 </td>
-                                                                <td bgcolor="#666666" class="whitetxt" id="tdEng" runat="server" style="display: none">
+                                                                <td id="tdEng" runat="server" style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;display: none">
                                                                     <strong>English
                                                                     <br />
                                                                         &#2309;&#2306;&#2327;&#2381;&#2352;&#2375;&#2332;&#2368; </strong>
                                                                 </td>
-                                                                <td bgcolor="#666666" class="whitetxt" id="tdMath" runat="server" style="display: none">
+                                                                <td id="tdMath" runat="server" style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;display: none">
                                                                     <strong>Mathematics
                                                                     <br />
                                                                         &#2327;&#2339;&#2367;&#2340;</strong>
                                                                 </td>
-                                                                <td bgcolor="#666666" class="whitetxt" id="tdScience" runat="server" style="display: none">
+                                                                <td id="tdScience" runat="server" style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;display: none">
                                                                     <strong>Science<br />
                                                                         &#2357;&#2367;&#2332;&#2381;&#2334;&#2366;&#2344;</strong>
                                                                 </td>
-                                                                <td bgcolor="#666666" class="whitetxt" id="tdSoScience" runat="server" style="display: none">
+                                                                <td id="tdSoScience" runat="server" style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;display: none">
                                                                     <strong>Social Science<br />
                                                                         &#2360;&#2350;&#2366;&#2332;&#2358;&#2366;&#2360;&#2381;&#2340;&#2381;&#2352;</strong>
                                                                 </td>
-                                                                <td bgcolor="#666666" id="tdGradeMark" class="whitetxt" style="display: none">
+                                                                <td id="tdGradeMark" style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;display: none">
                                                                     <strong>Grade
                                                                     <br />
                                                                         &#2346;&#2342;&#2325;&#2381;&#2352;&#2350;</strong>
                                                                 </td>
                                                             </tr>
                                                             <tr>
-                                                                <td bgcolor="#FFFFFF">
+                                                                <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                                     <asp:Label ID="lblMaxMark" runat="server" Width="70" MaxLength="4" />
                                                                 </td>
-                                                                <td bgcolor="#FFFFFF">
+                                                                <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                                     <asp:Label ID="lblTotalMark" runat="server" Width="70" MaxLength="4" />
                                                                 </td>
-                                                                <td bgcolor="#FFFFFF" id="tdEngMrk" runat="server" style="display: none">
+                                                                <td id="tdEngMrk" runat="server" style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;display: none">
                                                                     <asp:Label ID="lblEngMark" runat="server" Width="70" MaxLength="3" />
                                                                 </td>
-                                                                <td bgcolor="#FFFFFF" id="tdMathMrk" runat="server" style="display: none">
+                                                                <td bgcolor="#FFFFFF" id="tdMathMrk" runat="server" style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;display: none">
                                                                     <asp:Label ID="lblMathMark" runat="server" Width="70" MaxLength="3" />
                                                                 </td>
-                                                                <td bgcolor="#FFFFFF" id="tdScienceMrk" runat="server" style="display: none">
+                                                                <td bgcolor="#FFFFFF" id="tdScienceMrk" runat="server" style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;display: none">
                                                                     <asp:Label ID="lblScienceMark" runat="server" Width="70" MaxLength="3" />
                                                                 </td>
-                                                                <td bgcolor="#FFFFFF" id="tdSoScienceMrk" runat="server" style="display: none">
+                                                                <td bgcolor="#FFFFFF" id="tdSoScienceMrk" runat="server" style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;display: none">
                                                                     <asp:Label ID="lblSSMark" runat="server" Width="70" MaxLength="3" />
                                                                 </td>
-                                                                <td bgcolor="#FFFFFF" id="lblGradeMark" style="display: none">
+                                                                <td bgcolor="#FFFFFF" id="lblGradeMark" style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;display: none">
                                                                     <asp:Label ID="lblGrade" runat="server" Width="70" MaxLength="3" />
                                                                 </td>
                                                             </tr>
                                                             <tr>
-                                                                <td colspan="7">Note : Selection of the students will be done based on the Total Marks obtained
+                                                                <td colspan="7" style="border: solid 1px #000; padding: 5px;; border-top: 0;">Note : Selection of the students will be done based on the Total Marks obtained
                                                             in the Qualifying Board Examination.<br />
                                                                     ध्यान दें : छात्रों का चयन सूची में चयन बोर्ड
                                                             परीक्षा में कुल प्राप्तांक के आधार पर होता है |</td>
                                                             </tr>
                                                         </table>
-                                                        <table width="100%" border="0" cellpadding="2" cellspacing="1" bgcolor="#CCCCCC"
+                                                        <table width="100%" border="0" cellpadding="0" cellspacing="0"
                                                             id="tblCBSE" style="display: none;">
                                                             <tr>
-                                                                <td bgcolor="#666666" class="whitetxt">
+                                                                <td style="border: solid 1px #000; padding: 5px; border-top: 0;">
                                                                     <strong>CGPA</strong>
                                                                 </td>
-                                                                <td bgcolor="#666666" class="whitetxt">
+                                                                <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                                     <strong>English</strong>
                                                                 </td>
-                                                                <td bgcolor="#666666" class="whitetxt">
+                                                                <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                                     <strong>Mathematics</strong>
                                                                 </td>
-                                                                <td bgcolor="#666666" class="whitetxt">
+                                                                <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                                     <strong>Science</strong>
                                                                 </td>
-                                                                <td bgcolor="#666666" class="whitetxt">
+                                                                <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                                     <strong>Social Science</strong>
                                                                 </td>
                                                             </tr>
                                                             <tr>
-                                                                <td bgcolor="#FFFFFF">
+                                                                <td style="border: solid 1px #000; padding: 5px; border-top: 0;">
                                                                     <asp:TextBox CssClass="inputitem" ID="txtCGPA" runat="server" Width="70" MaxLength="4"
                                                                         AutoCompleteType="disabled" />
                                                                 </td>
-                                                                <td bgcolor="#FFFFFF">
+                                                                <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                                     <asp:DropDownList ID="ddlEng" runat="server" CssClass="inputitem">
                                                                         <asp:ListItem Value="0">--SELECT--</asp:ListItem>
                                                                         <asp:ListItem Value="10">A1</asp:ListItem>
@@ -644,7 +694,7 @@
                                                                         <asp:ListItem Value="1">E2</asp:ListItem>
                                                                     </asp:DropDownList>
                                                                 </td>
-                                                                <td bgcolor="#FFFFFF">
+                                                                <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                                     <asp:DropDownList ID="ddlMath" runat="server" CssClass="inputitem">
                                                                         <asp:ListItem Value="0">--SELECT--</asp:ListItem>
                                                                         <asp:ListItem Value="10">A1</asp:ListItem>
@@ -658,7 +708,7 @@
                                                                         <asp:ListItem Value="1">E2</asp:ListItem>
                                                                     </asp:DropDownList>
                                                                 </td>
-                                                                <td bgcolor="#FFFFFF">
+                                                                <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                                     <asp:DropDownList ID="ddlSc" runat="server" CssClass="inputitem">
                                                                         <asp:ListItem Value="0">--SELECT--</asp:ListItem>
                                                                         <asp:ListItem Value="10">A1</asp:ListItem>
@@ -672,7 +722,7 @@
                                                                         <asp:ListItem Value="1">E2</asp:ListItem>
                                                                     </asp:DropDownList>
                                                                 </td>
-                                                                <td bgcolor="#FFFFFF">
+                                                                <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                                     <asp:DropDownList ID="ddlSoSc" runat="server" CssClass="inputitem">
                                                                         <asp:ListItem Value="0">--SELECT--</asp:ListItem>
                                                                         <asp:ListItem Value="10">A1</asp:ListItem>
@@ -688,27 +738,27 @@
                                                                 </td>
                                                             </tr>
                                                         </table>
-                                                        <table width="100%" border="0" cellpadding="2" cellspacing="1" bgcolor="#CCCCCC"
+                                                        <table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#CCCCCC"
                                                             id="tblKERALA" style="display: none;">
                                                             <tr>
-                                                                <td bgcolor="#666666" class="whitetxt">
+                                                                <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                                     <strong>Grade</strong>
                                                                 </td>
-                                                                <td bgcolor="#666666" class="whitetxt">
+                                                                <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                                     <strong>English</strong>
                                                                 </td>
-                                                                <td bgcolor="#666666" class="whitetxt">
+                                                                <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                                     <strong>Mathematics</strong>
                                                                 </td>
-                                                                <td bgcolor="#666666" class="whitetxt">
+                                                                <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                                     <strong>Science</strong>
                                                                 </td>
-                                                                <td bgcolor="#666666" class="whitetxt">
+                                                                <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                                     <strong>Social Science</strong>
                                                                 </td>
                                                             </tr>
                                                             <tr>
-                                                                <td bgcolor="#FFFFFF">
+                                                                <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                                     <asp:DropDownList ID="ddlTGrade" runat="server" CssClass="inputitem">
                                                                         <asp:ListItem Value="0">--SELECT--</asp:ListItem>
                                                                         <asp:ListItem Value="10">A+</asp:ListItem>
@@ -722,7 +772,7 @@
                                                                         <asp:ListItem Value="1">E</asp:ListItem>
                                                                     </asp:DropDownList>
                                                                 </td>
-                                                                <td bgcolor="#FFFFFF">
+                                                                <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                                     <asp:DropDownList ID="ddlKEnglish" runat="server" CssClass="inputitem">
                                                                         <asp:ListItem Value="0">--SELECT--</asp:ListItem>
                                                                         <asp:ListItem Value="10">A+</asp:ListItem>
@@ -736,7 +786,7 @@
                                                                         <asp:ListItem Value="1">E</asp:ListItem>
                                                                     </asp:DropDownList>
                                                                 </td>
-                                                                <td bgcolor="#FFFFFF">
+                                                                <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                                     <asp:DropDownList ID="ddlKMath" runat="server" CssClass="inputitem">
                                                                         <asp:ListItem Value="0">--SELECT--</asp:ListItem>
                                                                         <asp:ListItem Value="10">A+</asp:ListItem>
@@ -750,7 +800,7 @@
                                                                         <asp:ListItem Value="1">E</asp:ListItem>
                                                                     </asp:DropDownList>
                                                                 </td>
-                                                                <td bgcolor="#FFFFFF">
+                                                                <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                                     <asp:DropDownList ID="ddlKScience" runat="server" CssClass="inputitem">
                                                                         <asp:ListItem Value="0">--SELECT--</asp:ListItem>
                                                                         <asp:ListItem Value="10">A+</asp:ListItem>
@@ -764,7 +814,7 @@
                                                                         <asp:ListItem Value="1">E</asp:ListItem>
                                                                     </asp:DropDownList>
                                                                 </td>
-                                                                <td bgcolor="#FFFFFF">
+                                                                <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                                     <asp:DropDownList ID="ddlKSoSc" runat="server" CssClass="inputitem">
                                                                         <asp:ListItem Value="0">--SELECT--</asp:ListItem>
                                                                         <asp:ListItem Value="10">A+</asp:ListItem>
@@ -783,13 +833,13 @@
                                                     </td>
                                                 </tr>
                                                 <tr style="display: none;">
-                                                    <td valign="top" bgcolor="#1567A1" class="whitetxt">
+                                                    <td valign="top" style="border: solid 1px #000; padding: 5px; border-top: 0;">
                                                         <strong>
                                                             <label id="Label4">
                                                                 b.</label>
                                                         </strong>
                                                     </td>
-                                                    <td colspan="2">
+                                                    <td colspan="2" style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                         <label id="Label5">
                                                             Have you passed 10th Board Exam Compartmentally or through Improvement Examination?
                                                         <br />
@@ -800,78 +850,78 @@
                                                 <tr>
                                                     <td colspan="3" valign="top">
                                                         <div class="tablebdercaf">
-                                                            <table width="100%" border="0" cellspacing="1" cellpadding="2" id="tblComp" runat="server"
+                                                            <table width="100%" border="0" cellspacing="0" cellpadding="0" id="tblComp" runat="server"
                                                                 bgcolor="#CCCCCC">
                                                                 <tr>
-                                                                    <td bgcolor="#666666" class="whitetxt">
+                                                                    <td style="border: solid 1px #000; padding: 5px; border-top: 0;">
                                                                         <strong>Name of the Subject</strong>
                                                                     </td>
-                                                                    <td bgcolor="#666666" class="whitetxt">
+                                                                    <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                                         <strong>Fail Mark in Previous Exam</strong>
                                                                     </td>
-                                                                    <td bgcolor="#666666" class="whitetxt" id="td1">
+                                                                    <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;" id="td1">
                                                                         <strong>Pass Mark in Compartment Exam</strong>
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td bgcolor="#F8F5D6">
+                                                                    <td style="border: solid 1px #000; padding: 5px; border-top: 0;">
                                                                         <strong>
                                                                             <asp:Label CssClass="inputitem" ID="txtCompSubject1" runat="server" Width="150" maxlength="50" />
                                                                         </strong>
                                                                     </td>
-                                                                    <td bgcolor="#F8F5D6">
+                                                                    <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                                         <strong>
                                                                             <asp:Label CssClass="inputitem" ID="txtCompFMark1" runat="server" Width="30" maxlength="3" />
                                                                         </strong>
                                                                     </td>
-                                                                    <td bgcolor="#F8F5D6">
+                                                                    <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                                         <strong>
                                                                             <asp:Label CssClass="inputitem" ID="txtCompPMark1" runat="server" Width="30" maxlength="3" />
                                                                         </strong>
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td bgcolor="#F8F5D6">
+                                                                    <td style="border: solid 1px #000; padding: 5px; border-top: 0;">
                                                                         <strong>
                                                                             <asp:Label CssClass="inputitem" ID="txtCompSubject2" runat="server" Width="150" maxlength="50" />
                                                                         </strong>
                                                                     </td>
-                                                                    <td bgcolor="#F8F5D6">
+                                                                    <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                                         <strong>
                                                                             <asp:Label CssClass="inputitem" ID="txtCompFMark2" runat="server" Width="30" maxlength="3" />
                                                                         </strong>
                                                                     </td>
-                                                                    <td bgcolor="#F8F5D6">
+                                                                    <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                                         <strong>
                                                                             <asp:Label CssClass="inputitem" ID="txtCompPMark2" runat="server" Width="30" maxlength="3" />
                                                                         </strong>
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td bgcolor="#F8F5D6">
+                                                                    <td style="border: solid 1px #000; padding: 5px; border-top: 0;">
                                                                         <strong>
                                                                             <asp:Label CssClass="inputitem" ID="txtCompSubject3" runat="server" Width="150" maxlength="50" />
                                                                         </strong>
                                                                     </td>
-                                                                    <td bgcolor="#F8F5D6">
+                                                                    <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                                         <strong>
                                                                             <asp:Label CssClass="inputitem" ID="txtCompFMark3" runat="server" Width="30" maxlength="3" />
                                                                         </strong>
                                                                     </td>
-                                                                    <td bgcolor="#F8F5D6">
+                                                                    <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                                         <strong>
                                                                             <asp:Label CssClass="inputitem" ID="txtCompPMark3" runat="server" Width="30" maxlength="3" />
                                                                         </strong>
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td bgcolor="#F8F5D6">
+                                                                    <td style="border: solid 1px #000; padding: 5px; border-top: 0;">
                                                                         <asp:Label CssClass="inputitem" ID="txtCompSubject4" runat="server" Width="150" maxlength="50" />
                                                                     </td>
-                                                                    <td bgcolor="#F8F5D6">
+                                                                    <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                                         <asp:Label CssClass="inputitem" ID="txtCompFMark4" runat="server" Width="30" maxlength="3" />
                                                                     </td>
-                                                                    <td bgcolor="#F8F5D6">
+                                                                    <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                                         <asp:Label CssClass="inputitem" ID="txtCompPMark4" runat="server" Width="30" maxlength="3" />
                                                                     </td>
                                                                 </tr>
@@ -893,12 +943,12 @@
             </tr>
             <tr>
                 <td>
-                    <table width="100%" border="0" cellpadding="2" cellspacing="0" class="tbborderCAF">
+                    <table width="100%" border="0" cellpadding="0" cellspacing="0">
                         <tr>
                             <td bgcolor="#FFFFFF">
                                 <table width="100%" border="0" cellspacing="0" cellpadding="0">
                                     <tr>
-                                        <td colspan="2">
+                                        <td style="border: solid 1px #000; padding: 5px;">
                                             <strong>
                                                 <asp:Label ID="lblN71" runat="server">
                                             6. 
@@ -913,59 +963,58 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td width="2%"></td>
                                         <td>
-                                            <table width="100%" border="0" cellspacing="1" cellpadding="0">
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
                                                 <tr>
                                                     <td>
-                                                        <table width="100%" border="0" cellspacing="0" cellpadding="2" class="dotBorder">
+                                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
                                                             <tr>
-                                                                <td width="2%" height="25" align="center" bgcolor="#1567A1" class="whitetxt">
+                                                                <td width="2%" style="border: solid 1px #000; padding: 5px; border-top: 0;">
                                                                     <strong>
                                                                         <label id="lblN71a">
                                                                             a.
                                                                         </label>
                                                                     </strong>
                                                                 </td>
-                                                                <td width="12%" height="22">
+                                                                <td width="12%" style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                                     <label id="lblSchNm">
                                                                         Name of the School/
                                                                     <br />
                                                                         &#2357;&#2367;&#2342;&#2381;&#2351;&#2366;&#2354;&#2351; &#2325;&#2366; &#2344;&#2366;&#2350;
                                                                     </label>
                                                                 </td>
-                                                                <td width="17%">
+                                                                <td width="17%" style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                                     <div class="sqborder1">
                                                                         <asp:Label ID="lblSchName" runat="server" />
                                                                     </div>
                                                                 </td>
-                                                                <td width="2%" align="center" bgcolor="#1567A1" class="whitetxt">
+                                                                <td width="2%" style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                                     <strong>
                                                                         <label id="lblN71b">
                                                                             b.
                                                                         </label>
                                                                     </strong>
                                                                 </td>
-                                                                <td width="12%">
+                                                                <td width="12%" style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                                     <label id="lblschlo">
                                                                         Address of the School/
                                                                     <br />
                                                                         &#2357;&#2367;&#2342;&#2381;&#2351;&#2366;&#2354;&#2351; &#2325;&#2366; &#2346;&#2340;&#2366;
                                                                     </label>
                                                                 </td>
-                                                                <td width="24%">
+                                                                <td width="24%" style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                                     <div class="sqborder1" style="width: 200px;">
                                                                         <asp:Label ID="lblschloc" runat="server" />
                                                                     </div>
                                                                 </td>
-                                                                <td width="2%" align="center" bgcolor="#1567A1" class="whitetxt">
+                                                                <td width="2%" style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                                     <strong>
                                                                         <label id="lblN71c">
                                                                             c.
                                                                         </label>
                                                                     </strong>
                                                                 </td>
-                                                                <td width="10%">
+                                                                <td width="10%" style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                                     <label id="lblinstdist">
                                                                         District/
                                                                     <br />
@@ -973,21 +1022,21 @@
                                                                     &#2357;&#2367;&#2342;&#2381;&#2351;&#2366;&#2354;&#2351; &#2361;&#2376;
                                                                     </label>
                                                                 </td>
-                                                                <td width="21%">
+                                                                <td width="21%" style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                                     <div class="sqborder1">
                                                                         <asp:Label ID="lbllinsdist" runat="server" />
                                                                     </div>
                                                                 </td>
                                                             </tr>
                                                             <tr>
-                                                                <td height="25" align="center" bgcolor="#1567A1" class="whitetxt">
+                                                                <td align="center" style="border: solid 1px #000; padding: 5px; border-top: 0;">
                                                                     <strong>
                                                                         <label id="lblN71d">
                                                                             d.
                                                                         </label>
                                                                     </strong>
                                                                 </td>
-                                                                <td height="22">
+                                                                <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                                     <label id="lblYOJ1">
                                                                         Year of Joining/
                                                                     <br />
@@ -996,45 +1045,45 @@
                                                                     &#2354;&#2367;&#2351;&#2366; &#2341;&#2366; |
                                                                     </label>
                                                                 </td>
-                                                                <td>
+                                                                <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                                     <div class="sqborder1">
                                                                         <asp:Label ID="lblYOJ" runat="server" />
                                                                     </div>
                                                                 </td>
-                                                                <td align="center" bgcolor="#1567A1" class="whitetxt">
+                                                                <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                                     <strong>
                                                                         <label id="lblN71e">
                                                                             e.
                                                                         </label>
                                                                     </strong>
                                                                 </td>
-                                                                <td>
+                                                                <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                                     <label id="lblYOL1">
                                                                         Year of passing from School
                                                                     <br />
                                                                         &#2310;&#2346;&#2344;&#2375; &#2325;&#2367;&#2360; &#2360;&#2366;&#2354; &#2357;&#2367;&#2342;&#2381;&#2351;&#2366;&#2354;&#2351; &#2360;&#2375; &#2346;&#2352;&#2368;&#2325;&#2381;&#2359;&#2366; &#2313;&#2340;&#2368;&#2352;&#2381;&#2339; &#2325;&#2368; &#2361;&#2376;|
                                                                     </label>
                                                                 </td>
-                                                                <td>
+                                                                <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                                     <div class="sqborder1" style="width: 100px;">
                                                                         <asp:Label ID="lblYOL" runat="server" />
                                                                     </div>
                                                                 </td>
-                                                                <td height="25" align="center" bgcolor="#1567A1" class="whitetxt">
+                                                                <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                                     <strong>
                                                                         <label id="lblN71f">
                                                                             f.
                                                                         </label>
                                                                     </strong>
                                                                 </td>
-                                                                <td height="22">
+                                                                <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                                     <label id="lblKGBAC">
                                                                        Have you passed 10th exam as a student of Kasturba Gandhi Balika Vidyalaya?
                                                                 <br /> 
                                                                 क्या आपने दसवीं की परीक्षा कस्तूरबा गाँधी आवासीय बालिका छात्रावास में रहते हुए उत्तीर्ण की है ? 
                                                                     </label>
                                                                 </td>
-                                                                <td>
+                                                                <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                                     <div class="sqborder1">
                                                                         <asp:Label ID="lblKGBAC1" runat="server" />
                                                                     </div>
@@ -1057,19 +1106,19 @@
             </tr>
             <tr>
                 <td>
-                    <table width="100%" border="0" cellpadding="2" cellspacing="0" class="tbborderCAF">
+                    <table width="100%" border="0" cellpadding="0" cellspacing="0">
                         <tr>
                             <td bgcolor="#FFFFFF">
                                 <table width="100%" border="0" cellspacing="0" cellpadding="0">
                                     <tr>
-                                        <td colspan="2">
+                                        <td colspan="2" style="border: solid 1px #000; padding: 5px;">
                                             <strong>
                                                 <label id="lblN5">
                                                     7.
                                                 </label>
                                             </strong>
                                         </td>
-                                        <td>
+                                        <td style="border: solid 1px #000; padding: 5px; border-left:0">
                                             <strong>
                                                 <label id='lblPD'>
                                                     Personal Details
@@ -1079,29 +1128,29 @@
                                             </strong>
                                         </td>
                                         <td>
-                                            <table width="100%" border="0" cellpadding="2" cellspacing="0" class="dotBorder">
+                                            <table width="100%" border="0" cellpadding="0" cellspacing="0">
                                                 <tr>
-                                                    <td width="20%">
+                                                    <td width="20%" style="border: solid 1px #000; padding: 5px; border-left:0">
                                                         <label id="lblGender">
                                                             Gender / &#2354;&#2367;&#2306;&#2327;
                                                         </label>
                                                     </td>
-                                                    <td width="20%">
+                                                    <td width="20%" style="border: solid 1px #000; padding: 5px; border-left:0">
                                                         <label id="lblmt1">
                                                             Mother Tongue / &#2350;&#2366;&#2340;&#2371;&#2349;&#2366;&#2359;&#2366;
                                                         </label>
                                                     </td>
-                                                    <td width="20%">
+                                                    <td width="20%" style="border: solid 1px #000; padding: 5px; border-left:0">
                                                         <label id="Label1">
                                                             Nationality / &#2344;&#2366;&#2327;&#2352;&#2367;&#2325;&#2340;&#2366;
                                                         </label>
                                                     </td>
-                                                    <td width="20%">
+                                                    <td width="20%" style="border: solid 1px #000; padding: 5px; border-left:0">
                                                         <label id="lblReligion">
                                                             Religion / &#2343;&#2352;&#2381;&#2350;
                                                         </label>
                                                     </td>
-                                                    <td width="20%">
+                                                    <td width="20%" style="border: solid 1px #000; padding: 5px; border-left:0">
                                                         <label id="lblBloodGroup">
                                                             Blood Group / &#2352;&#2325;&#2381;&#2340; &#2360;&#2350;&#2370;&#2361;
                                                         </label>
@@ -1109,27 +1158,27 @@
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        <div class="sqborder1">
+                                                        <div style="border: solid 1px #000; padding: 5px; border-left:0;border-top:0">
                                                             <asp:Label ID="lblsex" runat="server" />
                                                         </div>
                                                     </td>
                                                     <td>
-                                                        <div class="sqborder1">
+                                                        <div style="border: solid 1px #000; padding: 5px; border-left:0;border-top:0">
                                                             <asp:Label ID="lblmt" runat="server" />
                                                         </div>
                                                     </td>
                                                     <td>
-                                                        <div class="sqborder1">
+                                                        <div style="border: solid 1px #000; padding: 5px; border-left:0;border-top:0">
                                                             <asp:Label ID="lblNat" runat="server" />
                                                         </div>
                                                     </td>
                                                     <td>
-                                                        <div class="sqborder1">
+                                                        <div style="border: solid 1px #000; padding: 5px; border-left:0;border-top:0">
                                                             <asp:Label ID="lblreligion" runat="server" />
                                                         </div>
                                                     </td>
                                                     <td>
-                                                        <div class="sqborder1">
+                                                        <div style="border: solid 1px #000; padding: 5px; border-left:0;border-top:0">
                                                             <asp:Label ID="lblBgroup" runat="server" />
                                                         </div>
                                                     </td>
@@ -1148,12 +1197,12 @@
             </tr>
             <tr>
                 <td>
-                    <table width="100%" border="0" cellpadding="2" cellspacing="0" class="tbborderCAF">
+                    <table width="100%" border="0" cellpadding="0" cellspacing="0">
                         <tr>
                             <td bgcolor="#FFFFFF">
                                 <table width="100%" border="0" cellspacing="0" cellpadding="0">
                                     <tr>
-                                        <td colspan="2">
+                                        <td style="border: solid 1px #000; padding: 5px;">
                                             <strong>
                                                 <label id="lblN6">
                                                     8.
@@ -1167,57 +1216,54 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td width="2%"></td>
                                         <td>
-                                            <table width="100%" border="0" cellspacing="1" cellpadding="0">
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
                                                 <tr>
                                                     <td>
-                                                        <table width="100%" border="0" cellspacing="0" cellpadding="2" class="dotBorder">
+                                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
                                                             <tr>
-                                                                <td width="2%" height="25" align="center" bgcolor="#1567A1" class="whitetxt">
+                                                                <td width="2%" style="border: solid 1px #000; padding: 5px; border-top:0">
                                                                     <strong>
                                                                         <label id="lblN6a">
                                                                             a.
                                                                         </label>
                                                                     </strong>
                                                                 </td>
-                                                                <td width="12%" height="22">
+                                                                <td width="12%" style="border: solid 1px #000; padding: 5px; border-top:0;border-left:0">
                                                                     <label id="lblState">
                                                                         State / &#2352;&#2366;&#2332;&#2381;&#2351;
                                                                     </label>
                                                                 </td>
-                                                                <td width="17%">
+                                                                <td width="17%" style="border: solid 1px #000; padding: 5px; border-top:0;border-left:0">
                                                                     <div class="sqborder1">
                                                                         <asp:Label ID="lblstate" runat="server" />
                                                                     </div>
                                                                 </td>
-                                                                <td width="2%">&nbsp;
-                                                                </td>
-                                                                <td width="2%" align="center" bgcolor="#1567A1" class="whitetxt">
+                                                                <td width="2%" style="border: solid 1px #000; padding: 5px; border-top:0;border-left:0">
                                                                     <strong>
                                                                         <label id="lblN6b">
                                                                             b.
                                                                         </label>
                                                                     </strong>
                                                                 </td>
-                                                                <td width="8%">
+                                                                <td width="8%" style="border: solid 1px #000; padding: 5px; border-top:0;border-left:0">
                                                                     <label id="lblDistrict">
                                                                         District / &#2332;&#2367;&#2354;&#2366;
                                                                     </label>
                                                                 </td>
-                                                                <td width="24%">
+                                                                <td width="24%" style="border: solid 1px #000; padding: 5px; border-top:0;border-left:0">
                                                                     <div class="sqborder1">
                                                                         <asp:Label ID="lbldist" runat="server" />
                                                                     </div>
                                                                 </td>
-                                                                <td width="2%" align="center" bgcolor="#1567A1" class="whitetxt">
+                                                                <td width="2%" style="border: solid 1px #000; padding: 5px; border-top:0;border-left:0">
                                                                     <strong>
                                                                         <label id="lblN6c">
                                                                             c.
                                                                         </label>
                                                                     </strong>
                                                                 </td>
-                                                                <td width="10%">
+                                                                <td width="10%" style="border: solid 1px #000; padding: 5px; border-top:0;border-left:0">
                                                                     <label id="lblBlock">
                                                                         Block / ULB
                                                                     <br />
@@ -1225,21 +1271,21 @@
                                                                     &#2325;&#2381;&#2359;&#2375;&#2340;&#2381;&#2352;
                                                                     </label>
                                                                 </td>
-                                                                <td width="21%">
+                                                                <td width="21%" style="border: solid 1px #000; padding: 5px; border-top:0;border-left:0">
                                                                     <div class="sqborder1">
                                                                         <asp:Label ID="lblulb" runat="server" />
                                                                     </div>
                                                                 </td>
                                                             </tr>
                                                             <tr>
-                                                                <td height="25" align="center" bgcolor="#1567A1" class="whitetxt">
+                                                                <td height="25" align="center" style="border: solid 1px #000; padding: 5px; border-top:0;">
                                                                     <strong>
                                                                         <label id="lblN6d">
                                                                             d.
                                                                         </label>
                                                                     </strong>
                                                                 </td>
-                                                                <td height="22" colspan="2">
+                                                                <td colspan="2" style="border: solid 1px #000; padding: 5px; border-top:0;border-left:0">
                                                                     <label id="lbladdress">
                                                                         House No., Street/Village, Post Office, Police Station Name
                                                                     <br />
@@ -1249,19 +1295,19 @@
                                                                     &#2319;&#2357;&#2350; &#2346;&#2369;&#2354;&#2367;&#2360; &#2341;&#2366;&#2344;&#2366;
                                                                     </label>
                                                                 </td>
-                                                                <td colspan="4">
+                                                                <td colspan="3" style="border: solid 1px #000; padding: 5px; border-top:0;border-left:0">
                                                                     <div class="sqborder1">
                                                                         <asp:Label ID="lbldtl" runat="server" />
                                                                     </div>
                                                                 </td>
-                                                                <td align="center" bgcolor="#1567A1" class="whitetxt">
+                                                                <td align="center" style="border: solid 1px #000; padding: 5px; border-top:0;border-left:0">
                                                                     <strong>
                                                                         <label id="lblN6e">
                                                                             e.
                                                                         </label>
                                                                     </strong>
                                                                 </td>
-                                                                <td>
+                                                                <td style="border: solid 1px #000; padding: 5px; border-top:0;border-left:0"> 
                                                                     <label id="lblPinNo">
                                                                         PIN Code
                                                                     <br />
@@ -1269,66 +1315,64 @@
                                                                     &#2325;&#2379;&#2337;
                                                                     </label>
                                                                 </td>
-                                                                <td>
+                                                                <td style="border: solid 1px #000; padding: 5px; border-top:0;border-left:0">
                                                                     <div class="sqborder1">
                                                                         <asp:Label ID="lblpin" runat="server" />
                                                                     </div>
                                                                 </td>
                                                             </tr>
                                                             <tr>
-                                                                <td align="center" bgcolor="#1567A1" class="whitetxt">
+                                                                <td align="center" style="border: solid 1px #000; padding: 5px; border-top:0;">
                                                                     <strong>
                                                                         <label id="lblN6g">
                                                                             f.
                                                                         </label>
                                                                     </strong>
                                                                 </td>
-                                                                <td>
+                                                                <td style="border: solid 1px #000; padding: 5px; border-top:0;border-left:0">
                                                                     <label id="lblMobileNo">
                                                                         Mobile No.<br />
                                                                         &#2350;&#2379;&#2348;&#2366;&#2311;&#2354; &#2344;&#2306;&#2348;&#2352;
                                                                     </label>
                                                                 </td>
-                                                                <td>
+                                                                <td style="border: solid 1px #000; padding: 5px; border-top:0;border-left:0">
                                                                     <div class="sqborder1">
                                                                         <asp:Label ID="lblmob" runat="server" />
                                                                     </div>
                                                                 </td>
-                                                                <td>&nbsp;
-                                                                </td>
-                                                                <td align="center" bgcolor="#1567A1" class="whitetxt">
+                                                                <td style="border: solid 1px #000; padding: 5px; border-top:0;border-left:0">
                                                                     <strong>
                                                                         <label id="lblN6h">
                                                                             g.
                                                                         </label>
                                                                     </strong>
                                                                 </td>
-                                                                <td>
+                                                                <td style="border: solid 1px #000; padding: 5px; border-top:0;border-left:0">
                                                                     <label id="lblEmail">
                                                                         e-Mail<br />
                                                                         &#2312;-&#2350;&#2375;&#2354;
                                                                     </label>
                                                                 </td>
-                                                                <td>
+                                                                <td style="border: solid 1px #000; padding: 5px; border-top:0;border-left:0">
                                                                     <div class="sqborder1">
                                                                         <asp:Label ID="lblemail" runat="server" />
                                                                     </div>
                                                                 </td>
-                                                                <td height="25" align="center" bgcolor="#1567A1" class="whitetxt">
+                                                                <td style="border: solid 1px #000; padding: 5px; border-top:0;border-left:0">
                                                                     <strong>
                                                                         <label id="lblN6f">
                                                                             h.
                                                                         </label>
                                                                     </strong>
                                                                 </td>
-                                                                <td height="22">
+                                                                <td style="border: solid 1px #000; padding: 5px; border-top:0;border-left:0">
                                                                     <label id="lbltelephone">
                                                                         Telephone No.
                                                                     <br />
                                                                         &#2309;&#2327;&#2352; &#2342;&#2370;&#2352;&#2349;&#2366;&#2359; &#2360;&#2306;&#2326;&#2381;&#2351;&#2366;
                                                                     </label>
                                                                 </td>
-                                                                <td>
+                                                                <td style="border: solid 1px #000; padding: 5px; border-top:0;border-left:0">
                                                                     <table width="100%" border="0" cellspacing="0" cellpadding="0">
                                                                         <tr>
                                                                             <td width="29%" height="30">
@@ -1348,19 +1392,19 @@
                                                                 </td>
                                                             </tr>
                                                             <tr>
-                                                                <td align="center" bgcolor="#1567A1" class="whitetxt">
+                                                                <td align="center" style="border: solid 1px #000; padding: 5px; border-top:0;">
                                                                     <strong>
                                                                         <label id="">
                                                                             i.
                                                                         </label>
                                                                     </strong>
                                                                 </td>
-                                                                <td>
+                                                                <td style="border: solid 1px #000; padding: 5px; border-top:0;border-left:0">
                                                                     <label>
                                                                         Aadhaar No.
                                                                     </label>
                                                                 </td>
-                                                                <td colspan="8">
+                                                                <td colspan="8" style="border: solid 1px #000; padding: 5px; border-top:0;border-left:0">
                                                                     <div class="sqborder1">
                                                                         <asp:Label ID="lblAadhaarNo" runat="server" />
                                                                         
@@ -1388,12 +1432,12 @@
             </tr>
             <tr>
                 <td>
-                    <table width="100%" border="0" cellpadding="2" cellspacing="0" class="tbborderCAF">
+                    <table width="100%" border="0" cellpadding="0" cellspacing="0">
                         <tr>
                             <td bgcolor="#FFFFFF">
                                 <table width="100%" border="0" cellspacing="0" cellpadding="0">
                                     <tr>
-                                        <td colspan="2">
+                                        <td style="border: solid 1px #000; padding: 5px;">
                                             <strong>
                                                 <label id="lblN7">
                                                     9.
@@ -1407,11 +1451,10 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td width="2%"></td>
                                         <td>
-                                            <table width="100%" border="0" cellspacing="1" cellpadding="0">
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
                                                 <tr>
-                                                    <td width="2%" height="30" align="center" bgcolor="#1567A1" class="whitetxt">
+                                                    <td width="2%" style="border: solid 1px #000; padding: 5px; border-top:0;">
                                                         <strong>
                                                             <label id="lblN7a">
                                                                 a.
@@ -1421,10 +1464,10 @@
                                                     <td height="30">
                                                         <table width="100%" border="0" cellspacing="0" cellpadding="2" class="dotBorder">
                                                             <tr>
-                                                                <td>&nbsp; <span id="GENERAL">General<br />
+                                                                <td style="border: solid 1px #000; padding: 5px; border-top:0;border-left:0">&nbsp; <span id="GENERAL">General<br />
                                                                     &#2360;&#2366;&#2350;&#2366;&#2344;&#2381;&#2351; &#2357;&#2352;&#2381;&#2327;</span>
                                                                 </td>
-                                                                <td width="35px" height="30">
+                                                                <td width="35px" style="border: solid 1px #000; padding: 5px; border-top:0;border-left:0">
                                                                     <div class="sqborder1">
                                                                         <asp:Label runat="server" ID="lblGeneral"></asp:Label>
                                                                     </div>
@@ -1432,16 +1475,16 @@
                                                             </tr>
                                                         </table>
                                                     </td>
-                                                    <td height="30">
-                                                        <table width="100%" border="0" cellspacing="0" cellpadding="2" class="dotBorder">
+                                                    <td>
+                                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
                                                             <tr>
-                                                                <td>&nbsp;
+                                                                <td style="border: solid 1px #000; padding: 5px; border-top:0;border-left:0">&nbsp;
                                                                 <label id="SC">
                                                                     <span id="Span3">Schedule Caste (SC)<br />
                                                                         &#2309;&#2344;&#2369;&#2360;&#2370;&#2330;&#2367;&#2340; &#2332;&#2366;&#2340;&#2367;</span>
                                                                 </label>
                                                                 </td>
-                                                                <td width="35px" height="30">
+                                                                <td width="35px" style="border: solid 1px #000; padding: 5px; border-top:0;border-left:0">
                                                                     <div class="sqborder1">
                                                                         <asp:Label runat="server" ID="lblSC"></asp:Label>
                                                                     </div>
@@ -1449,16 +1492,16 @@
                                                             </tr>
                                                         </table>
                                                     </td>
-                                                    <td height="30">
-                                                        <table width="100%" border="0" cellspacing="0" cellpadding="2" class="dotBorder">
+                                                    <td>
+                                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
                                                             <tr>
-                                                                <td>&nbsp;
+                                                                <td style="border: solid 1px #000; padding: 5px; border-top:0;border-left:0">&nbsp;
                                                                 <label id="ST">
                                                                     <span id="Span2">Schedule Tribe (ST)<br />
                                                                         &#2309;&#2344;&#2369;&#2360;&#2370;&#2330;&#2367;&#2340; &#2332;&#2344;&#2332;&#2366;&#2340;&#2367;</span>
                                                                 </label>
                                                                 </td>
-                                                                <td width="35px" height="30">
+                                                                <td width="35px" style="border: solid 1px #000; padding: 5px; border-top:0;border-left:0">
                                                                     <div class="sqborder1">
                                                                         &nbsp;<asp:Label runat="server" ID="lblST"></asp:Label>
                                                                     </div>
@@ -1468,17 +1511,17 @@
                                                     </td>
                                                 </tr>
                                                 <tr>
-                                                    <td bgcolor="#1567A1"></td>
-                                                    <td height="30">
-                                                        <table width="100%" border="0" cellspacing="0" cellpadding="2" class="dotBorder">
+                                                    <td style="border: solid 1px #000; padding: 5px; border-top:0;"></td>
+                                                    <td>
+                                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
                                                             <tr>
-                                                                <td>&nbsp;
+                                                                <td style="border: solid 1px #000; padding: 5px; border-top:0;border-left:0">&nbsp;
                                                                 <label id="OBC">
                                                                     <span id="Span4">Backward Class(BC)<br />
                                                                         &#2309;&#2344;&#2381;&#2351; &#2346;&#2367;&#2331;&#2396;&#2366; &#2357;&#2352;&#2381;&#2327;</span>
                                                                 </label>
                                                                 </td>
-                                                                <td width="35px" height="30">
+                                                                <td width="35px" style="border: solid 1px #000; padding: 5px; border-top:0;border-left:0">
                                                                     <div class="sqborder1">
                                                                         <asp:Label runat="server" ID="lblOBC"></asp:Label>
                                                                     </div>
@@ -1486,17 +1529,17 @@
                                                             </tr>
                                                         </table>
                                                     </td>
-                                                    <td height="30">
-                                                        <table width="100%" border="0" cellspacing="0" cellpadding="2" class="dotBorder">
+                                                    <td>
+                                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
                                                             <tr>
-                                                                <td>&nbsp;
+                                                                <td style="border: solid 1px #000; padding: 5px; border-top:0;border-left:0">&nbsp;
                                                                 <label id="OTHER">
                                                                     <span id="Span5">Extremly Backward Class (EBC)<br />
                                                                         &#2309;&#2340;&#2381;&#2351;&#2306;&#2340; &#2346;&#2367;&#2331;&#2396;&#2366; &#2357;&#2352;&#2381;&#2327;
                                                                     </span>
                                                                 </label>
                                                                 </td>
-                                                                <td width="35px" height="30">
+                                                                <td width="35px" style="border: solid 1px #000; padding: 5px; border-top:0;border-left:0">
                                                                     <div class="sqborder1">
                                                                         <asp:Label runat="server" ID="lblOther"></asp:Label>
                                                                     </div>
@@ -1504,17 +1547,17 @@
                                                             </tr>
                                                         </table>
                                                     </td>
-                                                    <td height="30">
-                                                        <table width="100%" border="0" cellspacing="0" cellpadding="2" class="dotBorder" style="display: none;">
+                                                    <td>
+                                                        <table width="100%" border="0" cellspacing="0" cellpadding="0" style="display: none;">
                                                             <tr>
-                                                                <td>&nbsp;
+                                                                <td style="border: solid 1px #000; padding: 5px; border-top:0;border-left:0">&nbsp;
                                                                 <label id="Label6">
                                                                     <span id="Span1">Women Backward Class (WBC)<br />
                                                                         &#2346;&#2367;&#2331;&#2396;&#2375; &#2357;&#2352;&#2381;&#2327; &#2325;&#2368;
                                                                         &#2350;&#2361;&#2367;&#2354;&#2366;&#2351;&#2375; </span>
                                                                 </label>
                                                                 </td>
-                                                                <td width="35px" height="30">
+                                                                <td width="35px" style="border: solid 1px #000; padding: 5px; border-top:0;border-left:0">
                                                                     <div class="sqborder1">
                                                                         <asp:Label runat="server" ID="lblWBC"></asp:Label>
                                                                     </div>
@@ -1524,22 +1567,22 @@
                                                     </td>
                                                 </tr>
                                                 <tr>
-                                                    <td height="30" width="2%" align="center" bgcolor="#1567A1" class="whitetxt">
+                                                    <td width="2%" align="center" style="border: solid 1px #000; padding: 5px; border-top:0;">
                                                         <strong>
                                                             <label id="lblN7b">
                                                                 b.
                                                             </label>
                                                         </strong>
                                                     </td>
-                                                    <td height="30" colspan="2">
-                                                        <table width="100%" border="0" cellspacing="0" cellpadding="2" class="dotBorder">
+                                                    <td colspan="3">
+                                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
                                                             <tr>
-                                                                <td>&nbsp;
+                                                                <td style="border: solid 1px #000; padding: 5px; border-top:0;border-left:0">&nbsp;
                                                                 <label id="PHOH">
                                                                     <span id="Span6">Specially Abled ( &#2342;&#2367;&#2357;&#2381;&#2351;&#2366;&#2306;&#2327; )</span>
                                                                 </label>
                                                                 </td>
-                                                                <td width="35px" height="30">
+                                                                <td width="35px" style="border: solid 1px #000; padding: 5px; border-top:0;border-left:0">
                                                                     <div class="sqborder1">
                                                                         <asp:Label runat="server" ID="lblPHOH"></asp:Label>
                                                                     </div>
@@ -1547,15 +1590,15 @@
                                                             </tr>
                                                         </table>
                                                     </td>
-                                                    <td height="30">
-                                                        <table width="100%" border="0" cellspacing="0" cellpadding="2" class="dotBorder">
+                                                    <td>
+                                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
                                                             <tr>
-                                                                <td>&nbsp;
+                                                                <td style="border: solid 1px #000; padding: 5px; border-top:0;border-left:0">&nbsp;
                                                                 <label id="Label7">
                                                                     <span id="Span7">EWS (Economically Weaker Section) </span>
                                                                 </label>
                                                                 </td>
-                                                                <td width="35px" height="30">
+                                                                <td width="35px" style="border: solid 1px #000; padding: 5px; border-top:0;border-left:0">
                                                                     <div class="sqborder1">
                                                                         <asp:Label runat="server" ID="lblEWS"></asp:Label>
                                                                     </div>
@@ -1565,22 +1608,22 @@
                                                     </td>
                                                 </tr>
                                                 <tr>
-                                                    <td height="30" align="center" bgcolor="#1567A1" class="whitetxt">
+                                                    <td align="center" style="border: solid 1px #000; padding: 5px; border-top:0;">
                                                         <strong>
                                                             <label id="lblN7c">
                                                                 c.
                                                             </label>
                                                         </strong>
                                                     </td>
-                                                    <td height="30" width="24%">
-                                                        <table width="100%" border="0" cellspacing="0" cellpadding="2" class="dotBorder" style="display: none;">
+                                                    <td width="24%" style="display: none;">
+                                                        <table width="100%" border="0" cellspacing="0" cellpadding="2" style="display: none;">
                                                             <tr>
-                                                                <td>
+                                                                <td style="border: solid 1px #000; padding: 5px; border-top:0;">
                                                                     <label id="ESM">
                                                                         Ex-Service Man (ESM)
                                                                     </label>
                                                                 </td>
-                                                                <td width="35px" height="30">
+                                                                <td width="35px" style="border: solid 1px #000; padding: 5px; border-top:0;">
                                                                     <div class="sqborder1">
                                                                         <asp:Label runat="server" ID="lblESM"></asp:Label>
                                                                     </div>
@@ -1588,15 +1631,15 @@
                                                             </tr>
                                                         </table>
                                                     </td>
-                                                    <td width="21%" height="30">
-                                                        <table width="100%" border="0" cellspacing="0" cellpadding="2" class="dotBorder" style="display: none;">
+                                                    <td width="21%" style="display: none;">
+                                                        <table width="100%" border="0" cellspacing="0" cellpadding="0"  style="display: none;">
                                                             <tr>
-                                                                <td>
+                                                                <td style="border: solid 1px #000; padding: 5px; border-top:0;">
                                                                     <label id="CoM">
                                                                         Children of Martyrs (CoM)
                                                                     </label>
                                                                 </td>
-                                                                <td width="35px" height="30">
+                                                                <td width="35px" style="border: solid 1px #000; padding: 5px; border-top:0;">
                                                                     <div class="sqborder1">
                                                                         <asp:Label runat="server" ID="lblCoM"></asp:Label>
                                                                     </div>
@@ -1604,15 +1647,15 @@
                                                             </tr>
                                                         </table>
                                                     </td>
-                                                    <td width="29%" height="30">
+                                                    <td width="29%" style="display: none">
                                                         <table width="100%" border="0" cellspacing="0" cellpadding="2" class="dotBorder" style="display: none">
                                                             <tr>
-                                                                <td>
+                                                                <td style="border: solid 1px #000; padding: 5px; border-top:0;">
                                                                     <label id="SDP">
                                                                         Serving Defence Personnel (SDP)
                                                                     </label>
                                                                 </td>
-                                                                <td width="35px" height="30">
+                                                                <td width="35px" style="border: solid 1px #000; padding: 5px; border-top:0;">
                                                                     <div class="sqborder1">
                                                                         <asp:Label runat="server" ID="lblSDP"></asp:Label>
                                                                     </div>
@@ -1650,19 +1693,19 @@
             </tr>
             <tr>
                 <td>
-                    <table width="100%" border="0" cellpadding="2" cellspacing="0" class="tbborderCAF">
+                    <table width="100%" border="0" cellpadding="0" cellspacing="0">
                         <tr>
                             <td bgcolor="#FFFFFF">
-                                <table width="100%" border="0" cellspacing="0" cellpadding="2" style="display: none;">
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0" style="display: none;">
                                     <tr>
-                                        <td width="2%">
+                                        <td width="2%" style="border: solid 1px #000; padding: 5px;">
                                             <strong>
                                                 <label id="lblN8">
                                                     10.
                                                 </label>
                                             </strong>
                                         </td>
-                                        <td width="98%">
+                                        <td width="98%" style="border: solid 1px #000; padding: 5px;border-left:0">
                                             <strong>
                                                 <label id="lblWeightage">
                                                     Weightage Details / &#2350;&#2361;&#2340;&#2381;&#2357; &#2357;&#2367;&#2357;&#2352;&#2339;
@@ -1671,15 +1714,14 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td width="2%"></td>
-                                        <td>
-                                            <table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF">
+                                        <td colspan="2">
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
                                                 <tr>
                                                     <td width="25%" valign="top">
                                                         <div class="tablebdercaf">
-                                                            <table width="100%" border="0" cellpadding="2" cellspacing="0">
+                                                            <table width="100%" border="0" cellpadding="0" cellspacing="0">
                                                                 <tr>
-                                                                    <td width="13%" bgcolor="#1567A1" class="whitetxt" colspan="4">
+                                                                    <td width="13%" style="border: solid 1px #000; padding: 5px; border-top:0;" colspan="4">
                                                                         <strong>
                                                                             <label id="lblN8a">
                                                                                 a.
@@ -1688,21 +1730,21 @@
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td bgcolor="#FFFFFF">
+                                                                    <td style="border: solid 1px #000; padding: 5px; border-top:0;">
                                                                         <label id="NCCA">
                                                                             NCC (A)
                                                                         </label>
                                                                     </td>
-                                                                    <td height="28" bgcolor="#FFFFFF" class="smlfont" width="35px">
+                                                                    <td height="28" class="smlfont" width="35px" style="border: solid 1px #000; padding: 5px; border-top:0;border-left:0">
                                                                         <strong>
                                                                             <asp:Label runat="server" ID="lblNccA"></asp:Label></strong>
                                                                     </td>
-                                                                    <td bgcolor="#FFFFFF" style="display: none;">
+                                                                    <td bgcolor="#FFFFFF" style="display: none; border: solid 1px #000; padding: 5px; border-top:0;border-left:0">
                                                                         <label id="NCCC">
                                                                             NCC (C)
                                                                         </label>
                                                                     </td>
-                                                                    <td width="35px" bgcolor="#FFFFFF" class="smlfont" style="display: none;">
+                                                                    <td width="35px" bgcolor="#FFFFFF" class="smlfont" style="display: none;border: solid 1px #000; padding: 5px; border-top:0;border-left:0">
                                                                         <strong>
                                                                             <asp:Label runat="server" ID="lblNccC"></asp:Label></strong>
                                                                     </td>
@@ -1714,9 +1756,9 @@
                                                     </td>
                                                     <td width="43%" valign="top">
                                                         <div class="tablebdercaf">
-                                                            <table width="100%" border="0" cellpadding="2" cellspacing="0" style="display: none;">
+                                                            <table width="100%" border="0" cellpadding="0" cellspacing="0" style="display: none;">
                                                                 <tr>
-                                                                    <td bgcolor="#1567A1" class="whitetxt" colspan="4">
+                                                                    <td style="border: solid 1px #000; padding: 5px;" colspan="4">
                                                                         <strong>
                                                                             <label id="lblN8b">
                                                                                 b.
@@ -1729,21 +1771,21 @@
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td bgcolor="#FFFFFF" height="28px">
+                                                                    <td style="border: solid 1px #000; padding: 5px; border-top:0;">
                                                                         <label id="RP">
                                                                             Rajya Puraskar(RP)
                                                                         </label>
                                                                     </td>
-                                                                    <td bgcolor="#FFFFFF" width="35px">
+                                                                    <td style="border: solid 1px #000; padding: 5px; border-top:0;border-left:0" width="35px">
                                                                         <strong>
                                                                             <asp:Label ID="lblRP" runat="server"></asp:Label></strong>
                                                                     </td>
-                                                                    <td bgcolor="#FFFFFF">
+                                                                    <td style="border: solid 1px #000; padding: 5px; border-top:0;border-left:0">
                                                                         <label id="PR">
                                                                             President Recognition(PR)
                                                                         </label>
                                                                     </td>
-                                                                    <td width="35px" bgcolor="#FFFFFF">
+                                                                    <td width="35px" style="border: solid 1px #000; padding: 5px; border-top:0;border-left:0">
                                                                         <strong>
                                                                             <asp:Label ID="lblPR" runat="server"></asp:Label></strong>
                                                                     </td>
@@ -1753,10 +1795,10 @@
                                                     </td>
                                                     <td width="1%" valign="top">&nbsp;
                                                     </td>
-                                                    <td width="30%" valign="top" class="tablebdercaf">
-                                                        <table width="100%" border="0" cellpadding="2" cellspacing="0" style="display: none;">
+                                                    <td width="30%" valign="top">
+                                                        <table width="100%" border="0" cellpadding="0" cellspacing="0" style="display: none;">
                                                             <tr>
-                                                                <td bgcolor="#1567A1" class="whitetxt" colspan="6">
+                                                                <td style="border: solid 1px #000; padding: 5px;" colspan="6">
                                                                     <strong>
                                                                         <label id="lblN8c">
                                                                             c.
@@ -1769,30 +1811,30 @@
                                                                 </td>
                                                             </tr>
                                                             <tr>
-                                                                <td bgcolor="#FFFFFF">
+                                                                <td bgcolor="#FFFFFF" style="border: solid 1px #000; padding: 5px; border-top:0;">
                                                                     <label id="SportS">
                                                                         State
                                                                     </label>
                                                                 </td>
-                                                                <td height="28" bgcolor="#FFFFFF" width="35px">
+                                                                <td style="border: solid 1px #000; padding: 5px; border-top:0;border-left:0" width="35px">
                                                                     <strong>
                                                                         <asp:Label runat="server" ID="lblSportsS"></asp:Label></strong>
                                                                 </td>
-                                                                <td bgcolor="#FFFFFF">
+                                                                <td style="border: solid 1px #000; padding: 5px; border-top:0;border-left:0">
                                                                     <label id="SportN">
                                                                         National
                                                                     </label>
                                                                 </td>
-                                                                <td bgcolor="#FFFFFF" width="35px">
+                                                                <td style="border: solid 1px #000; padding: 5px; border-top:0;border-left:0" width="35px">
                                                                     <strong>
                                                                         <asp:Label runat="server" ID="lblSportsN"></asp:Label></strong>
                                                                 </td>
-                                                                <td bgcolor="#FFFFFF">
+                                                                <td style="border: solid 1px #000; padding: 5px; border-top:0;border-left:0">
                                                                     <label id="SportIN">
                                                                         International
                                                                     </label>
                                                                 </td>
-                                                                <td bgcolor="#FFFFFF" width="35px">
+                                                                <td style="border: solid 1px #000; padding: 5px; border-top:0;border-left:0" width="35px">
                                                                     <strong>
                                                                         <asp:Label runat="server" ID="lblSportsIN"></asp:Label></strong>
                                                                 </td>
@@ -1814,9 +1856,9 @@
             </tr>
             <tr>
                 <td bgcolor="#FFFFFF">
-                    <table width="100%" border="0" cellspacing="0" cellpadding="2" class="tbborderCAF">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
                         <tr>
-                            <td height="22">
+                            <td style="border: solid 1px #000; padding: 5px;">
                                 <strong>
                                     <label id="lblN10">
                                         10.
@@ -1832,24 +1874,24 @@
                         <tr>
                             <td>
                                 <div class="viewTable">
-                                    <table width="100%" cellpadding="2" cellspacing="1" id="tableOption">
+                                    <table width="100%" cellpadding="0" cellspacing="0" id="tableOption">
                                         <tr>
-                                            <td bgcolor="#666666">
+                                            <td bgcolor="#f5f5f5" style="border: solid 1px #000; padding: 5px;">
                                                 <strong class="whitetxt">Sl.No</strong>
                                             </td>
-                                            <td bgcolor="#666666">
+                                            <td bgcolor="#f5f5f5" style="border: solid 1px #000; padding: 5px;border-left:0">
                                                 <strong class="whitetxt">College</strong>
                                             </td>
-                                            <td bgcolor="#666666">
+                                            <td bgcolor="#f5f5f5" style="border: solid 1px #000; padding: 5px;border-left:0">
                                                 <strong class="whitetxt">Stream</strong>
                                             </td>
-                                            <td bgcolor="#666666" style="display: none;">
+                                            <td bgcolor="#f5f5f5" style="display: none;border: solid 1px #000; padding: 5px;border-left:0">
                                                 <strong class="whitetxt">Compulsory</strong>
                                             </td>
-                                            <td bgcolor="#666666" style="display: none;">
+                                            <td bgcolor="#f5f5f5" style="display: none;border: solid 1px #000; padding: 5px;border-left:0">
                                                 <strong class="whitetxt">Elective</strong>
                                             </td>
-                                            <td bgcolor="#666666" style="display: none;">
+                                            <td bgcolor="#f5f5f5" style="display: none;border: solid 1px #000; padding: 5px;border-left:0">
                                                 <strong class="whitetxt">Fourth Elective</strong>
                                             </td>
                                             <%-- <td bgcolor="#666666">
