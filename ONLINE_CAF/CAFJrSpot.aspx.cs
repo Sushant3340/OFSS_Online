@@ -901,6 +901,14 @@ public partial class CAFJrSpot : System.Web.UI.Page
                     lblCtrnid.Text = list[0].vchBSEBtrnId;
                 }
 
+                if (list[0].vchAmount == null)
+                {
+                    lblAmount.Text = "";
+                }
+                else
+                {
+                    lblAmount.Text = list[0].vchAmount;
+                }
                 if (list[0].vchVendortrnId == null)
                 {
                     lblBankTrnId.Text = "";
@@ -1154,7 +1162,7 @@ public partial class CAFJrSpot : System.Web.UI.Page
                 {
                     //  imgPhoto.ImageUrl = ViewPhotoDetails() + "/" + intBlockID + "/" + strUid + ".jpg";
 
-                    imgPhoto.ImageUrl = "~/DownloadImage.ashx?clsid=1&id=" + "/" + intBlockID + "/" + strUid + ".jpg";
+                    imgPhoto.ImageUrl = "~/DownloadImage.ashx?clsid=1&id=" + "/" + intBlockID + "/" + strImage;
                 }
                 else
                 {

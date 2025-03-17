@@ -53,6 +53,7 @@ public partial class ONLINE_CAF_CAFJr : System.Web.UI.Page
         {
             Util.LogError(ex, "cafjr");
         }
+        
     }
 
     protected void FillDocument()
@@ -61,7 +62,7 @@ public partial class ONLINE_CAF_CAFJr : System.Web.UI.Page
         DataSet DocDatasource = new DataSet();
         //DocDatasource.ReadXml(Server.MapPath("../MasterXML/M_DOCAttached.xml"));
         string pth = ConfigurationManager.AppSettings["StrPath"].ToString();
-        DocDatasource.ReadXml(pth + "sams/MasterXML/M_DOCAttached.xml");
+        DocDatasource.ReadXml(pth + "SAMS/MasterXML/M_DOCAttached.xml");
         DataView dvSource = default(DataView);
         dvSource = DocDatasource.Tables[0].DefaultView;
         string FilterData = "int_DocumentID in (1,2";
@@ -1165,7 +1166,7 @@ public partial class ONLINE_CAF_CAFJr : System.Web.UI.Page
                 {
                     //  imgPhoto.ImageUrl = ViewPhotoDetails() + "/" + intBlockID + "/" + strUid + ".jpg";
 
-                    imgPhoto.ImageUrl = "~/DownloadImage.ashx?clsid=1&id=" + "/" + intBlockID + "/" + strUid + ".jpg";
+                    imgPhoto.ImageUrl = "~/DownloadImage.ashx?clsid=1&id=" + "/" + intBlockID + "/" + strImage;
                 }
                 else
                 {
