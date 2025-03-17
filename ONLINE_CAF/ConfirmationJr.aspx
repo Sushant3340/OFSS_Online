@@ -6,6 +6,7 @@
     <title>Common Application Form</title>
     <meta http-equiv="Page-Enter" content="blendTrans(Duration=0.1)" />
     <meta http-equiv="Page-Exit" content="blendTrans(Duration=0.1)" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
     <script src="../js/jquery-1.12.4.js" type="text/javascript"></script>
     <script language="javascript" type="text/javascript">
         window.history.forward();
@@ -15,21 +16,24 @@
     </script>
     <link href="../Styles/CAF.css" rel="stylesheet" type="text/css" />
     <style type="text/css">
-        @font-face {
+/*        @font-face {
             font-family: 'Conv_Roboto-Regular';
             src: url('../fonts/Roboto-Regular.eot');
             src: local('?'), url('../fonts/Roboto-Regular.woff') format('woff'), url('../fonts/Roboto-Regular.ttf') format('truetype'), url('../fonts/Roboto-Regular.svg') format('svg');
             font-weight: normal;
             font-style: normal;
-        }
+        }*/
 
         body {
             font-size: 16px;
             border: none;
-            font-family: 'Conv_Roboto-Regular', Sans-Serif;
+            font-family: "Poppins", serif;
+            background:linear-gradient(90deg, rgb(174 168 251) 0%, rgb(233 183 228) 75%, rgb(237 188 189) 97%);
+            padding:0;
+            margin:0;
         }
 
-        .outerbox {
+/*        .outerbox {
             background: url(../images/login-bg.jpg) no-repeat;
             width: 45%;
             margin: auto;
@@ -39,9 +43,9 @@
             background-size: cover;
             min-height: 250px;
             margin-top: 4em;
-        }
+        }*/
 
-        .outerbox-cograts {
+/*        .outerbox-cograts {
             width: 45%;
             margin: auto;
             -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.25);
@@ -51,7 +55,7 @@
             min-height: 250px;
             margin-top: 4em;
         }
-
+*/
         .outerbox-cogratsPAD {
             padding: 0px 20px;
         }
@@ -156,7 +160,7 @@
             margin: 30px 0;
         }
 
-        #txtOTP {
+/*        #txtOTP {
             height: 20px;
         }
 
@@ -164,7 +168,7 @@
             padding: 55px 35px 35px 35px;
             margin-top: 4em;
             text-align: right;
-        }
+        }*/
 
         .otp-text {
             color: #fff;
@@ -175,7 +179,9 @@
         .msg-text {
             color: #FF0000;
             font-weight: 300;
-            font-size: 20px;
+            font-size: 15px;
+            display:block;
+            font-weight: 500;
         }
 
         .btn-submit {
@@ -211,6 +217,115 @@
             text-align: left;
             background-color: rgba(0, 0, 0, 0.5);
         }
+
+        .otp-main-screen {
+            background: #fff;
+            max-width: 640px;
+            margin: auto;
+            box-shadow: 0 0 5px #1e1d1d8a;
+            padding: 35px 15px;
+            border-radius: 5px;
+            text-align: left;
+        }
+
+        .otp-main-screen h4 {
+            text-align: center;
+            font-size: 20px;
+            margin: 0 0 10px;
+            font-weight:600;
+        }
+
+        .otp-main-screen  p.subject {
+            background: transparent !important;
+            color: #888;
+            border: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+
+        .otp-main-screen .inpt-field {
+            margin-top: 20px;
+   
+        }
+
+        .otp-main-screen .inpt-field .form-group{
+            text-align:center;
+        }
+
+        .otp-main-screen .inpt-field .form-group input {
+            width: auto;
+            box-sizing: border-box;
+            height: auto !important;
+            padding: 15px;
+            font-weight: 600;
+            outline: none;
+            border: solid 1px #b43320;
+            box-shadow: none !important;
+            border-radius: 30px !important;
+            color: #000;
+            font-size: 17px;
+            text-align:center;
+        }
+
+        .otp-main-screen .inpt-field .form-group.sub-btn input {
+            line-height: normal;
+            background: #d9534f;
+            color: #fff;
+            text-align: center;
+            padding: 10px 25px;
+            border: none;
+            width:auto;
+        }
+
+        .otp-main-screen .inpt-field .form-group.sub-btn input:hover{
+            background: #c9302c;
+        }
+
+        .otp-main-screen .inpt-field .form-group.sub-btn {
+            margin: 10px 0px;
+            text-align:center;
+        }
+
+        .otp-main-screen .inpt-field .resend-btns {
+            text-align: center; 
+        }
+
+        .otp-main-screen .inpt-field .resend-btns input {
+            background: transparent;
+            color: #000;
+            border: none;
+            font-weight: 500;
+        }
+
+        .otp-main-screen .inpt-field .resend-btns span#mycounter {
+            color: #000 !important;
+            font-size: 12px;
+        }
+        .outerbox-new {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            box-sizing: border-box;
+        }
+
+        .otp-main-screen .tp-icon {
+            width: 90px;
+            height: 90px;
+            margin: 0px auto 10px;
+            background: #d9534f;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+
+        .otp-main-screen .tp-icon img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            padding: 20px;
+            box-sizing: border-box;
+        }
     </style>
     <script type="text/javascript">
         var myVar = setInterval(myTimer, 1000);
@@ -230,32 +345,47 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div class="outerbox" id="DivOTP" runat="server">
-            <asp:Label ID="lbllabel" CssClass="otp-text" runat="server" Text="Enter your OTP code :"></asp:Label>
-            <asp:TextBox ID="txtOTP" runat="server" MaxLength="10" autocomplete="off" onpaste="return false;"
-                onCopy="return false" onCut="return false" onDrag="return false" onDrop="return false"></asp:TextBox>
-            <asp:Button ID="btnSubmit" runat="server" CssClass="btn-submit" Text="Submit" OnClick="btnSubmit_Click" />
-            <span class="resend">
-                <asp:Label ID="lblMsg" runat="server" Text="" CssClass="msg-text"></asp:Label>
-
-                <asp:Button ID="btnSendOTP" CssClass="btn-danger" runat="server" Text="Wait for 5 min to Resend OTP"
-                    OnClick="btnSendOTP_Click" Enabled="false" />
-                <br />
-                <span id="mycounter" style="color: white;"></span>
-            </span>
-            <p class="subject">
-                OTP has been sent to your given Mobile No. and Email ID.<br />
-                The OTP is valid for 5 minutes.
-            </p>
-            <p class="subject">
-                आपके दिए हुए मोबाइल और ई-मेल आई.डी. पर OTP भेजा गया है | यह OTP केवल पांच मिनट तक
-            ही मान्य है |
-            </p>
-            <%--All communication during the e-Admission will be made to the mobile number & email address used during the registration in this portal. One mobile number or email address can't be used for multiple registrations.--%>
-            <asp:HiddenField ID="hdnMob" runat="server" />
-            <asp:HiddenField ID="hdnEmail" runat="server" />
-            <asp:HiddenField ID="hdnAppNm" runat="server" />
-            <asp:HiddenField ID="hdnAppId" runat="server" />
+        <div class="outerbox-new" id="DivOTP" runat="server">
+            <div class="otp-main-screen">
+                <div class="inner">
+                    <div class="tp-icon">
+                        <img src="/images/pass-new.png" alt="" />
+                    </div>
+                    <h4>Plase Enter your OTP code</h4>
+                    <p class="subject">
+                        OTP has been sent to your given Mobile No. and Email ID. The OTP is valid for 5 minutes.
+                    </p>
+                    <p class="subject">
+                        आपके दिए हुए मोबाइल और ई-मेल आई.डी. पर OTP भेजा गया है | यह OTP केवल पांच मिनट तक
+                    ही मान्य है |
+                    </p>
+                    <div class="inpt-field">
+                        <div class="form-group">
+                            <asp:TextBox ID="txtOTP" runat="server" MaxLength="10" autocomplete="off" onpaste="return false;"
+                            onCopy="return false" onCut="return false" onDrag="return false" onDrop="return false"></asp:TextBox>
+                        </div>
+                        
+                        <div class="form-group sub-btn">
+                             <asp:Button ID="btnSubmit" runat="server" CssClass="btn-submit" Text="Submit" OnClick="btnSubmit_Click" />
+                        </div>
+                        <div class="resend-btns">
+                            <asp:Label ID="lblMsg" runat="server" Text="" CssClass="msg-text"></asp:Label>
+                            <asp:Button ID="btnSendOTP" CssClass="btn-danger" runat="server" Text="Wait for 5 min to Resend OTP"
+                                OnClick="btnSendOTP_Click" Enabled="false" />
+                            <br />
+                            <span id="mycounter" style="color: white;"></span>
+                        </div>
+                    </div>
+                      <%--All communication during the e-Admission will be made to the mobile number & email address used during the registration in this portal. One mobile number or email address can't be used for multiple registrations.--%>
+                      <asp:HiddenField ID="hdnMob" runat="server" />
+                      <asp:HiddenField ID="hdnEmail" runat="server" />
+                      <asp:HiddenField ID="hdnAppNm" runat="server" />
+                      <asp:HiddenField ID="hdnAppId" runat="server" />
+                </div>
+            </div>
+           <%-- <asp:Label ID="lbllabel" CssClass="otp-text" runat="server" Text="Enter your OTP code :"></asp:Label>--%>
+            
+          
         </div>
     </form>
 </body>

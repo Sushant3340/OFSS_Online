@@ -18,38 +18,26 @@ using SabPaisaDotNetIntregreation;
 using System;
 using System.Collections.Generic;
 
-public partial class ONLINE_CAF_ConfirmationJr : System.Web.UI.Page
+public partial class ONLINE_CAF_PostPgResponse : System.Web.UI.Page
 {
 
     CommonClass ccobj = new CommonClass();
     protected void Page_Load(object sender, System.EventArgs e)
     {
-        //string strFileName = "sabpaisa" + "_ErrorLog" + DateTime.Now.ToString("ddMMyyyy") + ".txt";
-
-        //string path = System.Web.HttpContext.Current.Server.MapPath("~/ErrorLog/" + strFileName);
-        //using (StreamWriter writer = new StreamWriter(path, true))
-        //{
-        //    writer.WriteLine("Something went right");
-        //    writer.Close();
-        //}
-
         if (!IsPostBack)
         {
-
-            //string str = "success";
-            //ScriptManager.RegisterStartupScript(this.Page, this.GetType(), "alert", "alert('" + str + "');", true);
-
+            
             SabPaisaIntegration sabPaisaIntegration = new SabPaisaIntegration();
             CafPayment objpayment = new CafPayment();
             string query = "";
             try
             {
-                if (Request.Form["query"] != null)
+                if (Request.Form["encResponse"] != null)
                 {
 
                     Dictionary<string, string> sabPaisaRespdict = new Dictionary<string, string>();
 
-                    query = Request.QueryString["query"].ToString();
+                    query = Request.Form["encResponse"].ToString();
                     string authIV = System.Configuration.ConfigurationManager.AppSettings["authIV"].ToString(); //"EHffoCRKOXPVSeqS"; // use AuthIV,which is shared in mail
                     string authKey = System.Configuration.ConfigurationManager.AppSettings["authKey"].ToString(); //use AuthIV,which is shared in mail
 
@@ -59,12 +47,11 @@ public partial class ONLINE_CAF_ConfirmationJr : System.Web.UI.Page
                     // As i got object of  Dictionary<string, string> which have all responsed data which return by sabpaisa, so rotate and capture in foreach loop
                     foreach (KeyValuePair<string, string> pair in sabPaisaRespdict)
                     {
-
                         if (pair.Key.ToString().ToUpper() == "PGRESPCODE")
                         {
                             objpayment.pgRespCode = pair.Value.ToString();
                         }
-                        else if (pair.Key.ToString().ToUpper() == "SABPAISATXID")
+                        else if (pair.Key.ToString().ToUpper() == "SABPAISATXNID")
                         {
 
                             objpayment.PGTxnNo = pair.Value.ToString();
@@ -94,24 +81,24 @@ public partial class ONLINE_CAF_ConfirmationJr : System.Web.UI.Page
                             objpayment.vch_UniqueRefNo = objpayment.clientTxnId.Substring(11);
                             lblUniqueRefNo.Text = objpayment.vch_UniqueRefNo;
                         }
-                        else if (pair.Key.ToString().ToUpper() == "FIRSTNAME")
+                        else if (pair.Key.ToString().ToUpper() == "PAYERNAME") 
                         {
                             lblApplicantName.Text = pair.Value.ToString();
                             objpayment.firstName = pair.Value.ToString();
                         }
-                        else if (pair.Key.ToString().ToUpper() == "PAYMODE")
+                        else if (pair.Key.ToString().ToUpper() == "PAYMENTMODE")
                         {
                             objpayment.payMode = pair.Value.ToString();
                         }
-                        else if (pair.Key.ToString().ToUpper() == "EMAIL")
+                        else if (pair.Key.ToString().ToUpper() == "PAYEREMAIL")
                         {
                             objpayment.email = pair.Value.ToString();
                         }
-                        else if (pair.Key.ToString().ToUpper() == "MOBILENO")
+                        else if (pair.Key.ToString().ToUpper() == "PAYERMOBILE")
                         {
                             objpayment.mobileNo = pair.Value.ToString();
                         }
-                        else if (pair.Key.ToString().ToUpper() == "SPRESPCODE")
+                        else if (pair.Key.ToString().ToUpper() == "STATUSCODE")
                         {
                             objpayment.spRespCode = pair.Value.ToString();
                         }
@@ -123,7 +110,7 @@ public partial class ONLINE_CAF_ConfirmationJr : System.Web.UI.Page
                         {
                             objpayment.bid = pair.Value.ToString();
                         }
-                        else if (pair.Key.ToString().ToUpper() == "CLIENTCODE") 
+                        else if (pair.Key.ToString().ToUpper() == "CLIENTCODE")
                         {
                             objpayment.clientCode = pair.Value.ToString();
                         }
@@ -135,12 +122,12 @@ public partial class ONLINE_CAF_ConfirmationJr : System.Web.UI.Page
                         {
                             objpayment.transDate = pair.Value.ToString();
                         }
-                        else if (pair.Key.ToString().ToUpper() == "SPRESPSTATUS")
+                        else if (pair.Key.ToString().ToUpper() == "STATUS")
                         {
                             objpayment.spRespStatus = pair.Value.ToString();
                             lblStatus.Text = objpayment.spRespStatus;
                         }
-                        else if (pair.Key.ToString().ToUpper() == "CHALLANNO")
+                        else if (pair.Key.ToString().ToUpper() == "CHALLANNUMBER")
                         {
                             objpayment.challanNo = pair.Value.ToString();
                         }
@@ -156,25 +143,33 @@ public partial class ONLINE_CAF_ConfirmationJr : System.Web.UI.Page
                         {
                             objpayment.programId = pair.Value.ToString();
                         }
-                        else if (pair.Key.ToString().ToUpper() == "PROGRAMID")
-                        {
-                            objpayment.programId = pair.Value.ToString();
-                        }
                         else if (pair.Key.ToString().ToUpper() == "PINT_APPLICANTID")
                         {
                             objpayment.programId = pair.Value.ToString();
                         }
-                    }                  
-                        if (!string.IsNullOrEmpty(objpayment.clientTxnId))
+
+                    }
+                    if (!string.IsNullOrEmpty(objpayment.clientTxnId))
+                    {
+                        objpayment.Action = "U";
+                        string res = ccobj.ManagePayment_JR(objpayment);
+                        if(res== "101")
                         {
-                            objpayment.Action = "U";
-                            string res = ccobj.ManagePayment_JR(objpayment);
+                            lblPaymentMsg.ForeColor = System.Drawing.Color.Red;
+                            lblPaymentMsg.Text = "Amount MisMatch";
                         }
-                        else
+                        else if(res == "102")
                         {
-                            string res = "";
+                            lblPaymentMsg.ForeColor = System.Drawing.Color.Red;
+                            lblPaymentMsg.Text = "Transction ID MisMatch";
                         }
+                    }
+                    else
+                    {
+                        string res = "";
+                    }
                     
+
 
                     if (string.Equals(objpayment.spRespStatus, "Success", StringComparison.OrdinalIgnoreCase))
                     {
@@ -185,6 +180,7 @@ public partial class ONLINE_CAF_ConfirmationJr : System.Web.UI.Page
                     else
                     {
                         lblPaymentMsg.Text = Messages.mError_Msg_Payment_Failure;
+                         lblPaymentMsg.ForeColor = System.Drawing.Color.Red;
                         btnPrintCAF.Visible = false;
                         Util.SendPaymentSMS(lblClientTransId.Text, lblUniqueRefNo.Text, objpayment.mobileNo, "fail", "responsePaisa");
                     }
@@ -225,15 +221,10 @@ public partial class ONLINE_CAF_ConfirmationJr : System.Web.UI.Page
     }
     protected string GetUrl(string AppId)
     {
-       // string strURL = "CAFJr.aspx?";
-        string strURL = "CAFJrSpot.aspx?";
+        string strURL = "CAFJr.aspx?";
+        //string strURL = "CAFJrSpot.aspx?";
         string strURLWithData = (strURL + string.Format("AppId1={0}", AppId));
         return strURLWithData;
     }
-
-
-
-
-
 
 }

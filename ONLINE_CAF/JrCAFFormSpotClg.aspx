@@ -18,45 +18,50 @@
     <script type="text/javascript" src="../js/jquery.blockUI.js"></script>
     <link type='text/css' href="../style/basic.css" rel="stylesheet" media="screen" />
     <link href="../css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"/>
     <%-- <script type='text/javascript' src="../js/jquery.simplemodal.js"></script>--%>
     <style type="text/css">
-        body {
+               body {
             margin: 0px;
             padding: 0px;
             border: none;
+            font-family: "Roboto", sans-serif !important;
+            font-size:13px;
+        }
+        .CAFheading, .style2, .normalfont{
+            font-family: "Roboto", sans-serif !important;
+            font-weight:600
         }
 
+        .normalfont{
+            font-size:14px;
+        }
         .Uppercase {
             text-transform: uppercase;
         }
 
         .redbold {
-            font-family: Verdana, Arial, Helvetica, sans-serif;
             font-size: 31px;
-            font-weight: bold;
+            font-weight: 600;
             color: #C60000;
             text-decoration: none;
         }
 
         s .smlfont {
-            font-family: Arial, Helvetica, sans-serif;
             font-size: 10px;
-            font-weight: bold;
+            font-weight: 600;
             color: #333333;
             text-decoration: none;
         }
 
-        .inputitem {
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 11px;
-            font-weight: normal;
-            color: #000000;
-            font-weight: bold;
-            background-color: #f8f5d6;
-        }
+
+        .optionbtnNew {
+    background-color: #105a8b;
+    border-color: #105a8b;
+    margin-bottom: 10px;
+}
 
         .bordernew {
-            font-family: Arial, Helvetica, sans-serif;
             font-size: 11px;
             font-weight: bold;
             color: #000000;
@@ -77,10 +82,9 @@
         }
 
         .optionbtnNew {
-            background-color: #75bf52;
-            *background-color: #75bf52;
-            background-repeat: repeat-x;
-            text-shadow: 01px1pxrgba(0, 0, 0, 0.25);
+            background-color: #105a8b;
+            border-color: #105a8b;
+            margin-bottom: 10px;
             color: #fff;
             font-size: 13px;
             font-weight: bold;
@@ -89,15 +93,7 @@
             cursor: pointer;
             margin-top: 5px;
             height: 29px;
-            background-image: -moz-linear-gradient(top, #82d05f, #75bf52);
         }
-
-            .optionbtnNew:hover {
-                background-color: #6ab148;
-                background-color: #6ab148;
-                background-repeat: repeat-x;
-                background-image: -moz-linear-gradient(top, #6ab148, #6ab148);
-            }
 
         input[type="radio" i] {
             margin: 3px 1px 0px 2px;
@@ -148,6 +144,7 @@
             display: none;
         }
 
+
         i.eright {
             float: right;
             color: #47ce0b;
@@ -176,6 +173,7 @@
             display: none;
         }
 
+
         .modal {
             position: fixed;
             top: 0;
@@ -199,6 +197,73 @@
             position: fixed;
             background-color: White;
             z-index: 999;
+        }
+
+        .containerbackground {
+            /*margin: 33rem;*/
+            /*position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            z-index: 1000;*/
+            /*transform: rotate(300deg);
+            -webkit-transform: rotate(300deg);*/
+            color: red;
+            font-weight: bold;
+            font-size: 25px;
+            text-align: center;
+        }
+
+        .inputitem {
+            background: transparent;
+            border: solid 1px #000;
+            height: auto !important;
+            padding: 8px;
+            width:100% !important;
+            outline: none;
+            box-sizing:border-box;
+            font-size: 13px;
+            font-weight: normal;
+            color: #000000;
+            font-weight: 500;
+
+        }
+
+        .std-numbers input {
+            width: 50px !important;
+        }
+        .redio-new-btns tr td span{
+            color:#000 !important;
+        }
+
+        .std-numbers input#txtCTeleNo {
+            width: 90px !important;
+        }
+
+        table#tableOption tr th, table#tableOption tr td {
+            padding: 5px;
+            border: solid 1px #2a2a2a;
+            font-size: 13px;
+        }
+
+        table#tableOption {
+            border-collapse: collapse;
+        }
+
+        table#tableOption tr td font {
+            color: #000;
+            font-size: 14px;
+        }
+
+        .optionbtnNew:hover {
+            background: #c3361d;
+            border-color: #c3361d;
+        }
+
+        #imgSpan {
+            color: #666;
+            font-weight: normal;
+            font-size: 14px;
         }
     </style>
     <script type="text/javascript" language="javascript">
@@ -502,9 +567,9 @@
                         <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
                             <tr>
                                 <td>
-                                    <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                                    <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" style="padding:0; border:none;border-collapse: collapse; margin:10px 0px;">
                                         <tr>
-                                            <td style="width: 85; text-align: left" class="CAFheading">
+                                            <td style="width: 93px; text-align: left" class="CAFheading">
                                                 <img src="../images/BiharLogo.png" width="77" height="77" alt="" />
                                             </td>
                                             <td width="754" height="22" align="center" class="style2">
@@ -518,7 +583,7 @@
                                                 <table width="100%" border="0" cellspacing="0" cellpadding="0">
                                                     <tr>
                                                         <td align="center" class="redbold">
-                                                            <label id="lblp2" style="font-weight: bold">
+                                                            <label id="lblp2">
                                                                 Intermediate</label>
                                                         </td>
                                                     </tr>
@@ -543,9 +608,6 @@
                     </td>
                 </tr>
                 <tr>
-                    <td height="4"></td>
-                </tr>
-                <tr>
                     <td align="right" style="display: none">
                         <input type="radio" name="gender" id="rbtnEnglish" value="English" onclick="EnglishOriyaFont();"
                             runat="server" />
@@ -557,7 +619,7 @@
                 </tr>
                 <tr>
                     <td bgcolor="#FFFFFF">
-                        <table width="100%" border="0" cellpadding="10" cellspacing="1" bgcolor="#cccccc">
+                        <table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#cccccc">
                             <tr>
                                 <td bgcolor="#FFFFFF">
                                     <table width="100%" border="0" cellspacing="0" cellpadding="0">
@@ -566,52 +628,54 @@
                                                 <table width="100%" border="0" cellspacing="0" cellpadding="0">
                                                     <tr>
                                                         <td>
-                                                            <table width="100%" border="0" cellpadding="2" cellspacing="0">
+                                                            <table width="100%" border="0" cellpadding="0" cellspacing="0">
                                                                 <tr>
                                                                     <td width="85%">
                                                                         <table width="100%" border="0" cellspacing="0" cellpadding="0">
                                                                             <tr>
-                                                                                <table width="100%" border="0" cellpadding="0" cellspacing="0">
-                                                                                    <tr>
-                                                                                        <td width="24">
-                                                                                            <strong>
-                                                                                                <label id="lblN1">
-                                                                                                    1.</label>
-                                                                                            </strong>
-                                                                                        </td>
-                                                                                        <td width="858" colspan="3">
-                                                                                            <strong>
-                                                                                                <label id="lbltit">
-                                                                                                    Name of the Board from which you have passed the 10th exam ? Please fill the Year
-                                                                                                of Exam and Roll Number as in Admit Card. /
-                                                                                                <br />
-                                                                                                    &#2310;&#2346;&#2344;&#2375; &#2325;&#2367;&#2360; &#2358;&#2367;&#2325;&#2381;&#2359;&#2366;
-                                                                                                &#2348;&#2379;&#2352;&#2381;&#2337; &#2360;&#2375; &#2342;&#2360;&#2357;&#2368;&#2306;
-                                                                                                &#2346;&#2352;&#2368;&#2325;&#2381;&#2359;&#2366; &#2313;&#2340;&#2381;&#2340;&#2368;&#2352;&#2381;&#2339;
-                                                                                                &#2325;&#2368; &#2361;&#2376; ? &#2319;&#2337;&#2350;&#2367;&#2335; &#2325;&#2366;&#2352;&#2381;&#2337;
-                                                                                                &#2325;&#2375; &#2309;&#2344;&#2369;&#2352;&#2370;&#2346; &#2346;&#2352;&#2368;&#2325;&#2381;&#2359;&#2366;
-                                                                                                &#2357;&#2352;&#2381;&#2359; &#2319;&#2357;&#2306; &#2352;&#2379;&#2354; &#2344;&#2306;&#2348;&#2352;
-                                                                                                &#2349;&#2352;&#2375;&#2306; |
-                                                                                                </label>
-                                                                                            </strong>
-                                                                                        </td>
-                                                                                    </tr>
-                                                                                </table>
+                                                                                <td>
+                                                                                    <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                                                                                        <tr>
+                                                                                            <td width="24" style="border: solid 1px #000; padding: 5px; text-align:center">
+                                                                                                <strong>
+                                                                                                    <label id="lblN1">
+                                                                                                        1.</label>
+                                                                                                </strong>
+                                                                                            </td>
+                                                                                            <td width="858" colspan="3" style="border: solid 1px #000; padding: 5px; border-left: 0;">
+                                                                                                <strong>
+                                                                                                    <label id="lbltit">
+                                                                                                        Name of the Board from which you have passed the 10th exam ? Please fill the Year
+                                                                                                    of Exam and Roll Number as in Admit Card. /
+                                                                                                    <br />
+                                                                                                        &#2310;&#2346;&#2344;&#2375; &#2325;&#2367;&#2360; &#2358;&#2367;&#2325;&#2381;&#2359;&#2366;
+                                                                                                    &#2348;&#2379;&#2352;&#2381;&#2337; &#2360;&#2375; &#2342;&#2360;&#2357;&#2368;&#2306;
+                                                                                                    &#2346;&#2352;&#2368;&#2325;&#2381;&#2359;&#2366; &#2313;&#2340;&#2381;&#2340;&#2368;&#2352;&#2381;&#2339;
+                                                                                                    &#2325;&#2368; &#2361;&#2376; ? &#2319;&#2337;&#2350;&#2367;&#2335; &#2325;&#2366;&#2352;&#2381;&#2337;
+                                                                                                    &#2325;&#2375; &#2309;&#2344;&#2369;&#2352;&#2370;&#2346; &#2346;&#2352;&#2368;&#2325;&#2381;&#2359;&#2366;
+                                                                                                    &#2357;&#2352;&#2381;&#2359; &#2319;&#2357;&#2306; &#2352;&#2379;&#2354; &#2344;&#2306;&#2348;&#2352;
+                                                                                                    &#2349;&#2352;&#2375;&#2306; |
+                                                                                                    </label>
+                                                                                                </strong>
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </table>
+                                                                                </td>
                                                                             </tr>
                                                                             <tr>
                                                                                 <td colspan="2">
                                                                                     <table width="100%" class="dotBorder" border="0" cellpadding="2" cellspacing="0">
                                                                                         <tr>
-                                                                                            <td width="390px">
-                                                                                                <label id="lblBoardName" style="color: #8B0000">
+                                                                                            <td width="390px" style="border: solid 1px #000; padding: 5px; border-top: 0;">
+                                                                                                <label id="lblBoardName" style="color: #000">
                                                                                                     Name of the Examination Board <font color="#8B0000" size="3">*</font>
                                                                                                     <br />
                                                                                                     &#2357;&#2367;&#2342;&#2381;&#2351;&#2366;&#2354;&#2351; &#2346;&#2352;&#2368;&#2325;&#2381;&#2359;&#2366;
                                                                                                 &#2348;&#2379;&#2352;&#2381;&#2337; &#2325;&#2366; &#2344;&#2366;&#2350;</label>
                                                                                                 &nbsp;<font color="#8B0000" size="3">*</font>
                                                                                             </td>
-                                                                                            <td width="320px">
-                                                                                                <label id="lblYOP" style="color: #8B0000">
+                                                                                            <td width="320px" style="border: solid 1px #000; padding: 5px; border-top: 0;">
+                                                                                                <label id="lblYOP" style="color: #000">
                                                                                                     Year of Passing <font color="#8B0000" size="3">*</font>
                                                                                                     <br />
                                                                                                     &#2310;&#2346;&#2344;&#2375; &#2325;&#2367;&#2360; &#2360;&#2366;&#2354; &#2346;&#2352;&#2368;&#2325;&#2381;&#2359;&#2366;
@@ -619,8 +683,8 @@
                                                                                                 </label>
                                                                                                 &nbsp;<font color="#8B0000" size="3">*</font>
                                                                                             </td>
-                                                                                            <td width="350px">
-                                                                                                <label id="lblExamType" style="color: #8B0000">
+                                                                                            <td width="350px" style="border: solid 1px #000; padding: 5px; border-left: 0; border-top: 0;">
+                                                                                                <label id="lblExamType" style="color: #000">
                                                                                                     Exam Type <font color="#8B0000" size="3">*</font>
                                                                                                     <br />
                                                                                                     &#2310;&#2346;&#2344;&#2375; &#2325;&#2380;&#2344; &#2360;&#2368; &#2346;&#2352;&#2368;&#2325;&#2381;&#2359;&#2366;
@@ -630,7 +694,7 @@
                                                                                             </td>
                                                                                         </tr>
                                                                                         <tr>
-                                                                                            <td width="250">
+                                                                                            <td width="250" style="border: solid 1px #000; padding: 5px; border-top: 0;">
                                                                                                 <asp:DropDownList CssClass="inputitem" ID="ddlBoard" runat="server" Width="100%"
                                                                                                     onkeypress="return makeSelectDropdown('ddlBoard','B');" onchange="showhideCGPA();ShowGrade();clearRollNumber();BoardMark();fillMaximumMark();ClearYearOfPassing();">
                                                                                                     <asp:ListItem Value="0">--SELECT--</asp:ListItem>
@@ -639,7 +703,7 @@
                                                                                                     <asp:TextBox ID="txtOtherBoard" runat="server" Width="100%" CssClass="inputitem" onkeypress="return AllowAlphabet(event,'txtOtherBoard')"></asp:TextBox>
                                                                                                 </div>
                                                                                             </td>
-                                                                                            <td width="146">
+                                                                                            <td width="146" style="border: solid 1px #000; padding: 5px; border-left: 0; border-top: 0;">
                                                                                                 <%--<asp:TextBox ID="txtYOP" runat="server" Width="90" CssClass="inputitem" MaxLength="4"
                                                                                             AutoCompleteType="disabled" onblur="FutureYearAlert();ExamType();showhideCGPA();ShowGrade();clearRollNumber();return NumericValidation('txtYOP','Please enter your year of passing  between 1984 - 2016',4);" />--%>
                                                                                                 <asp:DropDownList ID="ddlYOP" runat="server" Width="100%" CssClass="inputitem" onchange="ExamType();showhideCGPA();ShowGrade();clearRollNumber();BoardMark();fillMaximumMark();">
@@ -686,7 +750,7 @@
                                                                                                     <%--  <asp:ListItem Value="1985">1985</asp:ListItem>--%>
                                                                                                 </asp:DropDownList>
                                                                                             </td>
-                                                                                            <td>
+                                                                                            <td style="border: solid 1px #000; padding: 5px; border-left: 0; border-top: 0;">
                                                                                                 <asp:RadioButton ID="rbtnAnnual" Text="Annual / &#2357;&#2366;&#2352;&#2381;&#2359;&#2367;&#2325; &#2346;&#2352;&#2368;&#2325;&#2381;&#2359;&#2366;"
                                                                                                     runat="server" GroupName="Exam" onchange="BoardMark();" Checked="true" />
                                                                                                 <asp:RadioButton ID="rbtnSuppl" Text="Compartmental / &#2346;&#2370;&#2352;&#2325; &#2346;&#2352;&#2368;&#2325;&#2381;&#2359;&#2366;"
@@ -694,51 +758,51 @@
                                                                                             </td>
                                                                                         </tr>
                                                                                         <tr>
-                                                                                            <td id="tdDOBH" runat="server">
-                                                                                                <label style="color: #8B0000">
+                                                                                            <td id="tdDOBH" runat="server" style="border: solid 1px #000; padding: 5px; border-top: 0;">
+                                                                                                <label style="color: #000">
                                                                                                     Date of Birth <font color="#8B0000" size="3">*</font>/ &#2332;&#2344;&#2381;&#2350;
                                                                                                 &#2340;&#2367;&#2341;&#2367;
                                                                                                 </label>
                                                                                                 &nbsp;<font color="#8B0000" size="3">*</font>
                                                                                             </td>
-                                                                                            <td id="tdRollCdH" runat="server">
-                                                                                                <label style="color: #8B0000" size="3">
+                                                                                            <td id="tdRollCdH" runat="server" style="border: solid 1px #000; padding: 5px; border-left: 0; border-top: 0;">
+                                                                                                <label style="color: #000" size="3">
                                                                                                     Roll Code <font color="#8B0000" size="3">*</font>/ &#2352;&#2379;&#2354; &#2325;&#2379;&#2337;</label>
                                                                                                 &nbsp;<font color="#8B0000" size="3">*</font>
                                                                                             </td>
-                                                                                            <td>
-                                                                                                <label id="lblRoll" style="color: #8B0000" size="3">
+                                                                                            <td style="border: solid 1px #000; padding: 5px; border-left: 0; border-top: 0;" colspan="2">
+                                                                                                <label id="lblRoll" style="color: #000" size="3">
                                                                                                     Roll Number <font color="#8B0000" size="3">*</font>/ &#2352;&#2379;&#2354; &#2344;&#2306;&#2348;&#2352;
                                                                                                 </label>
                                                                                                 &nbsp;<font color="#8B0000" size="3">*</font>
                                                                                             </td>
                                                                                         </tr>
                                                                                         <tr>
-                                                                                            <td id="tdDOBF" runat="server">
-                                                                                                <asp:DropDownList CssClass="inputitem" ID="ddlDay" runat="server" AppendDataBoundItems="true" onchange="BoardMark();">
+                                                                                            <td id="tdDOBF" runat="server" style="border: solid 1px #000; padding: 5px; border-top: 0;">
+                                                                                                <asp:DropDownList CssClass="inputitem" style="width:25% !important" ID="ddlDay" runat="server" AppendDataBoundItems="true" onchange="BoardMark();">
                                                                                                     <asp:ListItem Value="0">DAY</asp:ListItem>
                                                                                                 </asp:DropDownList>
-                                                                                                <asp:DropDownList CssClass="inputitem" ID="ddlMonth" runat="server" AppendDataBoundItems="true" onchange="BoardMark();">
+                                                                                                <asp:DropDownList CssClass="inputitem" style="width:25% !important" ID="ddlMonth" runat="server" AppendDataBoundItems="true" onchange="BoardMark();">
                                                                                                     <asp:ListItem Value="0">MONTH</asp:ListItem>
                                                                                                 </asp:DropDownList>
-                                                                                                <asp:DropDownList CssClass="inputitem" ID="ddlYear" runat="server" AppendDataBoundItems="true" onchange="BoardMark();">
+                                                                                                <asp:DropDownList CssClass="inputitem" style="width:25% !important" ID="ddlYear" runat="server" AppendDataBoundItems="true" onchange="BoardMark();">
                                                                                                     <asp:ListItem Value="0">YEAR</asp:ListItem>
                                                                                                 </asp:DropDownList>
                                                                                             </td>
-                                                                                            <td id="tdRollCdF" runat="server">
+                                                                                            <td id="tdRollCdF" runat="server"  style="border: solid 1px #000; padding: 5px; border-left: 0; border-top: 0;">
                                                                                                 <asp:TextBox ID="txtRollCode" runat="server" Width="100%" CssClass="inputitem" MaxLength="15"
                                                                                                     onKeyUp="CheckRoll('txtRollCode','Space/Special characters are not allowed', 5);"
                                                                                                     AutoCompleteType="disabled"
                                                                                                     onkeypress="return CheckLengthOnly('txtRollCode', 5); " />
                                                                                             </td>
-                                                                                            <td>
+                                                                                            <td  style="border: solid 1px #000; padding: 5px; border-left: 0; border-top: 0;" colspan="2">
                                                                                                 <asp:TextBox ID="txtBoardRoll" runat="server" Width="100%" CssClass="inputitem" MaxLength="15" onKeyUp="CheckRoll('txtBoardRoll','Space/Special characters are not allowed', 7);"
                                                                                                     AutoCompleteType="disabled"
                                                                                                     onkeypress="return CheckLengthOnly('txtBoardRoll', 7);" />
                                                                                             </td>
                                                                                         </tr>
                                                                                         <tr>
-                                                                                            <td colspan="3" id="tdRollcodeMsg" style="display: none;">
+                                                                                            <td colspan="3" id="tdRollcodeMsg" style="display: none; border: solid 1px #000; padding: 5px; border-top: 0;">
                                                                                                 <div>
                                                                                                     अगर आपके परीक्षा बोर्ड में रोल नंबर के अलावा यदि रोल कोड भी है तो दोनों को मिला
                                                                                                 कर लिखें ! जैसे आपका रोल कोड 1234 है एवं रोल नंबर 987654 तो नीचे 1234987654 लिखें
@@ -751,24 +815,18 @@
                                                                             </tr>
                                                                             <tr>
                                                                                 <td>
-                                                                                    <table width="100%">
+                                                                                    <table width="100%" cellpadding="0" cellspacing="0">
                                                                                         <tr>
-                                                                                            <td>
+                                                                                            <td style="border: solid 1px #000; padding: 10px; border-top: 0;">
                                                                                                 <div style="text-align: center;">
                                                                                                     <label id="lblResultMsg" runat="server" style="color: Red; text-align: center; font-size: medium">
                                                                                                     </label>
                                                                                                 </div>
-                                                                                                <table width="100%" border="0" cellspacing="0" cellpadding="2">
+                                                                                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
 
                                                                                                     <tr>
-                                                                                                        <td width="2%">
-                                                                                                            <strong>
-                                                                                                                <%--<label id="lblN2">
-                                                                                                                    2.</label>--%>
-                                                                                                            </strong>
-                                                                                                        </td>
-                                                                                                        <td width="30%" id="tdlblUniqId" runat="server" style="display: none;">
-                                                                                                            <label id="lblUniqueId" style="color: #8B0000" runat="server">
+                                                                                                        <td width="30%" colspan="2" id="tdlblUniqId" runat="server" style="display: none;border: solid 1px #000; padding: 5px; border-bottom: 0;">
+                                                                                                            <label id="lblUniqueId" style="color: #000" runat="server">
                                                                                                                 Applicant's Unique Id 
                                                                                                                 <br />
                                                                                                                 आवेदक का यूनिक आई.डी (यदि उपलब्ध हो )
@@ -776,7 +834,7 @@
 
                                                                                                             <%--<strong>??????? ???? ?? ???</strong> <font color="#8B0000" size="3">*</font>--%>
                                                                                                         </td>
-                                                                                                        <td width="50%" colspan="2" id="tdtxtuniqueId" runat="server" style="display: none;">
+                                                                                                        <td width="50%" colspan="2" id="tdtxtuniqueId" runat="server" style="display: none;border: solid 1px #000; padding: 5px; border-left: 0; border-bottom: 0;">
                                                                                                             <asp:TextBox ID="txtUniqueId" runat="server" Width="100%" CssClass="inputitem Uppercase"
                                                                                                                 AutoCompleteType="disabled" MaxLength="15" onkeypress="return CheckLengthOnly('txtUniqueId', 13);"
                                                                                                                 onKeyUp="return NumericValidation('txtUniqueId','Please write only numeric values for Applicant Unique Id',13);" />
@@ -784,14 +842,14 @@
                                                                                                         </td>
                                                                                                     </tr>
                                                                                                     <tr>
-                                                                                                        <td width="2%">
+                                                                                                        <td width="2%" style="border: solid 1px #000; padding: 5px; text-align:center;">
                                                                                                             <strong>
                                                                                                                 <label id="lblN2">
                                                                                                                     2.</label>
                                                                                                             </strong>
                                                                                                         </td>
-                                                                                                        <td width="30%">
-                                                                                                            <label id="lblApplicantName" style="color: #8B0000">
+                                                                                                        <td width="30%" style="border: solid 1px #000; padding: 5px; border-left: 0;">
+                                                                                                            <label id="lblApplicantName" style="color: #000">
                                                                                                                 Applicant's Name <font color="#8B0000" size="3">*</font>
                                                                                                                 <br />
                                                                                                                 &#2310;&#2357;&#2375;&#2342;&#2325; &#2325;&#2366; &#2344;&#2366;&#2350;
@@ -799,21 +857,21 @@
                                                                                                             <font color="#8B0000" size="3">*</font>
                                                                                                             <%--<strong>??????? ???? ?? ???</strong> <font color="#8B0000" size="3">*</font>--%>
                                                                                                         </td>
-                                                                                                        <td width="50%" colspan="2">
+                                                                                                        <td width="50%" colspan="2" style="border: solid 1px #000; padding: 5px; border-left: 0;">
                                                                                                             <asp:TextBox ID="txtApplName" runat="server" Width="100%" CssClass="inputitem Uppercase"
                                                                                                                 AutoCompleteType="disabled" MaxLength="100" onKeyUp="return CheckSpeCharacterName('txtApplName','Special characters are not allowed');"
                                                                                                                 onkeydown="return checkNumber('txtApplName');" />
                                                                                                         </td>
                                                                                                     </tr>
                                                                                                     <tr>
-                                                                                                        <td>
+                                                                                                        <td style="border: solid 1px #000; padding: 5px;text-align:center; border-top: 0;">
                                                                                                             <strong>
                                                                                                                 <label id="lblN3">
                                                                                                                     3.</label>
                                                                                                             </strong>
                                                                                                         </td>
-                                                                                                        <td>
-                                                                                                            <label id="lblFname" style="color: #8B0000">
+                                                                                                        <td style="border: solid 1px #000; padding: 5px; border-left: 0; border-top: 0;">
+                                                                                                            <label id="lblFname" style="color: #000">
                                                                                                                 Father's Name <font color="#8B0000" size="3">*</font>
                                                                                                                 <br />
                                                                                                                 &#2310;&#2357;&#2375;&#2342;&#2325; &#2325;&#2375; &#2346;&#2367;&#2340;&#2366;
@@ -822,21 +880,21 @@
                                                                                                             &nbsp;<font color="#8B0000" size="3">*</font>
                                                                                                             <%-- <strong> ???? ?? ??? &nbsp;</strong><font color="#8B0000" size="3">*</font>--%>
                                                                                                         </td>
-                                                                                                        <td colspan="2">
+                                                                                                        <td colspan="2" style="border: solid 1px #000; padding: 5px; border-left: 0; border-top: 0;">
                                                                                                             <asp:TextBox ID="txtFatherName" runat="server" Width="100%" CssClass="inputitem Uppercase"
                                                                                                                 AutoCompleteType="disabled" MaxLength="100" onkeyup="return CheckSpeCharacterName('txtFatherName','Special characters are not allowed');"
                                                                                                                 onkeydown="return checkNumber('txtFatherName');" />
                                                                                                         </td>
                                                                                                     </tr>
                                                                                                     <tr>
-                                                                                                        <td>
+                                                                                                        <td style="border: solid 1px #000; padding: 5px; text-align:center; border-top: 0;">
                                                                                                             <strong>
                                                                                                                 <label id="lblN4">
                                                                                                                     4.</label>
                                                                                                             </strong>
                                                                                                         </td>
-                                                                                                        <td>
-                                                                                                            <label id="lblMname" style="color: #8B0000">
+                                                                                                        <td style="border: solid 1px #000; padding: 5px; border-left: 0; border-top: 0;">
+                                                                                                            <label id="lblMname" style="color: #000">
                                                                                                                 Mother's Name <font color="#8B0000" size="3">*</font>
                                                                                                                 <br />
                                                                                                                 &#2310;&#2357;&#2375;&#2342;&#2325; &#2325;&#2368; &#2350;&#2366;&#2340;&#2366;
@@ -844,7 +902,7 @@
                                                                                                             &nbsp;<font color="#8B0000" size="3">*</font>
                                                                                                             <%--<strong> ???? ?? ??? &nbsp;</strong><font color="#8B0000" size="3">*</font>--%>
                                                                                                         </td>
-                                                                                                        <td colspan="2">
+                                                                                                        <td colspan="2" style="border: solid 1px #000; padding: 5px; border-left: 0; border-top: 0;">
                                                                                                             <asp:TextBox ID="txtMotherName" runat="server" Width="100%" CssClass="inputitem Uppercase"
                                                                                                                 AutoCompleteType="disabled" MaxLength="100" onkeyup="return CheckSpeCharacterName('txtMotherName','Special characters are not allowed');"
                                                                                                                 onkeydown="return checkNumber('txtMotherName');" />
@@ -852,9 +910,9 @@
                                                                                                     </tr>
                                                                                                 </table>
                                                                                             </td>
-                                                                                            <td width="130" align="center" valign="top" class="">
+                                                                                            <td width="130" align="center" valign="top" style="border: solid 1px #000; padding: 10px; border-left: 0; border-top:0;" class="">
                                                                                                 <div id='imgSpan' class="text-spn">
-                                                                                                    <label id="lblphototext">
+                                                                                                    <label id="lblphototext" style="padding-left: 60px; color:#000;">
                                                                                                         Upload your photo <font color="#8B0000" size="3">*</font>
                                                                                                     </label>
                                                                                                 </div>
@@ -865,7 +923,7 @@
                                                                                                     <asp:Image ID="ImgAppl" CssClass="imgbdr" runat="server" ImageUrl="~/images/noimage.JPG"
                                                                                                         Height="130" Width="130" />
                                                                                                 </center>
-                                                                                                <asp:FileUpload ID="imgUpload" CssClass="form-control" runat="server" onchange="return ShowPreview(this);" />
+                                                                                                <asp:FileUpload ID="imgUpload" CssClass="form-control" runat="server" style="margin-bottom:5px;" onchange="return ShowPreview(this);" />
                                                                                                 <br />
                                                                                                 <span style="font-size: x-small; font-weight: bold; color: #8B0000">(JPG, JPEG, PNG
                                                                                                 files only)</span>
@@ -906,27 +964,26 @@
                 </tr>
                 <tr>
                     <td bgcolor="#FFFFFF">
-                        <table width="70%" border="0" align="center" cellspacing="0" cellpadding="2" class="dotBorder">
+                        <table width="100%" border="0" align="center" cellspacing="0" cellpadding="0" class="dotBorder">
                         </table>
                     </td>
                 </tr>
                 <tr>
                     <td bgcolor="#ffffff">
-                        <table width="70%" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#cccccc"
-                            class="dotBorder">
+                        <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" style="margin-top:10px;">
                             <tr>
                                 <td bgcolor="#ffffff">
-                                    <table width="100%" style="margin-top: 0px;">
+                                    <table width="100%" style="margin-top: 0px;" cellpadding="0" cellspacing="0">
                                         <tr>
-                                            <td valign="top">
+                                            <td valign="top" style="border: solid 1px #000; padding: 5px;text-align:center;">
                                                 <strong>5.</strong>
                                             </td>
                                             <td>
-                                                <table width="100%" class="dotBorder" border="0" cellspacing="0" cellpadding="0">
+                                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
                                                     <tr>
-                                                        <td colspan="8">
+                                                        <td colspan="8" style="border: solid 1px #000; padding: 5px;border-left: 0;">
                                                             <strong>
-                                                                <label id="lbl9" style="color: #8B0000">
+                                                                <label id="lbl9" style="color: #000">
                                                                     Details of Mark/Grade Secured in 10th Board Examination / बोर्ड परीक्षा में प्राप्तांक
                                                                 विषयवार नीचे लिखे|
                                                                 </label>
@@ -963,43 +1020,43 @@
                                                         </td>
                                                     </tr>
                                                     <tr>
-                                                        <td width="2%" valign="top" bgcolor="#1567A1" style="text-align: center;" class="whitetxt">
+                                                        <td width="2%" valign="top" style="border: solid 1px #000; padding: 5px;text-align:center; border-top: 0; border-left:0">
                                                             <strong>
                                                                 <label id="lblN9a">
                                                                     a.</label>
                                                             </strong>
                                                         </td>
                                                         <td width="70%" valign="top">
-                                                            <table width="100%" border="0" cellpadding="2" cellspacing="1" bgcolor="#CCCCCC"
+                                                            <table width="100%" border="0" cellpadding="0" cellspacing="0"
                                                                 id="tblBSE">
                                                                 <tr>
-                                                                    <td bgcolor="#666666" class="whitetxt">
+                                                                    <td bgcolor="#f5f5f5" style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                                         <strong>Total Full Marks<br />
                                                                             कुल अधिकतम अंक - कुल पूर्ण अंक</strong>
                                                                     </td>
-                                                                    <td bgcolor="#666666" class="whitetxt">
+                                                                    <td bgcolor="#f5f5f5" style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                                         <strong>Total Marks Obtained<br />
                                                                             कुल पूर्ण अंक - कुल प्राप्तांक</strong>
                                                                     </td>
-                                                                    <td bgcolor="#666666" class="whitetxt" id="tdEng" style="display: none;">
+                                                                    <td bgcolor="#f5f5f5" id="tdEng" style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0; display: none;">
                                                                         <strong>English
                                                                         <br />
                                                                             &#2309;&#2306;&#2327;&#2381;&#2352;&#2375;&#2332;&#2368; </strong>
                                                                     </td>
-                                                                    <td bgcolor="#666666" class="whitetxt" id="tdMath" style="display: none;">
+                                                                    <td bgcolor="#f5f5f5" id="tdMath" style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0; display: none;">
                                                                         <strong>Mathematics
                                                                         <br />
                                                                             &#2327;&#2339;&#2367;&#2340;</strong>
                                                                     </td>
-                                                                    <td bgcolor="#666666" class="whitetxt" id="tdScience" style="display: none;">
+                                                                    <td bgcolor="#f5f5f5" id="tdScience" style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0; display: none;">
                                                                         <strong>Science<br />
                                                                             &#2357;&#2367;&#2332;&#2381;&#2334;&#2366;&#2344;</strong>
                                                                     </td>
-                                                                    <td bgcolor="#666666" class="whitetxt" id="tdSoScience" style="display: none;">
+                                                                    <td bgcolor="#f5f5f5" id="tdSoScience" style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0; display: none;">
                                                                         <strong>Social Science<br />
                                                                             &#2360;&#2350;&#2366;&#2332;&#2358;&#2366;&#2360;&#2381;&#2340;&#2381;&#2352;</strong>
                                                                     </td>
-                                                                    <td bgcolor="#666666" id="tdGradeMark" class="whitetxt" style="display: none">
+                                                                    <td bgcolor="#f5f5f5" id="tdGradeMark" style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0; display: none;">
                                                                         <strong>
                                                                             <%--Grade--%>
                                                                             <br />
@@ -1007,31 +1064,31 @@
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td bgcolor="#FFFFFF">
+                                                                    <td bgcolor="#FFFFFF" style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                                         <asp:TextBox CssClass="inputitem" ID="txtMaxMark" runat="server" MaxLength="4" AutoCompleteType="disabled"
                                                                             onKeyUp="return NumericValidation('txtMaxMark','Please write only numeric values for MARKS',4);" />
                                                                     </td>
-                                                                    <td bgcolor="#FFFFFF">
+                                                                    <td bgcolor="#FFFFFF" style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                                         <asp:TextBox CssClass="inputitem" ID="txtTotMark" runat="server" MaxLength="4" AutoCompleteType="disabled"
                                                                             onKeyUp="return NumericValidation('txtTotMark','Please write only numeric values for MARKS',4);" />
                                                                     </td>
-                                                                    <td bgcolor="#FFFFFF" id="tdEngMrk" style="display: none;">
+                                                                    <td bgcolor="#FFFFFF" id="tdEngMrk" style="display: none; border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                                         <asp:TextBox CssClass="inputitem" ID="txtEnglish" runat="server" MaxLength="3" AutoCompleteType="disabled"
                                                                             onKeyUp="return NumericValidation('txtEnglish','Please write only numeric values for MARKS',3);" />
                                                                     </td>
-                                                                    <td bgcolor="#FFFFFF" id="tdMathMrk" style="display: none;">
+                                                                    <td bgcolor="#FFFFFF" id="tdMathMrk" style="display: none; border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                                         <asp:TextBox CssClass="inputitem" ID="txtMath" runat="server" MaxLength="3" AutoCompleteType="disabled"
                                                                             onKeyUp="return NumericValidation('txtMath','Please write only numeric values for MARKS',3);" />
                                                                     </td>
-                                                                    <td bgcolor="#FFFFFF" id="tdScienceMrk" style="display: none;">
+                                                                    <td bgcolor="#FFFFFF" id="tdScienceMrk" style="display: none;border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                                         <asp:TextBox CssClass="inputitem" ID="txtScience" runat="server" MaxLength="3" AutoCompleteType="disabled"
                                                                             onKeyUp="return NumericValidation('txtScience','Please write only numeric values for MARKS',3);" />
                                                                     </td>
-                                                                    <td bgcolor="#FFFFFF" id="tdSoScienceMrk" style="display: none;">
+                                                                    <td bgcolor="#FFFFFF" id="tdSoScienceMrk" style="display: none;border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                                         <asp:TextBox CssClass="inputitem" ID="txtSocSci" runat="server" MaxLength="3" AutoCompleteType="disabled"
                                                                             onKeyUp="return NumericValidation('txtSocSci','Please write only numeric values for MARKS',3);" />
                                                                     </td>
-                                                                    <td bgcolor="#FFFFFF" id="tdGradeMarkddl" style="display: none">
+                                                                    <td bgcolor="#FFFFFF" id="tdGradeMarkddl" style="display: none;border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                                         <asp:DropDownList ID="ddlGrade" runat="server" CssClass="inputitem" onchange="setGrade();">
                                                                             <asp:ListItem Value="0">--SELECT--</asp:ListItem>
                                                                             <asp:ListItem Value="10">A1</asp:ListItem>
@@ -1045,8 +1102,8 @@
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td colspan="7">
-                                                                        <div style="color: Blue; font-weight: bold; background-color: White;" id="Div1">
+                                                                    <td colspan="7" style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
+                                                                        <div style="color: #000; font-weight: bold; background-color: White;" id="Div1">
                                                                             Note : Selection of the students will be done based on the Total Marks obtained
                                                                         in the Qualifying Board Examination.
                                                                         <br />
@@ -1056,31 +1113,31 @@
                                                                     </td>
                                                                 </tr>
                                                             </table>
-                                                            <table width="100%" border="0" cellpadding="2" cellspacing="1" bgcolor="#CCCCCC"
+                                                            <table width="100%" border="0" cellpadding="0" cellspacing="0"
                                                                 id="tblCBSE" style="display: none;">
                                                                 <tr>
-                                                                    <td bgcolor="#666666" class="whitetxt">
+                                                                    <td style="border: solid 1px #000; padding: 5px; border-top: 0;">
                                                                         <strong>CGPA</strong>
                                                                     </td>
-                                                                    <td bgcolor="#666666" class="whitetxt">
+                                                                    <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                                         <strong>English</strong>
                                                                     </td>
-                                                                    <td bgcolor="#666666" class="whitetxt">
+                                                                    <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                                         <strong>Mathematics</strong>
                                                                     </td>
-                                                                    <td bgcolor="#666666" class="whitetxt">
+                                                                    <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                                         <strong>Science</strong>
                                                                     </td>
-                                                                    <td bgcolor="#666666" class="whitetxt">
+                                                                    <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                                         <strong>Social Science</strong>
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td bgcolor="#FFFFFF">
+                                                                    <td bgcolor="#FFFFFF" style="border: solid 1px #000; padding: 5px; border-top: 0;">
                                                                         <asp:TextBox CssClass="inputitem" ID="txtCGPA" runat="server" Width="70" MaxLength="4"
                                                                             AutoCompleteType="disabled" oninput="DecimalNumber(this);" onkeypress="return RestrictSpace();" />
                                                                     </td>
-                                                                    <td bgcolor="#FFFFFF">
+                                                                    <td bgcolor="#FFFFFF" style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                                         <asp:DropDownList ID="ddlEng" runat="server" CssClass="inputitem">
                                                                             <asp:ListItem Value="0">--SELECT--</asp:ListItem>
                                                                             <asp:ListItem Value="10">A1</asp:ListItem>
@@ -1094,7 +1151,7 @@
                                                                             <asp:ListItem Value="1">E2</asp:ListItem>
                                                                         </asp:DropDownList>
                                                                     </td>
-                                                                    <td bgcolor="#FFFFFF">
+                                                                    <td bgcolor="#FFFFFF" style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                                         <asp:DropDownList ID="ddlMath" runat="server" CssClass="inputitem">
                                                                             <asp:ListItem Value="0">--SELECT--</asp:ListItem>
                                                                             <asp:ListItem Value="10">A1</asp:ListItem>
@@ -1108,7 +1165,7 @@
                                                                             <asp:ListItem Value="1">E2</asp:ListItem>
                                                                         </asp:DropDownList>
                                                                     </td>
-                                                                    <td bgcolor="#FFFFFF">
+                                                                    <td bgcolor="#FFFFFF" style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                                         <asp:DropDownList ID="ddlSc" runat="server" CssClass="inputitem">
                                                                             <asp:ListItem Value="0">--SELECT--</asp:ListItem>
                                                                             <asp:ListItem Value="10">A1</asp:ListItem>
@@ -1122,7 +1179,7 @@
                                                                             <asp:ListItem Value="1">E2</asp:ListItem>
                                                                         </asp:DropDownList>
                                                                     </td>
-                                                                    <td bgcolor="#FFFFFF">
+                                                                    <td bgcolor="#FFFFFF" style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                                         <asp:DropDownList ID="ddlSoSc" runat="server" CssClass="inputitem">
                                                                             <asp:ListItem Value="0">--SELECT--</asp:ListItem>
                                                                             <asp:ListItem Value="10">A1</asp:ListItem>
@@ -1138,27 +1195,27 @@
                                                                     </td>
                                                                 </tr>
                                                             </table>
-                                                            <table width="100%" border="0" cellpadding="2" cellspacing="1" bgcolor="#CCCCCC"
+                                                            <table width="100%" border="0" cellpadding="0" cellspacing="0"
                                                                 id="tblKERALA" style="display: none;">
                                                                 <tr>
-                                                                    <td bgcolor="#666666" class="whitetxt">
+                                                                    <td style="border: solid 1px #000; padding: 5px; border-top: 0; border-left:0;">
                                                                         <strong>Grade</strong>
                                                                     </td>
-                                                                    <td bgcolor="#666666" class="whitetxt">
+                                                                    <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                                         <strong>English</strong>
                                                                     </td>
-                                                                    <td bgcolor="#666666" class="whitetxt">
+                                                                    <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                                         <strong>Mathematics</strong>
                                                                     </td>
-                                                                    <td bgcolor="#666666" class="whitetxt">
+                                                                    <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                                         <strong>Science</strong>
                                                                     </td>
-                                                                    <td bgcolor="#666666" class="whitetxt">
+                                                                    <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                                         <strong>Social Science</strong>
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td bgcolor="#FFFFFF">
+                                                                    <td style="border: solid 1px #000; padding: 5px; border-top: 0; border-left:0;">
                                                                         <asp:DropDownList ID="ddlTGrade" runat="server" CssClass="inputitem">
                                                                             <asp:ListItem Value="0">--SELECT--</asp:ListItem>
                                                                             <asp:ListItem Value="10">A+</asp:ListItem>
@@ -1172,7 +1229,7 @@
                                                                             <asp:ListItem Value="1">E</asp:ListItem>
                                                                         </asp:DropDownList>
                                                                     </td>
-                                                                    <td bgcolor="#FFFFFF">
+                                                                    <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                                         <asp:DropDownList ID="ddlKEnglish" runat="server" CssClass="inputitem">
                                                                             <asp:ListItem Value="0">--SELECT--</asp:ListItem>
                                                                             <asp:ListItem Value="10">A+</asp:ListItem>
@@ -1186,7 +1243,7 @@
                                                                             <asp:ListItem Value="1">E</asp:ListItem>
                                                                         </asp:DropDownList>
                                                                     </td>
-                                                                    <td bgcolor="#FFFFFF">
+                                                                    <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                                         <asp:DropDownList ID="ddlKMath" runat="server" CssClass="inputitem">
                                                                             <asp:ListItem Value="0">--SELECT--</asp:ListItem>
                                                                             <asp:ListItem Value="10">A+</asp:ListItem>
@@ -1200,7 +1257,7 @@
                                                                             <asp:ListItem Value="1">E</asp:ListItem>
                                                                         </asp:DropDownList>
                                                                     </td>
-                                                                    <td bgcolor="#FFFFFF">
+                                                                    <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                                         <asp:DropDownList ID="ddlKScience" runat="server" CssClass="inputitem">
                                                                             <asp:ListItem Value="0">--SELECT--</asp:ListItem>
                                                                             <asp:ListItem Value="10">A+</asp:ListItem>
@@ -1214,7 +1271,7 @@
                                                                             <asp:ListItem Value="1">E</asp:ListItem>
                                                                         </asp:DropDownList>
                                                                     </td>
-                                                                    <td bgcolor="#FFFFFF">
+                                                                    <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                                         <asp:DropDownList ID="ddlKSoSc" runat="server" CssClass="inputitem">
                                                                             <asp:ListItem Value="0">--SELECT--</asp:ListItem>
                                                                             <asp:ListItem Value="10">A+</asp:ListItem>
@@ -1233,13 +1290,13 @@
                                                         </td>
                                                     </tr>
                                                     <tr style="display: none;">
-                                                        <td valign="top" bgcolor="#1567A1" style="text-align: center;" class="whitetxt">
+                                                        <td valign="top" bgcolor="#1567A1" style="text-align: center;border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;" class="whitetxt">
                                                             <strong>
                                                                 <label id="lblN9b">
                                                                     b.</label>
                                                             </strong>
                                                         </td>
-                                                        <td colspan="2">
+                                                        <td colspan="2" style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                             <label id="lbl9b" style="color: #8B0000">
                                                                 Have you passed 10th Board Exam Compartmentally?
                                                             <br />
@@ -1257,7 +1314,7 @@
                                                         </td>
                                                     </tr>
                                                     <tr>
-                                                        <td colspan="3" valign="top">
+                                                        <td colspan="3" valign="top" style="display: none;border: solid 1px #000; padding: 5px;border-top: 0;">
                                                             <div id="tblComp" style="display: none;">
                                                                 <table width="100%" border="0" cellspacing="1" bgcolor="#CCCCCC" cellpadding="2">
                                                                     <tr>
@@ -1367,17 +1424,16 @@
                     </td>
                 </tr>
                 <tr>
-                    <td bgcolor="#ffffff">
-                        <table width="70%" border="0" align="center" cellpadding="10" cellspacing="1" bgcolor="#cccccc"
-                            class="dotBorder">
+                    <td>
+                        <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" style="margin-top:10px">
                             <tr>
-                                <td bgcolor="#ffffff">
-                                    <table width="100%" style="margin-top: 0px;">
+                                <td>
+                                    <table width="100%" style="margin-top: 0px;" cellpadding="0" cellspacing="0">
                                         <tr>
-                                            <td height="25">6<strong><label id="lblN71">.</label>
+                                            <td style="border: solid 1px #000; padding: 5px;">6<strong><label id="lblN71">.</label>
                                             </strong>
                                             </td>
-                                            <td>
+                                            <td style="border: solid 1px #000; padding: 5px;border-left:0;">
                                                 <strong>
                                                     <label id="lbleduinst">
                                                         Record of educational institution last attended from which you have passed 10th
@@ -1393,58 +1449,56 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>&nbsp;
-                                            </td>
-                                            <td>
-                                                <table width="100%" class="dotBorder" border="0" cellspacing="0" cellpadding="2">
+                                            <td colspan="2">
+                                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
                                                     <tr>
-                                                        <td width="2%" bgcolor="#1567A1" class="whitetxt">
+                                                        <td width="2%" style="border: solid 1px #000; padding: 5px;border-top: 0;">
                                                             <strong>
                                                                 <label id="lblN71a">
                                                                     a.</label>
                                                             </strong>
                                                         </td>
-                                                        <td width="30%">
-                                                            <label id="lblschname" style="color: #8B0000">
+                                                        <td width="30%" style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
+                                                            <label id="lblschname" style="color: #000">
                                                                 Name of the School <font color="#8B0000" size="3">*</font>
                                                                 <br />
                                                                 &#2357;&#2367;&#2342;&#2381;&#2351;&#2366;&#2354;&#2351; &#2325;&#2366; &#2344;&#2366;&#2350;
                                                             </label>
                                                             &nbsp;<font color="#8B0000" size="3">*</font>
                                                         </td>
-                                                        <td>
+                                                        <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                             <asp:TextBox ID="txtschname" CssClass="inputitem Uppercase" runat="server" Width="280"
                                                                 onkeyup="return CheckSpeCharacterSchoolName('txtschname','Special characters are not allowed');"
                                                                 MaxLength="150" autocomplete="off" />
                                                         </td>
-                                                        <td width="2%" bgcolor="#1567A1" class="whitetxt">
+                                                        <td width="2%" style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                             <strong>
                                                                 <label id="lblN71b">
                                                                     b.</label>
                                                             </strong>
                                                         </td>
-                                                        <td width="30%">
-                                                            <label id="lblschloc" style="color: #8B0000">
+                                                        <td width="30%" style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
+                                                            <label id="lblschloc" style="color: #000">
                                                                 Address of the School <font color="#8B0000" size="3">*</font>
                                                                 <br />
                                                                 &#2357;&#2367;&#2342;&#2381;&#2351;&#2366;&#2354;&#2351; &#2325;&#2366; &#2346;&#2340;&#2366;
                                                             </label>
                                                             &nbsp;<font color="#8B0000" size="3">*</font>
                                                         </td>
-                                                        <td width="25%">
+                                                        <td width="25%" style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                             <asp:TextBox ID="txtschloc" CssClass="inputitem Uppercase" runat="server" Width="100%"
                                                                 onkeydown="return ValidateAddress('txtschloc', 100);" MaxLength="100" autocomplete="off" onchange="return ValidateAddress('txtschloc',100);" />
                                                         </td>
                                                     </tr>
                                                     <tr>
-                                                        <td bgcolor="#1567A1" class="whitetxt">
+                                                        <td style="border: solid 1px #000; padding: 5px; border-top: 0;">
                                                             <strong>
                                                                 <label id="lblN71c">
                                                                     c.</label>
                                                             </strong>
                                                         </td>
-                                                        <td>
-                                                            <label id="lblinsDist" style="color: #8B0000">
+                                                        <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
+                                                            <label id="lblinsDist" style="color: #000">
                                                                 District <font color="#8B0000" size="3">*</font>
                                                                 <br />
                                                                 &#2332;&#2367;&#2360; &#2332;&#2367;&#2354;&#2375; &#2350;&#2375;&#2306; &#2310;&#2346;&#2325;&#2366;
@@ -1452,7 +1506,7 @@
                                                             </label>
                                                             &nbsp;<font color="#8B0000" size="3">*</font>
                                                         </td>
-                                                        <td>
+                                                        <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                             <asp:DropDownList CssClass="inputitem" ID="ddlinstDistrict" runat="server" EnableViewState="true"
                                                                 Width="100%" AppendDataBoundItems="true">
                                                                 <asp:ListItem Value="0">--SELECT--</asp:ListItem>
@@ -1461,14 +1515,14 @@
                                                             <%-- <asp:TextBox ID="txtdist" CssClass="inputitem Uppercase" runat="server" Width="200"
                                                         Style="display: none" MaxLength="240" autocomplete="off" onkeydown="return checkNumber('txtdist');" />--%>
                                                         </td>
-                                                        <td bgcolor="#1567A1" class="whitetxt">
+                                                        <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                             <strong>
                                                                 <label id="lblN71d">
                                                                     d.</label>
                                                             </strong>
                                                         </td>
-                                                        <td>
-                                                            <label id="lblinsYOJ" style="color: #8B0000">
+                                                        <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
+                                                            <label id="lblinsYOJ" style="color: #000">
                                                                 Year of Joining <font color="#8B0000" size="3">*</font>
                                                                 <br />
                                                                 &#2310;&#2346;&#2344;&#2375; &#2325;&#2367;&#2360; &#2360;&#2366;&#2354; &#2313;&#2360;
@@ -1477,7 +1531,7 @@
                                                             </label>
                                                             &nbsp;<font color="#8B0000" size="3">*</font>
                                                         </td>
-                                                        <td>
+                                                        <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                             <asp:DropDownList CssClass="inputitem" Width="100%" ID="ddlYOJ" runat="server" AppendDataBoundItems="true"
                                                                 onchange="validYOJ();">
                                                                 <asp:ListItem Value="0">YEAR</asp:ListItem>
@@ -1524,14 +1578,14 @@
                                                         </td>
                                                     </tr>
                                                     <tr>
-                                                        <td bgcolor="#1567A1" class="whitetxt">
+                                                        <td style="border: solid 1px #000; padding: 5px; border-top: 0;">
                                                             <strong>
                                                                 <label id="lblN71e">
                                                                     e.</label>
                                                             </strong>
                                                         </td>
-                                                        <td colspan="2">
-                                                            <label id="lblYOL" style="color: #8B0000">
+                                                        <td colspan="2" style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
+                                                            <label id="lblYOL" style="color: #000">
                                                                 Year of Leaving from School<font color="#8B0000" size="3">*</font> / आपने किस साल
                                                             उस विद्यालय छोड़ेथे |
                                                             </label>
@@ -1582,21 +1636,21 @@
                                                             </asp:DropDownList>
                                                             <asp:Label ID="lblyearOfLeaving" runat="server" Style="display: none"></asp:Label>
                                                         </td>
-                                                        <td bgcolor="#1567A1" class="whitetxt">
+                                                        <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                             <strong>
                                                                 <label id="lblN71f">
                                                                     f.</label>
                                                             </strong>
                                                         </td>
-                                                        <td>
-                                                            <label id="lblKGABC" style="color: #8B0000">
+                                                        <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
+                                                            <label id="lblKGABC" style="color: #000">
                                                                 Have you passed 10th exam as a student of Kasturba Gandhi Balika Vidyalaya?<font color="#8B0000" size="3">*</font>
                                                                 <br />
                                                                 क्या आपने दसवीं की परीक्षा कस्तूरबा गाँधी आवासीय बालिका छात्रावास में रहते हुए उत्तीर्ण की है ?
                                                             </label>
                                                             &nbsp;<font color="#8B0000" size="3">*</font>
                                                         </td>
-                                                        <td>
+                                                        <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
 
                                                             <asp:RadioButtonList ID="rbtnKGABC" runat="server" RepeatDirection="Horizontal">
                                                                 <asp:ListItem Value="1">Yes</asp:ListItem>
@@ -1614,16 +1668,16 @@
                     </td>
                 </tr>
                 <tr>
-                    <td height="10" bgcolor="#ffffff">
-                        <table width="70%" border="0" align="center" cellpadding="10" cellspacing="1" bgcolor="#cccccc">
+                    <td>
+                        <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" style="margin-top:10px;">
                             <tr>
                                 <td bgcolor="#FFFFFF">
-                                    <table width="100%">
+                                    <table width="100%" cellpadding="0" cellspacing="0">
                                         <tr>
-                                            <td>7<strong><label id="lblN5">.</label>
+                                            <td style="border: solid 1px #000; padding: 5px;">7<strong><label id="lblN5">.</label>
                                             </strong>
                                             </td>
-                                            <td>
+                                            <td style="border: solid 1px #000; padding: 5px;border-left:0;">
                                                 <strong>
                                                     <label id="lblPD">
                                                         Personal Details
@@ -1633,38 +1687,38 @@
                                                 <%--<strong>????????? ????? </strong>--%>
                                             </td>
                                             <td>
-                                                <table width="100%" class="dotBorder" border="1" cellpadding="2">
+                                                <table width="100%" cellpadding="0" cellspacing="0">
                                                     <tr>
-                                                        <td>
-                                                            <label id="lblGender" style="color: #8B0000">
+                                                        <td style="border: solid 1px #000; padding: 5px;border-left:0;">
+                                                            <label id="lblGender" style="color: #000">
                                                                 Gender <font color="#8B0000" size="3">*</font>
                                                                 <br />
                                                                 &#2354;&#2367;&#2306;&#2327;</label>
                                                             &nbsp;<font color="#8B0000" size="3">*</font>
                                                         </td>
-                                                        <td>
-                                                            <label id="lblMt" style="color: #8B0000">
+                                                        <td style="border: solid 1px #000; padding: 5px;border-left:0;">
+                                                            <label id="lblMt" style="color: #000">
                                                                 Mother Tongue <font color="#8B0000" size="3">*</font>
                                                                 <br />
                                                                 &#2350;&#2366;&#2340;&#2371;&#2349;&#2366;&#2359;&#2366;
                                                             </label>
                                                             &nbsp;<font color="#8B0000" size="3">*</font>
                                                         </td>
-                                                        <td width="">
-                                                            <label id="lblNat" style="color: #8B0000">
+                                                        <td width="" style="border: solid 1px #000; padding: 5px;border-left:0;">
+                                                            <label id="lblNat" style="color: #000">
                                                                 Nationality <font color="#8B0000" size="3">*</font>
                                                                 <br />
                                                                 &#2344;&#2366;&#2327;&#2352;&#2367;&#2325;&#2340;&#2366;</label>
                                                             &nbsp;<font color="#8B0000" size="3">*</font>
                                                         </td>
-                                                        <td>
+                                                        <td style="border: solid 1px #000; padding: 5px;border-left:0;">
                                                             <label id="lblReligion">
                                                                 Religion (Optional)
                                                             <br />
                                                                 &#2343;&#2352;&#2381;&#2350; (&#2349;&#2352;&#2344;&#2366; &#2309;&#2344;&#2367;&#2357;&#2366;&#2352;&#2381;&#2351;
                                                             &#2344;&#2361;&#2368;&#2306; &#2361;&#2376; | )</label>
                                                         </td>
-                                                        <td>
+                                                        <td style="border: solid 1px #000; padding: 5px;border-left:0;">
                                                             <label id="lblBloodGroup">
                                                                 Blood Group (Optional)
                                                             <br />
@@ -1676,7 +1730,7 @@
                                                         </td>
                                                     </tr>
                                                     <tr>
-                                                        <td>
+                                                        <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                             <asp:DropDownList CssClass="inputitem" ID="ddlGender" runat="server" Width="80">
                                                                 <asp:ListItem Value="0">--SELECT--</asp:ListItem>
                                                                 <asp:ListItem Value="1">MALE</asp:ListItem>
@@ -1685,7 +1739,7 @@
                                                             </asp:DropDownList>
                                                             <asp:HiddenField ID="hidGender" runat="server" />
                                                         </td>
-                                                        <td>
+                                                        <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                             <asp:DropDownList CssClass="inputitem" ID="ddlMt" runat="server" Width="100">
                                                                 <asp:ListItem Value="0">--SELECT</asp:ListItem>
                                                                 <asp:ListItem Value="21">ASSAMESE</asp:ListItem>
@@ -1711,14 +1765,14 @@
                                                                 <asp:ListItem Value="22">OTHERS</asp:ListItem>
                                                             </asp:DropDownList>
                                                         </td>
-                                                        <td>
+                                                        <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                             <asp:DropDownList CssClass="inputitem" ID="ddlNationality" runat="server" Width="80">
                                                                 <asp:ListItem Value="0">--SELECT--</asp:ListItem>
                                                                 <asp:ListItem Value="1">INDIAN</asp:ListItem>
                                                                 <asp:ListItem Value="4">OTHER</asp:ListItem>
                                                             </asp:DropDownList>
                                                         </td>
-                                                        <td>
+                                                        <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                             <asp:DropDownList CssClass="inputitem" ID="ddlReligion" runat="server" Width="85">
                                                                 <asp:ListItem Value="0">--SELECT--</asp:ListItem>
                                                                 <asp:ListItem Value="5">BUDHIST</asp:ListItem>
@@ -1731,7 +1785,7 @@
                                                                 <asp:ListItem Value="8">OTHERS</asp:ListItem>
                                                             </asp:DropDownList>
                                                         </td>
-                                                        <td>
+                                                        <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                             <asp:DropDownList CssClass="inputitem" ID="ddlBloodGroup" runat="server" Width="80">
                                                                 <asp:ListItem Value="0">--SELECT--</asp:ListItem>
                                                                 <asp:ListItem Value="1">A+</asp:ListItem>
@@ -1764,16 +1818,16 @@
                     </td>
                 </tr>
                 <tr>
-                    <td bgcolor="#ffffff">
-                        <table width="70%" border="0" align="center" cellpadding="10" cellspacing="1" bgcolor="#cccccc">
+                    <td>
+                        <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" style="margin-top:10px;">
                             <tr>
-                                <td bgcolor="#ffffff">
-                                    <table width="100%" border="0" cellspacing="0" cellpadding="2">
+                                <td>
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
                                         <tr>
-                                            <td height="25">8<strong><label id="lblN6">.</label>
+                                            <td style="border: solid 1px #000; padding: 5px;">8<strong><label id="lblN6">.</label>
                                             </strong>
                                             </td>
-                                            <td>
+                                            <td style="border: solid 1px #000; padding: 5px;border-left:0;">
                                                 <strong>
                                                     <label id="lbladdress">
                                                         Address for Correspondence / &#2346;&#2340;&#2381;&#2352;&#2366;&#2330;&#2366;&#2352;
@@ -1789,59 +1843,57 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>&nbsp;
-                                            </td>
-                                            <td>
-                                                <table width="100%" class="dotBorder" border="0" cellspacing="0" cellpadding="2">
+                                            <td colspan="2">
+                                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
                                                     <tr>
-                                                        <td width="2%" bgcolor="#1567A1" class="whitetxt">
+                                                        <td width="2%" style="border: solid 1px #000; padding: 5px; border-top: 0;">
                                                             <strong>
                                                                 <label id="lblN6a">
                                                                     a.</label>
                                                             </strong>
                                                         </td>
-                                                        <td width="8%">
-                                                            <label id="lblState" style="color: #8B0000">
+                                                        <td width="8%" style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
+                                                            <label id="lblState" style="color: #000">
                                                                 State/UT <font color="#8B0000" size="3">*</font>
                                                                 <br />
                                                                 राज्य / केन्द्र-शासित प्रदेश
                                                             </label>
                                                             &nbsp;<font color="#8B0000" size="3">*</font>
                                                         </td>
-                                                        <td>
+                                                        <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                             <asp:DropDownList CssClass="inputitem" ID="ddlCState" runat="server" EnableViewState="true"
                                                                 Width="175" AppendDataBoundItems="true">
                                                                 <asp:ListItem Value="0">--SELECT--</asp:ListItem>
                                                             </asp:DropDownList>
                                                         </td>
-                                                        <td width="2%" bgcolor="#1567A1" class="whitetxt">
+                                                        <td width="2%" style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                             <strong>
                                                                 <label id="lblN6b">
                                                                 </label>
                                                                 b. </strong>
                                                         </td>
-                                                        <td width="6%">
-                                                            <label id="lblDistrict" style="color: #8B0000">
+                                                        <td width="6%" style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
+                                                            <label id="lblDistrict" style="color: #000">
                                                                 District <font color="#8B0000" size="3">*</font>
                                                                 <br />
                                                                 &#2332;&#2367;&#2354;&#2366;
                                                             </label>
                                                             &nbsp;<font color="#8B0000" size="3">*</font>
                                                         </td>
-                                                        <td width="15%">
+                                                        <td width="15%" style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                             <asp:DropDownList CssClass="inputitem" ID="ddlCDist" runat="server" EnableViewState="true"
                                                                 Width="140" AppendDataBoundItems="true">
                                                                 <asp:ListItem Value="0">--SELECT--</asp:ListItem>
                                                             </asp:DropDownList>
                                                         </td>
-                                                        <td width="2%" bgcolor="#1567A1" class="whitetxt">
+                                                        <td width="2%" style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                             <strong>
                                                                 <label id="lblN6c">
                                                                 </label>
                                                                 c. </strong>
                                                         </td>
-                                                        <td width="17%">
-                                                            <label id="lblBlock" style="color: #8B0000">
+                                                        <td width="17%" style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
+                                                            <label id="lblBlock" style="color: #000">
                                                                 Block / Municipality <font color="#8B0000" size="3">*</font>
                                                                 <br />
                                                                 &#2346;&#2381;&#2352;&#2326;&#2306;&#2337; / &#2344;&#2327;&#2352; &#2346;&#2352;&#2367;&#2359;&#2342;&#2381;
@@ -1849,7 +1901,7 @@
                                                             </label>
                                                             &nbsp;<font color="#8B0000" size="3">*</font>
                                                         </td>
-                                                        <td>
+                                                        <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                             <asp:DropDownList CssClass="inputitem" ID="ddlCBlock" runat="server" EnableViewState="true"
                                                                 Width="155" AppendDataBoundItems="true">
                                                                 <asp:ListItem Value="0">--SELECT--</asp:ListItem>
@@ -1857,14 +1909,14 @@
                                                         </td>
                                                     </tr>
                                                     <tr>
-                                                        <td bgcolor="#1567A1" class="whitetxt">
+                                                        <td style="border: solid 1px #000; padding: 5px; border-top: 0;">
                                                             <strong>
                                                                 <label id="lblN6d">
                                                                     d.</label>
                                                             </strong>
                                                         </td>
-                                                        <td colspan="2">
-                                                            <label id="lblHouseNo" style="color: #8B0000">
+                                                        <td colspan="2" style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
+                                                            <label id="lblHouseNo" style="color: #000">
                                                                 House No., Street/Village, Post Office, Police Station Name <font color="#8B0000"
                                                                     size="3">*</font>
                                                                 <br />
@@ -1874,19 +1926,19 @@
                                                                 स्पेस, हाइफ़न, स्लैश और कोमा को छोड़कर विशेष वर्ण कुंजी की अनुमति नहीं है।</label>&nbsp;
                                                         <font color="#8B0000" size="3">*</font>
                                                         </td>
-                                                        <td colspan="3">
+                                                        <td colspan="3" style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                             <asp:TextBox ID="txtCPS" CssClass="inputitem Uppercase" runat="server" Width="205"
                                                                 Height="40px" MaxLength="100" AutoCompleteType="disabled" TextMode="MultiLine"
                                                                 onkeyup="return CheckAddress('txtCPS');" onchange="return checkLength('txtCPS',150);" />
                                                         </td>
-                                                        <td bgcolor="#1567A1" class="whitetxt">
+                                                        <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                             <strong>
                                                                 <label id="lblN6e">
                                                                     e.</label>
                                                             </strong>
                                                         </td>
-                                                        <td>
-                                                            <label id="lblpin" style="color: #8B0000">
+                                                        <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
+                                                            <label id="lblpin" style="color: #000">
                                                                 PIN Code <font color="#8B0000" size="3">*</font>
                                                                 <br />
                                                                 &#2331;&#2361; &#2309;&#2306;&#2325;&#2379; &#2325;&#2366; &#2346;&#2367;&#2344;
@@ -1895,26 +1947,26 @@
                                                             </label>
                                                             &nbsp;
                                                         </td>
-                                                        <td>
+                                                        <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                             <asp:TextBox ID="txtCPC" CssClass="inputitem" runat="server" Width="150" MaxLength="6"
                                                                 AutoCompleteType="disabled" onKeyUp="return NumericValidation('txtCPC','Please write only numeric values for PIN CODE',6);" />
                                                         </td>
                                                     </tr>
                                                     <tr>
-                                                        <td bgcolor="#1567A1" class="whitetxt">
+                                                        <td style="border: solid 1px #000; padding: 5px; border-top: 0;">
                                                             <strong>
                                                                 <label id="lblN6g">
                                                                     f.</label>
                                                             </strong>
                                                         </td>
-                                                        <td>
-                                                            <label id="lblMobileNo" style="color: #8B0000">
+                                                        <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
+                                                            <label id="lblMobileNo" style="color: #000">
                                                                 Mobile No.<font color="#8B0000" size="3">*</font>
                                                                 <br />
                                                                 &#2350;&#2379;&#2348;&#2366;&#2311;&#2354; &#2344;&#2306;&#2348;&#2352;</label>
                                                             <font color="#8B0000" size="3">*</font>
                                                         </td>
-                                                        <td>
+                                                        <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                             <asp:TextBox ID="txtCMobNo" CssClass="inputitem" runat="server" Width="150" MaxLength="10"
                                                                 AutoCompleteType="disabled" onkeyup="return NumericValidation('txtCMobNo','Please write only numeric values for Mobile No.',12);"
                                                                 Onblur="CheckMobNo();" autocomplete="off" onpaste="return false;" onCopy="return false"
@@ -1923,20 +1975,20 @@
                                                                 aria-hidden="true"></i><i class="fa fa-check inright" aria-hidden="true"></i>
                                                             <i class="fa fa-times inwrong" aria-hidden="true"></i>
                                                         </td>
-                                                        <td bgcolor="#1567A1" class="whitetxt">
+                                                        <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                             <strong>
                                                                 <label id="lblN6h">
                                                                     g.</label>
                                                             </strong>
                                                         </td>
-                                                        <td>
-                                                            <label id="lblEmail" style="color: #8B0000">
+                                                        <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
+                                                            <label id="lblEmail" style="color: #000">
                                                                 e-Mail <font color="#8B0000" size="3">*</font>
                                                                 <br />
                                                                 &#2312;-&#2350;&#2375;&#2354;</label>
                                                             <font color="#8B0000" size="3">*</font>
                                                         </td>
-                                                        <td>
+                                                        <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                             <asp:TextBox CssClass="inputitem" ID="txtCEmail" runat="server" MaxLength="100" Width="100"
                                                                 AutoCompleteType="disabled" onblur="return checkEmail('txtCEmail');" autocomplete="off"
                                                                 onpaste="return false;" onCopy="return false" onCut="return false" onDrag="return false"
@@ -1945,13 +1997,13 @@
                                                                 aria-hidden="true"></i><i class="fa fa-check einright" aria-hidden="true"></i>
                                                             <i class="fa fa-times einwrong" aria-hidden="true"></i>
                                                         </td>
-                                                        <td bgcolor="#1567A1" class="whitetxt">
+                                                        <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                             <strong>
                                                                 <label id="lblN6f">
                                                                     h.</label>
                                                             </strong>
                                                         </td>
-                                                        <td>
+                                                        <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                             <label id="lbltelephone">
                                                                 Telephone No.(Optional)<br />
                                                                 &#2309;&#2327;&#2352; &#2342;&#2370;&#2352;&#2349;&#2366;&#2359; &#2360;&#2306;&#2326;&#2381;&#2351;&#2366;
@@ -1960,7 +2012,7 @@
                                                             &#2344;&#2361;&#2368;&#2306; &#2361;&#2376; |)</label>
                                                             <font color="#8B0000" size="3"></font>
                                                         </td>
-                                                        <td>
+                                                        <td class="std-numbers" style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                             <asp:TextBox ID="txtCTCode" runat="server" Width="50" CssClass="inputitem" MaxLength="5"
                                                                 AutoCompleteType="disabled" onKeyUp="return NumericValidation('txtCTCode','Please write only numeric values for STD Code',5);" />
                                                             -
@@ -1972,16 +2024,16 @@
                                                         </td>
                                                     </tr>
                                                     <tr>
-                                                        <td bgcolor="#1567A1" class="whitetxt">
+                                                        <td style="border: solid 1px #000; padding: 5px; border-top: 0;">
                                                             <strong>
                                                                 <label id="lblAddri">
                                                                     i.</label>
                                                             </strong>
                                                         </td>
-                                                        <td colspan="9">
+                                                        <td colspan="9" style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                             <div style="border: 1px solid #e1e1e1; padding: 0.5rem 0.8rem; background: #fafafa; margin: 0.5rem; border-radius: 0.25rem;">
 
-                                                                <label id="lblAadharNo" style="color: #8B0000">
+                                                                <label id="lblAadharNo" style="color: #000">
                                                                     Aadhaar No.<font color="#8B0000" size="3">*</font></label>
 
                                                                 <asp:TextBox ID="txtAadhar" CssClass="inputitem" runat="server" Width="250" MaxLength="12"
@@ -2016,16 +2068,16 @@
                     </td>
                 </tr>
                 <tr>
-                    <td bgcolor="#ffffff">
-                        <table width="70%" border="0" align="center" cellpadding="10" cellspacing="1" bgcolor="#cccccc">
+                    <td>
+                        <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" style="margin-top:10px;">
                             <tr>
-                                <td bgcolor="#FFFFFF">
-                                    <table width="100%" border="0" cellspacing="0" cellpadding="2">
+                                <td>
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
                                         <tr>
-                                            <td width="2%" height="25">9<strong><label id="lblN7">.</label>
+                                            <td width="2%" style="border: solid 1px #000; padding: 5px;">9<strong><label id="lblN7">.</label>
                                             </strong>
                                             </td>
-                                            <td width="68%">
+                                            <td width="68%" style="border: solid 1px #000; padding: 5px;border-left:0;">
                                                 <strong>
                                                     <label id="lblReservation">
                                                         Reservation Details
@@ -2036,9 +2088,9 @@
                                         </tr>
                                         <tr>
                                             <td colspan="2">
-                                                <table width="100%" border="0" cellspacing="0" cellpadding="2" class="dotBorder nobot-border">
+                                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
                                                     <tr>
-                                                        <td style="background: #e1e1e1;">
+                                                        <td style="background: #e1e1e1;border: solid 1px #000; padding: 5px; border-top: 0;">
                                                             <ul style="padding-left: 20px; margin: 0px;">
                                                                 <li style="padding-top: 5px;">आरक्षण से सम्बंधित विवरण देने से पहले यह जाँच कर ले कि दी गयी विवरणी सही है , अन्यथा गलत विवरणी देने के बाद आपका आवेदन रद्द किया जा सकता है साथ ही आपके उपर कानूनी कारवाई भी की जा सकती है |</li>
                                                                 <li style="padding-top: 5px;">आरक्षित कोटि के अन्तर्गत प्रवेश लेने वाले आवेदक को प्रखंड विकास पदाधिकारी/ अनुमंडलाधिकारी/जिला पदाधिकारी द्वारा निर्गत जाति प्रमाण-पत्र ही जमा करना है और यही प्रमाण-पत्र मान्य होगा।</li>
@@ -2052,27 +2104,27 @@
                                         </tr>
                                         <tr>
                                             <td colspan="2">
-                                                <table width="100%" border="0" cellspacing="0" cellpadding="2" class="dotBorder nobot-border">
+                                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
                                                     <tr>
-                                                        <td style="width: 2%" bgcolor="#1567A1" class="whitetxt">
+                                                        <td style="width: 2%;border: solid 1px #000; padding: 5px; border-top: 0;">
                                                             <strong>
                                                                 <label id="lblN7a">
                                                                     a.</label>
                                                             </strong>
                                                         </td>
-                                                        <td>
+                                                        <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                             <asp:RadioButton ID="rbtGeneral" runat="server" GroupName="ResCategory1" Checked="true" />
                                                             <span id="GENERAL">General
                                                             <br />
                                                                 &#2360;&#2366;&#2350;&#2366;&#2344;&#2381;&#2351; &#2357;&#2352;&#2381;&#2327;</span>
                                                         </td>
-                                                        <td>
+                                                        <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                             <asp:RadioButton ID="rbtSC" runat="server" GroupName="ResCategory1" />
                                                             <span id="SC">Schedule Caste (SC)
                                                             <br />
                                                                 &#2309;&#2344;&#2369;&#2360;&#2370;&#2330;&#2367;&#2340; &#2332;&#2366;&#2340;&#2367;</span>
                                                         </td>
-                                                        <td>
+                                                        <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                             <label>
                                                                 <asp:RadioButton ID="rbtST" runat="server" GroupName="ResCategory1" />
                                                                 <span id="ST">Schedule Tribe (ST)
@@ -2080,20 +2132,20 @@
                                                                     &#2309;&#2344;&#2369;&#2360;&#2370;&#2330;&#2367;&#2340; &#2332;&#2344;&#2332;&#2366;&#2340;&#2367;</span>
                                                             </label>
                                                         </td>
-                                                        <td>
+                                                        <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                             <asp:RadioButton ID="rbtnOBC" runat="server" GroupName="ResCategory1" />
                                                             <span id="OBC">Backward Class(BC)
                                                             <br />
                                                                 &#2309;&#2344;&#2381;&#2351; &#2346;&#2367;&#2331;&#2396;&#2366; &#2357;&#2352;&#2381;&#2327;</span>
                                                         </td>
-                                                        <td>
+                                                        <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                             <asp:RadioButton ID="rbtOther" runat="server" GroupName="ResCategory1" />
                                                             <span id="OTHER">Extremly Backward Class (EBC)
                                                             <br />
                                                                 &#2309;&#2340;&#2381;&#2351;&#2306;&#2340; &#2346;&#2367;&#2331;&#2396;&#2366; &#2357;&#2352;&#2381;&#2327;
                                                             </span>
                                                         </td>
-                                                        <td style="display: none;">
+                                                        <td style="display: none;border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                             <asp:RadioButton ID="rbtBCW" runat="server" GroupName="ResCategory1" />
                                                             <span id="WBC">Women Backward Class (WBC)
                                                             <br />
@@ -2103,15 +2155,15 @@
                                                         <asp:HiddenField ID="hidCategory" runat="server" />
                                                     </tr>
                                                 </table>
-                                                <table width="100%" border="0" cellspacing="0" cellpadding="2" class="dotBorder">
+                                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
                                                     <tr>
-                                                        <td style="width: 2%" bgcolor="#1567A1" class="whitetxt">
+                                                        <td style="width: 2%; border: solid 1px #000; padding: 5px; border-top: 0;">
                                                             <strong>
                                                                 <label id="lblN7b">
                                                                     b.</label>
                                                             </strong>
                                                         </td>
-                                                        <td colspan="5">
+                                                        <td colspan="5" style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                             <%-- <asp:CheckBox ID="chkPHOH" runat="server" onclick="highLight('chkPHOH','PHOH','Physically/Orthopadically Handicapped (PH/OH) <br />&#2344;&#2367;: &#2358;&#2325;&#2381;&#2340;&#2340;&#2366; &#2325;&#2375; &#2310;&#2343;&#2366;&#2352; &#2346;&#2352;' );" />--%>
                                                             <span id="PHOH" />Specially Abled ( &#2342;&#2367;&#2357;&#2381;&#2351;&#2366;&#2306;&#2327;
                                                         )
@@ -2120,7 +2172,7 @@
                                                             <asp:RadioButton ID="chkPHOHY" runat="server" GroupName="PHOH" onclick="highlightCat1();" />
                                                             <span id="Span3">Yes/ &#2361;&#2366;&#2305;</span>
                                                         </td>
-                                                        <td colspan="5">EWS (Economically Weaker Section)
+                                                        <td colspan="5" style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">EWS (Economically Weaker Section)
                                                         <asp:RadioButton ID="rbtEWSNo" runat="server" Checked="true" GroupName="EWS" />
                                                             <span id="Span4">No/ &#2344;&#2361;&#2368;&#2306;</span>
                                                             <asp:RadioButton ID="rbtEWSYes" runat="server" GroupName="EWS" />
@@ -2153,15 +2205,15 @@
                                                         </td>
                                                     </tr>
                                                 </table>
-                                                <table width="100%" border="0" cellspacing="0" cellpadding="2" class="dotBorder">
+                                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
                                                     <tr>
-                                                        <td style="width: 2%" bgcolor="#1567A1" class="whitetxt">
+                                                        <td style="width: 2%;border: solid 1px #000; padding: 5px; border-top: 0;">
                                                             <strong>
                                                                 <label>
                                                                     c.</label>
                                                             </strong>
                                                         </td>
-                                                        <td colspan="10"> 
+                                                        <td colspan="10" style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;"> 
                                                             <span id="ApplicationType" />Application Type ( आवेदन का प्रकार )
                                                             <asp:RadioButton ID="rbtnMinority" runat="server" Checked="true" GroupName="ApplicationType" />
                                                             <span id="spanMinority">Minority ( अल्पसंख्यक )</span>
@@ -2181,11 +2233,11 @@
                     </td>
                 </tr>
                 <tr>
-                    <td bgcolor="#ffffff">
-                        <table width="70%" border="0" align="center" cellpadding="10" cellspacing="1" bgcolor="#cccccc">
+                    <td>
+                        <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" style="margin-top:10px;">
                             <tr>
-                                <td bgcolor="#FFFFFF">
-                                    <table width="100%" border="0" cellspacing="0" cellpadding="2" style="display: none;">
+                                <td>
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" style="display: none;">
                                         <tr>
                                             <td width="1%" height="25">10<strong><label id="lblN8">.</label>
                                             </strong>
@@ -2304,12 +2356,12 @@
                     </td>
                 </tr>
                 <tr>
-                    <td bgcolor="#ffffff">
-                        <table width="70%" border="0" align="center" cellpadding="10" cellspacing="1" bgcolor="#cccccc">
+                    <td>
+                        <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
                             <tr>
-                                <td bgcolor="#f8f5d4">
+                                <td>
                                     <div id="tblChoice" style="display: none;">
-                                        <table width="100%" border="0" cellspacing="0" cellpadding="2">
+                                        <table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin-top:10px;">
                                             <tr>
                                                 <td>
                                                     <strong>
@@ -2356,9 +2408,9 @@
                             </tr>
                             <tr>
                                 <td align="right" bgcolor="#FFFFFF">
-                                    <table width="100%" border="0" cellspacing="0" cellpadding="2">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin-top:10px;">
                                         <tr>
-                                            <td>
+                                            <td style="border: solid 1px #000; padding: 5px;">
                                                 <strong>10. Please Fill the Option of the Colleges & Stream in Which You Want to Get
                                                 Admission.
                                                 <br />
@@ -2367,10 +2419,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td height="5px;"></td>
-                                        </tr>
-                                        <tr>
-                                            <td style="background: #e1e1e1;">आप ऑनलाइन आवेदन पत्र के माध्यम से बीस विकल्प विभिन्न कॉलेज में आवेदन दे सकते हैं|
+                                            <td style="background: #e1e1e1;border: solid 1px #000; padding: 5px; border-top: 0;">आप ऑनलाइन आवेदन पत्र के माध्यम से बीस विकल्प विभिन्न कॉलेज में आवेदन दे सकते हैं|
                                             अपने विकल्पों का चुनाव अपनी वरीयता सूची के अनुसार करें |आवेदन में विकल्प भरते समय
                                             यह सुनिश्चित करें की जो विकल्प आप पहले भरेंगे उसी के अनुसार आपका चयन किया जाएगा
                                             | विकल्पों को भरते समय यह सुनिश्चित करें कि आपकी प्राथमिकता सूची आपके पसंद के अनुरूप
@@ -2380,10 +2429,10 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td align="left" style="color: blue; font-weight: bold; display: none;" colspan="2">
+                                            <td align="left"style="color: #000; border: solid 1px #000; padding: 5px; border-top: 0;font-weight: bold;" colspan="2">
                                                 <label id="lblinf">
-                                                    You are required to select at least <span style="color: blue">5</span> and at most
-                                                <span style="color: blue">20</span> options / आप न्यूनतम 5 विकल्प एवम अधिकतम 20
+                                                    You are required to select at least <span style="color: #000">5</span> and at most
+                                                <span style="color: #000">20</span> options / आप न्यूनतम 5 विकल्प एवम अधिकतम 20
                                                 विकल्प यहाँ भर सकते हैं | विकल्पो का चुनाव करते समय इंटर स्कूल या इंटर महाविद्यालयो
                                                 की सूची आपके द्वारा चुने लिंग (स्त्री/पुरुष/अन्य) एवं आरक्षण कोटि (सामान्य/ पिछड़ा
                                                 वर्ग /अत्यंत पिछड़ा वर्ग /अनुसूचित जाति /अनुसूचित जनजाति) के अनुसार ही दर्शाया जायेगा|
@@ -2405,8 +2454,8 @@
                                             पसंदीदा विद्यालयों एवं महाविद्यालयों को चुनने में आसानी हो|
                                             </td>
                                         </tr>
-                                        <tr style="background: #75bf52; border: 1px solid #6ab148; font-size: 13px; font-weight: bold; display: none;">
-                                            <td width="100%" align="left" colspan="2">
+                                        <tr style="display: none;">
+                                            <td width="100%" align="left" colspan="2"style="background: #c3361d; padding:5px; color:#fff; border: 1px solid #c3361d; font-size: 13px; font-weight: bold;">
                                                 <div class="Capactive" id="Caption">
                                                     Enter here for 1st Option / &#2309;&#2346;&#2344;&#2366; &#2346;&#2361;&#2354;&#2366;
                                                 &#2357;&#2367;&#2325;&#2354;&#2381;&#2346; &#2330;&#2369;&#2344;&#2375;&#2306;
@@ -2415,23 +2464,23 @@
                                         </tr>
                                         <tr>
                                             <td align="left" colspan="2">
-                                                <table width="100%" border="0" cellspacing="0" cellpadding="2" class="dotBorder">
+                                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
                                                     <tr style="display: none">
-                                                        <td bgcolor="#1567a1" class="whitetxt" style="width: 15px;">
+                                                        <td style="width: 15px;border: solid 1px #000; padding: 5px; border-top: 0;">
                                                             <strong>
                                                                 <label id="lbla">
                                                                     a.</label>
                                                             </strong>
                                                         </td>
-                                                        <td style="width: 150px;">
-                                                            <label id="lblColType" style="color: #8B0000">
+                                                        <td style="width: 150px;border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
+                                                            <label id="lblColType" style="color: #000">
                                                                 College Type <font color="#8B0000" size="3">*</font>
                                                                 <br />
                                                                 &#2325;&#2377;&#2354;&#2375;&#2332; &#2325;&#2366; &#2346;&#2381;&#2352;&#2325;&#2366;&#2352;
                                                             </label>
                                                             <font color="#8B0000" size="3">*</font>
                                                         </td>
-                                                        <td colspan="4">
+                                                        <td colspan="4" style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                             <asp:RadioButton ID="rbtOthersFinance" runat="server" GroupName="FundingSource" onclick="highlightCollegeType();ClrColType();"
                                                                 Checked="true" />
                                                             <span id="OF">Govt. / Aided / Private </span>
@@ -2447,13 +2496,13 @@
                                                         </td>
                                                     </tr>
                                                     <tr>
-                                                        <td bgcolor="#1567a1" class="whitetxt" style="width: 15px;">
+                                                        <td style="width: 15px;border: solid 1px #000; padding: 5px; border-top: 0;">
                                                             <strong>
                                                                 <label id="lblb">
                                                                     a.</label></strong>
                                                         </td>
-                                                        <td style="width: 320px;">
-                                                            <label id="lblDname" style="color: #8B0000">
+                                                        <td style="width: 320px;border: solid 1px #000; padding: 5px; border-left:0; border-top: 0;">
+                                                            <label id="lblDname" style="color: #000">
                                                                 District Name <font color="#8B0000" size="3">*</font>
                                                                 <br />
                                                                 &#2332;&#2367;&#2360; &#2332;&#2367;&#2354;&#2375; &#2325;&#2375; &#2325;&#2377;&#2354;&#2375;&#2332;
@@ -2462,7 +2511,7 @@
                                                             &#2330;&#2369;&#2344;&#2366;&#2357; &#2325;&#2352;&#2375;|</label>
                                                             <font color="#8B0000" size="3">*</font>
                                                         </td>
-                                                        <td colspan="4" valign="middle">
+                                                        <td colspan="4" valign="middle" style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                             <div style="float: left; width: 30%; margin-top: 6px;">
                                                                 <asp:DropDownList CssClass="inputitem" ID="ddlCollegeDistrict" runat="server" Width="155">
                                                                     <%-- <asp:ListItem Value="0">-- SELECT --</asp:ListItem>--%>
@@ -2483,13 +2532,13 @@
                                                         </td>
                                                     </tr>
                                                     <tr>
-                                                        <td width="1%" bgcolor="#1567A1" class="whitetxt" style="height: 32px">
+                                                        <td width="1%" style="height: 32px;border: solid 1px #000; padding: 5px; border-top: 0;">
                                                             <strong>
                                                                 <label id="lblc">
                                                                     b.</label></strong>
                                                         </td>
-                                                        <td style="width: 150px;">
-                                                            <label id="lblcolname" style="color: #8B0000">
+                                                        <td style="width: 150px;border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
+                                                            <label id="lblcolname" style="color: #000">
                                                                 College Name<font color="#8B0000" size="3">*</font> / &#2325;&#2377;&#2354;&#2375;&#2332;
                                                             &#2325;&#2366; &#2344;&#2366;&#2350; &#2330;&#2369;&#2344;&#2375;
                                                             </label>
@@ -2499,24 +2548,24 @@
                                                             <table width="100%" border="0" cellspacing="0" cellpadding="0">
                                                                 <tbody>
                                                                     <tr>
-                                                                        <td>
+                                                                        <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                                             <asp:DropDownList CssClass="inputitem" ID="ddlCollege" runat="server" Width="300">
                                                                                 <asp:ListItem Value="0">--SELECT--</asp:ListItem>
                                                                             </asp:DropDownList>
                                                                         </td>
-                                                                        <td width="20" height="32" align="center" bgcolor="#1567A1" class="whitetxt">
+                                                                        <td width="20" height="32" align="center" style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                                             <strong>
                                                                                 <label id="lbld">
                                                                                     c.</label></strong>
                                                                         </td>
-                                                                        <td>
-                                                                            <label id="lblStream" style="color: #8B0000">
+                                                                        <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
+                                                                            <label id="lblStream" style="color: #000">
                                                                                 Stream <font color="#8B0000" size="3">*</font>/ &#2360;&#2306;&#2325;&#2366;&#2351;
                                                                             &#2330;&#2369;&#2344;&#2375;
                                                                             </label>
                                                                             &nbsp;<font color="#8B0000" size="3">*</font>
                                                                         </td>
-                                                                        <td>
+                                                                        <td style="border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                                             <asp:DropDownList CssClass="inputitem" ID="ddlStream" runat="server" AppendDataBoundItems="true"
                                                                                 Width="113px">
                                                                                 <asp:ListItem Value="0">--SELECT--</asp:ListItem>
@@ -2528,19 +2577,19 @@
                                                         </td>
                                                     </tr>
                                                     <tr>
-                                                        <td bgcolor="#1567A1" class="whitetxt" style="height: 32px; display: none;">
+                                                        <td style="height: 32px; display: none;border: solid 1px #000; padding: 5px; border-top: 0;">
                                                             <strong>
                                                                 <label id="lble">
                                                                     d.</label></strong>
                                                         </td>
-                                                        <td style="width: 150px; display: none;">
-                                                            <label id="comsub" style="color: #8B0000">
+                                                        <td style="width: 150px; display: none;border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
+                                                            <label id="comsub" style="color: #000">
                                                                 Compulsory (MIL) <font color="#8B0000" size="3">*</font>/ &#2309;&#2344;&#2367;&#2357;&#2366;&#2352;&#2381;&#2351;
                                                             &#2357;&#2367;&#2359;&#2351;
                                                             </label>
                                                             &nbsp;<font color="#8B0000" size="3">*</font>
                                                         </td>
-                                                        <td colspan="4" style="display: none;">
+                                                        <td colspan="4" style="display: none;border: solid 1px #000; padding: 5px;border-left:0; border-top: 0;">
                                                             <span>
                                                                 <asp:DropDownList CssClass="inputitem" ID="ddlCompulsory" AppendDataBoundItems="true"
                                                                     Visible="false" runat="server" Width="166px">
@@ -2732,19 +2781,19 @@
                                                 </table>
                                             </td>
                                         </tr>
-                                        <tr style="background: #75bf52; border: 1px solid #6ab148; font-size: 13px; font-weight: bold; display: none;">
-                                            <td height="25" align="left" colspan="2" style="border: 1px dotted #C8C8C8;">
-                                                <em style="color: Blue;"><strong>
-                                                    <label id="lblchoice" style="color: #8B0000">
+                                        <tr style="display: none;">
+                                            <td height="25" align="left" colspan="2" style="background: #c3361d; border: 1px solid #c3361d; font-size: 13px; font-weight: bold; padding: 5px;border-left:0; border-top: 0;">
+                                                <em style="color: #000;"><strong>
+                                                    <label id="lblchoice" style="color: #fff">
                                                         Do you Want to fill more options for applying in Other colleges and Subjects? &#2325;&#2381;&#2351;&#2366;
                                                     &#2310;&#2346; &#2309;&#2344;&#2381;&#2351; &#2325;&#2377;&#2354;&#2375;&#2332;&#2379;&#2306;
                                                     &#2350;&#2375;&#2306; &#2324;&#2352; &#2357;&#2367;&#2325;&#2354;&#2381;&#2346;
                                                     &#2349;&#2352;&#2344;&#2366; &#2330;&#2366;&#2361;&#2340;&#2375; &#2361;&#2376;&#2306;
                                                     ?
                                                     <asp:RadioButton ID="rbtnYes" runat="server" GroupName="G1" Text="Yes/ &#2361;&#2366;&#2305;"
-                                                        Style="color: #8B0000" onClick="HideShow();" />
+                                                        Style="color: #fff" onClick="HideShow();" />
                                                         <asp:RadioButton ID="rbtnNo" runat="server" GroupName="G1" Text="No/&#2344;&#2361;&#2368;&#2306; "
-                                                            Style="color: #8B0000" onClick="HideShow();" />
+                                                            Style="color: #fff" onClick="HideShow();" />
                                                     </label>
                                                 </strong></em>
                                             </td>
@@ -2752,106 +2801,106 @@
                                         <tr>
                                             <td align="left" colspan="2">
                                                 <table border="0" align="center" cellpadding="0" cellspacing="0" id="tblOptionButton"
-                                                    style="display: none">
+                                                    style="display: none;  margin-top:10px;">
                                                     <tr>
                                                         <td>
                                                             <input name="button" type="button" class="optionbtnNew" id="2" title="Click to add options"
                                                                 onclick="ELEsubjectvalidation(); updateRow(2); return verhoeff();" value="2nd Option / &#2342;&#2370;&#2360;&#2352;&#2366; &#2357;&#2367;&#2325;&#2354;&#2381;&#2346;"
-                                                                style="background-image: url(../images/add.png); background-repeat: no-repeat; background-position: 8px center; background-size: 12px; min-height: 30px; width: 170px; line-height: 30px; margin-top: 0px;" />
+                                                                style="min-height: 30px; width: 170px; line-height: 30px; margin-top: 0px;" />
                                                         </td>
                                                         <td>
                                                             <input name="button2" type="button" class="optionbtnNew" id="3" title="Click to add options;"
                                                                 onclick="ELEsubjectvalidation(); updateRow(3); return verhoeff();" value="3rd Option / &#2340;&#2368;&#2360;&#2352;&#2366; &#2357;&#2367;&#2325;&#2354;&#2381;&#2346;"
-                                                                style="background-image: url(../images/add.png); background-repeat: no-repeat; display: none; background-position: 8px center; background-size: 12px; min-height: 30px; width: 170px; line-height: 30px; margin-top: 0px;" />
+                                                                style="display: none;min-height: 30px; width: 170px; line-height: 30px; margin-top: 0px;" />
                                                         </td>
                                                         <td>
                                                             <input name="button3" type="button" class="optionbtnNew" id="4" title="Click to add options"
                                                                 onclick="ELEsubjectvalidation(); updateRow(4); return verhoeff();" value="4th Option / &#2330;&#2380;&#2341;&#2366; &#2357;&#2367;&#2325;&#2354;&#2381;&#2346;"
-                                                                style="background-image: url(../images/add.png); background-repeat: no-repeat; display: none; background-position: 8px center; background-size: 12px; min-height: 30px; width: 170px; line-height: 30px; margin-top: 0px;" />
+                                                                style="display: none;min-height: 30px; width: 170px; line-height: 30px; margin-top: 0px;" />
                                                         </td>
                                                         <td>
                                                             <input name="button4" type="button" class="optionbtnNew" id="5" title="Click to add options"
                                                                 onclick="ELEsubjectvalidation(); updateRow(5); return verhoeff();" value="5th Option / 5 &#2357;&#2366;&#2306; &#2357;&#2367;&#2325;&#2354;&#2381;&#2346;"
-                                                                style="background-image: url(../images/add.png); background-repeat: no-repeat; display: none; background-position: 8px center; background-size: 12px; min-height: 30px; width: 170px; line-height: 30px; margin-top: 0px;" />
+                                                                style="display: none;min-height: 30px; width: 170px; line-height: 30px; margin-top: 0px;" />
                                                         </td>
                                                         <td>
                                                             <input name="button5" type="button" class="optionbtnNew" id="6" title="Click to add options"
                                                                 onclick="ELEsubjectvalidation(); updateRow(6); return verhoeff();" value="6th Option/ 6 &#2357;&#2366;&#2306; &#2357;&#2367;&#2325;&#2354;&#2381;&#2346;"
-                                                                style="background-image: url(../images/add.png); background-repeat: no-repeat; display: none; background-position: 8px center; background-size: 12px; min-height: 30px; width: 170px; line-height: 30px; margin-top: 0px;" />
+                                                                style="display: none;min-height: 30px; width: 170px; line-height: 30px; margin-top: 0px;" />
                                                         </td>
                                                         <td>
                                                             <input name="button6" type="button" class="optionbtnNew" id="7" title="Click to add options"
                                                                 onclick="ELEsubjectvalidation(); updateRow(7); return verhoeff();" value="7th Option/ 7 &#2357;&#2366;&#2306; &#2357;&#2367;&#2325;&#2354;&#2381;&#2346;"
-                                                                style="background-image: url(../images/add.png); background-repeat: no-repeat; display: none; background-position: 8px center; background-size: 12px; min-height: 30px; width: 170px; line-height: 30px; margin-top: 0px;" />
+                                                                style="display: none;min-height: 30px; width: 170px; line-height: 30px; margin-top: 0px;" />
                                                         </td>
                                                         <td>
                                                             <input name="button7" type="button" class="optionbtnNew" id="8" title="Click to add options"
                                                                 onclick="ELEsubjectvalidation(); updateRow(8); return verhoeff();" value="8th Option/ 8 &#2357;&#2366;&#2306; &#2357;&#2367;&#2325;&#2354;&#2381;&#2346;"
-                                                                style="background-image: url(../images/add.png); background-repeat: no-repeat; display: none; background-position: 8px center; background-size: 12px; min-height: 30px; width: 170px; line-height: 30px; margin-top: 0px;" />
+                                                                style="display: none;min-height: 30px; width: 170px; line-height: 30px; margin-top: 0px;" />
                                                         </td>
                                                         <td>
                                                             <input name="button8" type="button" class="optionbtnNew" id="9" title="Click to add options"
                                                                 onclick="ELEsubjectvalidation(); updateRow(9); return verhoeff();" value="9th Option/ 9 &#2357;&#2366;&#2306; &#2357;&#2367;&#2325;&#2354;&#2381;&#2346;"
-                                                                style="background-image: url(../images/add.png); background-repeat: no-repeat; display: none; background-position: 8px center; background-size: 12px; min-height: 30px; width: 170px; line-height: 30px; margin-top: 0px;" />
+                                                                style="display: none;min-height: 30px; width: 170px; line-height: 30px; margin-top: 0px;" />
                                                         </td>
                                                         <td>
                                                             <input name="button9" type="button" class="optionbtnNew" id="10" title="Click to add options"
                                                                 onclick="ELEsubjectvalidation(); updateRow(10); return verhoeff();" value="10th Option/ 10 &#2357;&#2366;&#2306; &#2357;&#2367;&#2325;&#2354;&#2381;&#2346;"
-                                                                style="background-image: url(../images/add.png); background-repeat: no-repeat; display: none; background-position: 8px center; background-size: 12px; min-height: 30px; width: 170px; line-height: 30px; margin-top: 0px;" />
+                                                                style="display: none;min-height: 30px; width: 170px; line-height: 30px; margin-top: 0px;" />
                                                         </td>
                                                         <td>
                                                             <input name="button10" type="button" class="optionbtnNew" id="11" title="Click to add options"
                                                                 onclick="ELEsubjectvalidation(); updateRow(11); return verhoeff();" value="11th Option/ 11 &#2357;&#2366;&#2306; &#2357;&#2367;&#2325;&#2354;&#2381;&#2346;"
-                                                                style="background-image: url(../images/add.png); background-repeat: no-repeat; display: none; background-position: 8px center; background-size: 12px; min-height: 30px; width: 170px; line-height: 30px; margin-top: 0px;" />
+                                                                style="display: none;min-height: 30px; width: 170px; line-height: 30px; margin-top: 0px;" />
                                                         </td>
                                                         <td>
                                                             <input name="button11" type="button" class="optionbtnNew" id="12" title="Click to add options"
                                                                 onclick="ELEsubjectvalidation(); updateRow(12); return verhoeff();" value="12th Option/ 12 &#2357;&#2366;&#2306; &#2357;&#2367;&#2325;&#2354;&#2381;&#2346;"
-                                                                style="background-image: url(../images/add.png); background-repeat: no-repeat; display: none; background-position: 8px center; background-size: 12px; min-height: 30px; width: 170px; line-height: 30px; margin-top: 0px;" />
+                                                                style="display: none;min-height: 30px; width: 170px; line-height: 30px; margin-top: 0px;" />
                                                         </td>
                                                         <td>
                                                             <input name="button12" type="button" class="optionbtnNew" id="13" title="Click to add options"
                                                                 onclick="ELEsubjectvalidation(); updateRow(13); return verhoeff();" value="13th Option/ 13 &#2357;&#2366;&#2306; &#2357;&#2367;&#2325;&#2354;&#2381;&#2346;"
-                                                                style="background-image: url(../images/add.png); background-repeat: no-repeat; display: none; background-position: 8px center; background-size: 12px; min-height: 30px; width: 170px; line-height: 30px; margin-top: 0px;" />
+                                                                style="display: none;min-height: 30px; width: 170px; line-height: 30px; margin-top: 0px;" />
                                                         </td>
                                                         <td>
                                                             <input name="button13" type="button" class="optionbtnNew" id="14" title="Click to add options"
                                                                 onclick="ELEsubjectvalidation(); updateRow(14); return verhoeff();" value="14th Option/ 14 &#2357;&#2366;&#2306; &#2357;&#2367;&#2325;&#2354;&#2381;&#2346;"
-                                                                style="background-image: url(../images/add.png); background-repeat: no-repeat; display: none; background-position: 8px center; background-size: 12px; min-height: 30px; width: 170px; line-height: 30px; margin-top: 0px;" />
+                                                                style="display: none; min-height: 30px; width: 170px; line-height: 30px; margin-top: 0px;" />
                                                         </td>
                                                         <td>
                                                             <input name="button14" type="button" class="optionbtnNew" id="15" title="Click to add options"
                                                                 onclick="ELEsubjectvalidation(); updateRow(15); return verhoeff();" value="15th Option/ 15 &#2357;&#2366;&#2306; &#2357;&#2367;&#2325;&#2354;&#2381;&#2346;"
-                                                                style="background-image: url(../images/add.png); background-repeat: no-repeat; display: none; background-position: 8px center; background-size: 12px; min-height: 30px; width: 170px; line-height: 30px; margin-top: 0px;" />
+                                                                style="display: none;min-height: 30px; width: 170px; line-height: 30px; margin-top: 0px;" />
                                                         </td>
                                                         <td>
                                                             <input name="button15" type="button" class="optionbtnNew" id="16" title="Click to add options"
                                                                 onclick="ELEsubjectvalidation(); updateRow(16); return verhoeff();" value="16th Option/ 16 &#2357;&#2366;&#2306; &#2357;&#2367;&#2325;&#2354;&#2381;&#2346;"
-                                                                style="background-image: url(../images/add.png); background-repeat: no-repeat; display: none; background-position: 8px center; background-size: 12px; min-height: 30px; width: 170px; line-height: 30px; margin-top: 0px;" />
+                                                                style="display: none;min-height: 30px; width: 170px; line-height: 30px; margin-top: 0px;" />
                                                         </td>
                                                         <td>
                                                             <input name="button16" type="button" class="optionbtnNew" id="17" title="Click to add options"
                                                                 onclick="ELEsubjectvalidation(); updateRow(17); return verhoeff();" value="17th Option/ 17 &#2357;&#2366;&#2306; &#2357;&#2367;&#2325;&#2354;&#2381;&#2346;"
-                                                                style="background-image: url(../images/add.png); background-repeat: no-repeat; display: none; background-position: 8px center; background-size: 12px; min-height: 30px; width: 170px; line-height: 30px; margin-top: 0px;" />
+                                                                style="display: none;min-height: 30px; width: 170px; line-height: 30px; margin-top: 0px;" />
                                                         </td>
                                                         <td>
                                                             <input name="button17" type="button" class="optionbtnNew" id="18" title="Click to add options"
                                                                 onclick="ELEsubjectvalidation(); updateRow(18); return verhoeff();" value="18th Option/ 18 &#2357;&#2366;&#2306; &#2357;&#2367;&#2325;&#2354;&#2381;&#2346;"
-                                                                style="background-image: url(../images/add.png); background-repeat: no-repeat; display: none; background-position: 8px center; background-size: 12px; min-height: 30px; width: 170px; line-height: 30px; margin-top: 0px;" />
+                                                                style="display: none;min-height: 30px; width: 170px; line-height: 30px; margin-top: 0px;" />
                                                         </td>
                                                         <td>
                                                             <input name="button18" type="button" class="optionbtnNew" id="19" title="Click to add options"
                                                                 onclick="ELEsubjectvalidation(); updateRow(19); return verhoeff();" value="19th Option/ 19 &#2357;&#2366;&#2306; &#2357;&#2367;&#2325;&#2354;&#2381;&#2346;"
-                                                                style="background-image: url(../images/add.png); background-repeat: no-repeat; display: none; background-position: 8px center; background-size: 12px; min-height: 30px; width: 170px; line-height: 30px; margin-top: 0px;" />
+                                                                style="display: none;min-height: 30px; width: 170px; line-height: 30px; margin-top: 0px;" />
                                                         </td>
                                                         <td>
                                                             <input name="button19" type="button" class="optionbtnNew" id="20" title="Click to add options"
                                                                 onclick="ELEsubjectvalidation(); updateRow(20); return verhoeff();" value="20th Option/ 20 &#2357;&#2366;&#2306; &#2357;&#2367;&#2325;&#2354;&#2381;&#2346;"
-                                                                style="background-image: url(../images/add.png); background-repeat: no-repeat; display: none; background-position: 8px center; background-size: 12px; min-height: 30px; width: 170px; line-height: 30px; margin-top: 0px;" />
+                                                                style="display: none; min-height: 30px; width: 170px; line-height: 30px; margin-top: 0px;" />
                                                         </td>
                                                     </tr>
                                                 </table>
-                                                <table border="0" align="center" cellpadding="0" cellspacing="0">
+                                                <table border="0" align="center" cellpadding="0" cellspacing="0" style="margin-bottom:10px;">
                                                     <tr>
                                                         <td>
                                                             <asp:CheckBox ID="cbAgree1" runat="server" />
