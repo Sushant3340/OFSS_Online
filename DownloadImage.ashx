@@ -33,7 +33,7 @@ public class DownloadImage : IHttpHandler
         }
         else
         {
-            strCurrSession = "2024";
+            strCurrSession = "2025";
         }
 
         try

@@ -1564,7 +1564,7 @@ public partial class ConfirmCAFJrSpot : System.Web.UI.Page
                     Rectangle rect = new Rectangle(0, 0, 130, 130);
                     thumb.DrawImage(original, rect);
                     string pth = ConfigurationManager.AppSettings["StrPath"].ToString();
-                    pth = pth + "SAMS\\ONLINE_CAF\\APPL_IMAGES\\2024\\" + ObjPAS.CorBlockId.ToString();
+                    pth = pth + "SAMS\\ONLINE_CAF\\APPL_IMAGES\\2025\\" + ObjPAS.CorBlockId.ToString();
                     if (!Directory.Exists(pth))
                     {
                         Directory.CreateDirectory(pth);
