@@ -307,7 +307,7 @@ public partial class StudentLogin_StudentIntimation_Jr : System.Web.UI.Page
     {
         string strResult = "";
         string path = ConfigurationManager.AppSettings["StrPath"].ToString();
-        strResult = (path + "SAMS\\ONLINE_CAF\\APPL_IMAGES");
+        strResult = (path + "SAMS\\ONLINE_CAF\\APPL_IMAGES\\2025");
         return strResult;
     }
 
