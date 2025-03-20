@@ -993,7 +993,7 @@ public partial class StudentLogin_PersonalInfo : System.Web.UI.Page
                     var uploadRequest = new TransferUtilityUploadRequest
                     {
                         InputStream = CafObj.photo.InputStream,
-                        Key = string.Format("OFSS2025/SAMS/ONLINE_CAF/APPL_IMAGES/2024/{0}", ImageName),
+                        Key = string.Format("OFSS2025/SAMS/ONLINE_CAF/APPL_IMAGES/2025/{0}", ImageName),
                         BucketName = "bseb",
                         CannedACL = S3CannedACL.PublicRead
                     };
@@ -1493,7 +1493,7 @@ public partial class StudentLogin_PersonalInfo : System.Web.UI.Page
             {
 
                 string pth = ConfigurationManager.AppSettings["StrPath"].ToString();
-                pth = (pth + "SAMS\\ONLINE_CAF\\APPL_IMAGES\\2024");
+                pth = (pth + "SAMS\\ONLINE_CAF\\APPL_IMAGES\\2025");
                 string newPath = System.IO.Path.Combine(pth, ObjPAS.CorBlockId.ToString());
                 string srcName = System.IO.Path.Combine(pth, hdnOldBlockId.Value) + "\\" + strImageName + ".jpg"; 
                 string DestName = newPath + "\\" + strImageName + ".jpg"; 

@@ -1188,14 +1188,14 @@ public partial class ONLINE_CAF_CAFJr : System.Web.UI.Page
     {
         string strResult = "";
         string path = ConfigurationManager.AppSettings["StrPath"].ToString();
-        strResult = (path + "SAMS\\ONLINE_CAF\\APPL_IMAGES\\2024");
+        strResult = (path + "SAMS\\ONLINE_CAF\\APPL_IMAGES\\2025");
         return strResult;
     }
     public string ViewPhotoDetails()
     {
         string strResult = "";
         string path = ConfigurationManager.AppSettings["StrPathView"].ToString();
-        strResult = (path + "SAMS/ONLINE_CAF/APPL_IMAGES\\2024");
+        strResult = (path + "SAMS/ONLINE_CAF/APPL_IMAGES\\2025");
         return strResult;
     }
     protected void grdOptions_RowDataBound1(object sender, System.Web.UI.WebControls.GridViewRowEventArgs e)

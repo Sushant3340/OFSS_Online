@@ -2239,7 +2239,7 @@ public partial class ONLINE_CAF_JrCAFFormSpot : System.Web.UI.Page
                         var uploadRequest = new TransferUtilityUploadRequest
                         {
                             InputStream = CafObj.photo.InputStream,
-                            Key = string.Format("OFSS2025/SAMS/ONLINE_CAF/APPL_IMAGES/2024/{0}", Orgfile),
+                            Key = string.Format("OFSS2025/SAMS/ONLINE_CAF/APPL_IMAGES/2025/{0}", Orgfile),
                             BucketName = "bseb",
                             CannedACL = S3CannedACL.PublicRead
                         };
@@ -2249,8 +2249,8 @@ public partial class ONLINE_CAF_JrCAFFormSpot : System.Web.UI.Page
                     }
                 }
 
-                string imgPhoto = "OFSS2025/SAMS/ONLINE_CAF/APPL_IMAGES/2024/" + Orgfile;
-                HttpContext.Current.Items["Photo"] = "OFSS2025/SAMS/ONLINE_CAF/APPL_IMAGES/2024/" + Orgfile;
+                string imgPhoto = "OFSS2025/SAMS/ONLINE_CAF/APPL_IMAGES/2025/" + Orgfile;
+                HttpContext.Current.Items["Photo"] = "OFSS2025/SAMS/ONLINE_CAF/APPL_IMAGES/2025/" + Orgfile;
 
                 HttpContext.Current.Items["PhotoDb"] = Orgfile;
             }
