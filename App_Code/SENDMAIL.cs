@@ -14,27 +14,56 @@ public class SENDMAIL
 
     #region Send Mail
 
+    //public void sendMail(string Subject, string MailBody, string strMailID)
+    //{
+    //    // Gmail Address from where you send the mail
+    //    var fromAddress = "ofss@biharboardonline.com"; //"bsebportal@gmail.com";
+    //    // any address where the email will be sending
+    //    var toAddress = strMailID;
+    //    //Password of your gmail address
+    //    const string fromPassword = "bseb@online#123";// "csmpl@123";
+    //    // smtp settings
+    //    var smtp = new System.Net.Mail.SmtpClient();
+    //    {
+    //        smtp.Host = "webmail.biharboardonline.com";// "smtp.gmail.com";
+    //        smtp.Port = 587;
+    //        smtp.EnableSsl = true;
+    //        smtp.DeliveryMethod = System.Net.Mail.SmtpDeliveryMethod.Network;
+    //        smtp.Credentials = new NetworkCredential(fromAddress, fromPassword);
+    //        smtp.Timeout = 20000;
+    //    }
+    //    // Passing values to smtp object
+    //    ServicePointManager.ServerCertificateValidationCallback = delegate (object s, X509Certificate certificate, X509Chain chain, SslPolicyErrors sslPolicyErrors) { return true; };
+    //    smtp.Send(fromAddress, toAddress, Subject, MailBody);
+    //}
     public void sendMail(string Subject, string MailBody, string strMailID)
     {
-        // Gmail Address from where you send the mail
-        var fromAddress = "ofss@biharboardonline.com"; //"bsebportal@gmail.com";
-        // any address where the email will be sending
-        var toAddress = strMailID;
-        //Password of your gmail address
-        const string fromPassword = "bseb@online#123";// "csmpl@123";
-        // smtp settings
-        var smtp = new System.Net.Mail.SmtpClient();
+        string fromAddress = "ofssbihar.net@bseblive.com"; // Your Gmail address
+        string fromPassword = "kdbclcxqlsertizk";  // Use App Password (Not Gmail Password)
+        string toAddress = strMailID;
+
+        SmtpClient smtp = new SmtpClient("smtp.gmail.com", 587)
         {
-            smtp.Host = "webmail.biharboardonline.com";// "smtp.gmail.com";
-            smtp.Port = 587;
-            smtp.EnableSsl = true;
-            smtp.DeliveryMethod = System.Net.Mail.SmtpDeliveryMethod.Network;
-            smtp.Credentials = new NetworkCredential(fromAddress, fromPassword);
-            smtp.Timeout = 20000;
+            EnableSsl = true,
+            DeliveryMethod = SmtpDeliveryMethod.Network,
+            UseDefaultCredentials = false,
+            Credentials = new NetworkCredential(fromAddress, fromPassword),
+            Timeout = 20000
+        };
+
+        // Ignore SSL Certificate Validation (Optional, but recommended)
+        ServicePointManager.ServerCertificateValidationCallback =
+            delegate (object s, X509Certificate certificate, X509Chain chain, SslPolicyErrors sslPolicyErrors) { return true; };
+
+        try
+        {
+            MailMessage mail = new MailMessage(fromAddress, toAddress, Subject, MailBody);
+            smtp.Send(fromAddress, toAddress, Subject, MailBody);
         }
-        // Passing values to smtp object
-        ServicePointManager.ServerCertificateValidationCallback = delegate (object s, X509Certificate certificate, X509Chain chain, SslPolicyErrors sslPolicyErrors) { return true; };
-        smtp.Send(fromAddress, toAddress, Subject, MailBody);
+        catch (Exception ex)
+        {
+            Console.WriteLine("Error sending email: " + ex.Message);
+        }
     }
     #endregion
 

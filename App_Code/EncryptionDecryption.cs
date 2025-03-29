@@ -449,5 +449,21 @@ namespace SabPaisaDotNetIntregreation
             }
             return dict;
         }
+
+        public string forwardToSabPaisaForEnquiryAPI(SabPaisaRequest sabPaisaMember)
+        {
+
+            string client_Code = ConfigurationManager.AppSettings["clientCode"].ToString();
+            string query = "";
+            Page page = new Page();
+            query = query + "clientCode=" + client_Code + "";
+            query = query + "&clientTxnId=" + sabPaisaMember.clientTxnId.Trim();
+
+            query = EncryptString(query, sabPaisaMember.authIV, sabPaisaMember.authKey);
+
+            return query;
+        }//
     }
+
+
 }//namesapaceEnd

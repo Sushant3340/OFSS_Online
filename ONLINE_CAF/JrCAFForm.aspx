@@ -264,6 +264,13 @@
             background: #c3361d;
             border-color: #c3361d;
         }
+
+        .roll-code-cls {
+    border: solid 1px #000;
+    padding: 5px;
+    border-top: 0;
+    border-left: 0;
+}
     </style>
     <script type="text/javascript" language="javascript">
 
@@ -666,7 +673,7 @@
                                                                             </tr>
                                                                             <tr>
                                                                                 <td colspan="2">
-                                                                                    <table width="100%" class="dotBorder" border="0" cellpadding="2" cellspacing="0">
+                                                                                    <table width="100%" class="dotBorder2" border="0" cellpadding="2" cellspacing="0">
                                                                                         <tr>
                                                                                             <td width="390px" style="border: solid 1px #000; padding: 5px; border-top: 0;">
                                                                                                 <label id="lblBoardName" style="color: #000">
@@ -713,6 +720,7 @@
                                                                                                     onchange="ExamType();showhideCGPA();ShowGrade();clearRollNumber();BoardMark();fillMaximumMark();">
 
                                                                                                     <asp:ListItem Value="0">--SELECT--</asp:ListItem>
+                                                                                                    <asp:ListItem Value="2025">2025</asp:ListItem>
                                                                                                     <asp:ListItem Value="2024">2024</asp:ListItem>
                                                                                                     <asp:ListItem Value="2023">2023</asp:ListItem>
                                                                                                     <asp:ListItem Value="2022">2022</asp:ListItem>
@@ -773,7 +781,7 @@
                                                                                                 </label>
                                                                                                 &nbsp;<font color="#8B0000" size="3">*</font>
                                                                                             </td>
-                                                                                            <td id="tdRollCdH" runat="server" style="border: solid 1px #000; padding: 5px; border-left: 0; border-top: 0;">
+                                                                                            <td id="tdRollCdH" runat="server" class="roll-code-cls" style="border: solid 1px #000; padding: 5px; border-left: 0; border-top: 0;">
                                                                                                 <label style="color: #000" size="3">
                                                                                                     Roll Code <font color="#8B0000" size="3">*</font> / &#2352;&#2379;&#2354; &#2325;&#2379;&#2337;</label>
                                                                                                 &nbsp;<font color="#8B0000" size="3">*</font>
@@ -798,7 +806,7 @@
                                                                                                 </asp:DropDownList>
                                                                                                 <asp:Label ID="lblDOBVal" runat="server" Style="display: none"></asp:Label>
                                                                                             </td>
-                                                                                            <td id="tdRollCdF" runat="server" style="border: solid 1px #000; padding: 5px; border-left: 0; border-top: 0;">
+                                                                                            <td id="tdRollCdF" class="roll-code-cls" runat="server" style="border: solid 1px #000; padding: 5px; border-left: 0; border-top: 0;">
                                                                                                 <asp:TextBox ID="txtRollCode" runat="server" Width="98%" CssClass="inputitem" MaxLength="15"
                                                                                                     onKeyUp="CheckRoll('txtRollCode','Space/Special characters are not allowed', 5);"
                                                                                                     AutoCompleteType="disabled"
@@ -1561,6 +1569,7 @@ Apart from Bihar board, CBSE, ICSE and other passed students of the board will a
                                                             <asp:DropDownList CssClass="inputitem" Width="100%" ID="ddlYOJ" runat="server" AppendDataBoundItems="true"
                                                                 onchange="validYOJ();">
                                                                 <asp:ListItem Value="0">YEAR</asp:ListItem>
+                                                                <asp:ListItem Value="2024">2024</asp:ListItem>
                                                                 <asp:ListItem Value="2023">2023</asp:ListItem>
                                                                 <asp:ListItem Value="2022">2022</asp:ListItem>
                                                                 <asp:ListItem Value="2021">2021</asp:ListItem>
@@ -1621,6 +1630,7 @@ Apart from Bihar board, CBSE, ICSE and other passed students of the board will a
                                                             <asp:DropDownList CssClass="inputitem" ID="ddlYOL" Width="16%" runat="server" AppendDataBoundItems="true"
                                                                 onchange="validYOJ();">
                                                                 <asp:ListItem Value="0">YEAR</asp:ListItem>
+                                                                <asp:ListItem Value="2025">2025</asp:ListItem>
                                                                 <asp:ListItem Value="2024">2024</asp:ListItem>
                                                                 <asp:ListItem Value="2023">2023</asp:ListItem>
                                                                 <asp:ListItem Value="2022">2022</asp:ListItem>
@@ -2413,7 +2423,7 @@ Apart from Bihar board, CBSE, ICSE and other passed students of the board will a
                                                         <th bgcolor="#FE6A08" class="whitetxt" style="display:none;">
                                                             <strong>Fourth Elective </strong>
                                                         </th>--%>
-                                                            <th bgcolor="#FE6A08" class="whitetxt">
+                                                            <th bgcolor="#c3361d" class="whitetxt">
                                                                 <strong>Delete</strong>
                                                             </th>
                                                         </tr>
