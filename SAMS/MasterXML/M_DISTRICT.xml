@@ -1,231 +1,40 @@
-<?xml version="1.0"?>
 <NewDataSet>
-  <Table>
-    <int_DistrictID>10</int_DistrictID>
-    <int_StateID>1</int_StateID>
-    <vch_DistrictName>ARARIA</vch_DistrictName>
-    <vch_Districtcode>07</vch_Districtcode>
-  </Table>
-  <Table>
-    <int_DistrictID>41</int_DistrictID>
-    <int_StateID>1</int_StateID>
-    <vch_DistrictName>ARWAL</vch_DistrictName>
-    <vch_Districtcode>38</vch_Districtcode>
-  </Table>
-  <Table>
-    <int_DistrictID>36</int_DistrictID>
-    <int_StateID>1</int_StateID>
-    <vch_DistrictName>AURANGABAD</vch_DistrictName>
-    <vch_Districtcode>33</vch_Districtcode>
-  </Table>
-  <Table>
-    <int_DistrictID>26</int_DistrictID>
-    <int_StateID>1</int_StateID>
-    <vch_DistrictName>BANKA</vch_DistrictName>
-    <vch_Districtcode>23</vch_Districtcode>
-  </Table>
-  <Table>
-    <int_DistrictID>23</int_DistrictID>
-    <int_StateID>1</int_StateID>
-    <vch_DistrictName>BEGUSARAI</vch_DistrictName>
-    <vch_Districtcode>20</vch_Districtcode>
-  </Table>
-  <Table>
-    <int_DistrictID>25</int_DistrictID>
-    <int_StateID>1</int_StateID>
-    <vch_DistrictName>BHAGALPUR</vch_DistrictName>
-    <vch_Districtcode>22</vch_Districtcode>
-  </Table>
-  <Table>
-    <int_DistrictID>32</int_DistrictID>
-    <int_StateID>1</int_StateID>
-    <vch_DistrictName>BHOJPUR</vch_DistrictName>
-    <vch_Districtcode>29</vch_Districtcode>
-  </Table>
-  <Table>
-    <int_DistrictID>33</int_DistrictID>
-    <int_StateID>1</int_StateID>
-    <vch_DistrictName>BUXAR</vch_DistrictName>
-    <vch_Districtcode>30</vch_Districtcode>
-  </Table>
-  <Table>
-    <int_DistrictID>16</int_DistrictID>
-    <int_StateID>1</int_StateID>
-    <vch_DistrictName>DARBHANGA</vch_DistrictName>
-    <vch_Districtcode>13</vch_Districtcode>
-  </Table>
-  <Table>
-    <int_DistrictID>5</int_DistrictID>
-    <int_StateID>1</int_StateID>
-    <vch_DistrictName>EAST CHAMPARAN</vch_DistrictName>
-    <vch_Districtcode>02</vch_Districtcode>
-  </Table>
-  <Table>
-    <int_DistrictID>37</int_DistrictID>
-    <int_StateID>1</int_StateID>
-    <vch_DistrictName>GAYA</vch_DistrictName>
-    <vch_Districtcode>34</vch_Districtcode>
-  </Table>
-  <Table>
-    <int_DistrictID>18</int_DistrictID>
-    <int_StateID>1</int_StateID>
-    <vch_DistrictName>GOPALGANJ</vch_DistrictName>
-    <vch_Districtcode>15</vch_Districtcode>
-  </Table>
-  <Table>
-    <int_DistrictID>39</int_DistrictID>
-    <int_StateID>1</int_StateID>
-    <vch_DistrictName>JAMUI</vch_DistrictName>
-    <vch_Districtcode>36</vch_Districtcode>
-  </Table>
-  <Table>
-    <int_DistrictID>40</int_DistrictID>
-    <int_StateID>1</int_StateID>
-    <vch_DistrictName>JEHANABAD</vch_DistrictName>
-    <vch_Districtcode>37</vch_Districtcode>
-  </Table>
-  <Table>
-    <int_DistrictID>34</int_DistrictID>
-    <int_StateID>1</int_StateID>
-    <vch_DistrictName>KAIMUR</vch_DistrictName>
-    <vch_Districtcode>31</vch_Districtcode>
-  </Table>
-  <Table>
-    <int_DistrictID>13</int_DistrictID>
-    <int_StateID>1</int_StateID>
-    <vch_DistrictName>KATIHAR</vch_DistrictName>
-    <vch_Districtcode>10</vch_Districtcode>
-  </Table>
-  <Table>
-    <int_DistrictID>24</int_DistrictID>
-    <int_StateID>1</int_StateID>
-    <vch_DistrictName>KHAGARIA</vch_DistrictName>
-    <vch_Districtcode>21</vch_Districtcode>
-  </Table>
-  <Table>
-    <int_DistrictID>11</int_DistrictID>
-    <int_StateID>1</int_StateID>
-    <vch_DistrictName>KISHANGANJ</vch_DistrictName>
-    <vch_Districtcode>08</vch_Districtcode>
-  </Table>
-  <Table>
-    <int_DistrictID>28</int_DistrictID>
-    <int_StateID>1</int_StateID>
-    <vch_DistrictName>LAKHISARAI</vch_DistrictName>
-    <vch_Districtcode>25</vch_Districtcode>
-  </Table>
-  <Table>
-    <int_DistrictID>14</int_DistrictID>
-    <int_StateID>1</int_StateID>
-    <vch_DistrictName>MADHEPURA</vch_DistrictName>
-    <vch_Districtcode>11</vch_Districtcode>
-  </Table>
-  <Table>
-    <int_DistrictID>8</int_DistrictID>
-    <int_StateID>1</int_StateID>
-    <vch_DistrictName>MADHUBANI</vch_DistrictName>
-    <vch_Districtcode>05</vch_Districtcode>
-  </Table>
-  <Table>
-    <int_DistrictID>27</int_DistrictID>
-    <int_StateID>1</int_StateID>
-    <vch_DistrictName>MUNGER</vch_DistrictName>
-    <vch_Districtcode>24</vch_Districtcode>
-  </Table>
-  <Table>
-    <int_DistrictID>17</int_DistrictID>
-    <int_StateID>1</int_StateID>
-    <vch_DistrictName>MUZAFFARPUR</vch_DistrictName>
-    <vch_Districtcode>14</vch_Districtcode>
-  </Table>
-  <Table>
-    <int_DistrictID>30</int_DistrictID>
-    <int_StateID>1</int_StateID>
-    <vch_DistrictName>NALANDA</vch_DistrictName>
-    <vch_Districtcode>27</vch_Districtcode>
-  </Table>
-  <Table>
-    <int_DistrictID>38</int_DistrictID>
-    <int_StateID>1</int_StateID>
-    <vch_DistrictName>NAWADA</vch_DistrictName>
-    <vch_Districtcode>35</vch_Districtcode>
-  </Table>
-  <Table>
-    <int_DistrictID>31</int_DistrictID>
-    <int_StateID>1</int_StateID>
-    <vch_DistrictName>PATNA</vch_DistrictName>
-    <vch_Districtcode>28</vch_Districtcode>
-  </Table>
-  <Table>
-    <int_DistrictID>12</int_DistrictID>
-    <int_StateID>1</int_StateID>
-    <vch_DistrictName>PURNIYA</vch_DistrictName>
-    <vch_Districtcode>09</vch_Districtcode>
-  </Table>
-  <Table>
-    <int_DistrictID>35</int_DistrictID>
-    <int_StateID>1</int_StateID>
-    <vch_DistrictName>ROHTAS</vch_DistrictName>
-    <vch_Districtcode>32</vch_Districtcode>
-  </Table>
-  <Table>
-    <int_DistrictID>15</int_DistrictID>
-    <int_StateID>1</int_StateID>
-    <vch_DistrictName>SAHARSHA</vch_DistrictName>
-    <vch_Districtcode>12</vch_Districtcode>
-  </Table>
-  <Table>
-    <int_DistrictID>22</int_DistrictID>
-    <int_StateID>1</int_StateID>
-    <vch_DistrictName>SAMASTIPUR</vch_DistrictName>
-    <vch_Districtcode>19</vch_Districtcode>
-  </Table>
-  <Table>
-    <int_DistrictID>20</int_DistrictID>
-    <int_StateID>1</int_StateID>
-    <vch_DistrictName>SARAN</vch_DistrictName>
-    <vch_Districtcode>17</vch_Districtcode>
-  </Table>
-  <Table>
-    <int_DistrictID>29</int_DistrictID>
-    <int_StateID>1</int_StateID>
-    <vch_DistrictName>SHEKHPURA</vch_DistrictName>
-    <vch_Districtcode>26</vch_Districtcode>
-  </Table>
-  <Table>
-    <int_DistrictID>6</int_DistrictID>
-    <int_StateID>1</int_StateID>
-    <vch_DistrictName>SHEOHAR</vch_DistrictName>
-    <vch_Districtcode>03</vch_Districtcode>
-  </Table>
-  <Table>
-    <int_DistrictID>7</int_DistrictID>
-    <int_StateID>1</int_StateID>
-    <vch_DistrictName>SITAMADHI</vch_DistrictName>
-    <vch_Districtcode>04</vch_Districtcode>
-  </Table>
-  <Table>
-    <int_DistrictID>19</int_DistrictID>
-    <int_StateID>1</int_StateID>
-    <vch_DistrictName>SIWAN</vch_DistrictName>
-    <vch_Districtcode>16</vch_Districtcode>
-  </Table>
-  <Table>
-    <int_DistrictID>9</int_DistrictID>
-    <int_StateID>1</int_StateID>
-    <vch_DistrictName>SUPAUL</vch_DistrictName>
-    <vch_Districtcode>06</vch_Districtcode>
-  </Table>
-  <Table>
-    <int_DistrictID>21</int_DistrictID>
-    <int_StateID>1</int_StateID>
-    <vch_DistrictName>VAISHALI</vch_DistrictName>
-    <vch_Districtcode>18</vch_Districtcode>
-  </Table>
-  <Table>
-    <int_DistrictID>4</int_DistrictID>
-    <int_StateID>1</int_StateID>
-    <vch_DistrictName>WEST CHAMAPRAN</vch_DistrictName>
-    <vch_Districtcode>01</vch_Districtcode>
-  </Table>
+<Table><int_DistrictID>10</int_DistrictID><int_StateID>1</int_StateID><vch_DistrictName>ARARIA</vch_DistrictName><vch_Districtcode>7</vch_Districtcode></Table>
+<Table><int_DistrictID>41</int_DistrictID><int_StateID>1</int_StateID><vch_DistrictName>ARWAL</vch_DistrictName><vch_Districtcode>38</vch_Districtcode></Table>
+<Table><int_DistrictID>36</int_DistrictID><int_StateID>1</int_StateID><vch_DistrictName>AURANGABAD</vch_DistrictName><vch_Districtcode>33</vch_Districtcode></Table>
+<Table><int_DistrictID>26</int_DistrictID><int_StateID>1</int_StateID><vch_DistrictName>BANKA</vch_DistrictName><vch_Districtcode>23</vch_Districtcode></Table>
+<Table><int_DistrictID>23</int_DistrictID><int_StateID>1</int_StateID><vch_DistrictName>BEGUSARAI</vch_DistrictName><vch_Districtcode>20</vch_Districtcode></Table>
+<Table><int_DistrictID>25</int_DistrictID><int_StateID>1</int_StateID><vch_DistrictName>BHAGALPUR</vch_DistrictName><vch_Districtcode>22</vch_Districtcode></Table>
+<Table><int_DistrictID>32</int_DistrictID><int_StateID>1</int_StateID><vch_DistrictName>BHOJPUR</vch_DistrictName><vch_Districtcode>29</vch_Districtcode></Table>
+<Table><int_DistrictID>33</int_DistrictID><int_StateID>1</int_StateID><vch_DistrictName>BUXAR</vch_DistrictName><vch_Districtcode>30</vch_Districtcode></Table>
+<Table><int_DistrictID>16</int_DistrictID><int_StateID>1</int_StateID><vch_DistrictName>DARBHANGA</vch_DistrictName><vch_Districtcode>13</vch_Districtcode></Table>
+<Table><int_DistrictID>5</int_DistrictID><int_StateID>1</int_StateID><vch_DistrictName>EAST CHAMPARAN</vch_DistrictName><vch_Districtcode>2</vch_Districtcode></Table>
+<Table><int_DistrictID>37</int_DistrictID><int_StateID>1</int_StateID><vch_DistrictName>GAYA</vch_DistrictName><vch_Districtcode>34</vch_Districtcode></Table>
+<Table><int_DistrictID>18</int_DistrictID><int_StateID>1</int_StateID><vch_DistrictName>GOPALGANJ</vch_DistrictName><vch_Districtcode>15</vch_Districtcode></Table>
+<Table><int_DistrictID>39</int_DistrictID><int_StateID>1</int_StateID><vch_DistrictName>JAMUI</vch_DistrictName><vch_Districtcode>36</vch_Districtcode></Table>
+<Table><int_DistrictID>40</int_DistrictID><int_StateID>1</int_StateID><vch_DistrictName>JEHANABAD</vch_DistrictName><vch_Districtcode>37</vch_Districtcode></Table>
+<Table><int_DistrictID>34</int_DistrictID><int_StateID>1</int_StateID><vch_DistrictName>KAIMUR</vch_DistrictName><vch_Districtcode>31</vch_Districtcode></Table>
+<Table><int_DistrictID>13</int_DistrictID><int_StateID>1</int_StateID><vch_DistrictName>KATIHAR</vch_DistrictName><vch_Districtcode>10</vch_Districtcode></Table>
+<Table><int_DistrictID>24</int_DistrictID><int_StateID>1</int_StateID><vch_DistrictName>KHAGARIA</vch_DistrictName><vch_Districtcode>21</vch_Districtcode></Table>
+<Table><int_DistrictID>11</int_DistrictID><int_StateID>1</int_StateID><vch_DistrictName>KISHANGANJ</vch_DistrictName><vch_Districtcode>8</vch_Districtcode></Table>
+<Table><int_DistrictID>28</int_DistrictID><int_StateID>1</int_StateID><vch_DistrictName>LAKHISARAI</vch_DistrictName><vch_Districtcode>25</vch_Districtcode></Table>
+<Table><int_DistrictID>14</int_DistrictID><int_StateID>1</int_StateID><vch_DistrictName>MADHEPURA</vch_DistrictName><vch_Districtcode>11</vch_Districtcode></Table>
+<Table><int_DistrictID>8</int_DistrictID><int_StateID>1</int_StateID><vch_DistrictName>MADHUBANI</vch_DistrictName><vch_Districtcode>5</vch_Districtcode></Table>
+<Table><int_DistrictID>27</int_DistrictID><int_StateID>1</int_StateID><vch_DistrictName>MUNGER</vch_DistrictName><vch_Districtcode>24</vch_Districtcode></Table>
+<Table><int_DistrictID>17</int_DistrictID><int_StateID>1</int_StateID><vch_DistrictName>MUZAFFARPUR</vch_DistrictName><vch_Districtcode>14</vch_Districtcode></Table>
+<Table><int_DistrictID>30</int_DistrictID><int_StateID>1</int_StateID><vch_DistrictName>NALANDA</vch_DistrictName><vch_Districtcode>27</vch_Districtcode></Table>
+<Table><int_DistrictID>38</int_DistrictID><int_StateID>1</int_StateID><vch_DistrictName>NAWADA</vch_DistrictName><vch_Districtcode>35</vch_Districtcode></Table>
+<Table><int_DistrictID>31</int_DistrictID><int_StateID>1</int_StateID><vch_DistrictName>PATNA</vch_DistrictName><vch_Districtcode>28</vch_Districtcode></Table>
+<Table><int_DistrictID>12</int_DistrictID><int_StateID>1</int_StateID><vch_DistrictName>PURNIYA</vch_DistrictName><vch_Districtcode>9</vch_Districtcode></Table>
+<Table><int_DistrictID>35</int_DistrictID><int_StateID>1</int_StateID><vch_DistrictName>ROHTAS</vch_DistrictName><vch_Districtcode>32</vch_Districtcode></Table>
+<Table><int_DistrictID>15</int_DistrictID><int_StateID>1</int_StateID><vch_DistrictName>SAHARSHA</vch_DistrictName><vch_Districtcode>12</vch_Districtcode></Table>
+<Table><int_DistrictID>22</int_DistrictID><int_StateID>1</int_StateID><vch_DistrictName>SAMASTIPUR</vch_DistrictName><vch_Districtcode>19</vch_Districtcode></Table>
+<Table><int_DistrictID>20</int_DistrictID><int_StateID>1</int_StateID><vch_DistrictName>SARAN</vch_DistrictName><vch_Districtcode>17</vch_Districtcode></Table>
+<Table><int_DistrictID>29</int_DistrictID><int_StateID>1</int_StateID><vch_DistrictName>SHEKHPURA</vch_DistrictName><vch_Districtcode>26</vch_Districtcode></Table>
+<Table><int_DistrictID>6</int_DistrictID><int_StateID>1</int_StateID><vch_DistrictName>SHEOHAR</vch_DistrictName><vch_Districtcode>3</vch_Districtcode></Table>
+<Table><int_DistrictID>7</int_DistrictID><int_StateID>1</int_StateID><vch_DistrictName>SITAMADHI</vch_DistrictName><vch_Districtcode>4</vch_Districtcode></Table>
+<Table><int_DistrictID>19</int_DistrictID><int_StateID>1</int_StateID><vch_DistrictName>SIWAN</vch_DistrictName><vch_Districtcode>16</vch_Districtcode></Table>
+<Table><int_DistrictID>9</int_DistrictID><int_StateID>1</int_StateID><vch_DistrictName>SUPAUL</vch_DistrictName><vch_Districtcode>6</vch_Districtcode></Table>
+<Table><int_DistrictID>21</int_DistrictID><int_StateID>1</int_StateID><vch_DistrictName>VAISHALI</vch_DistrictName><vch_Districtcode>18</vch_Districtcode></Table>
+<Table><int_DistrictID>4</int_DistrictID><int_StateID>1</int_StateID><vch_DistrictName>WEST CHAMAPRAN</vch_DistrictName><vch_Districtcode>1</vch_Districtcode></Table>
 </NewDataSet>
