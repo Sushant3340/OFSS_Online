@@ -47,7 +47,7 @@ public partial class ONLINE_CAF_PostPgResponse : System.Web.UI.Page
                     // As i got object of  Dictionary<string, string> which have all responsed data which return by sabpaisa, so rotate and capture in foreach loop
                     foreach (KeyValuePair<string, string> pair in sabPaisaRespdict)
                     {
-                        if (pair.Key.ToString().ToUpper() == "PGRESPCODE")
+                        if (pair.Key.ToString().ToUpper() == "responseCode")
                         {
                             objpayment.pgRespCode = pair.Value.ToString();
                         }
@@ -125,7 +125,15 @@ public partial class ONLINE_CAF_PostPgResponse : System.Web.UI.Page
                         else if (pair.Key.ToString().ToUpper() == "STATUS")
                         {
                             objpayment.spRespStatus = pair.Value.ToString();
-                            lblStatus.Text = objpayment.spRespStatus;
+                            if (objpayment.spRespStatus != "success")
+                            {
+                                lblStatus.Text = "FAIL";
+                            }
+                            else
+                            {
+                                lblStatus.Text = objpayment.spRespStatus;
+                            }
+                               
                         }
                         else if (pair.Key.ToString().ToUpper() == "CHALLANNUMBER")
                         {
@@ -135,7 +143,7 @@ public partial class ONLINE_CAF_PostPgResponse : System.Web.UI.Page
                         {
                             objpayment.reMsg = pair.Value.ToString();
                         }
-                        else if (pair.Key.ToString().ToUpper() == "ORGTXNAMOUNT")
+                        else if (pair.Key.ToString().ToUpper() == "PAIDAMOUNT")
                         {
                             objpayment.orgTxnAmount = Convert.ToDecimal(pair.Value.ToString());
                         }

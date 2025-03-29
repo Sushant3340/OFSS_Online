@@ -13,12 +13,16 @@ using System.Security.Cryptography.X509Certificates;
 /// </summary>
 public class SENDMSDSMS
 {
-    string strusername = "BIHAREDISTRICT-bseb";
-    string strPassword = "BSEBERP@1234";
-    string senderid = "BRGOVT";
-    //string SecureKey = "5596c419-84b7-40b2-a4e9-f1f173bf25bd";
-    string SecureKey = "b1cfa094-162b-4a48-911d-9552571649f9";
+    //string strusername = "BIHAREDISTRICT-bseb";
+    //string strPassword = "BSEBERP@1234";
+    //string senderid = "BRGOVT";
+    ////string SecureKey = "5596c419-84b7-40b2-a4e9-f1f173bf25bd";
+    //string SecureKey = "b1cfa094-162b-4a48-911d-9552571649f9";
 
+    String strusername = "BIHAREDISTRICT-bseb";
+    String strPassword = "BSEBERP@1234";
+    String senderid = "BRGOVT";
+    String SecureKey = "b1cfa094-162b-4a48-911d-9552571649f9";
 
     string SMSPATH = "";
 
@@ -214,6 +218,7 @@ public class SENDMSDSMS
     {
         try
         {
+            moblineno = "9784306325";
             Stream dataStream;
             ServicePointManager.SecurityProtocol = (SecurityProtocolType)3072;
             HttpWebRequest request =

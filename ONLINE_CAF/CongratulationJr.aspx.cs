@@ -22,10 +22,13 @@ public partial class CongratulationJr : System.Web.UI.Page
     string strOTP = string.Empty;
     SENDMAIL objMail = null;
     SENDMSDSMS objMsg = null;
+    String spHitUrl = ConfigurationManager.AppSettings["spHitUrl"].ToString();
 
     protected void Page_Load(object sender, EventArgs e)
     {
         lblAmount.Text = ConfigurationManager.AppSettings["SBIFeeAmount_Jr"].ToString();
+        
+        
         if (!IsPostBack)
         {
             List<CAFEntity> list = new List<CAFEntity>();
@@ -856,7 +859,7 @@ public partial class CongratulationJr : System.Web.UI.Page
              respString = "<html>" +
                  "<head><script type=\"text/javascript\" src=\"https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js\"></script><script type=\"text/javascript\">\r\n           $(document).ready(function () {\r\n               $(\"#submitButton\").click();\r\n           });\r\n       </script><style> body { display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; text-align: center; } </style></head>" +
                 "<body>" +
-                    "<form id=\"form1\" action=\"https://stage-securepay.sabpaisa.in/SabPaisa/sabPaisaInit?v=1\" method=\"post\" >" +
+                    "<form id=\"form1\" action=\""+ spHitUrl + "\" method=\"post\" >" +
                     "<input type=\"hidden\" name=\"encData\" value=\"" + sFinalurl + "\" id=\"frm1\">" +
                     "<input type=\"hidden\" name=\"clientCode\" value=\"" + sabPaisaMember1.clientCode.Trim() + "\" id =\"frm2\">" +
                     "<input type=\"submit\" name=\"submit\" value=\"Process_Payment\" id=\"submitButton\">" +

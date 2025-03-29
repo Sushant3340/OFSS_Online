@@ -464,7 +464,7 @@
                                                     </td>
                                                 </tr>
                                             </table>
-                                            <table>
+                                            <table width="100%" cellpadding="0" cellspacing="0">
                                                 <tr>
                                                     <td style="border: solid 1px #000; padding: 5px; border-top: 0;">
                                                         <table width="100%" cellpadding="0" cellspacing="0">
@@ -650,7 +650,7 @@
                                                                 </td>
                                                             </tr>
                                                             <tr>
-                                                                <td colspan="7" style="border: solid 1px #000; padding: 5px;; border-top: 0;">Note : Selection of the students will be done based on the Total Marks obtained
+                                                                <td colspan="7" style="border: solid 1px #000; padding: 5px;; border-top: 0; border-left:0;">Note : Selection of the students will be done based on the Total Marks obtained
                                                             in the Qualifying Board Examination.<br />
                                                                     ध्यान दें : छात्रों का चयन सूची में चयन बोर्ड
                                                             परीक्षा में कुल प्राप्तांक के आधार पर होता है |</td>
@@ -1492,7 +1492,7 @@
                                                             </tr>
                                                         </table>
                                                     </td>
-                                                    <td>
+                                                    <td colspan="3">
                                                         <table width="100%" border="0" cellspacing="0" cellpadding="0">
                                                             <tr>
                                                                 <td style="border: solid 1px #000; padding: 5px; border-top:0;border-left:0">&nbsp;
@@ -1529,7 +1529,7 @@
                                                             </tr>
                                                         </table>
                                                     </td>
-                                                    <td>
+                                                    <td colspan="3">
                                                         <table width="100%" border="0" cellspacing="0" cellpadding="0">
                                                             <tr>
                                                                 <td style="border: solid 1px #000; padding: 5px; border-top:0;border-left:0">&nbsp;
@@ -1858,7 +1858,7 @@
                 <td bgcolor="#FFFFFF">
                     <table width="100%" border="0" cellspacing="0" cellpadding="0">
                         <tr>
-                            <td style="border: solid 1px #000; padding: 5px;">
+                            <td style="border: solid 1px #000; padding: 5px;border-bottom: none;">
                                 <strong>
                                     <label id="lblN10">
                                         10.
@@ -1876,23 +1876,23 @@
                                 <div class="viewTable">
                                     <table width="100%" cellpadding="0" cellspacing="0" id="tableOption">
                                         <tr>
-                                            <td bgcolor="#f5f5f5" style="border: solid 1px #000; padding: 5px;">
-                                                <strong class="whitetxt">Sl.No</strong>
+                                            <td bgcolor="#C60000" style="border: solid 1px #000; padding: 5px;color:#fff;">
+                                                <strong >Sl.No</strong>
                                             </td>
-                                            <td bgcolor="#f5f5f5" style="border: solid 1px #000; padding: 5px;border-left:0">
-                                                <strong class="whitetxt">College</strong>
+                                            <td bgcolor="#C60000" style="border: solid 1px #000; padding: 5px;border-left:0;color:#fff;">
+                                                <strong>College</strong>
                                             </td>
-                                            <td bgcolor="#f5f5f5" style="border: solid 1px #000; padding: 5px;border-left:0">
-                                                <strong class="whitetxt">Stream</strong>
+                                            <td bgcolor="#C60000" style="border: solid 1px #000; padding: 5px;border-left:0;color:#fff;">
+                                                <strong>Stream</strong>
                                             </td>
-                                            <td bgcolor="#f5f5f5" style="display: none;border: solid 1px #000; padding: 5px;border-left:0">
-                                                <strong class="whitetxt">Compulsory</strong>
+                                            <td bgcolor="#C60000" style="display: none;border: solid 1px #000; padding: 5px;border-left:0;color:#fff;">
+                                                <strong>Compulsory</strong>
                                             </td>
-                                            <td bgcolor="#f5f5f5" style="display: none;border: solid 1px #000; padding: 5px;border-left:0">
-                                                <strong class="whitetxt">Elective</strong>
+                                            <td bgcolor="#C60000" style="display: none;border: solid 1px #000; padding: 5px;border-left:0;color:#fff;">
+                                                <strong>Elective</strong>
                                             </td>
-                                            <td bgcolor="#f5f5f5" style="display: none;border: solid 1px #000; padding: 5px;border-left:0">
-                                                <strong class="whitetxt">Fourth Elective</strong>
+                                            <td bgcolor="#C60000" style="display: none;border: solid 1px #000; padding: 5px;border-left:0;color:#fff;">
+                                                <strong>Fourth Elective</strong>
                                             </td>
                                             <%-- <td bgcolor="#666666">
                                             <strong class="whitetxt">Hostel Option</strong>

@@ -1706,5 +1706,41 @@ public class CommonClass
     }
 
 
+    public List<string> ManagePaymentShedular_JR()
+    {
+        List<string> clientTxnIds = new List<string>();
+
+        try
+        {
+            using (SqlConnection conn = new SqlConnection(connectionString))
+            {
+                conn.Open();
+                using (SqlCommand cmd = new SqlCommand("SP_PAYMENTscheduler", conn))
+                {
+                    cmd.CommandType = CommandType.StoredProcedure;
+
+                    using (SqlDataReader reader = cmd.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            clientTxnIds.Add(reader["clientTxnId"].ToString());
+                        }
+                    }
+                }
+            }
+        }
+        catch (SqlException ex)
+        {
+            throw new Exception("SQL Error: " + ex.Message);
+        }
+        catch (Exception ex)
+        {
+            throw new Exception("Error: " + ex.Message);
+        }
+
+        return clientTxnIds;
+    }
+
+
 
 }
